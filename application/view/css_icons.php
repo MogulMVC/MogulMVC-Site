@@ -164,13 +164,13 @@
 			<h1>Arrows</h1>
 
 			<div class="MWidget" style="position: relative">
-				<span class="MIconArrorLeft"></span>
+				<span class="MIconArrowLeft"></span>
 				<span class="MIconArrowRight"></span>
 			</div>
 			
 			<br />
 			<a class="showCode">Code</a>
-			<pre class="MHidden"><code><?php echo htmlentities('<span class="MIconArrorLeft"></span>
+			<pre class="MHidden"><code><?php echo htmlentities('<span class="MIconArrowLeft"></span>
 <span class="MIconArrowRight"></span>');?></code></pre>
 			
 			<div class="MContentSpacer"></div>
