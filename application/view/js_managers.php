@@ -78,7 +78,7 @@
 				</button>
 			</div>
 			
-			<label for="check_slider">
+			<label for="check_dropdown">
 				<li class="MSideBarListItem">
 					<input id="check_dropdown" type="checkbox" value="section_dropdown" checked="true" onclick="updateShow()"/>
 					<span>Dropdown</span>
