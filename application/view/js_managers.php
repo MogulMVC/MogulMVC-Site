@@ -52,6 +52,7 @@
 			$('#section_noShow').fadeOut(speedNorm);
 		}
 	};
+	
 </script>
 
 <div id="MToolBarPlaceholder"></div>
@@ -76,6 +77,13 @@
 					Select All
 				</button>
 			</div>
+			
+			<label for="check_slider">
+				<li class="MSideBarListItem">
+					<input id="check_dropdown" type="checkbox" value="section_dropdown" checked="true" onclick="updateShow()"/>
+					<span>Dropdown</span>
+				</li> 
+			</label>
 
 			<label for="check_slider">
 				<li class="MSideBarListItem">
@@ -123,6 +131,40 @@
 
 			<div class="MContentSpacer"></div>
 			<div class="MContentSpacer"></div>
+		</section>
+		
+		<section id="section_dropdown">
+			<h1>Dropdown</h1>
+			
+			<ul class="MDropdown">
+				<li><a href="/">Normal Link</a></li>
+				<li><a href="/">Dropdown Link</a>
+					<ul>
+						<li><a href="#">Sublink 1</a></li>
+						<li><a href="#">Sublink 2</a></li>
+						<li><a href="#">Sublink 3</a></li>
+					</ul>
+				</li>
+			</ul>
+			
+			<br />
+			<br />
+			<a class="showCode">Code</a>
+			<pre class="MHidden"><code><?php echo htmlentities('<ul class="MDropdown">
+	<li><a href="/">Normal Link</a></li>
+	<li><a href="/">Dropdown Link</a>
+		<ul>
+			<li><a href="#">Sublink 1</a></li>
+			<li><a href="#">Sublink 2</a></li>
+			<li><a href="#">Sublink 3</a></li>
+		</ul>
+	</li>
+</ul>'); ?></code></pre>																						
+			<br />
+
+			<div class="MContentSpacer"></div>
+			<div class="MContentSpacer"></div>
+			
 		</section>
 		
 		<section id="section_slider" class="section">
@@ -326,7 +368,9 @@
 			<div class="MContentSpacer"></div>
 			<div class="MContentSpacer"></div>
 
-		</section><!-- section_noShow --></td>
+		</section><!-- section_noShow -->
+		
+		</td>
 
 	</tr>
 

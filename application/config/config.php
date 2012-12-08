@@ -14,7 +14,7 @@ define('APPLICATION_PASSWORD', 'dsgdfhsfgjhfs');
 define('APPLICATION_VERSION', '121128');
 
 // Environment
-define('APPLICATION_ENVIRONMENT', 'production');
+define('APPLICATION_ENVIRONMENT', 'development');
 
 // URL Keywords
 define('APPLICATION_ACTION_URL', 'action');
