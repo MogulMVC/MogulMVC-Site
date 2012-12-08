@@ -133,7 +133,7 @@
 			<div class="MContentSpacer"></div>
 		</section>
 		
-		<section id="section_dropdown">
+		<section id="section_dropdown" class="section">
 			<h1>Dropdown</h1>
 			
 			<ul class="MDropdown">
