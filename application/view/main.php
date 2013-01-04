@@ -52,39 +52,14 @@
 	<div class="MTabWidget">
 		<ul class="MTabContainer">
 			<li class="MTab">
-				<a href="#mogul_libraries">Mogul Libraries</a>
+				<a href="#why_use">Why Use Mogul MVC?</a>
 			</li>
 			<li class="MTab">
-				<a href="#why_use">Why Use Mogul MVC?</a>
+				<a href="#mogul_libraries">Mogul Libraries</a>
 			</li>
 		</ul>
 		<hr />
 		<div>
-			<div id="mogul_libraries">
-				
-				<h3>Mogul MVC is a combination of several Mogul libraries.</h3>
-				
-				<li class="MListItem">
-					<span class="MTextBold">Mogul AS</span>
-					<span> - An ActionScript library that attempts to stay stylistically consistent with Mogul CSS, Mogul JS, and Mogul MVC.</span>
-				</li>
-				
-				<li class="MListItem">
-					<span class="MTextBold">Mogul CSS</span>
-					<span> - A Sass based CSS library that is used by Mogul JS and Mogul MVC for styling. It attempts to stay stylistically consistent with Mogul AS.</span>
-				</li>
-			
-				<li class="MListItem">
-					<span class="MTextBold">Mogul Icons</span>
-					<span> - An icon set containing anything from social icons to ui element icons.</span>
-				</li>
-				
-				<li class="MListItem">
-					<span class="MTextBold">Mogul Icons</span>
-					<span> - A JavaScript and jQuery Utility and Interface library that uses the Mogul CSS library for styling. The code attempts to stay stylistically consistent with Mogul AS, and the Mogul MVC, which extends it.</span>
-				</li>
-				
-			</div>
 			<div id="why_use">
 				
 				<div class="left" style="width: 50%">
@@ -140,6 +115,32 @@
 				<p>If you want to help make Mogul MVC great e-mail me at <a href="mailto:alanjames1987@gmail.com?subject=Mogul MVC">AlanJames1987@gmail.com</a> for the source code.</p>
 				
 			</div>
+			<div id="mogul_libraries">
+				
+				<h3>Mogul MVC is a combination of several Mogul libraries.</h3>
+				
+				<li class="MListItem">
+					<span class="MTextBold">Mogul AS</span>
+					<span> - An ActionScript library that attempts to stay stylistically consistent with Mogul CSS, Mogul JS, and Mogul MVC.</span>
+				</li>
+				
+				<li class="MListItem">
+					<span class="MTextBold">Mogul CSS</span>
+					<span> - A Sass based CSS library that is used by Mogul JS and Mogul MVC for styling. It attempts to stay stylistically consistent with Mogul AS.</span>
+				</li>
+			
+				<li class="MListItem">
+					<span class="MTextBold">Mogul Icons</span>
+					<span> - An icon set containing anything from social icons to ui element icons.</span>
+				</li>
+				
+				<li class="MListItem">
+					<span class="MTextBold">Mogul JS</span>
+					<span> - A JavaScript and jQuery Utility and Interface library that uses the Mogul CSS library for styling. The code attempts to stay stylistically consistent with Mogul AS, and the Mogul MVC, which extends it.</span>
+				</li>
+				
+			</div>
+
 		</div>
 	</div>
 	
