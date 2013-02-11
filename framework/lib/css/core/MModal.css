@@ -1,14 +1,19 @@
-.MModalBG, .MModalBGBlack, .MModalBGWhite {
-  height: 150%;
+/* 
+ * MStyle.css by Alan James
+ * version 130211
+ * recommended Sass version 2.3.1
+ */
+.MModalBG, .MModalBGBlack, .MModalBlack, .MModalBGWhite, .MModalWhite, .MModal {
+  height: 100%;
   left: 0;
-  opacity: .8;
   position: fixed;
+  text-align: center;
   top: 0;
-  width: 150%;
+  width: 100%;
   z-index: 1500; }
 
-.MModalBGBlack {
-  background-color: #0a0a0a; }
+.MModalBGBlack, .MModalBlack {
+  background: rgba(0, 0, 0, 0.8); }
 
-.MModalBGWhite {
-  background-color: white; }
+.MModalBGWhite, .MModalWhite {
+  background: rgba(255, 255, 255, 0.8); }

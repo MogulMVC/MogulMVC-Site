@@ -1,3 +1,8 @@
+/* 
+ * MStyle.css by Alan James
+ * version 130211
+ * recommended Sass version 2.3.1
+ */
 a.MTextBold, h1.MTextBold, h2.MTextBold, h3.MTextBold, h4.MTextBold, h5.MTextBold, h6.MTextBold, input.MTextBold, label.MTextBold, p.MTextBold, span.MTextBold, textarea.MTextBold {
   font-weight: bold; }
 a.MTextItalics, h1.MTextItalics, h2.MTextItalics, h3.MTextItalics, h4.MTextItalics, h5.MTextItalics, h6.MTextItalics, input.MTextItalics, label.MTextItalics, p.MTextItalics, span.MTextItalics, textarea.MTextItalics {
@@ -372,23 +377,15 @@ button {
   list-style: none;
   margin: 10px;
   padding: 0;
-  display: block;
-  background: #c8c8c8;
-  background: -moz-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
-  background: -ms-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
-  background: -o-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
-  background: -webkit-linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%);
-  background: linear-gradient(top, #e6e6e6 0%, #c8c8c8 100%); }
+  display: block; }
   .MDropdown li {
     float: left;
     position: relative;
     display: block; }
     .MDropdown li a {
-      font-weight: bold;
       display: block;
       background: none;
       padding: 5px 10px;
-      color: #0a0a0a;
       text-decoration: none; }
 
 .MDropdown > li:hover > a {
@@ -553,20 +550,20 @@ ul {
 li {
   list-style-type: none; }
 
-.MModalBG, .MModalBGBlack, .MModalBGWhite {
-  height: 150%;
+.MModalBG, .MModalBGBlack, .MModalBlack, .MModalBGWhite, .MModalWhite, .MModal {
+  height: 100%;
   left: 0;
-  opacity: .8;
   position: fixed;
+  text-align: center;
   top: 0;
-  width: 150%;
+  width: 100%;
   z-index: 1500; }
 
-.MModalBGBlack {
-  background-color: #0a0a0a; }
+.MModalBGBlack, .MModalBlack {
+  background: rgba(0, 0, 0, 0.8); }
 
-.MModalBGWhite {
-  background-color: white; }
+.MModalBGWhite, .MModalWhite {
+  background: rgba(255, 255, 255, 0.8); }
 
 .MNote, .MNoteRed, .MNoteR, .MNoteOrange, .MNoteO, .MNoteYellow, .MNoteY, .MNoteGreen, .MNoteG, .MNoteBlue, .MNoteB, .MNoteViolet, .MNoteV {
   background: #f0f0f0;
@@ -578,22 +575,22 @@ li {
   position: relative; }
 
 .MNoteRed, .MNoteR {
-  background: #fa0000; }
+  background: #f26c4f; }
 
 .MNoteOrange, .MNoteO {
-  background: #fa6400; }
+  background: #f7941d; }
 
 .MNoteYellow, .MNoteY {
-  background: #fff046; }
+  background: #fff568; }
 
 .MNoteGreen, .MNoteG {
-  background: #00fa00; }
+  background: #7cc576; }
 
 .MNoteBlue, .MNoteB {
-  background: #007dfa; }
+  background: #448ccb; }
 
 .MNoteViolet, .MNoteV {
-  background: #7d00fa; }
+  background: #8781bd; }
 
 .MPopup {
   box-shadow: 0 1.2em 2.4em -0.8em rgba(0, 0, 0, 0.4);
@@ -731,7 +728,7 @@ li {
   position: fixed;
   top: 0;
   width: 350px;
-  z-index: 200;
+  z-index: 1000;
   right: 0; }
 
 .MSystemMessage {
@@ -752,7 +749,7 @@ li {
   max-width: 450px;
   padding: 1.6em;
   margin: .4em;
-  z-index: 500;
+  z-index: 1100;
   position: relative; }
 
 /*
@@ -1430,11 +1427,11 @@ h1.MToolBarTitle {
   opacity: 0;
   width: 100%; }
 
-.MContent, #MContentList, .MContent1000, .MContent960, .MContent900, .MContent870, .MContent840, .MContent800, .MContent740, .MContent700, .MContent610, .MContent600, .MContent500, .MContent400, .MContent300, .MContent200, .MContent100 {
+.MContent, .MContentList, .MContent1000, .MContent960, .MContent900, .MContent870, .MContent840, .MContent800, .MContent740, .MContent700, .MContent610, .MContent600, .MContent500, .MContent400, .MContent300, .MContent200, .MContent100 {
   margin: 0 auto;
   text-align: left; }
 
-#MContentList {
+.MContentList {
   width: 80%; }
 
 .MContent1000 {
@@ -1453,7 +1450,7 @@ h1.MToolBarTitle {
   width: 840px; }
 
 .MContent800 {
-  width: 600px; }
+  width: 800px; }
 
 .MContent740 {
   width: 740px; }
@@ -1524,7 +1521,7 @@ h1.MToolBarTitle {
 .MTextCentered, .MCentered, .centered {
   text-align: center; }
 
-.MTextRight, .text-right {
+.MTextRight {
   text-align: right; }
 
 .MLeft, .float-left, .left {

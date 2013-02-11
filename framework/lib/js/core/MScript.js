@@ -1,3 +1,11 @@
+/* 
+ * MScript.js by Alan James
+ * version 130211
+ * recommended jQuery version 1.9.0
+ */
+
+var version = "130211";
+
 //Speed
 var speedFast = 125;
 var speedNorm = 250;
@@ -67,7 +75,7 @@ var rounded_large = '2em';$(document).ready(function() {
 	// Set the default state
 	MList.updateUI();
 
-	$('.MListItem input[type=checkbox], .MListItem input[type=radio]').live('change', function() {
+	$(document).on('change', '.MListItem input[type=checkbox], .MListItem input[type=radio]', function() {
 		// Add a change event listener
 		// A label can change the state of the checkbox or radio so I am using change instead of click
 		MList.updateUI();
@@ -82,16 +90,19 @@ $(document).ready(function() {
 	$('.MNote, .MNoteRed, .MNoteR, .MNoteOrange, .MNoteO, .MNoteYellow, .MNoteY, .MNoteGreen, .MNoteG, .MNoteBlue, .MNoteB, .MNoteViolet, .MNoteV').each(function() {
 		var rotation = MMath.random(-8, 8);
 		$(this).css({
-			'-webkit-transform' : 'rotate(' + rotation + 'deg)',
-			'-moz-transform' : 'rotate(' + rotation + 'deg)',
-			'-o-transform' : 'rotate(' + rotation + 'deg)',
-			'-ms-transform' : 'rotate(' + rotation + 'deg)'
+			'transform' : 'rotate(' + rotation + 'deg)'
 		})
 	});
 });$(document).ready(function() {
 
-	$('.MPopup .MIconClose').live('click', function() {
+	$(document).on('click', '.MPopup .MIconClose', function() {
 		$(this).closest('.MPopupContainer').hide();
+	});
+	
+	$(document).keyup(function(e) {
+		if(e.keyCode == 27){
+			$('.MPopupContainer').hide();
+		};
 	});
 
 });
@@ -148,7 +159,7 @@ $(document).ready(function() {
 	MSideBar.updateUI();
 
 	//Tracking it with live so I can add new items and they still work
-	$('#MSideBar li input[type=checkbox], #MSideBar li input[type=radio]').live('click', function() {
+	$(document).on('click', '#MSideBar li input[type=checkbox], #MSideBar li input[type=radio]', function() {
 		MSideBar.updateUI();
 	});
 });
@@ -180,7 +191,7 @@ $(document).ready(function() {
 		$('#MMainWindow').append('<div id="MSystemMessageContainer"></div>');
 	}
 
-	$('.MSystemMessage .MIconClose').live('click', function() {
+	$(document).on('click', '.MSystemMessage .MIconClose', function() {
 		$(this).parent().remove();
 	});
 });
@@ -191,7 +202,8 @@ $(window).load(function() {
 
 $(window).resize(function() {
 	MSystemMessageContainer.position();
-}); $(document).ready(function() {
+});
+$(document).ready(function() {
 	$('.MTabWidget').MTab();
 }); $(document).ready(function() {
 	$('[data-mtip=n], [data-mtip=N], [data-mtip=b], [data-mtip=B]').MTip({
@@ -287,6 +299,20 @@ var MInputText = (function() {
 	return MInputText;
 
 })();
+var MListItem = (function() {
+
+	function MListItem() {
+		
+		var uiElement = document.createElement('li');
+		$(uiElement).addClass('MListItem');
+		
+		return uiElement;
+		
+	};
+
+	return MListItem;
+
+})();
 var MList = (function() {
 
 	function MList() {
@@ -332,21 +358,7 @@ var MList = (function() {
 
 	return MList;
 
-})();var MListItem = (function() {
-
-	function MListItem() {
-		
-		var uiElement = document.createElement('li');
-		$(uiElement).addClass('MListItem');
-		
-		return uiElement;
-		
-	};
-
-	return MListItem;
-
-})();
-var MNote = (function() {
+})();var MNote = (function() {
 
 	function MNote(label) {
 
