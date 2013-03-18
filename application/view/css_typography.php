@@ -1,25 +1,3 @@
-<script>
-	$(document).ready(function() {
-		$('.showCode').each(function(index) {
-			$(this).click(function() {
-				$(this).next().toggle()
-			});
-		});
-	});
-
-	function changeColor(color) {
-
-		if (color == null) {
-			color = 'default';
-		}
-
-		$('#section_text').children().each(function() {
-			$(this).removeClass('MTextRed MTextOrange MTextYellow MTextGreen MTextBlue MTextViolet');
-			$(this).addClass(color);
-		});
-	}
-</script>
-
 <div id="MToolBarPlaceholder"></div>
 <nav id="MToolBar">
 	<div class="MToolBarSpacer left"></div>
@@ -107,3 +85,25 @@
 	</tr>
 
 </table>
+
+<script>
+	$(document).ready(function() {
+		$('.showCode').each(function(index) {
+			$(this).click(function() {
+				$(this).next().toggle()
+			});
+		});
+	});
+
+	function changeColor(color) {
+
+		if (color == null) {
+			color = 'default';
+		}
+
+		$('#section_text').children().each(function() {
+			$(this).removeClass('MTextRed MTextOrange MTextYellow MTextGreen MTextBlue MTextViolet');
+			$(this).addClass(color);
+		});
+	}
+</script>

@@ -1,59 +1,3 @@
-<script>
-	$(document).ready(function() {
-		$('.showCode').each(function(index) {
-			$(this).click(function() {
-				$(this).next().toggle()
-			});
-		});
-	});
-
-	function updateShow(id) {
-
-		$('.section').hide();
-
-		$('#MSideBar input').each(function() {
-			if ($(this).is(':checked')) {
-				$('#' + $(this).val()).show();
-			}
-		});
-
-		checkNoShow();
-	}
-
-	function noShow() {
-		MSideBar.deselectAll();
-
-		$('.section').fadeOut(speedNorm, function() {
-			checkNoShow();
-		});
-	}
-
-	function allShow() {
-		MSideBar.selectAll();
-
-		$('.section').fadeIn(speedNorm, function() {
-			checkNoShow();
-		});
-	}
-
-	function checkNoShow() {
-
-		var hiddenAll = true;
-
-		$('#MSideBar input').each(function() {
-			if ($(this).is(':checked')) {
-				hiddenAll = false;
-			}
-		});
-
-		if (hiddenAll) {
-			$('#section_noShow').fadeIn(speedNorm);
-		} else {
-			$('#section_noShow').fadeOut(speedNorm);
-		}
-	}
-</script>
-
 <div id="MToolBarPlaceholder"></div>
 <nav id="MToolBar">
 	<div class="MToolBarSpacer left"></div>
@@ -506,3 +450,59 @@
 
 	</tr>
 </table>
+
+<script>
+	$(document).ready(function() {
+		$('.showCode').each(function(index) {
+			$(this).click(function() {
+				$(this).next().toggle()
+			});
+		});
+	});
+
+	function updateShow(id) {
+
+		$('.section').hide();
+
+		$('#MSideBar input').each(function() {
+			if ($(this).is(':checked')) {
+				$('#' + $(this).val()).show();
+			}
+		});
+
+		checkNoShow();
+	}
+
+	function noShow() {
+		MSideBar.deselectAll();
+
+		$('.section').fadeOut(speedNorm, function() {
+			checkNoShow();
+		});
+	}
+
+	function allShow() {
+		MSideBar.selectAll();
+
+		$('.section').fadeIn(speedNorm, function() {
+			checkNoShow();
+		});
+	}
+
+	function checkNoShow() {
+
+		var hiddenAll = true;
+
+		$('#MSideBar input').each(function() {
+			if ($(this).is(':checked')) {
+				hiddenAll = false;
+			}
+		});
+
+		if (hiddenAll) {
+			$('#section_noShow').fadeIn(speedNorm);
+		} else {
+			$('#section_noShow').fadeOut(speedNorm);
+		}
+	}
+</script>

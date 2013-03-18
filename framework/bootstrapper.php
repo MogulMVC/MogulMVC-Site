@@ -1,5 +1,6 @@
 <?php
-if (!defined('SERVER_ROOT')) {header('/error_404');
+if (!defined('SERVER_ROOT')) {
+	header('/error_404');
 	exit ;
 }
 
@@ -17,7 +18,7 @@ MLoad::php_framework('core/util/MString');
 
 // The rest are alphabetical
 // These are needed for the dispatcher
-MLoad::php_framework('core/util/MCLI');
+MLoad::php_framework('core/util/MRequest');
 MLoad::php_framework('core/util/MError');
 MLoad::php_framework('core/util/MURL');
 

@@ -1,5 +1,6 @@
 <?php
-if (!defined('SERVER_ROOT')) {header('/error_404');
+if (!defined('SERVER_ROOT')) {
+	header('/error_404');
 	exit ;
 }
 
@@ -11,7 +12,7 @@ define('APPLICATION_NAME', 'Mogul MVC');
 define('APPLICATION_DESCRIPTION', 'Mogul MVC is an MVC framework and UI library written in PHP, jQuery, and Sass.');
 define('APPLICATION_ID', 'SomeUniqueID');
 define('APPLICATION_PASSWORD', 'mogulpass321456');
-define('APPLICATION_VERSION', '130211');
+define('APPLICATION_VERSION', '130318');
 
 // DOCTYPE
 // xhtml11 xhtml1-strict xhtml1-transitional xhtml1-frame html5 html4-strict html4-transitional html4-frame
@@ -31,26 +32,29 @@ define('APPLICATION_API', 'controller/api');
 define('APPLICATION_CACHE', 'cache');
 define('APPLICATION_COMMAND', 'command');
 define('APPLICATION_CONTROLLER', 'controller');
-define('APPLICATION_DOC', 'doc');
-define('APPLICATION_IMG', 'img');
-define('APPLICATION_LIB_AS', 'lib/as');
+define('APPLICATION_IMG', 'public/img');
 define('APPLICATION_LIB_CSS', 'lib/css');
 define('APPLICATION_LIB_JS', 'lib/js');
 define('APPLICATION_LIB_PHP', 'lib/php');
+define('APPLICATION_MISC', 'public/misc');
 define('APPLICATION_MODEL', 'model');
-define('APPLICATION_UPLOAD', 'upload');
-define('APPLICATION_VID', 'vid');
+define('APPLICATION_PUBLIC', 'public');
+define('APPLICATION_PUBLIC_CSS', 'public/css');
+define('APPLICATION_PUBLIC_JS', 'public/js');
+define('APPLICATION_UPLOAD', 'public/upload');
 define('APPLICATION_VIEW', 'view');
 define('APPLICATION_VO', 'model/vo');
 
 // Controllers
-define('APPLICATION_DEFAULT_CONTROLLER', 'Main.php');
-define('APPLICATION_ERROR_404_CONTROLLER', 'Error_404.php');
+define('APPLICATION_DEFAULT_CONTROLLER', 'Main');
+define('APPLICATION_ERROR_404_CONTROLLER', 'Error_404');
 
 // Templates
 //File locations start within the APPLICATION_VIEW folder
-define('APPLICATION_HEADER', 'template/header.php');
-define('APPLICATION_FOOTER', 'template/footer.php');
+define('APPLICATION_HEAD', 'template/head');
+define('APPLICATION_HEADER', 'template/header');
+define('APPLICATION_FOOTER', 'template/footer');
+define('APPLICATION_FOOT', 'template/foot');
 
 // Favicon
 // File locations start within the APPLICATION_IMG folder
