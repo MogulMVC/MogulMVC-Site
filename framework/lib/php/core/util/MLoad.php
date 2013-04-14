@@ -360,7 +360,7 @@ class MLoad {
 				
 				// Change the location to the lib folder
 				$location = APPLICATION . '/' . APPLICATION_LIB_JS;
-				$ext = '.php';
+				$ext = '.js';
 				
 				// Check if the file exists in the lib folder
 				if (!file_exists(SERVER_ROOT . '/' . $location . '/' . $js . '.php')) {
