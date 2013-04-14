@@ -36,7 +36,7 @@
 
 		<td class="MWidthFull MPadding">
 
-			<h1 class="MTextRight">PHP Controllers</h1>
+			<h1>PHP Controllers</h1>
 			
 			<section id="section_about">
 	

@@ -4,22 +4,36 @@ class Js {
 
 	function index() {
 		$data['page_title'] = 'JavaScript';
-		MLoad::view('js_main', $data);
+		MLoad::view('js/main', $data);
 	}
 
 	function libraries() {
 		$data['page_title'] = 'JavaScript Libraries';
-		MLoad::view('js_libraries', $data);
+		MLoad::view('js/libraries', $data);
+	}
+	
+	
+	function library() {
+
+		$library = MURL::segment(3);
+
+		if (!$library || !file_exists(SERVER_ROOT . '/' . APPLICATION . '/' . APPLICATION_VIEW . '/js/library/' . $library . '.php')) {
+			MError::error_404();
+		}
+
+		$data['page_title'] = 'JS Library';
+		MLoad::view('js/library/' . $library, $data);
+
 	}
 
 	function managers() {
 		$data['page_title'] = 'JavaScript Managers';
-		MLoad::view('js_managers', $data);
+		MLoad::view('js/managers', $data);
 	}
 
 	function ui_elements() {
 		$data['page_title'] = 'JavaScript UI Elements';
-		MLoad::view('js_ui_elements', $data);
+		MLoad::view('js/ui_elements', $data);
 	}
 
 }

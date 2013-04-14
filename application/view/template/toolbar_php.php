@@ -6,7 +6,6 @@
 
 	<a href="/php/configuration">Configuration</a>
 	<a href="/php/controllers">Controllers</a>
-	<a href="/php/folders">Folders</a>
 	<a href="/php/libraries">Libraries</a>
 	<a href="/php/models">Models</a>
 	<a href="/php/routing">Routing</a>

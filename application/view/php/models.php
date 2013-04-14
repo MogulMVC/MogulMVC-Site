@@ -30,11 +30,11 @@
 
 		<td class="MWidthFull MPadding">
 
-			<h1 class="MTextRight">PHP Controllers</h1>
+			<h1>PHP Models</h1>
 			
 			<section id="section_about">
 	
-				<h2>About Controllers</h2>
+				<h2>About Models</h2>
 				<hr />
 				
 				<?php for($i = 0; $i < 10; $i++):?>
@@ -56,7 +56,7 @@
 			
 			<section id="section_classes">
 	
-				<h2>Classes</h2>
+				<h2>Types of Models</h2>
 				<hr />
 	
 				<?php for($i = 0; $i < 10; $i++):?>
@@ -67,7 +67,7 @@
 			
 			<section id="section_functions">
 	
-				<h2>Functions</h2>
+				<h2>Create</h2>
 				<hr />
 				
 				<?php for($i = 0; $i < 10; $i++):?>

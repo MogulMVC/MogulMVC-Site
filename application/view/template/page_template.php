@@ -22,7 +22,7 @@
 
 		<td class="MWidthFull MPadding">
 			
-			<h1 class="MTextRight"></h1>
+			<h1></h1>
 			
 			<section id="section_">
 	

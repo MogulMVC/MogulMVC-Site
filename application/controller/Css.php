@@ -4,22 +4,22 @@ class Css {
 
 	function index() {
 		$data['page_title'] = 'CSS';
-		MLoad::view('css_main', $data);
+		MLoad::view('css/main', $data);
 	}
 
 	function icons() {
 		$data['page_title'] = 'CSS Icons';
-		MLoad::view('css_icons', $data);
+		MLoad::view('css/icons', $data);
 	}
 
 	function typography() {
 		$data['page_title'] = 'CSS Typography';
-		MLoad::view('css_typography', $data);
+		MLoad::view('css/typography', $data);
 	}
 
 	function ui_elements() {
 		$data['page_title'] = 'CSS UI Elements';
-		MLoad::view('css_ui_elements', $data);
+		MLoad::view('css/ui_elements', $data);
 	}
 
 }
