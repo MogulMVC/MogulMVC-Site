@@ -2,7 +2,7 @@
 
 <div class="MContent800">
 
-	<h1>JS Libraries</h1>
+	<h1>JavaScript Libraries</h1>
 
 	<h2>About Libraries</h2>
 

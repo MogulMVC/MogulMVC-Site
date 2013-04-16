@@ -50,7 +50,7 @@
 
 		<td class="MWidthFull MPadding">
 			
-			<h1>JS UI Elements</h1>
+			<h1>JavaScript UI Elements</h1>
 			
 			<p class="MTextRed MTextBold"><?php echo htmlentities(MLoad::js_framework('core/MScript.js', 'return', true));?></p>
 
