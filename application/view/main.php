@@ -26,11 +26,10 @@
 
 <nav class="MToolBar">
 	<div class="MContent700 MTextCentered">
-		<a href="/css_typography">Typography</a>
-		<a href="/css_icons">Icons</a>
-		<a href="/css_classes">CSS Classes</a>
-		<a href="/js_classes">JavaScript Classes</a>
-		<a href="/js_managers">JavaScript Managers</a>
+		<a href="/general">General</a>
+		<a href="/php">PHP</a>
+		<a href="/js">JavaScript</a>
+		<a href="/css">CSS</a>
 	</div>
 </nav>
 

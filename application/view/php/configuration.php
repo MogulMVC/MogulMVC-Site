@@ -82,9 +82,7 @@
 				<h2>Autoload - autoload.php</h2>
 				<hr />
 				
-				<p>Mogul MVC can load css, js, and php libraries every time the framework runs.
-					<br />
-				CSS and JS loaded with autoload will also be automatically minified when switching an application from development to production mode.</p>
+				<p>Mogul MVC can load css, js, and php libraries every time the framework runs. CSS and JS loaded with autoload will also be automatically minified when switching an application from development to production mode.</p>
 				
 				<p class="MTextBold">Autoload can load library files from 8 locations.</p>
 				
