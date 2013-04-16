@@ -7,15 +7,15 @@
 		<td id="MSideBarContainer">
 			<ul id="MSideBar" class="MSideBarLeft">
 				
-				<a href="#section_">
+				<a href="#section_datetime">
 					<li class="MSideBarListItem MCursorPointer">
-						<span>Default</span>
+						<span>datetime</span>
 					</li>
 				</a>
 				
-				<a href="#section_">
+				<a href="#section_date">
 					<li class="MSideBarListItem MCursorPointer">
-						<span>Sub</span>
+						<span>date</span>
 					</li>
 				</a>
 					
@@ -26,10 +26,14 @@
 			
 			<h1>MDate</h1>
 			
-			<section id="section_">
+			<section id="section_datetime">
 	
 			</section>
-			
+
+			<section id="section_date">
+	
+			</section>	
+					
 		</td>
 
 	</tr>
