@@ -1,0 +1,1 @@
+<?php MLoad::template_application('template/toolbar_general'); ?>

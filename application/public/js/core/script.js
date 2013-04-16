@@ -5,14 +5,13 @@
 
 $(document).ready(function() {
 
-	$(document).on('click', 'a', function() {
+	$('a').not($('li a')).on('click', function() {
 
 		var _this = this;
 
 		var location = $(_this).attr('href');
 
-		if (location.charAt(0) == '#') {
-			console.log("works");
+		if (location != undefined && location.charAt(0) == '#') {
 			$(window).scrollTo(location, 500, {
 				offset : {
 					top : -90
@@ -21,6 +20,12 @@ $(document).ready(function() {
 			return false;
 		}
 
+	});
+
+	$('.showCode').each(function(index) {
+		$(this).click(function() {
+			$(this).next('pre').slideToggle()
+		});
 	});
 
 });

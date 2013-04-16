@@ -38,13 +38,24 @@
 				<li id="createSystemMessage" class="MSideBarListItem">
 					<span>New System Message</span>
 				</li>
+				
+				<li class="MSideBarListItem">
+					<button class="MButtonR MWidthFull" id="clear">Clear Elements</button>
+				</li>
+				
+				<div id="newCode" class="MPaddingSmall"></div>
 	
 			</ul>
 		</td>
 
 		<td class="MWidthFull MPadding">
 			
+			<h1>JS UI Elements</h1>
+			
 			<p class="MTextRed MTextBold"><?php echo htmlentities(MLoad::js_framework('core/MScript.js', 'return', true));?></p>
+
+			<p>Click a UI element to the left to add it to the screen and see the source code to make it.</p>
+			<p>These UI elements can also be created using HTML markup. See the <a href="/css/ui_elements">CSS UI Elements page</a> for details.</p>
 			
 			<div id="newContent"></div>
 		</td>
@@ -61,6 +72,13 @@
 		$('#createProgressBar').click(createProgressBar);
 		$('#createRatingsBar').click(createRatingsBar);
 		$('#createSystemMessage').click(createSystemMessage);
+		
+		$('#clear').click(function(){
+			$('#newContent').html('')
+			$('#MSystemMessageContainer').html('');
+			$('#newCode').html('');
+		});
+		
 	});
 
 	function createButton() {
@@ -68,11 +86,15 @@
 
 		var object = new MButton(input);
 		$('#newContent').append(object);
+		
+		$('#newCode').html("<hr /><p>var object = new MButton(" + input + ");</p><p>$('#newContent').append(object);</p>");
 	};
 
 	function createListItem() {
 		var object = new MListItem();
 		$('#newContent').append(object);
+		
+		$('#newCode').html("<hr /><p>var object = new MListItem();</p><p>$('#newContent').append(object);</p>");
 	};
 
 	function createNote() {
@@ -80,6 +102,8 @@
 
 		var object = new MNote(input);
 		$('#newContent').append(object);
+		
+		$('#newCode').html("<hr /><p>var object = new MNote(" + input + ");</p><p>$('#newContent').append(object);</p>");
 	};
 
 	function createPopup() {
@@ -87,6 +111,8 @@
 
 		var object = new MPopup(input);
 		$('#newContent').append(object);
+		
+		$('#newCode').html("<hr /><p>var object = new MPopup(" + input + ");</p><p>$('#newContent').append(object);</p>");
 	};
 
 	function createProgressBar() {
@@ -94,6 +120,8 @@
 
 		var object = new MProgressBar(input);
 		$('#newContent').append(object);
+		
+		$('#newCode').html("<hr /><p>var object = new MProgressBar(" + input + ");</p><p>$('#newContent').append(object);</p>");
 	};
 
 	function createRatingsBar() {
@@ -101,6 +129,8 @@
 
 		var object = new MRatingsBar(input);
 		$('#newContent').append(object);
+		
+		$('#newCode').html("<hr /><p>var object = new MRatingsBar(" + input + ");</p><p>$('#newContent').append(object);</p>");
 	};
 
 	function createSystemMessage() {
@@ -108,6 +138,8 @@
 
 		var object = new MSystemMessage(input);
 		$('#MSystemMessageContainer').append(object);
+		
+		$('#newCode').html("<hr /><p>var object = new MSystemMessage(" + input + ");</p><p>$('#MSystemMessageContainer').append(object);</p>");
 
 	};
 </script>

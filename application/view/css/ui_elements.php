@@ -6,62 +6,50 @@
 		<td id="MSideBarContainer"><div id="MSideBarTriggerLeft"></div>
 			<ul id="MSideBar" class="MSideBarLeft">
 	
-				<div class="MSideBarMenu">
-					<button onclick="noShow()">
-						Deselect All
-					</button>
-					<button onclick="allShow()">
-						Select All
-					</button>
-				</div>
-	
-				<label for="check_button">
+				<a href="#section_button">
 					<li class="MSideBarListItem">
-						<input id="check_button" type="checkbox" value="section_button" checked="true" onclick="updateShow()"/>
 						<span>Button</span>
 					</li>
-				</label>
+				</a>
 	
-				<label for="check_input">
+				<a href="#section_input">
 					<li class="MSideBarListItem">
-						<input id="check_input" type="checkbox" value="section_input" checked="true" onclick="updateShow()"/>
 						<span>Input</span>
 					</li>
-				</label>
-	
-				<label for="check_well">
+				</a>
+
+				<a href="#section_layout">
 					<li class="MSideBarListItem">
-						<input id="check_well" type="checkbox" value="section_well" checked="true" onclick="updateShow()"/>
-						<span>Well</span>
-					</li>
-				</label>
-	
-				<label for="check_widget">
-					<li class="MSideBarListItem">
-						<input id="check_widget" type="checkbox" value="section_widget" checked="true" onclick="updateShow()"/>
-						<span>Widget</span>
-					</li>
-				</label>
-	
-				<label for="check_layout">
-					<li class="MSideBarListItem">
-						<input id="check_layout" type="checkbox" value="section_layout" checked="true" onclick="updateShow()"/>
 						<span>Layout</span>
 					</li>
-				</label>
+				</a>	
+
+				<a href="#section_well">
+					<li class="MSideBarListItem">
+						<span>Well</span>
+					</li>
+				</a>
+	
+				<a href="#section_widget">
+					<li class="MSideBarListItem">
+						<span>Widget</span>
+					</li>
+				</a>
 	
 			</ul><!-- sidebar -->
 		</td>
 
 		<td class="MWidthFull MPadding">
+
+		<h1>CSS UI Elements</h1>
 			
 		<p class="MTextRed MTextBold"><?php echo htmlentities(MLoad::css_framework('core/MStyle.css', 'return', true));?></p>
 			
 		<div class="MWidthFull">
 
-			<?php /** Buttons */ ?>
 			<section id="section_button" class="section">
-				<h1>Button</h1>
+				<h2>Button</h2>
+				<hr />
 
 				<table class="MWidthFull MTextCentered">
 
@@ -70,6 +58,7 @@
 						<th><span class="MNoteY">&lt;button&gt; is prefered</span></th>
 						<th>&lt;div&gt;</th>
 						<th>&lt;span&gt;</th>
+						<th>CSS Class</th>
 					</tr>
 
 					<tr>
@@ -83,6 +72,7 @@
 							Button
 						</div></td>
 						<td><span class="MButton" data-mtip="S" title="I'm a &lt;span&gt; tag.">Button</span></td>
+						<td>.MButton</td>
 					</tr>
 
 					<tr>
@@ -96,6 +86,7 @@
 							Button Disabled
 						</div></td>
 						<td><span class="MButton" data-mtip="S" title="I'm a &lt;span&gt; tag disabled." disabled="true">Button Disabled</span></td>
+						<td>.MButton with attribute disabled="true"</td>
 					</tr>
 
 					<tr>
@@ -109,6 +100,7 @@
 							Button Red
 						</div></td>
 						<td><span class="MButtonRed" data-mtip="S" title="I'm a &lt;span&gt; tag.">Button Red</span></td>
+						<td>.MButtonRed or .MButtonR</td>
 					</tr>
 
 					<tr>
@@ -122,6 +114,7 @@
 							Button Orange
 						</div></td>
 						<td><span class="MButtonOrange" data-mtip="S" title="I'm a &lt;span&gt; tag.">Button Orange</span></td>
+						<td>.MButtonOrage or .MButtonO</td>
 					</tr>
 
 					<tr>
@@ -135,6 +128,7 @@
 							Button Yellow
 						</div></td>
 						<td><span class="MButtonYellow" data-mtip="S" title="I'm a &lt;span&gt; tag.">Button Yellow</span></td>
+						<td>.MButtonYellow or .MButtonY</td>
 					</tr>
 
 					<tr>
@@ -148,6 +142,7 @@
 							Button Green
 						</div></td>
 						<td><span class="MButtonGreen" data-mtip="S" title="I'm a &lt;span&gt; tag.">Button Green</span></td>
+						<td>.MButtonGreen or .MButtonG</td>
 					</tr>
 
 					<tr>
@@ -161,6 +156,7 @@
 							Button Blue
 						</div></td>
 						<td><span class="MButtonBlue" data-mtip="S" title="I'm a &lt;span&gt; tag.">Button Blue</span></td>
+						<td>.MButtonBlue or .MButtonB</td>
 					</tr>
 
 					<tr>
@@ -174,6 +170,7 @@
 							Button Violet
 						</div></td>
 						<td><span class="MButtonViolet" data-mtip="S" title="I'm a &lt;span&gt; tag.">Button Violet</span></td>
+						<td>.MButtonViolet or .MButtonV</td>
 					</tr>
 
 				</table>
@@ -189,9 +186,7 @@
 					<hr />
 				</div>
 
-				<p class="MWidgetTitle">
-					Input Buttons
-				</p>
+				<h3>Input Buttons</h3>
 
 				<div class="MTextCentered">
 					<input type="button" value="Button"/>
@@ -209,9 +204,7 @@
 					<hr />
 				</div>
 
-				<p class="MWidgetTitle">
-					Button Group
-				</p>
+				<h3>Button Group</h3>
 
 				<div class="MHButtonGroup">
 					<button>A Button</button>
@@ -219,22 +212,36 @@
 					<button>Yet Another Button</button>
 				</div>
 				
-				<br /><br />
+				<br />
 				
+				<a class="showCode">Code</a>
+				<pre class="MHidden"><code><?php echo htmlentities('<div class="MHButtonGroup">
+	<button>A Button</button>
+	<button>Another Button</button>
+	<button>Yet Another Button</button>
+</div>'); ?></code></pre>
+
 				<div class="MVButtonGroup">
 					<button>A Button</button>
 					<button>Another Button</button>
 					<button>Yet Another Button</button>
 				</div>
 
- 				<div class="MContentSpacer"></div>
-				<div class="MContentSpacer"></div>
+				<a class="showCode">Code</a>
+				<pre class="MHidden"><code><?php echo htmlentities('<div class="MVButtonGroup">
+	<button>A Button</button>
+	<button>Another Button</button>
+	<button>Yet Another Button</button>
+</div>'); ?></code></pre>
+
+				<br />
+				<br />
 
 			</section><!-- section_button -->
 
-			<?php /** Input */ ?>
 			<section id="section_input" class="section">
-				<h1>Input</h1>
+				<h2>Input</h2>
+				<hr />
 
 				<div class="MWidthFull MTextCentered">
 
@@ -329,9 +336,9 @@
 
 			</section><!-- section_input -->
 
-			<?php /** Layouts */ ?>
 			<section id="section_layout" class="section">
-				<h1>Layout</h1>
+				<h2>Layout</h2>
+				<hr />
 
 				<p class="MWidgetTitle">
 					MVBoxLayout
@@ -391,9 +398,9 @@
 
 			</section><!-- section_layout -->
 
-			<?php /** Well */ ?>
 			<section id="section_well" class="section">
-				<h1>Well</h1>
+				<h2>Well</h2>
+				<hr />
 
 				<div class="MWell">
 					<p>
@@ -409,7 +416,6 @@
 
 			</section>
 
-			<?php /** Widget */ ?>
 			<section id="section_widget" class="section">
 				<h1>Widget</h1>
 
@@ -447,13 +453,6 @@
 </table>
 
 <script>
-	$(document).ready(function() {
-		$('.showCode').each(function(index) {
-			$(this).click(function() {
-				$(this).next().toggle()
-			});
-		});
-	});
 
 	function updateShow(id) {
 
@@ -500,4 +499,5 @@
 			$('#section_noShow').fadeOut(speedNorm);
 		}
 	}
+	
 </script>

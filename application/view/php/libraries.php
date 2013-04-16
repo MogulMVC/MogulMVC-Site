@@ -8,7 +8,7 @@
 
 	<p>Mogul MVC has many PHP libraries that can be used to perform common tasks.</p>
 	<p>Each library is a class containing public static functions.</p>
-	<p>Below is a list of all the classes with a description of what each class is for. Click on yo learn more about the functions inside of it.</p>
+	<p>Below is a list of all the classes with a description of what each class is for. Click on one to learn more about the functions inside of it.</p>
 	
 	<hr />
 

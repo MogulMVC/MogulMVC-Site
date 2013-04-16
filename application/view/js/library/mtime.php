@@ -1,4 +1,4 @@
-<?php MLoad::template_application('template/toolbar_php'); ?>
+<?php MLoad::template_application('template/toolbar_js'); ?>
 
 <table class="MWidthFull">
 

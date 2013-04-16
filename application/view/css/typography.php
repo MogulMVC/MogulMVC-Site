@@ -82,13 +82,6 @@
 </table>
 
 <script>
-	$(document).ready(function() {
-		$('.showCode').each(function(index) {
-			$(this).click(function() {
-				$(this).next().toggle()
-			});
-		});
-	});
 
 	function changeColor(color) {
 
@@ -101,4 +94,5 @@
 			$(this).addClass(color);
 		});
 	}
+	
 </script>

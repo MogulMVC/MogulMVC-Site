@@ -1,4 +1,4 @@
-<?php MLoad::template_application('template/toolbar_php'); ?>
+<?php MLoad::template_application('template/toolbar_js'); ?>
 
 <table class="MWidthFull">
 
@@ -24,7 +24,7 @@
 
 		<td class="MWidthFull MPadding">
 			
-			<h1>MTime</h1>
+			<h1>MString</h1>
 			
 			<section id="section_">
 	

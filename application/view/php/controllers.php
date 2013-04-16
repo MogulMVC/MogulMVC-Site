@@ -15,19 +15,19 @@
 				
 				<a href="#section_create">
 					<li class="MSideBarListItem MCursorPointer">
-						<span>Create</span>
+						<span>Types of Controllers</span>
 					</li>
 				</a>
 				
-				<a href="#section_classes">
+				<a href="#section_create">
 					<li class="MSideBarListItem MCursorPointer">
-						<span>Classes</span>
+						<span>Create a Controller</span>
 					</li>
 				</a>
 				
-				<a href="#section_functions">
+				<a href="#section_load">
 					<li class="MSideBarListItem MCursorPointer">
-						<span>Functions</span>
+						<span>How Controllers are Loaded</span>
 					</li>
 				</a>
 					
@@ -60,21 +60,22 @@
 	
 			</section>
 			
-			<section id="section_classes">
+			<section id="section_load">
 	
-				<h2>Classes</h2>
+				<h2>How Controllers are Loaded</h2>
 				<hr />
 	
 				<?php for($i = 0; $i < 10; $i++):?>
 					<br />
 				<?php endfor;?>
-	
-			</section>
-			
-			<section id="section_functions">
-	
-				<h2>Functions</h2>
-				<hr />
+				
+				<h3>Classes</h3>
+				
+				<?php for($i = 0; $i < 10; $i++):?>
+					<br />
+				<?php endfor;?>
+				
+				<h3>Functions</h3>
 				
 				<?php for($i = 0; $i < 10; $i++):?>
 					<br />
