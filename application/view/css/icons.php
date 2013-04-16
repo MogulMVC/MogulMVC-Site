@@ -78,7 +78,7 @@
 
 		<td class="MWidthFull MPadding">
 			
-			<h1>CSS Typography</h1>
+			<h1>CSS Icons</h1>
 			
 			<p class="MTextRed MTextBold"><?php echo htmlentities(MLoad::css_framework('core/MIcons.css', 'return', true));?></p>
 				
