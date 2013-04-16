@@ -1,6 +1,6 @@
 <?php
 if (!defined('SERVER_ROOT')) {
-	header('/error_404');
+	header('Location: /error_404');
 	exit ;
 }
 
@@ -13,6 +13,30 @@ class MValidate {
 		}
 
 		return false;
+
+	}
+
+	public static function declared($input) {
+
+	}
+
+	public static function optional($input) {
+
+	}
+
+	public static function required($input) {
+
+	}
+
+	public static function only_contain($input) {
+
+	}
+
+	public static function must_contain($input) {
+
+	}
+
+	public static function between($input, $rangeStart, $rangeEnd) {
 
 	}
 

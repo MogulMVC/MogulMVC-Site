@@ -36,13 +36,19 @@
 						<span>Tab</span>
 					</li>
 				</a>
+				
+				<a href="#section_tip">
+					<li class="MSideBarListItem">
+						<span>Tip</span>
+					</li>
+				</a>
 	
 			</ul>
 		</td>
 
 		<td class="MWidthFull MPadding">
 
-			<h1>JS Managers</h1>
+			<h1>JavaScript Managers</h1>
 			
 			<p class="MTextRed MTextBold"><?php echo htmlentities(MLoad::js_framework('core/MScript.js', 'return', true));?></p>
 				
@@ -85,6 +91,7 @@
 			<section id="section_bar">
 				<h2>Bar</h2>
 				<hr />
+				<br />
 	
 				<p><span class="MTextBold">&lt;progress&gt;</span> tags are turn into MProgressBar classes, which work on all browsers.</p>
 				
@@ -99,14 +106,15 @@
 				<a class="showCode">Code</a>
 				<pre class="MHidden"><code><?php echo htmlentities('<meter min="0" max="100"></meter>'); ?></code></pre>																						
 	
-	 			<br />
-				<br />
-	
 			</section><!-- section_bar -->
+			
+			<div class="MContentSpacer"></div>
+ 			<div class="MContentSpacer"></div>
 			
 			<section id="section_button">
 				<h2>Upload Button</h2>
 				<hr />
+				<br />
 	
 				<p><span class="MTextBold">&lt;input type="file" /&gt;</span> tags are turn into MButtonUpload classes, which visually matches the MButtonBlue class.</p>
 	
@@ -133,14 +141,15 @@
 				<a class="showCode">Code</a>
 				<pre class="MHidden"><code><?php echo htmlentities('<input type="file" />'); ?></code></pre>
 	
-				<br />
-				<br />
-	
 			</section><!-- section_button -->
+			
+			<div class="MContentSpacer"></div>
+ 			<div class="MContentSpacer"></div>
 			
 			<section id="section_list">
 				<h2>List</h2>
 				<hr />
+				<br />
 				
 				<p><span class="MTextBold">&lt;li&gt;</span> tags containing 1 checkbox turn blue when the checkbox is checked.</p>
 	
@@ -202,14 +211,15 @@
 	</li>
 </ul>');?></code></pre>																																																		
 				
-	 			<br />
-				<br />
-	
 			</section><!-- section_list -->
+			
+			<div class="MContentSpacer"></div>
+ 			<div class="MContentSpacer"></div>
 			
 			<section id="section_tab">
 				<h2>Tab</h2>
 				<hr />
+				<br />
 	
 				<p>Any <span class="MTextBold">&lt;div&gt;</span> tags with class MTabWidget and proper tab markup with automatically be given tab functionality.</p>
 	
@@ -257,10 +267,20 @@
 	</div>
 </div>');?></code></pre>
 
-	 			<br />
-				<br />
-
 			</section><!-- section_tab -->
+			
+			<div class="MContentSpacer"></div>
+ 			<div class="MContentSpacer"></div>
+			
+			<section id="section_tip">
+				<h2>Tool Tip</h1>
+				<hr />
+				<br />
+				
+			</section>
+			
+			<div class="MContentSpacer"></div>
+ 			<div class="MContentSpacer"></div>
 
 		</td>
 

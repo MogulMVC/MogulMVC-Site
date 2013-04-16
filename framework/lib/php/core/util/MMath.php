@@ -1,10 +1,14 @@
 <?php
 if (!defined('SERVER_ROOT')) {
-	header('/error_404');
+	header('Location: /error_404');
 	exit ;
 }
 
 class MMath {
+
+	public static function random($min, $max) {
+		return mt_rand($min, $max);
+	}
 
 	public static function linear_regression($x, $y) {
 

@@ -24,7 +24,7 @@
 
 		<td class="MWidthFull MPadding">
 			
-			<h1>MKeyboard</h1>
+			<h1>MType</h1>
 			
 			<section id="section_">
 	

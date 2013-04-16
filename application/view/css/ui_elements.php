@@ -234,11 +234,11 @@
 	
 					<h3>Input Buttons</h3>
 	
-					<div class="MTextCentered">
-						<input type="button" value="Button"/>
-						<input type="submit" />
-						<input type="reset" />
-					</div>
+					<input type="button" value="Button"/>
+					<input type="submit" />
+					<input type="reset" />
+					
+					<br />
 	
 					<a class="showCode">Code</a>
 					<pre class="MHidden"><code><?php echo htmlentities('<input type="button" value="Button"/>
@@ -390,7 +390,7 @@
 					<hr />
 					<br />
 	
-					<h3>MVBoxLayout</h3>
+					<h3>MHBoxLayout</h3>
 	
 					<div class="MHBoxLayout">
 						<button>
@@ -409,7 +409,7 @@
 	...
 </div>'); ?></code></pre>																																
 	
-					<h3>MHBoxLayout</h3>
+					<h3>MVBoxLayout</h3>
 	
 					<div class="MVBoxLayout">
 						<button>

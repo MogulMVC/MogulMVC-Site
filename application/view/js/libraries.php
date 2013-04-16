@@ -26,18 +26,6 @@
 			</li>
 		</a>
 		
-		<a href="/js/library/mhtmlanimate">
-			<li class="MListItem">
-				MHTMLAnimate
-			</li>
-		</a>
-		
-		<a href="/js/library/mkeyboard">
-			<li class="MListItem">
-				MKeyboard
-			</li>
-		</a>
-		
 		<a href="/js/library/mload">
 			<li class="MListItem">
 				MLoad
@@ -73,7 +61,13 @@
 				MTime
 			</li>
 		</a>
-		
+
+		<a href="/js/library/mtype">
+			<li class="MListItem">
+				MType
+			</li>
+		</a>		
+
 		<a href="/js/library/murl">
 			<li class="MListItem">
 				MURL

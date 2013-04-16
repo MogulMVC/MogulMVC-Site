@@ -1,6 +1,6 @@
 <?php
 if (!defined('SERVER_ROOT')) {
-	header('/error_404');
+	header('Location: /error_404');
 	exit ;
 }
 
@@ -360,7 +360,7 @@ class MLoad {
 				
 				// Change the location to the lib folder
 				$location = APPLICATION . '/' . APPLICATION_LIB_JS;
-				$ext = '.js';
+				$ext = '.php';
 				
 				// Check if the file exists in the lib folder
 				if (!file_exists(SERVER_ROOT . '/' . $location . '/' . $js . '.php')) {

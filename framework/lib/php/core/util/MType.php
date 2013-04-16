@@ -1,32 +1,24 @@
 <?php
 if (!defined('SERVER_ROOT')) {
-	header('/error_404');
+	header('Location: /error_404');
 	exit ;
 }
 
 class MType {
 
-	public function string_to_boolean($value) {
+	public function string2Boolean($value) {
 
 		// Check if it's a string of true or false
-		if (is_string($value) && $value == 'true') {
-			$value = true;
-		}
-
-		if (is_string($value) && $value == 'false') {
-			$value = false;
+		if (is_string($value) && ($value == 'true' || $value == 'TRUE')) {
+			return TRUE;
 		}
 
 		// Check if it's a string of 1 or 0
 		if (is_string($value) && $value == '1') {
-			$value = true;
+			return TRUE;
 		}
 
-		if (is_string($value) && $value == '0') {
-			$value = false;
-		}
-
-		return $value;
+		return FALSE;
 
 	}
 

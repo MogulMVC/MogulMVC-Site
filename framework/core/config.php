@@ -2,16 +2,16 @@
 
 /*
  * Mogul MVC by Alan James
- * version 130318
+ * version 130416
  * recommended PHP version 5.3
  */
 
 if (!defined('SERVER_ROOT')) {
-	header('/error_404');
+	header('Location: /error_404');
 	exit ;
 }
 
-define('FRAMEWORK_VERSION', '130318');
+define('FRAMEWORK_VERSION', '130416');
 
 define('FRAMEWORK_IMG', 'img');
 define('FRAMEWORK_LIB_AS', 'lib/as');

@@ -1,6 +1,6 @@
 <?php
 if (!defined('SERVER_ROOT')) {
-	header('/error_404');
+	header('Location: /error_404');
 	exit ;
 }
 
@@ -15,8 +15,17 @@ class MURL {
 			$protocol = 'https';
 
 		}
-		
+
 		return $protocol;
+
+	}
+
+	public static function subdomain() {
+
+		$uri = explode('.', $_SERVER['SERVER_NAME']);
+
+		$subdomain = $uri[count($uri) - 3];
+		return $subdomain;
 
 	}
 

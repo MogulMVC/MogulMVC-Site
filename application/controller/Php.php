@@ -45,11 +45,6 @@ class Php {
 		MLoad::view('php/routing', $data);
 	}
 
-	function ui_elements() {
-		$data['page_title'] = 'PHP UI Elements';
-		MLoad::view('php/ui_elements', $data);
-	}
-
 	function views() {
 		$data['page_title'] = 'PHP Views';
 		MLoad::view('php/views', $data);
