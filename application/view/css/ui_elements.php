@@ -245,12 +245,20 @@
 <input type="submit" />
 <input type="reset" />'); ?></code></pre>																																
 	
+					<br />
+	
 					<h3>Button Group</h3>
 	
 					<div class="MHButtonGroup">
 						<button>A Button</button>
 						<button>Another Button</button>
 						<button>Yet Another Button</button>
+					</div>
+					
+					<div class="MHButtonGroup">
+						<a class="MButton">A Button</a>
+						<a class="MButton">Another Button</a>
+						<a class="MButton">Yet Another Button</a>
 					</div>
 					
 					<br />
@@ -261,6 +269,8 @@
 	<button>Another Button</button>
 	<button>Yet Another Button</button>
 </div>'); ?></code></pre>
+	
+					<br />
 	
 					<div class="MVButtonGroup">
 						<button>A Button</button>
@@ -287,7 +297,7 @@
 	
 					<div class="MWidthFull">
 	
-						<span class="MNoteY">A work in progress.</span>
+						<span class="MNoteR">A work in progress.</span>
 	
 						<div class="MHBoxLayout">
 	
