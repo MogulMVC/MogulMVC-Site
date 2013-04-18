@@ -119,11 +119,6 @@
 				<h3>Mogul MVC is a combination of several Mogul libraries.</h3>
 				
 				<li class="MListItem">
-					<span class="MTextBold">Mogul AS</span>
-					<span> - An ActionScript library that attempts to stay stylistically consistent with Mogul CSS, Mogul JS, and Mogul MVC.</span>
-				</li>
-				
-				<li class="MListItem">
 					<span class="MTextBold">Mogul CSS</span>
 					<span> - A Sass based CSS library that is used by Mogul JS and Mogul MVC for styling. It attempts to stay stylistically consistent with Mogul AS.</span>
 				</li>
