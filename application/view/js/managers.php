@@ -277,6 +277,43 @@
 				<hr />
 				<br />
 				
+				<table class="MWidthFull">
+					<tr>
+						<td><a data-mtip="nw" title="Anchored to North West">North West</a></td>
+						<td><a data-mtip="n" title="Anchored to North">North</a></td>
+						<td><a data-mtip="ne" title="Anchored to North East">North East</a></td>
+					</tr>
+					<tr>
+						<td><a data-mtip="w" title="Anchored to West">West</a></td>
+						<td></td>
+						<td><a data-mtip="e" title="Anchored to East">East</a></td>
+					</tr>
+					<tr>
+						<td><a data-mtip="sw" title="Anchored to South West">South West</a></td>
+						<td><a data-mtip="s" title="Anchored to South">South</a></td>
+						<td><a data-mtip="se" title="Anchored to South East">South East</a></td>
+					</tr>
+				</table>
+				
+				<a class="showCode">Code</a>
+				<pre class="MHidden"><code><?php echo htmlentities('<table class="MWidthFull">
+	<tr>
+		<td><a data-mtip="nw" title="Anchored to North West">North West</a></td>
+		<td><a data-mtip="n" title="Anchored to North">North</a></td>
+		<td><a data-mtip="ne" title="Anchored to North East">North East</a></td>
+	</tr>
+	<tr>
+		<td><a data-mtip="w" title="Anchored to West">West</a></td>
+		<td></td>
+		<td><a data-mtip="e" title="Anchored to East">East</a></td>
+	</tr>
+	<tr>
+		<td><a data-mtip="sw" title="Anchored to South West">South West</a></td>
+		<td><a data-mtip="s" title="Anchored to South">South</a></td>
+		<td><a data-mtip="se" title="Anchored to South East">South East</a></td>
+	</tr>
+</table>');?></code></pre>
+				
 			</section>
 			
 			<div class="MContentSpacer"></div>

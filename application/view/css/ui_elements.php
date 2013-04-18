@@ -255,12 +255,6 @@
 						<button>Yet Another Button</button>
 					</div>
 					
-					<div class="MHButtonGroup">
-						<a class="MButton">A Button</a>
-						<a class="MButton">Another Button</a>
-						<a class="MButton">Yet Another Button</a>
-					</div>
-					
 					<br />
 					
 					<a class="showCode">Code</a>
