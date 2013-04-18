@@ -10,9 +10,8 @@ date_default_timezone_set('America/New_York');
 define('APPLICATION_COMPANY', 'Mogul MVC');
 define('APPLICATION_NAME', 'Mogul MVC');
 define('APPLICATION_DESCRIPTION', 'Mogul MVC is an MVC framework and UI library written in PHP, jQuery, and Sass.');
-define('APPLICATION_ID', 'SomeUniqueID');
 define('APPLICATION_PASSWORD', 'mogulpass321456');
-define('APPLICATION_VERSION', '130416');
+define('APPLICATION_VERSION', '130418');
 
 // Environment
 // development production

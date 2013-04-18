@@ -112,6 +112,9 @@
 				
 				<p>As you can see file extensions are not needed as the framework determines the correct file extension. This is true for locally stored CSS and JS as well.</p>
 				
+				<pre><code>$GLOBALS['AUTOLOAD_CSS_APPLICATION'] = array('3rdparty/SomeLibrary');</code></pre>
+				<pre><code>$GLOBALS['AUTOLOAD_JS_APPLICATION'] = array('3rdparty/SomeLibrary');</code></pre>
+				
 				<p class="MTextRed MTextBold">IMPORTANT!</p>
 				<p>Always name your CSS and JS library files with dashes instead of periods, otherwise Mogul MVC will error when loading your file.</p>
 				<p>jquery.scrollTo.js should be jquery-scrollTo.js</p>
@@ -131,7 +134,7 @@
 				<p>All configuration options are defined as constants.</p>
 				
 				<h3>Application Information</h3>
-				<p>All Mogul MVC applications need a company, name, description, id, password, and version.</p>
+				<p>All Mogul MVC applications need a company, name, description, password, and version.</p>
 				<p>These constants are used during the creation of pages and loading of assets such as images, CSS, and JS files.</p>
 				<p>The password is needed when running commands from the CLI and web interface.</p>
 				
