@@ -171,7 +171,7 @@
 				<hr />
 				<br />
 				
-				<p>Model files are stored in here.</p>
+				<p>Model files are stored in here. To learn to create a model see<a href="/php/models">PHP Models</a>.</p>
 				
 				<h3>VO - vo</h3>
 				<p>If you want to use value objects with your models you can store vos here.<br />

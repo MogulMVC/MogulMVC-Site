@@ -8,7 +8,7 @@ $GLOBALS['AUTOLOAD_PHP_FRAMEWORK'] = array();
 $GLOBALS['AUTOLOAD_PHP_APPLICATION'] = array();
 
 $GLOBALS['AUTOLOAD_CSS_FRAMEWORK'] = array('core/MIcons', 'core/MStyle', 'core/style');
-$GLOBALS['AUTOLOAD_CSS_APPLICATION'] = array();
+$GLOBALS['AUTOLOAD_CSS_APPLICATION'] = array('core/style');
 $GLOBALS['AUTOLOAD_CSS_EXTERNAL'] = array();
 
 $GLOBALS['AUTOLOAD_JS_FRAMEWORK'] = array('3rdparty/jquery', '3rdparty/jquery-ui', 'core/MScript', 'core/script');

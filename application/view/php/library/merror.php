@@ -26,9 +26,19 @@
 			
 			<h1>MError</h1>
 			
-			<section id="section_">
-	
-			</section>
+			<h2>Public Methods</h2>
+			<hr />
+			<br />
+			
+			<div class="indent">
+			
+				<section id="section_error404">
+					<h3>error404</h3>
+					<hr />
+					<br />
+				</section>
+				
+			</div>
 			
 		</td>
 

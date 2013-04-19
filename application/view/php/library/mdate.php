@@ -26,13 +26,26 @@
 			
 			<h1>MDate</h1>
 			
-			<section id="section_datetime">
+			<h2>Public Methods</h2>
+			<hr />
+			<br />
+			
+			<div class="indent">
+				
+				<section id="section_datetime">
+					<h3>datetime</h3>
+					<hr />
+					<br />
+					
+				</section>
 	
-			</section>
-
-			<section id="section_date">
-	
-			</section>	
+				<section id="section_date">
+					<h3>date</h3>
+					<hr />
+					<br />
+				</section>
+				
+			</div>
 					
 		</td>
 
