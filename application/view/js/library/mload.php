@@ -26,9 +26,17 @@
 			
 			<h1>MLoad</h1>
 			
-			<section id="section_">
-	
-			</section>
+			<h2>Public Methods</h2>
+			<hr />
+			<br />
+			
+			<div class="indent">
+			
+				<section id="section_">
+		
+				</section>
+			
+			</div>
 			
 		</td>
 

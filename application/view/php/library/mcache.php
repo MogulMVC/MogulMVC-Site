@@ -26,13 +26,17 @@
 			<hr />
 			<br />
 			
-			<section id="section_cache">
-	
-				<h3>cache</h3>
-				<hr />
-				<br />
-	
-			</section>
+			<div class="indent">
+			
+				<section id="section_cache">
+		
+					<h3>cache</h3>
+					<hr />
+					<br />
+		
+				</section>
+				
+			</div>
 			
 		</td>
 
