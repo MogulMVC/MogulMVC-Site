@@ -113,14 +113,17 @@
 				<hr />
 				<br />
 				
-				<p>The controller folder is where you put all your controllers. There are also two sub type of controller listed below.<br />
-					See <a href="/php/controllers">PHP Controllers</a> for more detail about how to create controllers as well as actions and apis.</p>
+				<p>The controller folder is where you put all your controllers. There are also two sub type of controller listed below.<br /> See <a href="/php/controllers">PHP Controllers</a> for more detail about how to create controllers as well as actions and apis.</p>
 				
-				<h3>Action - action</h3>
-				<p>Your form and AJAX actions go in this folder.</p>
+				<div class="indent">
+					
+					<h3>Action - action</h3>
+					<p>Your form and AJAX actions go in this folder.</p>
+					
+					<h3>API - api</h3>
+					<p>Your APIs go in this folder.</p>
 				
-				<h3>API - api</h3>
-				<p>Your APIs go in this folder.</p>
+				</div>
 	
 			</section>
 			
@@ -130,36 +133,43 @@
 			<section id="section_lib">
 	
 				<h2>Libraries - lib</h2>
+				<hr />
+				<br />
+				
 				<p>Mogul MVC allows for 3 different types of libraries, listed below.<br />
 					Only libraries that include PHP or use PHP variables should be added to the lib folder.<br />
 					Mogul MVC looks first in the public folder to find a CSS and JS library, then the cache folder, and finally the lib folder. If it find it in the lib folder it will compile it and place it in the cache folder.  
 				</p>
 	
+				<div class="indent">
+	
 					<h3>CSS - css</h3>
-					<p>The css folder is where you would put your dynamically created CSS files.</p>
+					<p>The css folder is where you would put your CSS files.</p>
 					
 					<h4>Third Party - 3rdparty</h4>
-					<p>Dynamically created third party libraries.</p>
+					<p>Third party css libraries.</p>
 					
 					<h4>Core - core</h4>
-					<p>Dynamically created core libraries.</p>
+					<p>Core css libraries.</p>
 					
 					<h3>JavaScript - js</h3>
-					<p>The js folder is where you would put your dynamically created JavaScript files.</p>
+					<p>The js folder is where you would put your JavaScript files.</p>
 				
 					<h4>Third Party - 3rdparty</h4>
-					<p>Dynamically created third party libraries.</p>
+					<p>Third party JavaScript libraries.</p>
 					
 					<h4>Core - core</h4>
-					<p>Dynamically created core libraries.</p>
+					<p>Core JavaScript libraries.</p>
 						
 					<h3>PHP - php</h3>
-					<p>As PHP cannot be compiled all your PHP libraries go in this folder.</p>
+					<p>All your PHP libraries go in this folder.</p>
 					<h4>Third Party - 3rdparty</h4>
 					<p>Third party PHP libraries go here.</p>
 					<h4>Core - core</h4>
 					<p>Core PHP libraries go here.</p>
-	
+				
+				</div>
+					
 			</section>
 			
 			<div class="MContentSpacer"></div>
@@ -172,11 +182,15 @@
 				<br />
 				
 				<p>Model files are stored in here. To learn to create a model see<a href="/php/models">PHP Models</a>.</p>
+					
+				<div class="indent">
+					
+					<h3>VO - vo</h3>
+					<p>If you want to use value objects with your models you can store vos here.<br />
+						vos allow for easier creation of database objects with certain values preset.
+					</p>
 				
-				<h3>VO - vo</h3>
-				<p>If you want to use value objects with your models you can store vos here.<br />
-					vos allow for easier creation of database objects with certain values preset.
-				</p>
+				</div>
 	
 			</section>
 			
@@ -189,19 +203,15 @@
 				<hr />
 				<br />
 	
-				<h3>CSS - css</h3>
-					<h4>Third Party - 3rdparty</h4>
-					<h4>Core - core</h4>
+				<div class="indent">
+	
+					<h3>Images - img</h3>
+					
+					<h3>Miscellaneous - misc</h3>
+					
+					<h3>Upload - upload</h3>
 				
-				<h3>Images - img</h3>
-				
-				<h3>JavaScript - js</h3>
-					<h4>Third Party - 3rdparty</h4>
-					<h4>Core - core</h4>
-				
-				<h3>Miscellaneous - misc</h3>
-				
-				<h3>Upload - upload</h3>
+				</div>
 	
 			</section>
 			
@@ -214,7 +224,11 @@
 				<hr />
 				<br />
 				
-				<h3>Template - template</h3>
+				<div class="indent">
+				
+					<h3>Template - template</h3>
+				
+				</div>
 	
 			</section>
 			

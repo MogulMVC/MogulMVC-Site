@@ -11,7 +11,7 @@ define('APPLICATION_COMPANY', 'Mogul MVC');
 define('APPLICATION_NAME', 'Mogul MVC');
 define('APPLICATION_DESCRIPTION', 'Mogul MVC is an MVC framework and UI library written in PHP, jQuery, and Sass.');
 define('APPLICATION_PASSWORD', 'mogulpass321456');
-define('APPLICATION_VERSION', '130421');
+define('APPLICATION_VERSION', '130422');
 
 // Environment
 // development production
@@ -34,8 +34,6 @@ define('APPLICATION_LIB_PHP', 'lib/php');
 define('APPLICATION_MISC', 'public/misc');
 define('APPLICATION_MODEL', 'model');
 define('APPLICATION_PUBLIC', 'public');
-define('APPLICATION_PUBLIC_CSS', 'public/css');
-define('APPLICATION_PUBLIC_JS', 'public/js');
 define('APPLICATION_UPLOAD', 'public/upload');
 define('APPLICATION_VIEW', 'view');
 define('APPLICATION_VO', 'model/vo');
@@ -50,12 +48,3 @@ define('APPLICATION_HEAD', 'template/head');
 define('APPLICATION_HEADER', 'template/header');
 define('APPLICATION_FOOTER', 'template/footer');
 define('APPLICATION_FOOT', 'template/foot');
-
-// Favicon
-// File locations start within the APPLICATION_IMG folder
-// 16x16 ico file
-define('APPLICATION_FAVICON', 'favicon.ico');
-
-// File locations start within the APPLICATION_IMG folder
-// 64x64 png file
-define('APPLICATION_ICON', 'icon.png');
