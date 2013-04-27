@@ -43,8 +43,6 @@
 	
 			<h1>CSS UI Elements</h1>
 				
-			<p class="MTextRed MTextBold"><?php echo htmlentities(MLoad::css_framework('core/MStyle.css', 'return', true));?></p>
-				
 			<div class="MWidthFull">
 	
 				<section id="section_button">

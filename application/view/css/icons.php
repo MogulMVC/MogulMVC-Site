@@ -80,8 +80,6 @@
 			
 			<h1>CSS Icons</h1>
 			
-			<p class="MTextRed MTextBold"><?php echo htmlentities(MLoad::css_framework('core/MIcons.css', 'return', true));?></p>
-				
 			<section id="section_arrow" class="section">
 				<h2>Arrows</h2>
 				<hr />

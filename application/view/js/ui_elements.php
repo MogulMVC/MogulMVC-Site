@@ -52,8 +52,6 @@
 			
 			<h1>JavaScript UI Elements</h1>
 			
-			<p class="MTextRed MTextBold"><?php echo htmlentities(MLoad::js_framework('core/MScript.js', 'return', true));?></p>
-
 			<p>Click a UI element to the left to add it to the screen and see the source code to make it.</p>
 			<p>These UI elements can also be created using HTML markup. See the <a href="/css/ui_elements">CSS UI Elements page</a> for details.</p>
 			

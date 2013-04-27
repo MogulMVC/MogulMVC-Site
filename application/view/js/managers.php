@@ -50,8 +50,6 @@
 
 			<h1>JavaScript Managers</h1>
 			
-			<p class="MTextRed MTextBold"><?php echo htmlentities(MLoad::js_framework('core/MScript.js', 'return', true));?></p>
-				
 			<p>This page contains all elements that can be added with HTML and are automatically transformed into themed or cross browser classes.</p>
 
 			<section id="section_dropdown">

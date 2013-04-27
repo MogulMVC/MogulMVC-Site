@@ -38,8 +38,6 @@
 			
 			<h1>CSS Typography</h1>
 			
-			<p class="MTextRed MTextBold"><?php echo htmlentities(MLoad::css_framework('core/MStyle.css', 'return', true));?></p>
-			
 			<section id="section_heading">
 				<h2>Headings</h2>
 				<hr />
