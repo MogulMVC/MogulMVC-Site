@@ -2,6 +2,4 @@
 <hr />
 <br />
 
-<h1>BOOM</h1>
-
 <p><?php echo $content; ?></p>

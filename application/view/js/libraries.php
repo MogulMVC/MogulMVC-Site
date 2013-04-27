@@ -24,7 +24,8 @@
 			'MTemperature' => '',
 			'MTime' => '',
 			'MType' => '',
-			'MURL' => ''
+			'MURL' => '',
+			'MValidate' => ''
 		);
 	?>
 		

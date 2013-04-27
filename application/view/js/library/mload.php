@@ -10,15 +10,53 @@ MLoad::template_application('template/toolbar_js', $data);
 		<td id="MSideBarContainer">
 			<ul id="MSideBar" class="MSideBarLeft">
 				
-				<a href="#section_">
+				<a href="#section_jsFramework">
 					<li class="MSideBarListItem MCursorPointer">
-						<span>Default</span>
+						<span>jsFramework</span>
 					</li>
 				</a>
 				
-				<a href="#section_">
+				<a href="#section_jsApplication">
 					<li class="MSideBarListItem MCursorPointer">
-						<span>Sub</span>
+						<span>jsApplication</span>
+					</li>
+				</a>
+				
+				<a href="#section_jsCache">
+					<li class="MSideBarListItem MCursorPointer">
+						<span>jsCache</span>
+					</li>
+				</a>
+				
+				<a href="#section_jsExternal">
+					<li class="MSideBarListItem MCursorPointer">
+						<span>jsExternal</span>
+					</li>
+				</a>
+
+
+				<a href="#section_cssFramework">
+					<li class="MSideBarListItem MCursorPointer">
+						<span>cssFramework</span>
+					</li>
+				</a>
+				
+				<a href="#section_cssApplication">
+					<li class="MSideBarListItem MCursorPointer">
+						<span>cssApplication</span>
+					</li>
+				</a>
+
+
+				<a href="#section_cssCache">
+					<li class="MSideBarListItem MCursorPointer">
+						<span>cssCache</span>
+					</li>
+				</a>
+				
+				<a href="#section_cssExternal">
+					<li class="MSideBarListItem MCursorPointer">
+						<span>cssExternal</span>
 					</li>
 				</a>
 					
@@ -35,7 +73,7 @@ MLoad::template_application('template/toolbar_js', $data);
 			
 			<div class="indent">
 			
-				<section id="section_js_framework">
+				<section id="section_jsFramework">
 					<?php 
 					$data['title'] = 'jsFramework';
 					$data['content'] = '';
@@ -43,7 +81,7 @@ MLoad::template_application('template/toolbar_js', $data);
 					?>
 				</section>
 				
-				<section id="section_js_application">
+				<section id="section_jsApplication">
 					<?php 
 					$data['title'] = 'jsApplication';
 					$data['content'] = '';
@@ -51,7 +89,7 @@ MLoad::template_application('template/toolbar_js', $data);
 					?>
 				</section>
 				
-				<section id="section_js_cache">
+				<section id="section_jsCache">
 					<?php 
 					$data['title'] = 'jsCache';
 					$data['content'] = '';
@@ -59,7 +97,7 @@ MLoad::template_application('template/toolbar_js', $data);
 					?>
 				</section>
 				
-				<section id="section_js_external">
+				<section id="section_jsExternal">
 					<?php 
 					$data['title'] = 'jsExternal';
 					$data['content'] = '';
@@ -67,7 +105,7 @@ MLoad::template_application('template/toolbar_js', $data);
 					?>
 				</section>
 				
-				<section id="section_css_framework">
+				<section id="section_cssFramework">
 					<?php 
 					$data['title'] = 'cssFramework';
 					$data['content'] = '';
@@ -75,7 +113,7 @@ MLoad::template_application('template/toolbar_js', $data);
 					?>
 				</section>
 				
-				<section id="section_css_application">
+				<section id="section_cssApplication">
 					<?php 
 					$data['title'] = 'cssApplication';
 					$data['content'] = '';
@@ -83,7 +121,7 @@ MLoad::template_application('template/toolbar_js', $data);
 					?>
 				</section>
 				
-				<section id="section_css_cache">
+				<section id="section_cssCache">
 					<?php 
 					$data['title'] = 'cssCache';
 					$data['content'] = '';
@@ -91,7 +129,7 @@ MLoad::template_application('template/toolbar_js', $data);
 					?>
 				</section>
 				
-				<section id="section_css_external">
+				<section id="section_cssExternal">
 					<?php 
 					$data['title'] = 'cssExternal';
 					$data['content'] = '';

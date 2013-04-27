@@ -47,10 +47,9 @@
 				
 			<div class="MWidthFull">
 	
-				<section id="section_button" class="section">
+				<section id="section_button">
 					<h2>Button</h2>
 					<hr />
-					<br />
 	
 					<table class="MWidthFull">
 	
@@ -284,10 +283,9 @@
 				<div class="MContentSpacer"></div>
 				<div class="MContentSpacer"></div>
 	
-				<section id="section_input" class="section">
+				<section id="section_input">
 					<h2>Input</h2>
 					<hr />
-					<br />
 	
 					<div class="MWidthFull">
 	
@@ -389,10 +387,74 @@
 				<div class="MContentSpacer"></div>
 				<div class="MContentSpacer"></div>
 	
-				<section id="section_layout" class="section">
+				<section id="sections_notes">
+					<h2>Notes</h2>
+					<hr />
+
+					<p>Notes are rotated on document ready to make them look more organic.<br />They can be applied to nearly any block level element and have a default maximum width of 200px.</p>
+					
+					<table>
+						
+						<tr>
+							<td><p class="MNote">I'm in a white note.</p></td>
+							<td><a class="showCode">Code</a>
+								.MNote
+								<pre class="MHidden"><code><?php echo htmlentities('<p class="MNote">...</p>'); ?></code></pre>
+							</td>
+						</tr>
+						<tr>
+							<td><p class="MNoteRed">I'm in a red note.</p></td>
+							<td><a class="showCode">Code</a>
+								.MNoteRed or .MNoteR
+								<pre class="MHidden"><code><?php echo htmlentities('<p class="MNoteRed">...</p>'); ?></code></pre>
+							</td>
+						</tr>
+						<tr>
+							<td><p class="MNoteOrange">I'm in a orange note.</p></td>
+							<td><a class="showCode">Code</a>
+								.MNoteOrange or .MNoteO
+								<pre class="MHidden"><code><?php echo htmlentities('<p class="MNoteOrange">...</p>'); ?></code></pre>
+							</td>
+						</tr>
+						<tr>
+							<td><p class="MNoteYellow">I'm in a yellow note.</p></td>
+							<td><a class="showCode">Code</a>
+								.MNoteYellow or .MNoteY
+								<pre class="MHidden"><code><?php echo htmlentities('<p class="MNoteYellow">...</p>'); ?></code></pre>
+							</td>
+						</tr>
+						<tr>
+							<td><p class="MNoteGreen">I'm in a green note.</p></td>
+							<td><a class="showCode">Code</a>
+								.MNoteGreen or .MNoteG
+								<pre class="MHidden"><code><?php echo htmlentities('<p class="MNoteGreen">...</p>'); ?></code></pre>
+							</td>
+						</tr>
+						<tr>
+							<td><p class="MNoteBlue">I'm in a blue note.</p></td>
+							<td><a class="showCode">Code</a>
+								.MNoteBlue or .MNoteB
+								<pre class="MHidden"><code><?php echo htmlentities('<p class="MNoteBlue">...</p>'); ?></code></pre>
+							</td>
+						</tr>
+						<tr>
+							<td><p class="MNoteViolet">I'm in a violet note.</p></td>
+							<td><a class="showCode">Code</a>
+								.MNoteViolet or .MNoteV
+								<pre class="MHidden"><code><?php echo htmlentities('<p class="MNoteViolet">...</p>'); ?></code></pre>
+							</td>
+						</tr>
+						
+					</table>
+					
+				</section>
+				
+				<div class="MContentSpacer"></div>
+				<div class="MContentSpacer"></div>
+	
+				<section id="section_layout">
 					<h2>Layout</h2>
 					<hr />
-					<br />
 	
 					<h3>MHBoxLayout</h3>
 	
@@ -437,7 +499,7 @@
 				<div class="MContentSpacer"></div>
 				<div class="MContentSpacer"></div>
 	
-				<section id="section_well" class="section">
+				<section id="section_well">
 					<h2>Well</h2>
 					<hr />
 					<br />
@@ -456,7 +518,7 @@
 				<div class="MContentSpacer"></div>
 				<div class="MContentSpacer"></div>
 	
-				<section id="section_widget" class="section">
+				<section id="section_widget">
 					<h2>Widget</h2>
 					<hr />
 					<br />
@@ -474,7 +536,7 @@
 				
 				<div class="MContentSpacer"></div>
 				<div class="MContentSpacer"></div>
-	
+				
 			</div>
 		
 		</td>

@@ -7,25 +7,20 @@
 		<td id="MSideBarContainer">
 			<ul id="MSideBar" class="MSideBarLeft">
 				
-				<a href="#section_">
+				<a href="#section_string2Boolean">
 					<li class="MSideBarListItem MCursorPointer">
-						<span>Default</span>
+						<span>string2Boolean</span>
 					</li>
 				</a>
 				
-				<a href="#section_">
-					<li class="MSideBarListItem MCursorPointer">
-						<span>Sub</span>
-					</li>
-				</a>
-					
 			</ul>
 		</td>
 
 		<td class="MWidthFull MPadding">
 			
 			<h1>MType</h1>
-			<p>Loaded from <span class="MTextBold">core/util/MType</span></p>
+			<span class="MNoteY">Loaded from</span>
+			<pre><code>core/util/MType</code></pre>
 			
 			<h2>Public Methods</h2>
 			<hr />
@@ -39,6 +34,7 @@
 					$data['content'] = '';
 					MLoad::template_application('template/library_function', $data);
 					?>
+					<span class="MIntent">Should this be in MString?</span>
 				</section>
 			
 			</div>

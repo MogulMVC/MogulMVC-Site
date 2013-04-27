@@ -10,15 +10,51 @@ MLoad::template_application('template/toolbar_php', $data);
 		<td id="MSideBarContainer">
 			<ul id="MSideBar" class="MSideBarLeft">
 				
-				<a href="#section_">
+				<a href="#section_email">
 					<li class="MSideBarListItem MCursorPointer">
-						<span>Default</span>
+						<span>email</span>
+					</li>
+				</a>
+				
+				<a href="#section_optional">
+					<li class="MSideBarListItem MCursorPointer">
+						<span>optional</span>
+					</li>
+				</a>
+				
+				<a href="#section_required">
+					<li class="MSideBarListItem MCursorPointer">
+						<span>required</span>
+					</li>
+				</a>
+				
+				<a href="#section_only_contain">
+					<li class="MSideBarListItem MCursorPointer">
+						<span>only_contain</span>
+					</li>
+				</a>
+				
+				<a href="#section_must_contain">
+					<li class="MSideBarListItem MCursorPointer">
+						<span>must_contain</span>
 					</li>
 				</a>
 				
 				<a href="#section_">
 					<li class="MSideBarListItem MCursorPointer">
-						<span>Sub</span>
+						<span></span>
+					</li>
+				</a>
+				
+				<a href="#section_between">
+					<li class="MSideBarListItem MCursorPointer">
+						<span></span>
+					</li>
+				</a>
+				
+				<a href="#section_section_state">
+					<li class="MSideBarListItem MCursorPointer">
+						<span>section_state</span>
 					</li>
 				</a>
 					
@@ -28,7 +64,8 @@ MLoad::template_application('template/toolbar_php', $data);
 		<td class="MWidthFull MPadding">
 			
 			<h1>MValidate</h1>
-			<p>Loaded from <span class="MTextBold">core/util/MValidate</span></p>
+			<span class="MNoteY">Loaded from</span>
+			<pre><code>core/util/MValidate</code></pre>
 			
 			<h2>Public Methods</h2>
 			<hr />
@@ -82,6 +119,7 @@ MLoad::template_application('template/toolbar_php', $data);
 					$data['content'] = '';
 					MLoad::template_application('template/library_function', $data);
 					?>
+					<span class="MIntent">Should this be in MMath?</span>
 				</section>
 				
 				<section id="section_state">

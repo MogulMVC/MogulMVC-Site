@@ -10,15 +10,9 @@ MLoad::template_application('template/toolbar_js', $data);
 		<td id="MSideBarContainer">
 			<ul id="MSideBar" class="MSideBarLeft">
 				
-				<a href="#section_">
+				<a href="#section_sec2hms">
 					<li class="MSideBarListItem MCursorPointer">
-						<span>Default</span>
-					</li>
-				</a>
-				
-				<a href="#section_">
-					<li class="MSideBarListItem MCursorPointer">
-						<span>Sub</span>
+						<span>sec2hms</span>
 					</li>
 				</a>
 					

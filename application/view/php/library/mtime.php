@@ -10,25 +10,20 @@ MLoad::template_application('template/toolbar_php', $data);
 		<td id="MSideBarContainer">
 			<ul id="MSideBar" class="MSideBarLeft">
 				
-				<a href="#section_">
+				<a href="#section_sec2hms">
 					<li class="MSideBarListItem MCursorPointer">
-						<span>Default</span>
+						<span>sec2hms</span>
 					</li>
 				</a>
 				
-				<a href="#section_">
-					<li class="MSideBarListItem MCursorPointer">
-						<span>Sub</span>
-					</li>
-				</a>
-					
 			</ul>
 		</td>
 
 		<td class="MWidthFull MPadding">
 			
 			<h1>MTime</h1>
-			<p>Loaded from <span class="MTextBold">core/util/MTime</span></p>
+			<span class="MNoteY">Loaded from</span>
+			<pre><code>core/util/MTime</code></pre>
 			
 			<h2>Public Methods</h2>
 			<hr />

@@ -38,7 +38,7 @@
 			
 			<section id="section_about">
 	
-				<h1>PHP View</h1>
+				<h1>PHP Views</h1>
 				
 				<br />
 				<br />

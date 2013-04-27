@@ -7,15 +7,27 @@
 		<td id="MSideBarContainer">
 			<ul id="MSideBar" class="MSideBarLeft">
 				
-				<a href="#section_">
+				<a href="#section_show">
 					<li class="MSideBarListItem MCursorPointer">
-						<span>Default</span>
+						<span>show</span>
 					</li>
 				</a>
 				
-				<a href="#section_">
+				<a href="#section_showInside">
 					<li class="MSideBarListItem MCursorPointer">
-						<span>Sub</span>
+						<span>showInside</span>
+					</li>
+				</a>
+				
+				<a href="#section_hide">
+					<li class="MSideBarListItem MCursorPointer">
+						<span>hide</span>
+					</li>
+				</a>
+				
+				<a href="#section_hideInside">
+					<li class="MSideBarListItem MCursorPointer">
+						<span>hideInside</span>
 					</li>
 				</a>
 					
@@ -40,7 +52,7 @@
 					?>
 				</section>
 				
-				<section id="section_show_inside">
+				<section id="section_showInside">
 					<?php 
 					$data['title'] = 'showInside';
 					$data['content'] = '';
@@ -56,9 +68,9 @@
 					?>
 				</section>
 				
-				<section id="section_hide_inside">
+				<section id="section_hideInside">
 					<?php 
-					$data['title'] = 'hide_inside';
+					$data['title'] = 'hideInside';
 					$data['content'] = '';
 					MLoad::template_application('template/library_function', $data);
 					?>

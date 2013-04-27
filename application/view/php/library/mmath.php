@@ -10,15 +10,21 @@ MLoad::template_application('template/toolbar_php', $data);
 		<td id="MSideBarContainer">
 			<ul id="MSideBar" class="MSideBarLeft">
 				
-				<a href="#section_">
+				<a href="#section_random">
 					<li class="MSideBarListItem MCursorPointer">
-						<span>Default</span>
+						<span>random</span>
 					</li>
 				</a>
 				
-				<a href="#section_">
+				<a href="#section_linear_regression">
 					<li class="MSideBarListItem MCursorPointer">
-						<span>Sub</span>
+						<span>linear_regression</span>
+					</li>
+				</a>
+				
+				<a href="#section_multiple_of">
+					<li class="MSideBarListItem MCursorPointer">
+						<span>multiple_of</span>
 					</li>
 				</a>
 					
@@ -28,7 +34,8 @@ MLoad::template_application('template/toolbar_php', $data);
 		<td class="MWidthFull MPadding">
 			
 			<h1>MMath</h1>
-			<p>Loaded from <span class="MTextBold">core/util/MMath</span></p>
+			<span class="MNoteY">Loaded from</span>
+			<pre><code>core/util/MMath</code></pre>
 			
 			<h2>Public Methods</h2>
 			<hr />
@@ -50,6 +57,15 @@ MLoad::template_application('template/toolbar_php', $data);
 					$data['content'] = '';
 					MLoad::template_application('template/library_function', $data);
 					?>
+				</section>
+				
+				<section id="section_multiple_of">
+					<?php 
+					$data['title'] = 'multiple_of';
+					$data['content'] = '';
+					MLoad::template_application('template/library_function', $data);
+					?>
+					<span class="MIntent">Should this be in MValidate?</span>
 				</section>
 				
 			</div>

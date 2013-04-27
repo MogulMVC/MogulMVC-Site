@@ -10,15 +10,39 @@ MLoad::template_application('template/toolbar_js', $data);
 		<td id="MSideBarContainer">
 			<ul id="MSideBar" class="MSideBarLeft">
 				
-				<a href="#section_">
+				<a href="#section_random">
 					<li class="MSideBarListItem MCursorPointer">
-						<span>Default</span>
+						<span>random</span>
 					</li>
 				</a>
 				
-				<a href="#section_">
+				<a href="#section_subBefore">
 					<li class="MSideBarListItem MCursorPointer">
-						<span>Sub</span>
+						<span>subBefore</span>
+					</li>
+				</a>
+				
+				<a href="#section_urlLink">
+					<li class="MSideBarListItem MCursorPointer">
+						<span>urlLink</span>
+					</li>
+				</a>
+				
+				<a href="#section_urlTitle">
+					<li class="MSideBarListItem MCursorPointer">
+						<span>urlTitle</span>
+					</li>
+				</a>
+				
+				<a href="#section_escapeHtml">
+					<li class="MSideBarListItem MCursorPointer">
+						<span></span>
+					</li>
+				</a>
+				
+				<a href="#section_firstToUpperCase">
+					<li class="MSideBarListItem MCursorPointer">
+						<span></span>
 					</li>
 				</a>
 					
@@ -43,7 +67,7 @@ MLoad::template_application('template/toolbar_js', $data);
 					?>
 				</section>
 			
-				<section id="section_sub_before">
+				<section id="section_subBefore">
 					<?php 
 					$data['title'] = 'subBefore';
 					$data['content'] = '';
@@ -51,7 +75,7 @@ MLoad::template_application('template/toolbar_js', $data);
 					?>
 				</section>
 				
-				<section id="section_url_link">
+				<section id="section_urlLink">
 					<?php 
 					$data['title'] = 'urlLink';
 					$data['content'] = '';
@@ -59,7 +83,7 @@ MLoad::template_application('template/toolbar_js', $data);
 					?>
 				</section>
 				
-				<section id="section_url_title">
+				<section id="section_urlTitle">
 					<?php 
 					$data['title'] = 'urlTitle';
 					$data['content'] = '';

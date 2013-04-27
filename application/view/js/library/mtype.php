@@ -10,15 +10,9 @@ MLoad::template_application('template/toolbar_js', $data);
 		<td id="MSideBarContainer">
 			<ul id="MSideBar" class="MSideBarLeft">
 				
-				<a href="#section_">
+				<a href="#section_string2Boolean">
 					<li class="MSideBarListItem MCursorPointer">
-						<span>Default</span>
-					</li>
-				</a>
-				
-				<a href="#section_">
-					<li class="MSideBarListItem MCursorPointer">
-						<span>Sub</span>
+						<span>string2Boolean</span>
 					</li>
 				</a>
 					
@@ -41,6 +35,7 @@ MLoad::template_application('template/toolbar_js', $data);
 					$data['content'] = '';
 					MLoad::template_application('template/library_function', $data);
 					?>
+					<span class="MIntent">Should this be in MString?</span>
 				</section>
 			
 			</div>

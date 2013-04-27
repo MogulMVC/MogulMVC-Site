@@ -43,7 +43,6 @@
 			<section id="section_heading">
 				<h2>Headings</h2>
 				<hr />
-				<br />
 	
 				<h1 class="color-change">h1 The quick brown fox jumps over the lazy dog</h1>
 				<h2 class="color-change">h2 The quick brown fox jumps over the lazy dog</h2>
@@ -61,7 +60,6 @@
 	
 				<h2>Paragraph</h2>
 				<hr />
-				<br />
 	
 				<p class="color-change">The quick brown fox jumps over the lazy dog</p>
 	
@@ -81,7 +79,6 @@
 	
 				<h2>Styles</h2>
 				<hr />
-				<br />
 	
 				<h3>Bold</h3>
 				
@@ -134,7 +131,6 @@
 				
 				<h2>Alignment</h2>
 				<hr />
-				<br />
 				
 				<p class="MTextLeft">Left aligned text.</p>
 				<p class="MTextCentered">Center aligned text.</p>

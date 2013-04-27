@@ -7,24 +7,19 @@
 		<td id="MSideBarContainer">
 			<ul id="MSideBar" class="MSideBarLeft">
 				
-				<a href="#section_">
+				<a href="#section_error404">
 					<li class="MSideBarListItem MCursorPointer">
-						<span>Default</span>
+						<span>error_404</span>
 					</li>
 				</a>
 				
-				<a href="#section_">
-					<li class="MSideBarListItem MCursorPointer">
-						<span>Sub</span>
-					</li>
-				</a>
-					
 			</ul>
 		</td>
 
 		<td class="MWidthFull MPadding">
 			
 			<h1>MError</h1>
+			<span class="MNoteG">MError is loaded by the system by default.</span>
 			
 			<h2>Public Methods</h2>
 			<hr />

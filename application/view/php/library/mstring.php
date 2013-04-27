@@ -10,25 +10,44 @@ MLoad::template_application('template/toolbar_php', $data);
 		<td id="MSideBarContainer">
 			<ul id="MSideBar" class="MSideBarLeft">
 				
-				<a href="#section_">
+				<a href="#section_random">
 					<li class="MSideBarListItem MCursorPointer">
-						<span>Default</span>
+						<span>random</span>
 					</li>
 				</a>
 				
-				<a href="#section_">
+				<a href="#section_sub_before">
 					<li class="MSideBarListItem MCursorPointer">
-						<span>Sub</span>
+						<span>sub_before</span>
 					</li>
 				</a>
-					
+				
+				<a href="#section_newline_remove">
+					<li class="MSideBarListItem MCursorPointer">
+						<span>newline_remove</span>
+					</li>
+				</a>
+				
+				<a href="#section_url_link">
+					<li class="MSideBarListItem MCursorPointer">
+						<span>url_link</span>
+					</li>
+				</a>
+				
+				<a href="#section_url_title">
+					<li class="MSideBarListItem MCursorPointer">
+						<span>url_title</span>
+					</li>
+				</a>
+				
 			</ul>
 		</td>
 
 		<td class="MWidthFull MPadding">
 			
 			<h1>MString</h1>
-			<p>Loaded from <span class="MTextBold">core/util/MString</span></p>
+			<span class="MNoteY">Loaded from</span>
+			<pre><code>core/util/MString</code></pre>
 			
 			<h2>Public Methods</h2>
 			<hr />

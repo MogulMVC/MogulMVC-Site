@@ -7,18 +7,12 @@
 		<td id="MSideBarContainer">
 			<ul id="MSideBar" class="MSideBarLeft">
 				
-				<a href="#section_">
+				<a href="#section_fadeHex">
 					<li class="MSideBarListItem MCursorPointer">
-						<span>Default</span>
+						<span>fadeHex</span>
 					</li>
 				</a>
 				
-				<a href="#section_">
-					<li class="MSideBarListItem MCursorPointer">
-						<span>Sub</span>
-					</li>
-				</a>
-					
 			</ul>
 		</td>
 
@@ -32,7 +26,7 @@
 			
 			<div class="indent">
 			
-				<section id="section_fade_hex">
+				<section id="section_fadeHex">
 					<?php 
 					$data['title'] = 'fadeHex';
 					$data['content'] = '';

@@ -10,18 +10,48 @@ MLoad::template_application('template/toolbar_js', $data);
 		<td id="MSideBarContainer">
 			<ul id="MSideBar" class="MSideBarLeft">
 				
-				<a href="#section_">
+				<a href="#section_protocol">
 					<li class="MSideBarListItem MCursorPointer">
-						<span>Default</span>
+						<span>protocol</span>
 					</li>
 				</a>
 				
-				<a href="#section_">
+				<a href="#section_subdomain">
 					<li class="MSideBarListItem MCursorPointer">
-						<span>Sub</span>
+						<span>subdomain</span>
 					</li>
 				</a>
-					
+				
+				<a href="#section_domain">
+					<li class="MSideBarListItem MCursorPointer">
+						<span>domain</span>
+					</li>
+				</a>
+				
+				<a href="#section_base">
+					<li class="MSideBarListItem MCursorPointer">
+						<span>base</span>
+					</li>
+				</a>
+				
+				<a href="#section_current">
+					<li class="MSideBarListItem MCursorPointer">
+						<span>current</span>
+					</li>
+				</a>
+				
+				<a href="#section_segment">
+					<li class="MSideBarListItem MCursorPointer">
+						<span>segment</span>
+					</li>
+				</a>
+				
+				<a href="#section_reset">
+					<li class="MSideBarListItem MCursorPointer">
+						<span>reset</span>
+					</li>
+				</a>
+				
 			</ul>
 		</td>
 
@@ -81,12 +111,11 @@ MLoad::template_application('template/toolbar_js', $data);
 					$data['content'] = '';
 					MLoad::template_application('template/library_function', $data);
 					?>
-					
 				</section>
 				
 				<section id="section_reset">
 					<?php 
-					$data['title'] = 'rset';
+					$data['title'] = 'reset';
 					$data['content'] = '';
 					MLoad::template_application('template/library_function', $data);
 					?>

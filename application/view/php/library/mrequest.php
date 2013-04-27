@@ -7,15 +7,15 @@
 		<td id="MSideBarContainer">
 			<ul id="MSideBar" class="MSideBarLeft">
 				
-				<a href="#section_">
+				<a href="#section_is_cli">
 					<li class="MSideBarListItem MCursorPointer">
-						<span>Default</span>
+						<span>is_cli</span>
 					</li>
 				</a>
 				
-				<a href="#section_">
+				<a href="#section_is_web">
 					<li class="MSideBarListItem MCursorPointer">
-						<span>Sub</span>
+						<span>is_web</span>
 					</li>
 				</a>
 					
@@ -25,7 +25,7 @@
 		<td class="MWidthFull MPadding">
 			
 			<h1>MRequest</h1>
-			<p>Loaded from <span class="MTextBold">core/util/MRequest</span></p>
+			<span class="MNoteG">MRequest is loaded by the system by default.</span>
 			
 			<h2>Public Methods</h2>
 			<hr />

@@ -10,15 +10,117 @@ MLoad::template_application('template/toolbar_php', $data);
 		<td id="MSideBarContainer">
 			<ul id="MSideBar" class="MSideBarLeft">
 				
-				<a href="#section_">
+				<a href="#section_model">
 					<li class="MSideBarListItem MCursorPointer">
-						<span>Default</span>
+						<span>model</span>
 					</li>
 				</a>
 				
-				<a href="#section_">
+				<a href="#section_vo">
 					<li class="MSideBarListItem MCursorPointer">
-						<span>Sub</span>
+						<span>vo</span>
+					</li>
+				</a>
+				
+				<a href="#section_view">
+					<li class="MSideBarListItem MCursorPointer">
+						<span>view</span>
+					</li>
+				</a>
+				
+				<a href="#section_page">
+					<li class="MSideBarListItem MCursorPointer">
+						<span>page</span>
+					</li>
+				</a>
+				
+				<a href="#section_template_application">
+					<li class="MSideBarListItem MCursorPointer">
+						<span>template_application</span>
+					</li>
+				</a>
+				
+				<a href="#section_template_framework">
+					<li class="MSideBarListItem MCursorPointer">
+						<span>template_framework</span>
+					</li>
+				</a>
+				
+				<a href="#section_php_framework">
+					<li class="MSideBarListItem MCursorPointer">
+						<span>php_framework</span>
+					</li>
+				</a>
+				
+				<a href="#section_php_application">
+					<li class="MSideBarListItem MCursorPointer">
+						<span>php_application</span>
+					</li>
+				</a>
+				
+				<a href="#section_js_framework">
+					<li class="MSideBarListItem MCursorPointer">
+						<span>js_framework</span>
+					</li>
+				</a>
+				
+				<a href="#section_js_application">
+					<li class="MSideBarListItem MCursorPointer">
+						<span>js_application</span>
+					</li>
+				</a>
+				
+				<a href="#section_js_cache">
+					<li class="MSideBarListItem MCursorPointer">
+						<span>js_cache</span>
+					</li>
+				</a>
+				
+				<a href="#section_js_external">
+					<li class="MSideBarListItem MCursorPointer">
+						<span>js_external</span>
+					</li>
+				</a>
+				
+				<a href="#section_css_framework">
+					<li class="MSideBarListItem MCursorPointer">
+						<span>css_framework</span>
+					</li>
+				</a>
+				
+				<a href="#section_css_application">
+					<li class="MSideBarListItem MCursorPointer">
+						<span>css_application</span>
+					</li>
+				</a>
+				
+				<a href="#section_css_cache">
+					<li class="MSideBarListItem MCursorPointer">
+						<span>css_cache</span>
+					</li>
+				</a>
+				
+				<a href="#section_css_external">
+					<li class="MSideBarListItem MCursorPointer">
+						<span>css_external</span>
+					</li>
+				</a>
+				
+				<a href="#section_img_src_framework">
+					<li class="MSideBarListItem MCursorPointer">
+						<span>img_src_framework</span>
+					</li>
+				</a>
+				
+				<a href="#section_img_src_application">
+					<li class="MSideBarListItem MCursorPointer">
+						<span>img_src_application</span>
+					</li>
+				</a>
+				
+				<a href="#section_icon_src_framework">
+					<li class="MSideBarListItem MCursorPointer">
+						<span>icon_src_framework</span>
 					</li>
 				</a>
 					
@@ -28,6 +130,7 @@ MLoad::template_application('template/toolbar_php', $data);
 		<td class="MWidthFull MPadding">
 			
 			<h1>MLoad</h1>
+			<span class="MNoteG">MLoad is loaded by the system by default.</span>
 			
 			<h2>Public Methods</h2>
 			<hr />

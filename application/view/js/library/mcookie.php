@@ -7,15 +7,15 @@
 		<td id="MSideBarContainer">
 			<ul id="MSideBar" class="MSideBarLeft">
 				
-				<a href="#section_">
+				<a href="#section_set">
 					<li class="MSideBarListItem MCursorPointer">
-						<span>Default</span>
+						<span>set</span>
 					</li>
 				</a>
 				
-				<a href="#section_">
+				<a href="#section_get">
 					<li class="MSideBarListItem MCursorPointer">
-						<span>Sub</span>
+						<span>get</span>
 					</li>
 				</a>
 					

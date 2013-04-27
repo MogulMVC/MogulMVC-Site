@@ -10,15 +10,21 @@ MLoad::template_application('template/toolbar_js', $data);
 		<td id="MSideBarContainer">
 			<ul id="MSideBar" class="MSideBarLeft">
 				
-				<a href="#section_">
+				<a href="#section_random">
 					<li class="MSideBarListItem MCursorPointer">
-						<span>Default</span>
+						<span>random</span>
 					</li>
 				</a>
 				
-				<a href="#section_">
+				<a href="#section_linearRegression">
 					<li class="MSideBarListItem MCursorPointer">
-						<span>Sub</span>
+						<span>linearRegression</span>
+					</li>
+				</a>
+				
+				<a href="#section_multipleOf">
+					<li class="MSideBarListItem MCursorPointer">
+						<span>multipleOf</span>
 					</li>
 				</a>
 					
@@ -43,13 +49,23 @@ MLoad::template_application('template/toolbar_js', $data);
 					?>
 				</section>
 				
-				<section id="section_linear_regression">
+				<section id="section_linearRegression">
 					<?php 
 					$data['title'] = 'linearRegression';
 					$data['content'] = '';
 					MLoad::template_application('template/library_function', $data);
 					?>
 				</section>
+				
+				<section id="section_multipleOf">
+					<?php 
+					$data['title'] = 'multipleOf';
+					$data['content'] = '';
+					MLoad::template_application('template/library_function', $data);
+					?>
+					<span class="MIntent">Should this be in MValidate?</span>
+				</section>
+
 			
 			</div>
 			

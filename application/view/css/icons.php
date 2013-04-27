@@ -85,7 +85,6 @@
 			<section id="section_arrow" class="section">
 				<h2>Arrows</h2>
 				<hr />
-				<br />
 	
 				<div class="MWidget" style="position: relative">
 					<span class="MIconArrowLeft"></span>
@@ -105,7 +104,6 @@
 			<section id="section_close" class="section">
 				<h2>Close</h2>
 				<hr />
-				<br />
 				
 				<div class="MWidget" style="position: relative">
 					<span class="MIconClose"></span>
@@ -123,7 +121,6 @@
 			<section id="section_social" class="section">
 				<h2>Social</h2>
 				<hr />
-				<br />
 				
 				<h3>Facebook</h3>
 				
@@ -163,7 +160,6 @@
 			<section id="section_avatar" class="section">
 				<h2>Avatar</h2>
 				<hr />
-				<br />
 				
 				<span class="MAvatar"></span>
 				<span class="MAvatar30x30"></span>
@@ -189,7 +185,6 @@
 			<section id="section_complete" class="section">
 				<h2>Complete</h2>
 				<hr />
-				<br />
 				
 				<span class="MIconComplete"></span>
 				<span class="MIconComplete30x30"></span>
@@ -211,7 +206,6 @@
 			<section id="section_embed" class="section">
 				<h2>Embed</h2>
 				<hr />
-				<br />
 				
 				<span class="MIconEmbed"></span>
 				<span class="MIconEmbed30x30"></span>
@@ -233,7 +227,6 @@
 			<section id="section_loading" class="section">
 				<h2>Loading</h2>
 				<hr />
-				<br />
 				
 				<span class="MIconLoadingBlack"></span>
 				<span class="MIconLoadingBlack50x50"></span>
@@ -266,7 +259,6 @@
 			<section id="section_lock" class="section">
 				<h2>Lock</h2>
 				<hr />
-				<br />
 				
 				<span class="MIconLock"></span>
 				<span class="MIconLock64x64"></span>
@@ -284,7 +276,6 @@
 			<section id="section_openShare" class="section">
 				<h2>Open Share</h2>
 				<hr />
-				<br />
 				
 				<span class="MIconOpenShare"></span>
 				<span class="MIconOpenShare30x30"></span>
@@ -306,7 +297,6 @@
 			<section id="section_warning" class="section">
 				<h2>Warning</h2>
 				<hr />
-				<br />
 				
 				<span class="MIconWarning"></span>
 				<span class="MIconWarning30x30"></span>
@@ -328,7 +318,6 @@
 			<section id="section_misc" class="section">
 				<h2>Misc</h2>
 				<hr />
-				<br />
 				
 				<span class="MIconAdd"></span>
 				<span class="MBackground"></span>
