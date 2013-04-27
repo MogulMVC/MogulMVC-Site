@@ -1,4 +1,7 @@
-<?php MLoad::template_application('template/toolbar_php'); ?>
+<?php 
+$data['js_version'] = 'mmath';
+MLoad::template_application('template/toolbar_php', $data);
+?>
 
 <table class="MWidthFull">
 
@@ -25,6 +28,7 @@
 		<td class="MWidthFull MPadding">
 			
 			<h1>MMath</h1>
+			<p>Loaded from <span class="MTextBold">core/util/MMath</span></p>
 			
 			<h2>Public Methods</h2>
 			<hr />
@@ -32,8 +36,20 @@
 			
 			<div class="indent">
 			
-				<section id="section_">
-		
+				<section id="section_random">
+					<?php 
+					$data['title'] = 'random';
+					$data['content'] = '';
+					MLoad::template_application('template/library_function', $data);
+					?>
+				</section>
+				
+				<section id="section_linear_regression">
+					<?php 
+					$data['title'] = 'linear_regression';
+					$data['content'] = '';
+					MLoad::template_application('template/library_function', $data);
+					?>
 				</section>
 				
 			</div>

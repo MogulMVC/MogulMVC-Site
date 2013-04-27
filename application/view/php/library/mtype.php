@@ -1,4 +1,4 @@
-<?php MLoad::template_application('template/toolbar_php'); ?>
+<?php MLoad::template_application('template/toolbar_js');?>
 
 <table class="MWidthFull">
 
@@ -25,6 +25,7 @@
 		<td class="MWidthFull MPadding">
 			
 			<h1>MType</h1>
+			<p>Loaded from <span class="MTextBold">core/util/MType</span></p>
 			
 			<h2>Public Methods</h2>
 			<hr />
@@ -32,8 +33,12 @@
 			
 			<div class="indent">
 			
-				<section id="section_">
-		
+				<section id="section_string2Boolean">
+					<?php 
+					$data['title'] = 'string2Boolean';
+					$data['content'] = '';
+					MLoad::template_application('template/library_function', $data);
+					?>
 				</section>
 			
 			</div>

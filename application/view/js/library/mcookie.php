@@ -32,8 +32,20 @@
 			
 			<div class="indent">
 			
-				<section id="section_">
-		
+				<section id="section_set">
+					<?php 
+					$data['title'] = 'set';
+					$data['content'] = '';
+					MLoad::template_application('template/library_function', $data);
+					?>
+				</section>
+				
+				<section id="section_get">
+					<?php 
+					$data['title'] = 'get';
+					$data['content'] = '';
+					MLoad::template_application('template/library_function', $data);
+					?>
 				</section>
 			
 			</div>

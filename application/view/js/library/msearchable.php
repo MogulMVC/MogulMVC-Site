@@ -32,10 +32,38 @@
 			
 			<div class="indent">
 			
-				<section id="section_">
-		
+				<section id="section_show">
+					<?php 
+					$data['title'] = 'show';
+					$data['content'] = '';
+					MLoad::template_application('template/library_function', $data);
+					?>
 				</section>
-			
+				
+				<section id="section_show_inside">
+					<?php 
+					$data['title'] = 'showInside';
+					$data['content'] = '';
+					MLoad::template_application('template/library_function', $data);
+					?>
+				</section>
+				
+				<section id="section_hide">
+					<?php 
+					$data['title'] = 'hide';
+					$data['content'] = '';
+					MLoad::template_application('template/library_function', $data);
+					?>
+				</section>
+				
+				<section id="section_hide_inside">
+					<?php 
+					$data['title'] = 'hide_inside';
+					$data['content'] = '';
+					MLoad::template_application('template/library_function', $data);
+					?>
+				</section>
+				
 			</div>
 			
 		</td>

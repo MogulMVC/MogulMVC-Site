@@ -26,6 +26,12 @@
 			</li>
 		</a>
 		
+		<a href="/js/library/mdate">
+			<li class="MListItem">
+				MDate
+			</li>
+		</a>
+		
 		<a href="/js/library/mload">
 			<li class="MListItem">
 				MLoad

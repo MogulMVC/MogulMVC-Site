@@ -1,4 +1,7 @@
-<?php MLoad::template_application('template/toolbar_js'); ?>
+<?php 
+$data['php_version'] = 'murl';
+MLoad::template_application('template/toolbar_js', $data);
+?>
 
 <table class="MWidthFull">
 
@@ -32,10 +35,63 @@
 			
 			<div class="indent">
 			
-				<section id="section_">
-		
+				<section id="section_protocol">
+					<?php 
+					$data['title'] = 'protocol';
+					$data['content'] = '';
+					MLoad::template_application('template/library_function', $data);
+					?>
 				</section>
-			
+				
+				<section id="section_subdomain">
+					<?php 
+					$data['title'] = 'subdomain';
+					$data['content'] = '';
+					MLoad::template_application('template/library_function', $data);
+					?>
+				</section>
+				
+				<section id="section_domain">
+					<?php 
+					$data['title'] = 'domain';
+					$data['content'] = '';
+					MLoad::template_application('template/library_function', $data);
+					?>
+				</section>
+				
+				<section id="section_base">
+					<?php 
+					$data['title'] = 'base';
+					$data['content'] = '';
+					MLoad::template_application('template/library_function', $data);
+					?>
+				</section>
+				
+				<section id="section_current">
+					<?php 
+					$data['title'] = 'current';
+					$data['content'] = '';
+					MLoad::template_application('template/library_function', $data);
+					?>
+				</section>
+				
+				<section id="section_segment">
+					<?php 
+					$data['title'] = 'segment';
+					$data['content'] = '';
+					MLoad::template_application('template/library_function', $data);
+					?>
+					
+				</section>
+				
+				<section id="section_reset">
+					<?php 
+					$data['title'] = 'rset';
+					$data['content'] = '';
+					MLoad::template_application('template/library_function', $data);
+					?>
+				</section>
+							
 			</div>
 			
 		</td>

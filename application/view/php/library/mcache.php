@@ -29,11 +29,11 @@
 			<div class="indent">
 			
 				<section id="section_cache">
-		
-					<h3>cache</h3>
-					<hr />
-					<br />
-		
+					<?php 
+					$data['title'] = 'cache';
+					$data['content'] = '';
+					MLoad::template_application('template/library_function', $data);
+					?>
 				</section>
 				
 			</div>

@@ -1,4 +1,7 @@
-<?php MLoad::template_application('template/toolbar_js'); ?>
+<?php 
+$data['php_version'] = 'mtime';
+MLoad::template_application('template/toolbar_js', $data);
+?>
 
 <table class="MWidthFull">
 
@@ -32,10 +35,13 @@
 			
 			<div class="indent">
 			
-				<section id="section_">
-		
-				</section>
-			
+				<section id="section_sec2hms">
+					<?php 
+					$data['title'] = 'sec2hms';
+					$data['content'] = '';
+					MLoad::template_application('template/library_function', $data);
+					?>
+				</section>			
 			</div>
 			
 		</td>

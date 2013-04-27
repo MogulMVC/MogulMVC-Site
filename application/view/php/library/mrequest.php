@@ -25,6 +25,7 @@
 		<td class="MWidthFull MPadding">
 			
 			<h1>MRequest</h1>
+			<p>Loaded from <span class="MTextBold">core/util/MRequest</span></p>
 			
 			<h2>Public Methods</h2>
 			<hr />
@@ -32,8 +33,20 @@
 			
 			<div class="indent">
 			
-				<section id="section_">
-		
+				<section id="section_is_cli">
+					<?php 
+					$data['title'] = 'is_cli';
+					$data['content'] = '';
+					MLoad::template_application('template/library_function', $data);
+					?>
+				</section>
+				
+				<section id="section_is_web">
+					<?php 
+					$data['title'] = 'is_web';
+					$data['content'] = '';
+					MLoad::template_application('template/library_function', $data);
+					?>
 				</section>
 				
 			</div>

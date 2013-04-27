@@ -1,4 +1,7 @@
-<?php MLoad::template_application('template/toolbar_php'); ?>
+<?php 
+$data['js_version'] = 'mtemperature';
+MLoad::template_application('template/toolbar_php', $data);
+?>
 
 <table class="MWidthFull">
 
@@ -25,6 +28,7 @@
 		<td class="MWidthFull MPadding">
 			
 			<h1>MTemperature</h1>
+			<p>Loaded from <span class="MTextBold">core/util/MTemperature</span></p>
 			
 			<h2>Public Methods</h2>
 			<hr />
@@ -32,8 +36,52 @@
 			
 			<div class="indent">
 			
-				<section id="section_">
-		
+				<section id="section_c2f">
+					<?php 
+					$data['title'] = 'c2f';
+					$data['content'] = '';
+					MLoad::template_application('template/library_function', $data);
+					?>
+				</section>
+				
+				<section id="section_c2k">
+					<?php 
+					$data['title'] = 'c2k';
+					$data['content'] = '';
+					MLoad::template_application('template/library_function', $data);
+					?>
+				</section>
+				
+				<section id="section_f2c">
+					<?php 
+					$data['title'] = 'f2c';
+					$data['content'] = '';
+					MLoad::template_application('template/library_function', $data);
+					?>
+				</section>
+				
+				<section id="section_f2k">
+					<?php 
+					$data['title'] = 'f2k';
+					$data['content'] = '';
+					MLoad::template_application('template/library_function', $data);
+					?>
+				</section>
+				
+				<section id="section_k2c">
+					<?php 
+					$data['title'] = 'k2c';
+					$data['content'] = '';
+					MLoad::template_application('template/library_function', $data);
+					?>
+				</section>
+				
+				<section id="section_k2f">
+					<?php 
+					$data['title'] = 'k2f';
+					$data['content'] = '';
+					MLoad::template_application('template/library_function', $data);
+					?>
 				</section>
 			
 			</div>

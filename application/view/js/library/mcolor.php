@@ -32,8 +32,12 @@
 			
 			<div class="indent">
 			
-				<section id="section_">
-		
+				<section id="section_fade_hex">
+					<?php 
+					$data['title'] = 'fadeHex';
+					$data['content'] = '';
+					MLoad::template_application('template/library_function', $data);
+					?>
 				</section>
 			
 			</div>

@@ -1,6 +1,6 @@
 <?php 
-$data['js_version'] = 'mtime';
-MLoad::template_application('template/toolbar_php', $data);
+$data['php_version'] = 'mdate';
+MLoad::template_application('template/toolbar_js', $data);
 ?>
 
 <table class="MWidthFull">
@@ -27,18 +27,25 @@ MLoad::template_application('template/toolbar_php', $data);
 
 		<td class="MWidthFull MPadding">
 			
-			<h1>MTime</h1>
-			<p>Loaded from <span class="MTextBold">core/util/MTime</span></p>
-			
+			<h1>MDate</h1>
+
 			<h2>Public Methods</h2>
 			<hr />
 			<br />
 			
 			<div class="indent">
 			
-				<section id="section_sec2hms">
+				<section id="section_datetime">
 					<?php 
-					$data['title'] = 'sec2hms';
+					$data['title'] = 'datetime';
+					$data['content'] = '';
+					MLoad::template_application('template/library_function', $data);
+					?>
+				</section>
+				
+				<section id="section_date">
+					<?php 
+					$data['title'] = 'date';
 					$data['content'] = '';
 					MLoad::template_application('template/library_function', $data);
 					?>

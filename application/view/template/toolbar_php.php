@@ -11,4 +11,8 @@
 	<a href="/php/routing">Routing</a>
 	<a href="/php/views">Views</a>
 
+	<?php if(isset($js_version)): ?>
+		<a href="/js/library/<?php echo $js_version; ?>" class="right">JavaScript Version</a>
+	<?php endif; ?>
+
 </nav>

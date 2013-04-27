@@ -1,4 +1,7 @@
-<?php MLoad::template_application('template/toolbar_php'); ?>
+<?php 
+$data['js_version'] = 'mstring';
+MLoad::template_application('template/toolbar_php', $data);
+?>
 
 <table class="MWidthFull">
 
@@ -25,6 +28,7 @@
 		<td class="MWidthFull MPadding">
 			
 			<h1>MString</h1>
+			<p>Loaded from <span class="MTextBold">core/util/MString</span></p>
 			
 			<h2>Public Methods</h2>
 			<hr />
@@ -32,10 +36,46 @@
 			
 			<div class="indent">
 			
-				<section id="section_">
-		
+				<section id="section_random">
+					<?php 
+					$data['title'] = 'random';
+					$data['content'] = '';
+					MLoad::template_application('template/library_function', $data);
+					?>
 				</section>
 			
+				<section id="section_sub_before">
+					<?php 
+					$data['title'] = 'sub_before';
+					$data['content'] = '';
+					MLoad::template_application('template/library_function', $data);
+					?>
+				</section>
+				
+				<section id="section_newline_remove">
+					<?php 
+					$data['title'] = 'newline_remove';
+					$data['content'] = '';
+					MLoad::template_application('template/library_function', $data);
+					?>
+				</section>
+				
+				<section id="section_url_link">
+					<?php 
+					$data['title'] = 'url_link';
+					$data['content'] = '';
+					MLoad::template_application('template/library_function', $data);
+					?>
+				</section>
+				
+				<section id="section_url_title">
+					<?php 
+					$data['title'] = 'url_title';
+					$data['content'] = '';
+					MLoad::template_application('template/library_function', $data);
+					?>
+				</section>
+				
 			</div>
 			
 		</td>
