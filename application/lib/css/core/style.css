@@ -3,10 +3,6 @@
  * Then autoload it in with config/autoload.php
  */
 
-.indent {
-	margin-left: 50px;
-}
-
 footer {
 	background: #141414;
 	background: -moz-linear-gradient(top, #141414 0%, #232323 100%);
@@ -21,3 +17,23 @@ footer {
 	z-index: 1000;
 }
 
+.indent {
+	margin-left: 50px;
+}
+
+.library-title {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.library {
+	background: #ffffff;
+	width: 150px;
+	float: left;
+	margin: 10px;
+	text-align: center;
+}
+
+.library:hover {
+	background: #B4D2F0;
+}

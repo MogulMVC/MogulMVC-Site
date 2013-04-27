@@ -63,7 +63,7 @@ MLoad::template_application('template/toolbar_php', $data);
 					<?php 
 					$data['title'] = 'page';
 					$data['content'] = '';
-					MLoad::template_application('library_function', $data);
+					MLoad::template_application('template/library_function', $data);
 					?>
 				</section>
 				
@@ -71,7 +71,7 @@ MLoad::template_application('template/toolbar_php', $data);
 					<?php 
 					$data['title'] = 'template_application';
 					$data['content'] = '';
-					MLoad::template_application('library_function', $data);
+					MLoad::template_application('template/library_function', $data);
 					?>
 				</section>
 				
@@ -79,7 +79,7 @@ MLoad::template_application('template/toolbar_php', $data);
 					<?php 
 					$data['title'] = 'template_framework';
 					$data['content'] = '';
-					MLoad::template_application('library_function', $data);
+					MLoad::template_application('template/library_function', $data);
 					?>
 				</section>
 				
@@ -87,7 +87,7 @@ MLoad::template_application('template/toolbar_php', $data);
 					<?php 
 					$data['title'] = 'php_framework';
 					$data['content'] = '';
-					MLoad::template_application('library_function', $data);
+					MLoad::template_application('template/library_function', $data);
 					?>
 				</section>
 				
@@ -95,7 +95,7 @@ MLoad::template_application('template/toolbar_php', $data);
 					<?php 
 					$data['title'] = 'php_application';
 					$data['content'] = '';
-					MLoad::template_application('library_function', $data);
+					MLoad::template_application('template/library_function', $data);
 					?>
 				</section>
 				

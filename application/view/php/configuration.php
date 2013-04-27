@@ -60,13 +60,10 @@
 
 		<td class="MWidthFull MPadding">
 	
-			<h1>PHP Configuration</h1>
-
 			<section id="section_about">
 	
-				<h2>About Configuration</h2>
-				<hr />
-				
+				<h1>PHP Configuration</h1>
+
 				<p>Mogul MVC is built with certain design and organizational patterns in mind. These design and organizational patterns make sense to use and so we make them the default configuration.</p>
 				<p>However, one size fits all never looks good. Because of that we made our configuration section as robust as possibly while also remaining as organized as possible.</p>
 				<p>Below are the every configuration file available in the Mogul MVC application/config folder.</p>

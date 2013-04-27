@@ -33,9 +33,11 @@
 			<div class="indent">
 			
 				<section id="section_error404">
-					<h3>error404</h3>
-					<hr />
-					<br />
+					<?php 
+					$data['title'] = 'error_404';
+					$data['content'] = '';
+					MLoad::template_application('template/library_function', $data);
+					?>
 				</section>
 				
 			</div>

@@ -36,12 +36,9 @@
 
 		<td class="MWidthFull MPadding">
 
-			<h1>PHP Controllers</h1>
-			
 			<section id="section_about">
-	
-				<h2>About Controllers</h2>
-				<hr />
+				
+				<h1>PHP Controllers</h1>
 				
 				<?php for($i = 0; $i < 10; $i++):?>
 					<br />

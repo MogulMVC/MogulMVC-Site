@@ -35,13 +35,10 @@
 		</td>
 
 		<td class="MWidthFull MPadding">
-
-			<h1>PHP Models</h1>
 			
 			<section id="section_about">
 	
-				<h2>About View</h2>
-				<hr />
+				<h1>PHP View</h1>
 				
 				<br />
 				<br />

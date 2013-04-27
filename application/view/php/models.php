@@ -41,13 +41,10 @@
 		</td>
 
 		<td class="MWidthFull MPadding">
-
-			<h1>PHP Models</h1>
 			
 			<section id="section_about">
-	
-				<h2>About Models</h2>
-				<hr />
+				
+				<h1>PHP Models</h1>
 				
 				<p>Models provide a means of interacting with a database.</p>
 	
