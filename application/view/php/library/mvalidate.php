@@ -40,21 +40,15 @@ MLoad::template_application('template/toolbar_php', $data);
 					</li>
 				</a>
 				
-				<a href="#section_">
-					<li class="MSideBarListItem MCursorPointer">
-						<span></span>
-					</li>
-				</a>
-				
 				<a href="#section_between">
 					<li class="MSideBarListItem MCursorPointer">
-						<span></span>
+						<span>between</span>
 					</li>
 				</a>
 				
-				<a href="#section_section_state">
+				<a href="#section_state">
 					<li class="MSideBarListItem MCursorPointer">
-						<span>section_state</span>
+						<span>state</span>
 					</li>
 				</a>
 					

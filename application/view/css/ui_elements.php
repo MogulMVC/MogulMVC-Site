@@ -94,7 +94,7 @@
 							<td>
 								<a class="showCode">Code</a>
 								.MButton with attribute disabled="true"
-<pre class="MHidden"><code><?php echo htmlentities('<a class="MButton" disabled="true">Button</a>
+								<pre class="MHidden"><code><?php echo htmlentities('<a class="MButton" disabled="true">Button</a>
 <button class="MButton" disabled="true"Button</button>
 <div class="MButton" disabled="true">Button</div>
 <span class="MButton" disabled="true">Button</span>'); ?></code></pre>
@@ -220,7 +220,7 @@
 							<td>
 								<a class="showCode">Code</a>
 								.MButtonViolet or .MButtonV
-<pre class="MHidden"><code><?php echo htmlentities('<a class="MButtonViolet">Button</a>
+								<pre class="MHidden"><code><?php echo htmlentities('<a class="MButtonViolet">Button</a>
 <button class="MButtonViolet">Button</button>
 <div class="MButtonViolet">Button</div>
 <span class="MButtonViolet">Button</span>'); ?></code></pre>
@@ -242,8 +242,6 @@
 <input type="submit" />
 <input type="reset" />'); ?></code></pre>																																
 	
-					<br />
-	
 					<h3>Button Group</h3>
 	
 					<div class="MHButtonGroup">
@@ -260,8 +258,6 @@
 	<button>Another Button</button>
 	<button>Yet Another Button</button>
 </div>'); ?></code></pre>
-	
-					<br />
 	
 					<div class="MVButtonGroup">
 						<button>A Button</button>

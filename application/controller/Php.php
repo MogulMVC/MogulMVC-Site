@@ -40,11 +40,6 @@ class Php {
 		MLoad::view('php/models', $data);
 	}
 
-	function routing() {
-		$data['page_title'] = 'PHP Routing';
-		MLoad::view('php/routing', $data);
-	}
-
 	function views() {
 		$data['page_title'] = 'PHP Views';
 		MLoad::view('php/views', $data);

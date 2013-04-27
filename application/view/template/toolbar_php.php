@@ -8,7 +8,6 @@
 	<a href="/php/controllers">Controllers</a>
 	<a href="/php/libraries">Libraries</a>
 	<a href="/php/models">Models</a>
-	<a href="/php/routing">Routing</a>
 	<a href="/php/views">Views</a>
 
 	<?php if(isset($js_version)): ?>
