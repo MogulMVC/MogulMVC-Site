@@ -83,6 +83,7 @@
 			<section id="section_arrow" class="section">
 				<h2>Arrows</h2>
 				<hr />
+				<br />
 	
 				<div class="MWidget" style="position: relative">
 					<span class="MIconArrowLeft"></span>
@@ -102,6 +103,7 @@
 			<section id="section_close" class="section">
 				<h2>Close</h2>
 				<hr />
+				<br />
 				
 				<div class="MWidget" style="position: relative">
 					<span class="MIconClose"></span>
@@ -120,8 +122,6 @@
 				<h2>Social</h2>
 				<hr />
 				
-				<h3>Facebook</h3>
-				
 				<span class="MIconFacebook"></span>
 				<span class="MIconFacebook30x30"></span>
 				<span class="MIconFacebook50x50"></span>
@@ -135,8 +135,6 @@
 <span class="MIconFacebook150x150"></span>');?></code></pre>
 	
 				<div class="MContentSpacer"></div>
-				
-				<h3>Twitter</h3>
 				
 				<span class="MIconTwitter"></span>
 				<span class="MIconTwitter30x30"></span>
