@@ -31,7 +31,7 @@ MLoad::template_application('template/toolbar_js', $data);
 			
 				<section id="section_sec2hms">
 					<?php 
-					$data['title'] = 'sec2hms';
+					$data['title'] = 'sec2hms(sec:int):String';
 					$data['content'] = '';
 					MLoad::template_application('template/library_function', $data);
 					?>

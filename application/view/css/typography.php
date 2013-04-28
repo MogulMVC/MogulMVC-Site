@@ -51,9 +51,6 @@
 	
 			</section>
 			
-			<div class="MContentSpacer"></div>
-			<div class="MContentSpacer"></div>
-			
 			<section id="section_paragraph">
 	
 				<h2>Paragraph</h2>
@@ -69,9 +66,6 @@
 				</p>
 	
 			</section>
-			
-			<div class="MContentSpacer"></div>
-			<div class="MContentSpacer"></div>
 			
 			<section id="section_style">
 	
@@ -122,9 +116,6 @@
 				
 			</section>
 			
-			<div class="MContentSpacer"></div>
-			<div class="MContentSpacer"></div>
-			
 			<section id="section_align">
 				
 				<h2>Alignment</h2>
@@ -140,9 +131,6 @@
 <p class="MTextRight">Right aligned text.</p>'); ?></pre>	
 				
 			</section>
-			
-			<div class="MContentSpacer"></div>
-			<div class="MContentSpacer"></div>
 			
 		</td>
 

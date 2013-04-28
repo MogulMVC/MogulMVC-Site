@@ -28,7 +28,7 @@
 			
 				<section id="section_fadeHex">
 					<?php 
-					$data['title'] = 'fadeHex';
+					$data['title'] = 'fadeHex(hex:int, hex2:int, ratio:Number):int';
 					$data['content'] = '';
 					MLoad::template_application('template/library_function', $data);
 					?>

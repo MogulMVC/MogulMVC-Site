@@ -34,7 +34,7 @@
 			
 				<section id="section_set">
 					<?php 
-					$data['title'] = 'set';
+					$data['title'] = 'set(name:String, value:Mixed, expires:Number, path:String, domain:String, secure:Boolean):Mixed';
 					$data['content'] = '';
 					MLoad::template_application('template/library_function', $data);
 					?>
@@ -42,7 +42,7 @@
 				
 				<section id="section_get">
 					<?php 
-					$data['title'] = 'get';
+					$data['title'] = 'get(name:String):Mixed';
 					$data['content'] = '';
 					MLoad::template_application('template/library_function', $data);
 					?>

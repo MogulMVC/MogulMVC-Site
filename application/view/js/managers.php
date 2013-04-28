@@ -81,24 +81,20 @@
 	</li>
 </ul>'); ?></code></pre>																						
 	
-				<br />
-				<br />
-				
 			</section>
 			
 			<section id="section_bar">
 				<h2>Bar</h2>
 				<hr />
-				<br />
 	
-				<p><span class="MTextBold">&lt;progress&gt;</span> tags are turn into MProgressBar classes, which work on all browsers.</p>
+				<p><code><?php echo htmlentities('<progress></progress>');?></code> tags are turn into MProgressBar classes, which work on all browsers.</p>
 				
 				<progress id="someProgress" min="0" max="100" value="40"></progress>
 				<a class="showCode">Code</a>
 				<pre class="MHidden"><code><?php echo htmlentities('<progress min="0" max="100"></progress>'); ?></code></pre>
 				<div class="MContentSpacer"></div>
 	
-				<p><span class="MTextBold">&lt;meter&gt;</span> tags are turn into MRatingsBar classes, which also work on all browsers.</p>
+				<p><code><?php echo htmlentities('<meter></meter>');?></code> tags are turn into MRatingsBar classes, which also work on all browsers.</p>
 	
 				<meter id="someMeter" min="0" max="100" value="40"></meter>
 				<a class="showCode">Code</a>
@@ -106,15 +102,11 @@
 	
 			</section><!-- section_bar -->
 			
-			<div class="MContentSpacer"></div>
- 			<div class="MContentSpacer"></div>
-			
 			<section id="section_button">
 				<h2>Upload Button</h2>
 				<hr />
-				<br />
 	
-				<p><span class="MTextBold">&lt;input type="file" /&gt;</span> tags are turn into MButtonUpload classes, which visually matches the MButtonBlue class.</p>
+				<p><code><?php echo htmlentities('<input type="file" />');?></code> tags are turn into MButtonUpload classes, which visually matches the MButtonBlue class.</p>
 	
 				<div class="MTextCentered">
 					<form action="/action_button_upload_action" target="button_upload_frame_left" method="post" enctype="multipart/form-data" class="left" data-mtip="SW" title="A very complex button floated left.">
@@ -141,15 +133,11 @@
 	
 			</section><!-- section_button -->
 			
-			<div class="MContentSpacer"></div>
- 			<div class="MContentSpacer"></div>
-			
 			<section id="section_list">
 				<h2>List</h2>
 				<hr />
-				<br />
 				
-				<p><span class="MTextBold">&lt;li&gt;</span> tags containing 1 checkbox turn blue when the checkbox is checked.</p>
+				<p><code><?php echo htmlentities('<li></li>');?></code> tags containing 1 checkbox turn blue when the checkbox is checked.</p>
 	
 				<div class="MHBoxLayout MTextCentered">
 					<button onclick="MList.deselectAll();">
@@ -211,15 +199,11 @@
 				
 			</section><!-- section_list -->
 			
-			<div class="MContentSpacer"></div>
- 			<div class="MContentSpacer"></div>
-			
 			<section id="section_tab">
 				<h2>Tab</h2>
 				<hr />
-				<br />
 	
-				<p>Any <span class="MTextBold">&lt;div&gt;</span> tags with class MTabWidget and proper tab markup with automatically be given tab functionality.</p>
+				<p>Any <code><?php echo htmlentities('<div></div>');?></code> tags with class MTabWidget and proper tab markup with automatically be given tab functionality.</p>
 	
 				<div class="MTabWidget">
 					<ul class="MTabContainer">
@@ -267,13 +251,9 @@
 
 			</section><!-- section_tab -->
 			
-			<div class="MContentSpacer"></div>
- 			<div class="MContentSpacer"></div>
-			
 			<section id="section_tip">
 				<h2>Tool Tip</h1>
 				<hr />
-				<br />
 				
 				<table class="MWidthFull">
 					<tr>
@@ -313,9 +293,6 @@
 </table>');?></code></pre>
 				
 			</section>
-			
-			<div class="MContentSpacer"></div>
- 			<div class="MContentSpacer"></div>
 
 		</td>
 

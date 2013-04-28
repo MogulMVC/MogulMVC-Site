@@ -69,9 +69,6 @@
 				<p>Below are the every configuration file available in the Mogul MVC application/config folder.</p>
 				<p>These configuration file affect all folder naming and organization in the application as well as routing, database connectivity, and session management.</p>
 	
-				<br />
-				<br />
-	
 			</section>
 
 			<section id="section_autoload">
@@ -103,7 +100,7 @@
 				
 				<p>To autoload a library open the autoload.php file and add the location of the file inside the appropriate array. Files should be specified from the base directory of the type of library being loaded. Base directory of the files comes from <a href="#section_config">config.php</a>.</p>
 				
-				<p>A third party PHP library called <span class="MTextBold">SomeLibrary.php</span> would by default be placed in <span class="MTextBold">/application/lib/php/3rdparty/SomeLibrary.php</span> and be loaded as follows.</p>
+				<p>A third party PHP library called <code>SomeLibrary.php</code> would by default be placed in <code>/application/lib/php/3rdparty/SomeLibrary.php</code> and be loaded as follows.</p>
 				
 				<pre><code>$GLOBALS['AUTOLOAD_PHP_APPLICATION'] = array('3rdparty/SomeLibrary');</code></pre>
 				
@@ -114,11 +111,8 @@
 				
 				<p class="MTextRed MTextBold">IMPORTANT!</p>
 				<p>Always name your CSS and JS library files with dashes instead of periods, otherwise Mogul MVC will error when loading your file.</p>
-				<p>jquery.scrollTo.js should be jquery-scrollTo.js</p>
+				<p><code>jquery.scrollTo.js</code> should be <code>jquery-scrollTo.js</code></p>
 				
-				<br />
-				<br />
-	
 			</section>
 			
 			<section id="section_config">
@@ -153,9 +147,6 @@
 				<h3>Templates</h3>
 				<p>Templates define the default head, header, footer, and foot files to be used in an application. These file will automatically be included when rendering a <a href="/php/views">view</a>.</p>
 				
-				<br />
-				<br />
-	
 			</section>
 			
 			<section id="section_constants">
@@ -166,9 +157,6 @@
 				<p>Mogul MVC allows you to define constants to be used throughout the application at a very low level of the application run process. Constants are created shortly after the core libraries are in included but before the desired controller is instantiated.</p>
 
 				<p>To create a constant open the constants file and add a constant as you normally would in PHP.</p>
-	
-				<br />
-				<br />
 	
 			</section>
 			
@@ -199,9 +187,23 @@
 				<h2>Sessions - session.php</h2>
 				<hr />
 				
-				<?php for($i = 0; $i < 10; $i++):?>
-					<br />
-				<?php endfor;?>
+				<p>The web is traditionally stateless, meaning it does not remember variables from user to user like a desktop application would. Sessions are a way around this. They allow us to remember user specific information by keeping a token on both the server and the client machine and on future requests using that token to retrieve data stored in memory. However, this causes a problem when more than one server is hooked up on a network. The first user request may be handled by server A, which creates a session in memory. The second request may then be handled by server B, which does not have the session stored in memory.</p>
+
+				<p>Mogul MVC sessions allow you to store sessions in a centrally accessible database. Mogul MVC stores sessions in JSON format so they are cross language compatible.</p>
+				
+				<p>To use database sessions you must create a database and table to use with sessions.</p>
+				
+				<p>The command directory contains a prewritten command to automatically create the session table once you manually create a session database. The information needed for this command and sessions in general is configured within the session.php file. Populate the <code>$GLOBALS['SESSION']</code> object with the appropriate information.</p>
+				
+<pre><code><?php echo '&#39;type&#39; => &#39;dbtype&#39;,
+&#39;host&#39; => &#39;localhost&#39;,
+&#39;port&#39; => &#39;3306&#39;,
+&#39;name&#39; => &#39;dbname&#39;,
+&#39;user&#39; => &#39;dbuser&#39;,
+&#39;pass&#39; => &#39;dbpass&#39;,
+&#39;table&#39; => &#39;dbtable&#39;'; ?></code></pre>
+				
+				<p>We currently recommend using a SQL server, but more options will be available in the future.</p>
 	
 			</section>
 			
@@ -213,9 +215,6 @@
 				<p>Mogul MVC allows you to define global variables to be used throughout the application at a very low level of the application run process. Global variables are created shortly after the core libraries are in included but before the desired controller is instantiated.</p>
 
 				<p>To create a global variable open the variable file and add a global variable as you normally would in PHP.</p>
-	
-				<br />
-				<br />
 	
 			</section>
 			

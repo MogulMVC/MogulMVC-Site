@@ -67,7 +67,7 @@ MLoad::template_application('template/toolbar_js', $data);
 			
 				<section id="section_protocol">
 					<?php 
-					$data['title'] = 'protocol';
+					$data['title'] = 'protocol():String';
 					$data['content'] = '';
 					MLoad::template_application('template/library_function', $data);
 					?>
@@ -75,7 +75,7 @@ MLoad::template_application('template/toolbar_js', $data);
 				
 				<section id="section_subdomain">
 					<?php 
-					$data['title'] = 'subdomain';
+					$data['title'] = 'subdomain():String';
 					$data['content'] = '';
 					MLoad::template_application('template/library_function', $data);
 					?>
@@ -83,7 +83,7 @@ MLoad::template_application('template/toolbar_js', $data);
 				
 				<section id="section_domain">
 					<?php 
-					$data['title'] = 'domain';
+					$data['title'] = 'domain():String';
 					$data['content'] = '';
 					MLoad::template_application('template/library_function', $data);
 					?>
@@ -91,7 +91,7 @@ MLoad::template_application('template/toolbar_js', $data);
 				
 				<section id="section_base">
 					<?php 
-					$data['title'] = 'base';
+					$data['title'] = 'base():String';
 					$data['content'] = '';
 					MLoad::template_application('template/library_function', $data);
 					?>
@@ -99,7 +99,7 @@ MLoad::template_application('template/toolbar_js', $data);
 				
 				<section id="section_current">
 					<?php 
-					$data['title'] = 'current';
+					$data['title'] = 'current():String';
 					$data['content'] = '';
 					MLoad::template_application('template/library_function', $data);
 					?>
@@ -107,7 +107,7 @@ MLoad::template_application('template/toolbar_js', $data);
 				
 				<section id="section_segment">
 					<?php 
-					$data['title'] = 'segment';
+					$data['title'] = 'segment(segment:int):String';
 					$data['content'] = '';
 					MLoad::template_application('template/library_function', $data);
 					?>
@@ -115,7 +115,7 @@ MLoad::template_application('template/toolbar_js', $data);
 				
 				<section id="section_reset">
 					<?php 
-					$data['title'] = 'reset';
+					$data['title'] = 'reset():void';
 					$data['content'] = '';
 					MLoad::template_application('template/library_function', $data);
 					?>

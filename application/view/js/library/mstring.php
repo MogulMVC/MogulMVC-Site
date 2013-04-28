@@ -61,7 +61,7 @@ MLoad::template_application('template/toolbar_js', $data);
 			
 				<section id="section_random">
 					<?php 
-					$data['title'] = 'random';
+					$data['title'] = 'random(length:int)';
 					$data['content'] = '';
 					MLoad::template_application('template/library_function', $data);
 					?>
@@ -69,7 +69,7 @@ MLoad::template_application('template/toolbar_js', $data);
 			
 				<section id="section_subBefore">
 					<?php 
-					$data['title'] = 'subBefore';
+					$data['title'] = 'subBefore(string:String, character:String)';
 					$data['content'] = '';
 					MLoad::template_application('template/library_function', $data);
 					?>
@@ -77,7 +77,7 @@ MLoad::template_application('template/toolbar_js', $data);
 				
 				<section id="section_urlLink">
 					<?php 
-					$data['title'] = 'urlLink';
+					$data['title'] = 'urlLink(string:String, noFollow:Boolean)';
 					$data['content'] = '';
 					MLoad::template_application('template/library_function', $data);
 					?>
@@ -85,7 +85,7 @@ MLoad::template_application('template/toolbar_js', $data);
 				
 				<section id="section_urlTitle">
 					<?php 
-					$data['title'] = 'urlTitle';
+					$data['title'] = 'urlTitle(string:String, seperator:String)';
 					$data['content'] = '';
 					MLoad::template_application('template/library_function', $data);
 					?>
@@ -93,7 +93,7 @@ MLoad::template_application('template/toolbar_js', $data);
 				
 				<section id="section_escapeHtml">
 					<?php 
-					$data['title'] = 'escapeHtml';
+					$data['title'] = 'escapeHtml(unsafe:String)';
 					$data['content'] = '';
 					MLoad::template_application('template/library_function', $data);
 					?>
@@ -101,7 +101,7 @@ MLoad::template_application('template/toolbar_js', $data);
 				
 				<section id="section_firstToUpperCase">
 					<?php 
-					$data['title'] = 'firstToUpperCase';
+					$data['title'] = 'firstToUpperCase(string:String)';
 					$data['content'] = '';
 					MLoad::template_application('template/library_function', $data);
 					?>

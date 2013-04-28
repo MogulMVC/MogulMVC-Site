@@ -274,9 +274,6 @@
 	
 				</section><!-- section_button -->
 	
-				<div class="MContentSpacer"></div>
-				<div class="MContentSpacer"></div>
-	
 				<section id="section_input">
 					<h2>Input</h2>
 					<hr />
@@ -378,9 +375,6 @@
 																																																																																								
 				</section><!-- section_input -->
 	
-				<div class="MContentSpacer"></div>
-				<div class="MContentSpacer"></div>
-	
 				<section id="sections_notes">
 					<h2>Notes</h2>
 					<hr />
@@ -443,9 +437,6 @@
 					
 				</section>
 				
-				<div class="MContentSpacer"></div>
-				<div class="MContentSpacer"></div>
-	
 				<section id="section_layout">
 					<h2>Layout</h2>
 					<hr />
@@ -490,9 +481,6 @@
 	
 				</section><!-- section_layout -->
 	
-				<div class="MContentSpacer"></div>
-				<div class="MContentSpacer"></div>
-	
 				<section id="section_well">
 					<h2>Well</h2>
 					<hr />
@@ -509,9 +497,6 @@
 	
 				</section>
 				
-				<div class="MContentSpacer"></div>
-				<div class="MContentSpacer"></div>
-	
 				<section id="section_widget">
 					<h2>Widget</h2>
 					<hr />
@@ -527,9 +512,6 @@
 </div>'); ?></code></pre>																				
 					
 				</section>
-				
-				<div class="MContentSpacer"></div>
-				<div class="MContentSpacer"></div>
 				
 			</div>
 		

@@ -31,7 +31,7 @@ MLoad::template_application('template/toolbar_js', $data);
 			
 				<section id="section_string2Boolean">
 					<?php 
-					$data['title'] = 'string2Boolean';
+					$data['title'] = 'string2Boolean(string:String):Boolean';
 					$data['content'] = '';
 					MLoad::template_application('template/library_function', $data);
 					?>

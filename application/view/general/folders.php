@@ -68,33 +68,24 @@
 	
 				<h2>Cache - cache</h2>
 				<hr />
-				<br />
 				
 				<p>Nothing should be placed in this folder. It is a folder used by Mogul MVC to store minified CSS and JavaScript as well as cached HTML pages when using <a href="/php/library/mcache">MCache</a>.</p>
 	
 			</section>
 			
-			<div class="MContentSpacer"></div>
-			<div class="MContentSpacer"></div>
-			
 			<section id="section_command">
 	
 				<h2>Command - command</h2>
 				<hr />
-				<br />
 				
 				<p>This directory is for storing CRON jobs as well as commands for building and migrating databases. Any PHP command you want to run from the command line goes here.</p>
 	
 			</section>
 			
-			<div class="MContentSpacer"></div>
-			<div class="MContentSpacer"></div>
-			
 			<section id="section_config">
 	
 				<h2>Configuration - config</h2>
 				<hr />
-				<br />
 				
 				<p>
 					Used to store configuration files used in the running of Mogul MVC.
@@ -104,14 +95,10 @@
 	
 			</section>
 			
-			<div class="MContentSpacer"></div>
-			<div class="MContentSpacer"></div>
-			
 			<section id="section_controller">
 	
 				<h2>Controller - controller</h2>
 				<hr />
-				<br />
 				
 				<p>The controller folder is where you put all your controllers. There are also two sub type of controller listed below.<br /> See <a href="/php/controllers">PHP Controllers</a> for more detail about how to create controllers as well as actions and apis.</p>
 				
@@ -127,14 +114,10 @@
 	
 			</section>
 			
-			<div class="MContentSpacer"></div>
-			<div class="MContentSpacer"></div>
-			
 			<section id="section_lib">
 	
 				<h2>Libraries - lib</h2>
 				<hr />
-				<br />
 				
 				<p>Mogul MVC allows for 3 different types of libraries, listed below.<br />
 					Only libraries that include PHP or use PHP variables should be added to the lib folder.<br />
@@ -144,42 +127,56 @@
 				<div class="indent">
 	
 					<h3>CSS - css</h3>
-					<p>The css folder is where you would put your CSS files.</p>
+					<hr />
 					
-					<h4>Third Party - 3rdparty</h4>
-					<p>Third party css libraries.</p>
+					<div class="indent">
+						<p>The css folder is where you would put your CSS files.</p>
+						
+						<h4>Third Party - 3rdparty</h4>
+						<p>Third party css libraries.</p>
+						
+						<h4>Core - core</h4>
+						<p>Core css libraries.</p>
 					
-					<h4>Core - core</h4>
-					<p>Core css libraries.</p>
+					</div>
+					<br />
 					
 					<h3>JavaScript - js</h3>
-					<p>The js folder is where you would put your JavaScript files.</p>
-				
-					<h4>Third Party - 3rdparty</h4>
-					<p>Third party JavaScript libraries.</p>
+					<hr />
 					
-					<h4>Core - core</h4>
-					<p>Core JavaScript libraries.</p>
+					<div class="indent">
+						<p>The js folder is where you would put your JavaScript files.</p>
+					
+						<h4>Third Party - 3rdparty</h4>
+						<p>Third party JavaScript libraries.</p>
+						
+						<h4>Core - core</h4>
+						<p>Core JavaScript libraries.</p>
+					
+					</div>
+					<br />
 						
 					<h3>PHP - php</h3>
-					<p>All your PHP libraries go in this folder.</p>
-					<h4>Third Party - 3rdparty</h4>
-					<p>Third party PHP libraries go here.</p>
-					<h4>Core - core</h4>
-					<p>Core PHP libraries go here.</p>
+					<hr />
+					<div class="indent">
+						<p>All your PHP libraries go in this folder.</p>
+						
+						<h4>Third Party - 3rdparty</h4>
+						<p>Third party PHP libraries go here.</p>
+						
+						<h4>Core - core</h4>
+						<p>Core PHP libraries go here.</p>
+						
+					</div>
 				
 				</div>
 					
 			</section>
 			
-			<div class="MContentSpacer"></div>
-			<div class="MContentSpacer"></div>
-			
 			<section id="section_model">
 	
 				<h2>Model - model</h2>
 				<hr />
-				<br />
 				
 				<p>Model files are stored in here. To learn to create a model see<a href="/php/models">PHP Models</a>.</p>
 					
@@ -194,15 +191,11 @@
 	
 			</section>
 			
-			<div class="MContentSpacer"></div>
-			<div class="MContentSpacer"></div>
-			
 			<section id="section_public">
 	
 				<h2>Public</h2>
 				<hr />
-				<br />
-	
+
 				<div class="indent">
 	
 					<h3>Images - img</h3>
@@ -215,14 +208,10 @@
 	
 			</section>
 			
-			<div class="MContentSpacer"></div>
-			<div class="MContentSpacer"></div>
-			
 			<section id="section_view">
 				
 				<h2>View - view</h2>
 				<hr />
-				<br />
 				
 				<div class="indent">
 				
@@ -231,9 +220,6 @@
 				</div>
 	
 			</section>
-			
-			<div class="MContentSpacer"></div>
-			<div class="MContentSpacer"></div>
 			
 		</td>
 

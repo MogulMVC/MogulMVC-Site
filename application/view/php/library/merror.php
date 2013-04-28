@@ -29,7 +29,7 @@
 			
 				<section id="section_error404">
 					<?php 
-					$data['title'] = 'error_404';
+					$data['title'] = 'error_404():void';
 					$data['content'] = '';
 					MLoad::template_application('template/library_function', $data);
 					?>

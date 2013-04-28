@@ -4,8 +4,6 @@
 
 	<h1>JavaScript Libraries</h1>
 
-	<h2>About Libraries</h2>
-
 	<p>Mogul MVC has many JS libraries that can be used to perform common tasks.<br />Each library is a class containing functions.<br />Below is a list of all the classes with a description of what each class is for. Click on one to learn more about the functions inside of it.</p>
 	
 	<hr />
@@ -14,18 +12,18 @@
 
 	<?php
 		$js_libraries = array(
-			'MColor' => '',
-			'MCookie' => '',
-			'MDate' => '',
-			'MLoad' => '',
-			'MMath' => '',
-			'MSearchable' => '',
-			'MString' => '',
-			'MTemperature' => '',
-			'MTime' => '',
-			'MType' => '',
-			'MURL' => '',
-			'MValidate' => ''
+			'MColor' => 'Work with color values.',
+			'MCookie' => 'Get or set a cookie.',
+			'MDate' => 'For generated formatted dates.',
+			'MLoad' => 'Load in CSS and JavaScript files dynamically as needed.',
+			'MMath' => 'A class for performing various math functions.',
+			'MSearchable' => 'Search within the DOM for strings and automatically hide or show the container.',
+			'MString' => 'String functions',
+			'MTemperature' => 'Temperature conversion functions.',
+			'MTime' => 'Time conversion functions. Useful for media information.',
+			'MType' => 'Data type conversion and indentification functions.',
+			'MURL' => 'Obtain infromation from the URL of the request.',
+			'MValidate' => 'Validate the existentce and content of differet types of data.'
 		);
 	?>
 		

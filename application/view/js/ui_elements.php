@@ -43,7 +43,7 @@
 					<button class="MButtonR MWidthFull" id="clear">Clear Elements</button>
 				</li>
 				
-				<div id="newCode" class="MPaddingSmall"></div>
+				<pre id="newCode" class="MPaddingSmall" style="margin:10px;"></pre>
 	
 			</ul>
 		</td>
@@ -76,7 +76,6 @@
 			$('#MSystemMessageContainer').html('');
 			$('#newCode').html('');
 		});
-		
 	});
 
 	function createButton() {
@@ -85,14 +84,14 @@
 		var object = new MButton(input);
 		$('#newContent').append(object);
 		
-		$('#newCode').html("<hr /><p>var object = new MButton(" + input + ");</p><p>$('#newContent').append(object);</p>");
+		$('#newCode').html("<code>var object = new MButton(" + input + ");<br />$('#newContent').append(object);</code>");
 	};
 
 	function createListItem() {
 		var object = new MListItem();
 		$('#newContent').append(object);
 		
-		$('#newCode').html("<hr /><p>var object = new MListItem();</p><p>$('#newContent').append(object);</p>");
+		$('#newCode').html("<code>var object = new MListItem();<br />$('#newContent').append(object);</code>");
 	};
 
 	function createNote() {
@@ -101,7 +100,7 @@
 		var object = new MNote(input);
 		$('#newContent').append(object);
 		
-		$('#newCode').html("<hr /><p>var object = new MNote(" + input + ");</p><p>$('#newContent').append(object);</p>");
+		$('#newCode').html("<code>var object = new MNote(" + input + ");<br />$('#newContent').append(object);</code>");
 	};
 
 	function createPopup() {
@@ -110,7 +109,7 @@
 		var object = new MPopup(input);
 		$('#newContent').append(object);
 		
-		$('#newCode').html("<hr /><p>var object = new MPopup(" + input + ");</p><p>$('#newContent').append(object);</p>");
+		$('#newCode').html("<code>var object = new MPopup(" + input + ");<br />$('#newContent').append(object);</code>");
 	};
 
 	function createProgressBar() {
@@ -119,7 +118,7 @@
 		var object = new MProgressBar(input);
 		$('#newContent').append(object);
 		
-		$('#newCode').html("<hr /><p>var object = new MProgressBar(" + input + ");</p><p>$('#newContent').append(object);</p>");
+		$('#newCode').html("<code>var object = new MProgressBar(" + input + ");<br />$('#newContent').append(object);</code>");
 	};
 
 	function createRatingsBar() {
@@ -128,16 +127,15 @@
 		var object = new MRatingsBar(input);
 		$('#newContent').append(object);
 		
-		$('#newCode').html("<hr /><p>var object = new MRatingsBar(" + input + ");</p><p>$('#newContent').append(object);</p>");
+		$('#newCode').html("<code>var object = new MRatingsBar(" + input + ");<br />$('#newContent').append(object);</code>");
 	};
 
 	function createSystemMessage() {
 		var input = $('#inputContent').val();
 
 		var object = new MSystemMessage(input);
-		$('#MSystemMessageContainer').append(object);
+		MSystemMessageContainer.append(object, 5000, MConfig.speedFast);
 		
-		$('#newCode').html("<hr /><p>var object = new MSystemMessage(" + input + ");</p><p>$('#MSystemMessageContainer').append(object);</p>");
-
+		$('#newCode').html("<code>var object = new MSystemMessage(" + input + ");<br />MSystemMessageContainer.append(object, 5000, MConfig.speedFast);</code>");
 	};
 </script>

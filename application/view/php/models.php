@@ -48,9 +48,6 @@
 				
 				<p>Models provide a means of interacting with a database.</p>
 	
-				<br />
-				<br />
-	
 			</section>
 	
 			<section id="section_types">
@@ -63,9 +60,6 @@
 				<p>MPDO models are the basic model type. They provide no abstraction and allows maximum control over you CRUD functions. It is also the faster of the two models.</p>
 
 				<p>MactiveRecord models are the advanced model type. They provide a robust abstraction layer for your model. These models are forks of the PHP Active Record project. They have been integrated with the Mogul MVC database configuration.</p>
-	
-				<br />
-				<br />
 	
 			</section>
 			

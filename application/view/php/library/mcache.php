@@ -32,7 +32,7 @@
 			
 				<section id="section_cache">
 					<?php 
-					$data['title'] = 'cache';
+					$data['title'] = 'cache($minutes:Number):void';
 					$data['content'] = '';
 					MLoad::template_application('template/library_function', $data);
 					?>

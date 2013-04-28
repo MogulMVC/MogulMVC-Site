@@ -75,7 +75,7 @@ MLoad::template_application('template/toolbar_js', $data);
 			
 				<section id="section_jsFramework">
 					<?php 
-					$data['title'] = 'jsFramework';
+					$data['title'] = 'jsFramework(file:String):void';
 					$data['content'] = '';
 					MLoad::template_application('template/library_function', $data);
 					?>
@@ -83,7 +83,7 @@ MLoad::template_application('template/toolbar_js', $data);
 				
 				<section id="section_jsApplication">
 					<?php 
-					$data['title'] = 'jsApplication';
+					$data['title'] = 'jsApplication(file:String):void';
 					$data['content'] = '';
 					MLoad::template_application('template/library_function', $data);
 					?>
@@ -91,7 +91,7 @@ MLoad::template_application('template/toolbar_js', $data);
 				
 				<section id="section_jsCache">
 					<?php 
-					$data['title'] = 'jsCache';
+					$data['title'] = 'jsCache(file:String):void';
 					$data['content'] = '';
 					MLoad::template_application('template/library_function', $data);
 					?>
@@ -99,7 +99,7 @@ MLoad::template_application('template/toolbar_js', $data);
 				
 				<section id="section_jsExternal">
 					<?php 
-					$data['title'] = 'jsExternal';
+					$data['title'] = 'jsExternal(url:String):void';
 					$data['content'] = '';
 					MLoad::template_application('template/library_function', $data);
 					?>
@@ -107,7 +107,7 @@ MLoad::template_application('template/toolbar_js', $data);
 				
 				<section id="section_cssFramework">
 					<?php 
-					$data['title'] = 'cssFramework';
+					$data['title'] = 'cssFramework(file:String):void';
 					$data['content'] = '';
 					MLoad::template_application('template/library_function', $data);
 					?>
@@ -115,7 +115,7 @@ MLoad::template_application('template/toolbar_js', $data);
 				
 				<section id="section_cssApplication">
 					<?php 
-					$data['title'] = 'cssApplication';
+					$data['title'] = 'cssApplication(file:String):void';
 					$data['content'] = '';
 					MLoad::template_application('template/library_function', $data);
 					?>
@@ -123,7 +123,7 @@ MLoad::template_application('template/toolbar_js', $data);
 				
 				<section id="section_cssCache">
 					<?php 
-					$data['title'] = 'cssCache';
+					$data['title'] = 'cssCache(file:String):void';
 					$data['content'] = '';
 					MLoad::template_application('template/library_function', $data);
 					?>
@@ -131,7 +131,7 @@ MLoad::template_application('template/toolbar_js', $data);
 				
 				<section id="section_cssExternal">
 					<?php 
-					$data['title'] = 'cssExternal';
+					$data['title'] = 'cssExternal(url:String):void';
 					$data['content'] = '';
 					MLoad::template_application('template/library_function', $data);
 					?>

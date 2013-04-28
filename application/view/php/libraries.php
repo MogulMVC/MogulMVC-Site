@@ -13,18 +13,17 @@
 	<?php
 		$js_libraries = array(
 			'MCache' => 'For chaching pages.',
-			'MDate' => 'For formatting dates.',
+			'MDate' => 'For generated formatted dates.',
 			'MError' => 'Display different types of errors.',
 			'MLoad' => 'The most used class. Load in models, views, libraries and many more.',
-			'MMath' => 'A function for performing math functions.',
+			'MMath' => 'A class for performing various math functions.',
 			'MRequest' => 'Identify different information about the incoming request.',
 			'MString' => 'String functions.',
 			'MTemperature' => 'Temperature conversion functions.',
 			'MTime' => 'Time conversion functions. Useful for media information.',
-			'MLoad' => 'The most used class. Load in models, views, libraries and many more.',
-			'MType' => 'Type conversion and indentification functions.',
-			'MURL' => 'Pull infromation from the URL of the request.',
-			'MValidate' => 'Validate differet types of data.'
+			'MType' => 'Data type conversion and indentification functions.',
+			'MURL' => 'Obtain infromation from the URL of the request.',
+			'MValidate' => 'Validate the existentce and content of differet types of data.'
 		);
 	?>
 

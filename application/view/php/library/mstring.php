@@ -57,7 +57,7 @@ MLoad::template_application('template/toolbar_php', $data);
 			
 				<section id="section_random">
 					<?php 
-					$data['title'] = 'random';
+					$data['title'] = 'random($length:int):String';
 					$data['content'] = '';
 					MLoad::template_application('template/library_function', $data);
 					?>

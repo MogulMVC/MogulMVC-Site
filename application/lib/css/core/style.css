@@ -3,6 +3,13 @@
  * Then autoload it in with config/autoload.php
  */
 
+code {
+	background: #323232;
+	border-radius: 3px;
+	color: #ffffff;
+	padding: 3px;
+}
+
 footer {
 	background: #141414;
 	bottom: 0;
@@ -12,8 +19,20 @@ footer {
 	width: 100%;
 }
 
+section {
+	border: 1px solid rgba(0,0,0,0);
+	border-radius: 3px;
+	margin-bottom: 30px;
+	padding: 10px;
+}
+
+section:hover {
+	border: 1px solid #969696;
+	background: #f0f0f0;
+}
+
 .indent {
-	margin-left: 50px;
+	margin-left: 40px;
 }
 
 .library-title {

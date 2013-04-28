@@ -43,7 +43,7 @@ MLoad::template_application('template/toolbar_js', $data);
 			
 				<section id="section_random">
 					<?php 
-					$data['title'] = 'random';
+					$data['title'] = 'random(min:Number, max:Number):Number';
 					$data['content'] = '';
 					MLoad::template_application('template/library_function', $data);
 					?>
@@ -51,7 +51,7 @@ MLoad::template_application('template/toolbar_js', $data);
 				
 				<section id="section_linearRegression">
 					<?php 
-					$data['title'] = 'linearRegression';
+					$data['title'] = 'linearRegression(x:Array, y:Array):Array';
 					$data['content'] = '';
 					MLoad::template_application('template/library_function', $data);
 					?>
@@ -59,7 +59,7 @@ MLoad::template_application('template/toolbar_js', $data);
 				
 				<section id="section_multipleOf">
 					<?php 
-					$data['title'] = 'multipleOf';
+					$data['title'] = 'multipleOf(number:Number, multiple:Number):Boolean';
 					$data['content'] = '';
 					MLoad::template_application('template/library_function', $data);
 					?>

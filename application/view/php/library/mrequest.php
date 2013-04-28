@@ -35,7 +35,7 @@
 			
 				<section id="section_is_cli">
 					<?php 
-					$data['title'] = 'is_cli';
+					$data['title'] = 'is_cli():Boolean';
 					$data['content'] = '';
 					MLoad::template_application('template/library_function', $data);
 					?>
@@ -43,7 +43,7 @@
 				
 				<section id="section_is_web">
 					<?php 
-					$data['title'] = 'is_web';
+					$data['title'] = 'is_web():Boolean';
 					$data['content'] = '';
 					MLoad::template_application('template/library_function', $data);
 					?>

@@ -39,7 +39,7 @@ MLoad::template_application('template/toolbar_php', $data);
 				
 				<section id="section_datetime">
 					<?php 
-					$data['title'] = 'datetime';
+					$data['title'] = 'datetime():String';
 					$data['content'] = '';
 					MLoad::template_application('template/library_function', $data);
 					?>
@@ -47,7 +47,7 @@ MLoad::template_application('template/toolbar_php', $data);
 	
 				<section id="section_date">
 					<?php 
-					$data['title'] = 'date';
+					$data['title'] = 'date():String';
 					$data['content'] = '';
 					MLoad::template_application('template/library_function', $data);
 					?>

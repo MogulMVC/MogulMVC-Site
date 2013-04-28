@@ -97,9 +97,6 @@
 				
 			</section>
 			
-			<div class="MContentSpacer"></div>
-			<div class="MContentSpacer"></div>
-			
 			<section id="section_close" class="section">
 				<h2>Close</h2>
 				<hr />
@@ -114,9 +111,6 @@
 				<pre class="MHidden"><code><?php echo htmlentities('<span class="MIconClose"></span>');?></code></pre>
 				
 			</section>
-			
-			<div class="MContentSpacer"></div>
-			<div class="MContentSpacer"></div>
 			
 			<section id="section_social" class="section">
 				<h2>Social</h2>
@@ -150,9 +144,6 @@
 	
 			</section>
 			
-			<div class="MContentSpacer"></div>
-			<div class="MContentSpacer"></div>
-	
 			<section id="section_avatar" class="section">
 				<h2>Avatar</h2>
 				<hr />
@@ -175,9 +166,6 @@
 
 			</section>
 			
-			<div class="MContentSpacer"></div>
-			<div class="MContentSpacer"></div>
-	
 			<section id="section_complete" class="section">
 				<h2>Complete</h2>
 				<hr />
@@ -196,9 +184,6 @@
 	
 			</section>
 			
-			<div class="MContentSpacer"></div>
-			<div class="MContentSpacer"></div>
-	
 			<section id="section_embed" class="section">
 				<h2>Embed</h2>
 				<hr />
@@ -217,9 +202,6 @@
 	
 			</section>
 			
-			<div class="MContentSpacer"></div>
-			<div class="MContentSpacer"></div>
-	
 			<section id="section_loading" class="section">
 				<h2>Loading</h2>
 				<hr />
@@ -248,9 +230,6 @@
 <span class="MIconLoadingWhite"></span>');?></code></pre>
 	
 			</section>
-			
-			<div class="MContentSpacer"></div>
-			<div class="MContentSpacer"></div>
 	
 			<section id="section_lock" class="section">
 				<h2>Lock</h2>
@@ -266,9 +245,6 @@
 	
 			</section>
 			
-			<div class="MContentSpacer"></div>
-			<div class="MContentSpacer"></div>
-	
 			<section id="section_openShare" class="section">
 				<h2>Open Share</h2>
 				<hr />
@@ -286,9 +262,6 @@
 <span class="MIconOpenShare150x150"></span>');?></code></pre>
 	
 			</section>
-			
-			<div class="MContentSpacer"></div>
-			<div class="MContentSpacer"></div>
 	
 			<section id="section_warning" class="section">
 				<h2>Warning</h2>
@@ -307,9 +280,6 @@
 <span class="MIconWarning150x150"></span>');?></code></pre>
 	
 			</section>
-			
-			<div class="MContentSpacer"></div>
-			<div class="MContentSpacer"></div>
 			
 			<section id="section_misc" class="section">
 				<h2>Misc</h2>
@@ -336,9 +306,6 @@
 <span class="MIconGrid"></span>');?></code></pre>
 	
 			</section>
-			
-			<div class="MContentSpacer"></div>
-			<div class="MContentSpacer"></div>
 			
 		</td>
 	</tr>
