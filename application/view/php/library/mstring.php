@@ -65,7 +65,7 @@ MLoad::template_application('template/toolbar_php', $data);
 			
 				<section id="section_sub_before">
 					<?php 
-					$data['title'] = 'sub_before';
+					$data['title'] = 'sub_before($string:String, $character:String):String';
 					$data['content'] = '';
 					MLoad::template_application('template/library_function', $data);
 					?>
@@ -73,7 +73,7 @@ MLoad::template_application('template/toolbar_php', $data);
 				
 				<section id="section_newline_remove">
 					<?php 
-					$data['title'] = 'newline_remove';
+					$data['title'] = 'newline_remove($string:String):String';
 					$data['content'] = '';
 					MLoad::template_application('template/library_function', $data);
 					?>
@@ -81,7 +81,7 @@ MLoad::template_application('template/toolbar_php', $data);
 				
 				<section id="section_url_link">
 					<?php 
-					$data['title'] = 'url_link';
+					$data['title'] = 'url_link($string:String, $nofollow:Boolean):String';
 					$data['content'] = '';
 					MLoad::template_application('template/library_function', $data);
 					?>
@@ -89,7 +89,7 @@ MLoad::template_application('template/toolbar_php', $data);
 				
 				<section id="section_url_title">
 					<?php 
-					$data['title'] = 'url_title';
+					$data['title'] = 'url_title($string:String, $seperator:String):String';
 					$data['content'] = '';
 					MLoad::template_application('template/library_function', $data);
 					?>

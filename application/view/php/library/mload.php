@@ -156,7 +156,7 @@ MLoad::template_application('template/toolbar_php', $data);
 				
 				<section id="section_view($view:String, $data:Array):void">
 					<?php 
-					$data['title'] = 'view';
+					$data['title'] = 'view($view:String, $data:Array):void';
 					$data['content'] = '';
 					MLoad::template_application('template/library_function', $data);
 					?>
