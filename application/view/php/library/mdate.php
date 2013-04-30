@@ -40,7 +40,7 @@ MLoad::template_application('template/toolbar_php', $data);
 				<section id="section_datetime">
 					<?php 
 					$data['title'] = 'datetime():String';
-					$data['content'] = '';
+					$data['content'] = 'The datetime function is a shortcut for the PHP <code>date("Y-m-d H:i:s");</code> function. This has been added because it is useful to use when updating databases.';
 					MLoad::template_application('template/library_function', $data);
 					?>
 				</section>
@@ -48,7 +48,7 @@ MLoad::template_application('template/toolbar_php', $data);
 				<section id="section_date">
 					<?php 
 					$data['title'] = 'date():String';
-					$data['content'] = '';
+					$data['content'] = 'The date function is a shortcut for the PHP <code>date("Y-m-d");</code> function.';
 					MLoad::template_application('template/library_function', $data);
 					?>
 				</section>

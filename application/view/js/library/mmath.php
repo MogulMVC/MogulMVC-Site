@@ -44,7 +44,7 @@ MLoad::template_application('template/toolbar_js', $data);
 				<section id="section_random">
 					<?php 
 					$data['title'] = 'random(min:Number, max:Number):Number';
-					$data['content'] = '';
+					$data['content'] = nl2br('');
 					MLoad::template_application('template/library_function', $data);
 					?>
 				</section>
@@ -52,7 +52,7 @@ MLoad::template_application('template/toolbar_js', $data);
 				<section id="section_linearRegression">
 					<?php 
 					$data['title'] = 'linearRegression(x:Array, y:Array):Array';
-					$data['content'] = '';
+					$data['content'] = nl2br('');
 					MLoad::template_application('template/library_function', $data);
 					?>
 				</section>
@@ -60,7 +60,7 @@ MLoad::template_application('template/toolbar_js', $data);
 				<section id="section_multipleOf">
 					<?php 
 					$data['title'] = 'multipleOf(number:Number, multiple:Number):Boolean';
-					$data['content'] = '';
+					$data['content'] = nl2br('');
 					MLoad::template_application('template/library_function', $data);
 					?>
 					<span class="MIntent">Should this be in MValidate?</span>

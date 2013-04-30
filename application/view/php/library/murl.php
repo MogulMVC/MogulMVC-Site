@@ -71,7 +71,7 @@ MLoad::template_application('template/toolbar_php', $data);
 				<section id="section_protocol">
 					<?php 
 					$data['title'] = 'protocol():String';
-					$data['content'] = '';
+					$data['content'] = nl2br('');
 					MLoad::template_application('template/library_function', $data);
 					?>
 					
@@ -82,7 +82,7 @@ MLoad::template_application('template/toolbar_php', $data);
 				<section id="section_subdomain">
 					<?php 
 					$data['title'] = 'subdomain():String';
-					$data['content'] = '';
+					$data['content'] = nl2br('');
 					MLoad::template_application('template/library_function', $data);
 					?>
 					
@@ -93,7 +93,7 @@ MLoad::template_application('template/toolbar_php', $data);
 				<section id="section_domain">
 					<?php 
 					$data['title'] = 'domain():String';
-					$data['content'] = '';
+					$data['content'] = nl2br('');
 					MLoad::template_application('template/library_function', $data);
 					?>
 					
@@ -104,7 +104,7 @@ MLoad::template_application('template/toolbar_php', $data);
 				<section id="section_base">
 					<?php 
 					$data['title'] = 'base():String';
-					$data['content'] = '';
+					$data['content'] = nl2br('');
 					MLoad::template_application('template/library_function', $data);
 					?>
 					
@@ -115,7 +115,7 @@ MLoad::template_application('template/toolbar_php', $data);
 				<section id="section_current">
 					<?php 
 					$data['title'] = 'current():String';
-					$data['content'] = '';
+					$data['content'] = nl2br('');
 					MLoad::template_application('template/library_function', $data);
 					?>
 					
@@ -126,7 +126,7 @@ MLoad::template_application('template/toolbar_php', $data);
 				<section id="section_segment">
 					<?php 
 					$data['title'] = 'segment($segment:int):String';
-					$data['content'] = '';
+					$data['content'] = nl2br('');
 					MLoad::template_application('template/library_function', $data);
 					?>
 					
@@ -139,7 +139,7 @@ MLoad::template_application('template/toolbar_php', $data);
 				<section id="section_curl">
 					<?php 
 					$data['title'] = 'curl($url:String):Mixed';
-					$data['content'] = '';
+					$data['content'] = nl2br('');
 					MLoad::template_application('template/library_function', $data);
 					?>
 				</section>

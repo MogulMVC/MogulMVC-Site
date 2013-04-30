@@ -74,7 +74,7 @@ MLoad::template_application('template/toolbar_js', $data);
 				<section id="section_email">
 					<?php 
 					$data['title'] = 'email(email:String):Boolean';
-					$data['content'] = '';
+					$data['content'] = nl2br('');
 					MLoad::template_application('template/library_function', $data);
 					?>
 				</section>
@@ -82,7 +82,7 @@ MLoad::template_application('template/toolbar_js', $data);
 				<section id="section_optional">
 					<?php 
 					$data['title'] = 'optional(input:Mixed):Boolean';
-					$data['content'] = '';
+					$data['content'] = nl2br('');
 					MLoad::template_application('template/library_function', $data);
 					?>
 				</section>
@@ -90,7 +90,7 @@ MLoad::template_application('template/toolbar_js', $data);
 				<section id="section_required">
 					<?php 
 					$data['title'] = 'required(input:Mixed):Boolean';
-					$data['content'] = '';
+					$data['content'] = nl2br('');
 					MLoad::template_application('template/library_function', $data);
 					?>
 				</section>
@@ -98,7 +98,7 @@ MLoad::template_application('template/toolbar_js', $data);
 				<section id="section_onlyContain">
 					<?php 
 					$data['title'] = 'onlyContain(input:String, choices:Array):Boolean';
-					$data['content'] = '';
+					$data['content'] = nl2br('');
 					MLoad::template_application('template/library_function', $data);
 					?>
 				</section>
@@ -106,7 +106,7 @@ MLoad::template_application('template/toolbar_js', $data);
 				<section id="section_mustContain">
 					<?php 
 					$data['title'] = 'mustContain(input:String, choices:Array):Boolean';
-					$data['content'] = '';
+					$data['content'] = nl2br('');
 					MLoad::template_application('template/library_function', $data);
 					?>
 				</section>
@@ -114,7 +114,7 @@ MLoad::template_application('template/toolbar_js', $data);
 				<section id="section_between">
 					<?php 
 					$data['title'] = 'between(input:Number, rangeStart:Number, rangeEnd:Number):Boolean';
-					$data['content'] = '';
+					$data['content'] = nl2br('');
 					MLoad::template_application('template/library_function', $data);
 					?>
 					<span class="MIntent">Should this be in MMath?</span>
@@ -123,7 +123,7 @@ MLoad::template_application('template/toolbar_js', $data);
 				<section id="section_state">
 					<?php 
 					$data['title'] = 'state(state:String):Boolean';
-					$data['content'] = '';
+					$data['content'] = nl2br('');
 					MLoad::template_application('template/library_function', $data);
 					?>
 				</section>

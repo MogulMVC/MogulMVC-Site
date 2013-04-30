@@ -30,7 +30,9 @@
 				<section id="section_error404">
 					<?php 
 					$data['title'] = 'error_404():void';
-					$data['content'] = '';
+					$data['content'] = 'This function will send a 404 header to the browser as well as serve the APPLICATION_ERROR_404_CONTROLLER configured within the config.php file.</p><p>Other frameworks serve a static HTML page as a 404 page, however, serving a controller rather than a static page is useful when you would like to do more than just display an error.
+					
+For example, a 404 error controller allows you to display dynamic information such as a the name of user getting the error or a list of breadcrumbs based on the URL. Further functionality can be added to the 404 controller before serving the view to log the error page in a database for future reference.';
 					MLoad::template_application('template/library_function', $data);
 					?>
 				</section>

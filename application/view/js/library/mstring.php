@@ -62,7 +62,7 @@ MLoad::template_application('template/toolbar_js', $data);
 				<section id="section_random">
 					<?php 
 					$data['title'] = 'random(length:int)';
-					$data['content'] = '';
+					$data['content'] = nl2br('');
 					MLoad::template_application('template/library_function', $data);
 					?>
 				</section>
@@ -70,7 +70,7 @@ MLoad::template_application('template/toolbar_js', $data);
 				<section id="section_subBefore">
 					<?php 
 					$data['title'] = 'subBefore(string:String, character:String)';
-					$data['content'] = '';
+					$data['content'] = nl2br('');
 					MLoad::template_application('template/library_function', $data);
 					?>
 				</section>
@@ -78,7 +78,7 @@ MLoad::template_application('template/toolbar_js', $data);
 				<section id="section_urlLink">
 					<?php 
 					$data['title'] = 'urlLink(string:String, noFollow:Boolean)';
-					$data['content'] = '';
+					$data['content'] = nl2br('');
 					MLoad::template_application('template/library_function', $data);
 					?>
 				</section>
@@ -86,7 +86,7 @@ MLoad::template_application('template/toolbar_js', $data);
 				<section id="section_urlTitle">
 					<?php 
 					$data['title'] = 'urlTitle(string:String, seperator:String)';
-					$data['content'] = '';
+					$data['content'] = nl2br('');
 					MLoad::template_application('template/library_function', $data);
 					?>
 				</section>
@@ -94,7 +94,7 @@ MLoad::template_application('template/toolbar_js', $data);
 				<section id="section_escapeHtml">
 					<?php 
 					$data['title'] = 'escapeHtml(unsafe:String)';
-					$data['content'] = '';
+					$data['content'] = nl2br('');
 					MLoad::template_application('template/library_function', $data);
 					?>
 				</section>
@@ -102,7 +102,7 @@ MLoad::template_application('template/toolbar_js', $data);
 				<section id="section_firstToUpperCase">
 					<?php 
 					$data['title'] = 'firstToUpperCase(string:String)';
-					$data['content'] = '';
+					$data['content'] = nl2br('');
 					MLoad::template_application('template/library_function', $data);
 					?>
 				</section>

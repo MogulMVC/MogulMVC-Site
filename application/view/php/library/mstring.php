@@ -58,7 +58,7 @@ MLoad::template_application('template/toolbar_php', $data);
 				<section id="section_random">
 					<?php 
 					$data['title'] = 'random($length:int):String';
-					$data['content'] = '';
+					$data['content'] = nl2br('');
 					MLoad::template_application('template/library_function', $data);
 					?>
 				</section>
@@ -66,7 +66,7 @@ MLoad::template_application('template/toolbar_php', $data);
 				<section id="section_sub_before">
 					<?php 
 					$data['title'] = 'sub_before($string:String, $character:String):String';
-					$data['content'] = '';
+					$data['content'] = nl2br('');
 					MLoad::template_application('template/library_function', $data);
 					?>
 				</section>
@@ -74,7 +74,7 @@ MLoad::template_application('template/toolbar_php', $data);
 				<section id="section_newline_remove">
 					<?php 
 					$data['title'] = 'newline_remove($string:String):String';
-					$data['content'] = '';
+					$data['content'] = nl2br('');
 					MLoad::template_application('template/library_function', $data);
 					?>
 				</section>
@@ -82,7 +82,7 @@ MLoad::template_application('template/toolbar_php', $data);
 				<section id="section_url_link">
 					<?php 
 					$data['title'] = 'url_link($string:String, $nofollow:Boolean):String';
-					$data['content'] = '';
+					$data['content'] = nl2br('');
 					MLoad::template_application('template/library_function', $data);
 					?>
 				</section>
@@ -90,7 +90,7 @@ MLoad::template_application('template/toolbar_php', $data);
 				<section id="section_url_title">
 					<?php 
 					$data['title'] = 'url_title($string:String, $seperator:String):String';
-					$data['content'] = '';
+					$data['content'] = nl2br('');
 					MLoad::template_application('template/library_function', $data);
 					?>
 				</section>

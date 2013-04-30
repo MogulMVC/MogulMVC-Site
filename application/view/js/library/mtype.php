@@ -32,7 +32,7 @@ MLoad::template_application('template/toolbar_js', $data);
 				<section id="section_string2Boolean">
 					<?php 
 					$data['title'] = 'string2Boolean(string:String):Boolean';
-					$data['content'] = '';
+					$data['content'] = nl2br('');
 					MLoad::template_application('template/library_function', $data);
 					?>
 					<span class="MIntent">Should this be in MString?</span>
