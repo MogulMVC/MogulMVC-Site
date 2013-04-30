@@ -250,6 +250,7 @@ The type of load can be null, which loads acts as an autoload, echo, which echos
 A library called <code>jquery.js</code> located in <code>framework/lib/js/3rdparty</code> can be loaded the following way.<pre><code>MLoad::template_application("3rdparty/jquery");</code></pre>A full list of 3rd party JavaScript libraries can be found on <a href=”/js/3rdparty_libraries/”>JavaScript 3rd Party Libraries</a>.');
 					MLoad::template_application('template/library_function', $data);
 					?>
+					<p class="MIntent">Should I put this in another class? It creates a DOM element.</p>
 				</section>
 				
 				<section id="section_js_application">
