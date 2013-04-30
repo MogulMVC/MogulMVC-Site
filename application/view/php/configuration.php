@@ -102,14 +102,14 @@
 				
 				<p>To autoload a library open the autoload.php file and add the location of the file inside the appropriate array. Files should be specified from the base directory of the type of library being loaded. Base directory of the files comes from <a href="#section_config">config.php</a>.</p>
 				
-				<p>A third party PHP library called <code>SomeLibrary.php</code> would by default be placed in <code>/application/lib/php/3rdparty/SomeLibrary.php</code> and be loaded as follows.</p>
+				<p>A third party PHP library called <code>SomeLibrary.php</code> would by default be placed in <code>/application/lib/php/vendor/SomeLibrary.php</code> and be loaded as follows.</p>
 				
-				<pre><code>$GLOBALS['AUTOLOAD_PHP_APPLICATION'] = array('3rdparty/SomeLibrary');</code></pre>
+				<pre><code>$GLOBALS['AUTOLOAD_PHP_APPLICATION'] = array('vendor/SomeLibrary');</code></pre>
 				
 				<p>As you can see file extensions are not needed as the framework determines the correct file extension. This is true for locally stored CSS and JS as well.</p>
 				
-				<pre><code>$GLOBALS['AUTOLOAD_CSS_APPLICATION'] = array('3rdparty/SomeLibrary');</code></pre>
-				<pre><code>$GLOBALS['AUTOLOAD_JS_APPLICATION'] = array('3rdparty/SomeLibrary');</code></pre>
+				<pre><code>$GLOBALS['AUTOLOAD_CSS_APPLICATION'] = array('vendor/SomeLibrary');</code></pre>
+				<pre><code>$GLOBALS['AUTOLOAD_JS_APPLICATION'] = array('vendor/SomeLibrary');</code></pre>
 				
 				<p class="MTextRed MTextBold">IMPORTANT!</p>
 				<p>Always name your CSS and JS library files with dashes instead of periods, otherwise Mogul MVC will error when loading your file.</p>

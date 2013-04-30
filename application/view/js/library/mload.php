@@ -1,5 +1,5 @@
 <?php 
-$data['php_version'] = 'mload';
+$data['php_version'] = MURL::segment(3);
 MLoad::template_application('template/toolbar_js', $data);
 ?>
 
@@ -65,9 +65,11 @@ MLoad::template_application('template/toolbar_js', $data);
 
 		<td class="MWidthFull MPadding">
 			
+			<p class="MIntent">NOT COMPLETE</p>
+			
 			<h1>MLoad</h1>
 			
-			<h2>Public Methods</h2>
+			<h2>Methods</h2>
 			<hr />
 			<br />
 			

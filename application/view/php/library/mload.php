@@ -249,7 +249,7 @@ This function accepts 3 arguments, the name of the file being added to the page,
 
 The type of load can be null, which loads acts as an autoload, echo, which echos the JavaScript line directly on the page at the point you call it, or return, which sends the script tag back to you as return data.
 
-A library called <code>jquery.js</code> located in <code>framework/lib/js/3rdparty</code> can be loaded the following way.<pre><code>MLoad::template_application("3rdparty/jquery");</code></pre>A full list of 3rd party JavaScript libraries can be found on <a href=”/js/3rdparty_libraries/”>JavaScript 3rd Party Libraries</a>.');
+A library called <code>jquery.js</code> located in <code>framework/lib/js/vendor</code> can be loaded the following way.<pre><code>MLoad::template_application("vendor/jquery");</code></pre>A full list of 3rd party JavaScript libraries can be found on <a href=”/js/vendor_libraries/”>JavaScript 3rd Party Libraries</a>.');
 					MLoad::template_application('template/library_function', $data);
 					?>
 				</section>

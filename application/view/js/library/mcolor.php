@@ -18,9 +18,11 @@
 
 		<td class="MWidthFull MPadding">
 			
+			<p class="MIntent">NOT COMPLETE</p>
+			
 			<h1>MColor</h1>
 			
-			<h2>Public Methods</h2>
+			<h2>Methods</h2>
 			<hr />
 			<br />
 			

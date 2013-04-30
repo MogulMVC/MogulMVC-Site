@@ -1,7 +1,6 @@
 <?php MLoad::template_application('template/toolbar_js'); ?>
 
 <div class="MContent800">
-	<p class="MIntent">NOT UPDATED</p>
 
 	<h1>JavaScript Libraries</h1>
 
@@ -13,18 +12,19 @@
 
 	<?php
 		$js_libraries = array(
-			'MColor' => 'Work with color values.',
-			'MCookie' => 'Get or set a cookie.',
-			'MDate' => 'For generated formatted dates.',
-			'MLoad' => 'Load in CSS and JavaScript files dynamically as needed.',
-			'MMath' => 'A class for performing various math functions.',
+			'MColor' => '----------Work with color values.',
+			'MCookie' => '----------Get or set a cookie.',
+			'MDate' => '----------For generated formatted dates.',
+			'MLoad' => '----------Load in CSS and JavaScript files dynamically as needed.',
+			'MMath' => '----------A class for performing various math functions.',
+			'MNumber' => 'Number functions.',
+			'MPath' => '----------Returns the path to a directory from the web root.',
 			'MSearchable' => 'Search within the DOM for strings and automatically hide or show the container.',
-			'MString' => 'String functions',
+			'MString' => '----------String functions.',
 			'MTemperature' => 'Temperature conversion functions.',
 			'MTime' => 'Time conversion functions. Useful for media information.',
-			'MType' => 'Data type conversion and indentification functions.',
 			'MURL' => 'Obtain infromation from the URL of the request.',
-			'MValidate' => 'Validate the existentce and content of differet types of data.'
+			'MValidate' => '----------Validate the existentce and content of differet types of data.'
 		);
 	?>
 		

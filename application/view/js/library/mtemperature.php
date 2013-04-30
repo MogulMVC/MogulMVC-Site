@@ -53,7 +53,7 @@ MLoad::template_application('template/toolbar_js', $data);
 			
 			<h1>MTemperature</h1>
 			
-			<h2>Public Methods</h2>
+			<h2>Methods</h2>
 			<hr />
 			<br />
 			
@@ -62,49 +62,55 @@ MLoad::template_application('template/toolbar_js', $data);
 				<section id="section_c2f">
 					<?php 
 					$data['title'] = 'c2f(celsius:Number):Number';
-					$data['content'] = nl2br('');
+					$data['content'] = nl2br('Converts a Celcius temperature to Fahrenheit.');
 					MLoad::template_application('template/library_function', $data);
 					?>
+					<pre><code><script>var random = MNumber.random(0, 10000); var calc = MTemperature.c2f(random); document.write('MTemperature.c2f(' + random + '); <br />' + typeof calc + ' ' + calc);</script></code></pre>
 				</section>
 				
 				<section id="section_c2k">
 					<?php 
 					$data['title'] = 'c2k(celsius:Number):Number';
-					$data['content'] = nl2br('');
+					$data['content'] = nl2br('Converts a Celcius temperature to Kelvin.');
 					MLoad::template_application('template/library_function', $data);
 					?>
+					<pre><code><script>var random = MNumber.random(0, 10000); var calc = MTemperature.c2k(random); document.write('MTemperature.c2k(' + random + '); <br />' + typeof calc + ' ' + calc);</script></code></pre>
 				</section>
 				
 				<section id="section_f2c">
 					<?php 
 					$data['title'] = 'f2c(fahrenheit:Number):Number';
-					$data['content'] = nl2br('');
+					$data['content'] = nl2br('Converts a Fahrenheit temperature to Celcius.');
 					MLoad::template_application('template/library_function', $data);
 					?>
+					<pre><code><script>var random = MNumber.random(0, 10000); var calc = MTemperature.f2c(random); document.write('MTemperature.f2c(' + random + '); <br />' + typeof calc + ' ' + calc);</script></code></pre>
 				</section>
 				
 				<section id="section_f2k">
 					<?php 
 					$data['title'] = 'f2k(fahrenheit:Number):Number';
-					$data['content'] = nl2br('');
+					$data['content'] = nl2br('Converts a Fahrenheit temperature to Kelvin.');
 					MLoad::template_application('template/library_function', $data);
 					?>
+					<pre><code><script>var random = MNumber.random(0, 10000); var calc = MTemperature.f2k(random); document.write('MTemperature.f2k(' + random + '); <br />' + typeof calc + ' ' + calc);</script></code></pre>
 				</section>
 				
 				<section id="section_k2c">
 					<?php 
 					$data['title'] = 'k2c(kelvin:Number):Number';
-					$data['content'] = nl2br('');
+					$data['content'] = nl2br('Converts a Kelvin temperature to Celcius.');
 					MLoad::template_application('template/library_function', $data);
 					?>
+					<pre><code><script>var random = MNumber.random(0, 10000); var calc = MTemperature.k2c(random); document.write('MTemperature.k2c(' + random + '); <br />' + typeof calc + ' ' + calc);</script></code></pre>
 				</section>
 				
 				<section id="section_k2f">
 					<?php 
 					$data['title'] = 'k2f(kelvin:Number):Number';
-					$data['content'] = nl2br('');
+					$data['content'] = nl2br('Converts a Kelvin temperature to Fahrenheit.');
 					MLoad::template_application('template/library_function', $data);
 					?>
+					<pre><code><script>var random = MNumber.random(0, 10000); var calc = MTemperature.k2f(random); document.write('MTemperature.k2f(' + random + '); <br />' + typeof calc + ' ' + calc);</script></code></pre>
 				</section>
 			
 			</div>

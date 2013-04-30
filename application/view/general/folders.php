@@ -134,8 +134,8 @@
 					<div class="indent">
 						<p>The css folder is where you would put your CSS files.</p>
 						
-						<h4>Third Party - 3rdparty</h4>
-						<p>Third party css libraries.</p>
+						<h4>Vendor - vendor</h4>
+						<p>Vendor css libraries.</p>
 						
 						<h4>Core - core</h4>
 						<p>Core css libraries.</p>
@@ -149,8 +149,8 @@
 					<div class="indent">
 						<p>The js folder is where you would put your JavaScript files.</p>
 					
-						<h4>Third Party - 3rdparty</h4>
-						<p>Third party JavaScript libraries.</p>
+						<h4>Vendor - vendor</h4>
+						<p>Vendor JavaScript libraries.</p>
 						
 						<h4>Core - core</h4>
 						<p>Core JavaScript libraries.</p>
@@ -163,8 +163,8 @@
 					<div class="indent">
 						<p>All your PHP libraries go in this folder.</p>
 						
-						<h4>Third Party - 3rdparty</h4>
-						<p>Third party PHP libraries go here.</p>
+						<h4>Vendor - vendor</h4>
+						<p>Vendor PHP libraries go here.</p>
 						
 						<h4>Core - core</h4>
 						<p>Core PHP libraries go here.</p>

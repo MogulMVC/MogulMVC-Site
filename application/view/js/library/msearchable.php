@@ -40,7 +40,7 @@
 			
 			<p>All MSearchable functions work on DOM elements with the attribute of <code>data-searchable="true"</code>.</p>
 			
-			<h2>Public Methods</h2>
+			<h2>Methods</h2>
 			<hr />
 			<br />
 			

@@ -24,9 +24,11 @@
 
 		<td class="MWidthFull MPadding">
 			
-			<h1>MCookie</h1>
+			<p class="MIntent">NOT COMPLETE</p>
 			
-			<h2>Public Methods</h2>
+			<h2>Methods</h2>
+			
+			<h2>Methods</h2>
 			<hr />
 			<br />
 			

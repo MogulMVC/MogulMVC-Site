@@ -15,16 +15,16 @@
 			'MCache' => 'For chaching pages.',
 			'MDate' => 'For generated formatted dates.',
 			'MError' => 'Display different types of errors.',
-			'MLoad' => 'The most used class. Load in models, views, libraries and many more.',
-			'MMath' => 'A class for performing various math functions.',
+			'MLoad' => '----------The most used class. Load in models, views, libraries and many more.',
+			'MMath' => '----------A class for performing various math functions.',
 			'MNumber' => 'Number functions.',
-			'MPath' => 'Returns the path to a directory from either the PHP root or the web root.',
+			'MPath' => '----------Returns the path to a directory from either the PHP root or the web root.',
 			'MRequest' => 'Identify different information about the incoming request.',
-			'MString' => 'String functions.',
+			'MString' => '----------String functions.',
 			'MTemperature' => 'Temperature conversion functions.',
 			'MTime' => 'Time conversion functions. Useful for media information.',
 			'MURL' => 'Obtain infromation from the URL of the request.',
-			'MValidate' => 'Validate the existentce and content of differet types of data.'
+			'MValidate' => '----------Validate the existentce and content of differet types of data.'
 		);
 	?>
 

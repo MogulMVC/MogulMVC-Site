@@ -23,7 +23,7 @@ MLoad::template_application('template/toolbar_js', $data);
 			
 			<h1>MTime</h1>
 			
-			<h2>Public Methods</h2>
+			<h2>Methods</h2>
 			<hr />
 			<br />
 			
@@ -32,9 +32,10 @@ MLoad::template_application('template/toolbar_js', $data);
 				<section id="section_sec2hms">
 					<?php 
 					$data['title'] = 'sec2hms(sec:int):String';
-					$data['content'] = nl2br('');
+					$data['content'] = nl2br('Takes 1 argument of seconds and converts it to a string in the format of hh:mm:ss.');
 					MLoad::template_application('template/library_function', $data);
 					?>
+					<pre><code><script>var random = MNumber.random(0, 10000); var calc = MTime.sec2hms(random); document.write('MTime.sec2hms(' + random + '); <br />' + typeof calc + ' ' + calc);</script></code></pre>
 				</section>			
 			</div>
 			
