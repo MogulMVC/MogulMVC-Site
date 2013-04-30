@@ -219,7 +219,7 @@ A template called <code>comment.php</code> located in <code>application/view/tem
 				<section id="section_php_framework">
 					<?php 
 					$data['title'] = 'php_framework($library:String):void';
-					$data['content'] = nl2br('Mogul comes with many built in libraries that are useful for common programming tasks. Some libraries validate variables, others allow you to get information from the URL.
+					$data['content'] = nl2br('Mogul MVC comes with many built in libraries that are useful for common programming tasks. Some libraries validate variables, others allow you to get information from the URL.
 
 A library called <code>MValidate.php</code> located in <code>framework/lib/php/core/util</code> can be loaded the following way.<pre><code>MLoad::template_application("util/MValidate");</code></pre>A full list of Mogul MVC libraries can be found on <a href=”/php/libraries/”>PHP Libraries</a>.');
 					MLoad::template_application('template/library_function', $data);
@@ -239,7 +239,15 @@ A library called <code>UserAuthenticate.php</code> located in <code>application/
 				<section id="section_js_framework">
 					<?php 
 					$data['title'] = 'js_framework(js:String, $direction:String, $useHTTP:Boolean):void';
-					$data['content'] = nl2br('');
+					$data['content'] = nl2br('Mogul MVC can load JavaScript files and place them in the head or foot automatically. This allows you to specify only the name and Mload will create the path to that file my itself.
+
+Mogul MVC comes with some core JavaScript libraries and several 3rd party JavaScript libraries such as jQuery and swfobject. 
+
+This function accepts 3 arguments, the name of the file being added to the page, the type of load, and if HTTP should be appended to the start of the file. The second 2 parameters are optional.
+
+The type of load can be null, which loads acts as an autoload, echo, which echos the JavaScript line directly on the page at the point you call it, or return, which sends the script tag back to you as return data.
+
+A library called <code>jquery.js</code> located in <code>framework/lib/js/3rdparty</code> can be loaded the following way.<pre><code>MLoad::template_application("3rdparty/jquery");</code></pre>A full list of 3rd party JavaScript libraries can be found on <a href=”/js/3rdparty_libraries/”>JavaScript 3rd Party Libraries</a>.');
 					MLoad::template_application('template/library_function', $data);
 					?>
 				</section>
