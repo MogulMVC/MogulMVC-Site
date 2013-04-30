@@ -1,7 +1,10 @@
 <?php 
-$data['js_version'] = 'mtime';
+$data['js_version'] = MURL::segment(3);
 MLoad::template_application('template/toolbar_php', $data);
 ?>
+
+<?php MLoad::php_framework('core/util/MTime'); ?>
+<?php MLoad::php_framework('core/util/MNumber'); ?>
 
 <table class="MWidthFull">
 
@@ -34,9 +37,10 @@ MLoad::template_application('template/toolbar_php', $data);
 				<section id="section_sec2hms">
 					<?php 
 					$data['title'] = 'sec2hms($sec):String';
-					$data['content'] = nl2br('');
+					$data['content'] = nl2br('Takes 1 argument of seconds and converts it to a string in the format of hh:mm:ss.');
 					MLoad::template_application('template/library_function', $data);
 					?>
+					<pre><code><?php $random = MNumber::random(0, 10000); echo 'MTime::sec2hms(' . $random . ');<br />' . MTime::sec2hms($random);?></code></pre>
 				</section>
 			
 			</div>

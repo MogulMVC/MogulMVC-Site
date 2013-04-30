@@ -1,6 +1,7 @@
 <?php MLoad::template_application('template/toolbar_general'); ?>
 
 <div class="MContent800">
+	<p class="MIntent">NOT COMPLETE</p>
 	<h1>General</h1>
 	<hr />
 	<br />

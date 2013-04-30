@@ -36,17 +36,19 @@
 				<section id="section_is_cli">
 					<?php 
 					$data['title'] = 'is_cli():Boolean';
-					$data['content'] = nl2br('');
+					$data['content'] = nl2br('Returns a boolean of TRUE if the request was made via the command line.');
 					MLoad::template_application('template/library_function', $data);
 					?>
+					<pre><code><?php echo 'MRequest::is_cli(); <br />'; ?><?php echo var_dump(MRequest::is_cli()); ?></code></pre>
 				</section>
 				
 				<section id="section_is_web">
 					<?php 
 					$data['title'] = 'is_web():Boolean';
-					$data['content'] = nl2br('');
+					$data['content'] = nl2br('Returns a boolean of TRUE if the request was made via the web.');
 					MLoad::template_application('template/library_function', $data);
 					?>
+					<pre><code><?php echo 'MRequest::is_web(); <br />'; ?><?php echo var_dump(MRequest::is_web()); ?></code></pre>
 				</section>
 				
 			</div>
