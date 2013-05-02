@@ -26,7 +26,7 @@
 			
 			<p class="MIntent">NOT COMPLETE</p>
 			
-			<h2>Methods</h2>
+			<h1>MCookie</h1>
 			
 			<h2>Methods</h2>
 			<hr />

@@ -11,8 +11,12 @@ class Js {
 		$data['page_title'] = 'JavaScript Libraries';
 		MLoad::view('js/libraries', $data);
 	}
-	
-	
+
+	function vendor_libraries() {
+		$data['page_title'] = 'JavaScript Vendor Libraries';
+		MLoad::view('js/vendor_libraries', $data);
+	}
+
 	function library() {
 
 		$library = MURL::segment(3);

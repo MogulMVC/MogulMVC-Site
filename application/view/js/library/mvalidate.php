@@ -45,6 +45,12 @@ MLoad::template_application('template/toolbar_js', $data);
 						<span>between</span>
 					</li>
 				</a>
+				
+				<a href="#section_multipleOf">
+					<li class="MSideBarListItem MCursorPointer">
+						<span>multipleOf</span>
+					</li>
+				</a>
 
 				<a href="#section_state">
 					<li class="MSideBarListItem MCursorPointer">
@@ -52,12 +58,6 @@ MLoad::template_application('template/toolbar_js', $data);
 					</li>
 				</a>
 				
-				<a href="#section_">
-					<li class="MSideBarListItem MCursorPointer">
-						<span></span>
-					</li>
-				</a>
-					
 			</ul>
 		</td>
 
@@ -119,7 +119,14 @@ MLoad::template_application('template/toolbar_js', $data);
 					$data['content'] = nl2br('');
 					MLoad::template_application('template/library_function', $data);
 					?>
-					<span class="MIntent">Should this be in MMath?</span>
+				</section>
+				
+				<section id="section_multipleOf">
+					<?php 
+					$data['title'] = 'multipleOf(number:Number, multiple:Number):Boolean';
+					$data['content'] = nl2br('');
+					MLoad::template_application('template/library_function', $data);
+					?>
 				</section>
 				
 				<section id="section_state">

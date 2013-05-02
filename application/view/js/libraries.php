@@ -8,30 +8,34 @@
 	
 	<hr />
 	
-	<p>Click on one to learn more about the functions inside of it.</p>
-
+	<p>
+	All JavaScript libraries are loaded from <code>core/MScript</code>.
+	<br />
+	Click on one to learn more about the functions inside of it.
+	</p>
+	
 	<?php
 		$js_libraries = array(
-			'MColor' => '----------Work with color values.',
-			'MCookie' => '----------Get or set a cookie.',
-			'MDate' => '----------For generated formatted dates.',
-			'MLoad' => '----------Load in CSS and JavaScript files dynamically as needed.',
-			'MMath' => '----------A class for performing various math functions.',
-			'MNumber' => 'Number functions.',
-			'MPath' => '----------Returns the path to a directory from the web root.',
-			'MSearchable' => 'Search within the DOM for strings and automatically hide or show the container.',
-			'MString' => '----------String functions.',
-			'MTemperature' => 'Temperature conversion functions.',
-			'MTime' => 'Time conversion functions. Useful for media information.',
-			'MURL' => 'Obtain infromation from the URL of the request.',
-			'MValidate' => '----------Validate the existentce and content of differet types of data.'
+			array('name' => 'MColor', 'description' => '----------Work with color values.'),
+			array('name' => 'MCookie', 'description' => '----------Get or set a cookie.'),
+			array('name' => 'MDate', 'description' => '----------For generated formatted dates.'),
+			array('name' => 'MLoad', 'description' => '----------Load in CSS and JavaScript files dynamically as needed.'),
+			array('name' => 'MMath', 'description' => '----------A class for performing various math functions.'),
+			array('name' => 'MNumber', 'description' => 'Number functions.'),
+			array('name' => 'MPath', 'description' => '----------Returns the path to a directory from the web root.'),
+			array('name' => 'MSearchable', 'description' => 'Search within the DOM for strings and automatically hide or show the container.'),
+			array('name' => 'MString', 'description' => '----------String functions.'),
+			array('name' => 'MTemperature', 'description' => 'Temperature conversion functions.'),
+			array('name' => 'MTime', 'description' => 'Time conversion functions. Useful for media information.'),
+			array('name' => 'MURL', 'description' => 'Obtain infromation from the URL of the request.'),
+			array('name' => 'MValidate', 'description' => '----------Validate the existentce and content of differet types of data.')
 		);
 	?>
 		
-	<?php $i=1; foreach ($js_libraries as $name => $description): ?>
+	<?php $i=1; foreach ($js_libraries as $library): ?>
 			
-	<a href="/js/library/<?php echo strtolower($name); ?>" class="MWidget library">
-		<span class="library-title"><?php echo $name; ?></span><br /><?php echo $description; ?>
+	<a href="/js/library/<?php echo strtolower($library['name']); ?>" class="MWidget library">
+		<span class="library-title"><?php echo $library['name']; ?></span><br /><?php echo $library['description']; ?>
 	</a>
 			
 	<?php if($i % 4 == 0):?>

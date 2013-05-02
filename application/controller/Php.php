@@ -22,6 +22,11 @@ class Php {
 		MLoad::view('php/libraries', $data);
 	}
 
+	function vendor_libraries() {
+		$data['page_title'] = 'PHP Vendor Libraries';
+		MLoad::view('php/vendor_libraries', $data);
+	}
+
 	function library() {
 
 		$library = MURL::segment(3);
