@@ -1,4 +1,4 @@
-<?php MLoad::template_application('template/toolbar_js'); ?>
+<?php MLoad::template_application('template/toolbar_php'); ?>
 
 <div class="MContent800">
 
