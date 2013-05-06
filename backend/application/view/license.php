@@ -1,3 +1,5 @@
+<?php MLoad::template_application('template/toolbar_general'); ?>
+
 <div class="MContent800">
 	
 	<div class="MContentSpacer"></div>
@@ -6,7 +8,7 @@
 	<hr />
 	<br />
 	
-	<p>Copyright (C) <?php echo date('Y'); ?> Alan James</p>
+	<p>Copyright &copy; <?php echo date('Y'); ?> Alan James</p>
 	
 	<p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
 	
