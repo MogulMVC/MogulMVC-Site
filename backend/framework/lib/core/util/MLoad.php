@@ -123,6 +123,7 @@ class MLoad {
 			}
 
 			//Construst the Page
+
 			if (!empty($head)) {
 				require ($head);
 			}

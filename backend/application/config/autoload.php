@@ -4,7 +4,7 @@ if (!defined('BACKEND_ROOT')) {
 	exit ;
 }
 
-$GLOBALS['AUTOLOAD_PHP_FRAMEWORK'] = array();
+$GLOBALS['AUTOLOAD_PHP_FRAMEWORK'] = array('core/util/MCache');
 $GLOBALS['AUTOLOAD_PHP_APPLICATION'] = array();
 
 $GLOBALS['AUTOLOAD_CSS_FRAMEWORK'] = array('vendor/normalize', 'core/MIcons', 'core/MStyle', 'core/style');

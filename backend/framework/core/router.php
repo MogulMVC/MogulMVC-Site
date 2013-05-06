@@ -137,7 +137,7 @@ else {
 		}
 
 	}
-	
+
 	// All controllers start with a capital letter
 	$SEGMENT1 = ucfirst($SEGMENT1);
 
@@ -155,7 +155,7 @@ else {
 	if (!method_exists($OBJECT, $SEGMENT2)) {
 		MError::error_404();
 	}
-	
+
 	$OBJECT -> $SEGMENT2();
 	
 }
