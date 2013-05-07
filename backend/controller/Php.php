@@ -31,7 +31,7 @@ class Php {
 
 		$library = MURL::segment(3);
 
-		if (!$library || !file_exists(BACKEND_ROOT . '/' . APPLICATION . '/' . APPLICATION_VIEW . '/php/library/' . $library . '.php')) {
+		if (!$library || !file_exists(BACKEND_ROOT . '/' . APPLICATION_VIEW . '/php/library/' . $library . '.php')) {
 			MError::error_404();
 		}
 
