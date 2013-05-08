@@ -4,9 +4,9 @@
 	<div class="MToolBarSpacer left"></div>
 	<div class="MToolBarSpacer right"></div>
 
-	<a href="/js/libraries">Libraries</a>
 	<a href="/js/managers">Managers</a>
 	<a href="/js/ui_elements">UI Elements</a>
+	<a href="/js/libraries">Libraries</a>
 	<a href="/js/vendor_libraries">Vendor Libraries</a>
 
 	<?php if(isset($php_version)): ?>

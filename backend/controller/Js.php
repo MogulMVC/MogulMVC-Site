@@ -2,11 +2,6 @@
 
 class Js {
 
-	function index() {
-		$data['page_title'] = 'JavaScript';
-		MLoad::view('js/main', $data);
-	}
-
 	function libraries() {
 		$data['page_title'] = 'JavaScript Libraries';
 		MLoad::view('js/libraries', $data);

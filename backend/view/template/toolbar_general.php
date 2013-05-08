@@ -4,8 +4,7 @@
 	<div class="MToolBarSpacer left"></div>
 	<div class="MToolBarSpacer right"></div>
 
-	<a href="/general/folders">Folders</a>
 	<a href="/general/installation">Installation</a>
-	<a href="/license">License</a>
+	<a href="/general/folders">Folders</a>
 
 </nav>

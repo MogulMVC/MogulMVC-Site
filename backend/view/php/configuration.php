@@ -126,28 +126,32 @@
 				
 				<p>All configuration options are defined as constants.</p>
 				
-				<h3>Application Information</h3>
-				<p>All Mogul MVC applications need a company, name, description, password, and version.</p>
-				<p>These constants are used during the creation of pages and loading of assets such as images, CSS, and JS files.</p>
-				<p>The password is needed when running commands from the CLI and web interface.</p>
+				<div class="indent">
 				
-				<h3>Environment</h3>
-				<p>There are two environments Mogul MVC can be run in, <span class="MTextBold">development</span> and <span class="MTextBold">production</span>.</p>
-				<p>When in development mode all errors will be displayed and all CSS and JS will be loaded from seperate files.</p>
-				<p>When in production mode no errors will be displayed and Mogul MVC will automatically combine and minify all CSS and JS files loaded from the <a href="#section_autoload">autoload.php</a>.</p>
-				
-				<h3>Action and API</h3>
-				<p>Action and API files are special controller files for reciving and broadcasting data. Mogul MVC needs a special URL keyword to invoke action and api requests as instead of looking for normal controllers.</p>
-				
-				<h3>Directories</h3>
-				<p>Organiztion is key in Mogul MVC. Each file you create has a place to be put, but we allow you to rename and change these places. The config.php directories section is where you can change the default directories Mogul MVC uses to store and load your files.</p>
-				
-				<h3>Controllers</h3>
-				<p>A default controller is the controller that runs at the root of your site.</p>
-				<p>A 404 controller, as the name suggests, runs when an 404 error is thrown.</p>
-				
-				<h3>Templates</h3>
-				<p>Templates define the default head, header, footer, and foot files to be used in an application. These file will automatically be included when rendering a <a href="/php/views">view</a>.</p>
+					<h3>Application Information</h3>
+					<p>All Mogul MVC applications need a company, name, description, password, and version.</p>
+					<p>These constants are used during the creation of pages and loading of assets such as images, CSS, and JS files.</p>
+					<p>The password is needed when running commands from the CLI and web interface.</p>
+					
+					<h3>Environment</h3>
+					<p>There are two environments Mogul MVC can be run in, <span class="MTextBold">development</span> and <span class="MTextBold">production</span>.</p>
+					<p>When in development mode all errors will be displayed and all CSS and JS will be loaded from seperate files.</p>
+					<p>When in production mode no errors will be displayed and Mogul MVC will automatically combine and minify all CSS and JS files loaded from the <a href="#section_autoload">autoload.php</a>.</p>
+					
+					<h3>Action and API</h3>
+					<p>Action and API files are special controller files for reciving and broadcasting data. Mogul MVC needs a special URL keyword to invoke action and api requests as instead of looking for normal controllers.</p>
+					
+					<h3>Directories</h3>
+					<p>Organiztion is key in Mogul MVC. Each file you create has a place to be put, but we allow you to rename and change these places. The config.php directories section is where you can change the default directories Mogul MVC uses to store and load your files.</p>
+					
+					<h3>Controllers</h3>
+					<p>A default controller is the controller that runs at the root of your site.</p>
+					<p>A 404 controller, as the name suggests, runs when an 404 error is thrown.</p>
+					
+					<h3>Templates</h3>
+					<p>Templates define the default head, header, footer, and foot files to be used in an application. These file will automatically be included when rendering a <a href="/php/views">view</a>.</p>
+					
+				</div>
 				
 			</section>
 			
@@ -167,10 +171,8 @@
 				<h2>Database - database.php</h2>
 				<hr />
 				
-				<?php for($i = 0; $i < 10; $i++):?>
-					<br />
-				<?php endfor;?>
-	
+				<p class="MIntent">NOT COMPLETE</p>
+				
 			</section>
 			
 			<section id="section_routes">
@@ -178,13 +180,11 @@
 				<h2>Routes - routes.php</h2>
 				<hr />
 				
-				<?php for($i = 0; $i < 10; $i++):?>
-					<br />
-				<?php endfor;?>
-	
+				<p class="MIntent">NOT COMPLETE</p>
+				
 			</section>
 			
-			<section id="section_sessions">
+			<section id="section_sessions" data-editable="true">
 	
 				<h2>Sessions - session.php</h2>
 				<hr />
@@ -225,3 +225,10 @@
 	</tr>
 
 </table>
+
+
+<script>
+	
+</script>
+
+

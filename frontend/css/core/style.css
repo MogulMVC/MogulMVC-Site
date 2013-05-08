@@ -3,6 +3,36 @@
  * Then autoload it in with config/autoload.php
  */
 
+#MHeader {
+	overflow: visible;
+	box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+	z-index: 9000;
+}
+
+#MHeader li {
+	padding-left: .35em;
+	padding-right: .35em;
+}
+
+#MHeader li ul {
+	z-index: 3000;
+}
+
+#MHeader li ul li {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+#MHeader li ul a {
+	color: #000000;
+	margin: 0;
+	padding: 10px 15px;
+}
+
+#MHeader.MDropdown {
+	margin: 0px;
+}
+
 code {
 	background: #323232;
 	border-radius: 3px;

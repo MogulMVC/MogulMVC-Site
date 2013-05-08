@@ -5,11 +5,11 @@
 	<div class="MToolBarSpacer right"></div>
 
 	<a href="/php/configuration">Configuration</a>
+	<a href="/php/models">Models</a>
+	<a href="/php/views">Views</a>
 	<a href="/php/controllers">Controllers</a>
 	<a href="/php/libraries">Libraries</a>
-	<a href="/php/models">Models</a>
 	<a href="/php/vendor_libraries">Vendor Libraries</a>
-	<a href="/php/views">Views</a>
 
 	<?php if(isset($js_version)): ?>
 		<a href="/js/library/<?php echo $js_version; ?>" class="right">JavaScript Version</a>

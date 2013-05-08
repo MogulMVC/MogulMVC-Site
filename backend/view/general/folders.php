@@ -106,30 +106,30 @@
 			
 			<p>Mogul MVC is organized between two different directories. The <span class="MTextBold">backend</span> directory for all your PHP code, and the <span class="MTextBold">frontend</span> directory for CSS, JavaScript, images, and any other public static files.</p>
 			
-			<p>Within the backend and frontend directories you will find a directory called <span class="MTextBold">application</span>. This is where your application specific logic goes. We will be exploring these application directories in the following sections. We will start with the backend application directory.</p>
-
-			<p>The following will only cover the directories within your application directoy as the directories in the system directory should not be touched.</p>
+			<p>Within the backend and frontend directories you will find a directory called <span class="MTextBold">framework</span>. Unless you know what you're doing you should not alter any content within this folder.</p>
 			
+			<p>Instead we will be exploring the other directories in the backend and frontend folders. We will start with the backend directory.</p>
+
 			<div id="section_backend">
 			
 				<h1>Backend</h1>
 				
-				<p>The backend application directory is organized as follows.</p>
+				<p>The backend directory is organized as follows.</p>
 				
-				<pre><code>/application
-	/cache
-	/command
-	/config
-	/controller
-		/action
-		/api
-	/lib
-		/core
-		/vendor
-	/model
-		/vo
-	/view
-		/template</code></pre>
+				<pre><code>/cache/
+	/command/
+	/config/
+	/controller/
+		/action/
+		/api/
+	/framework/ &#8592; Don't alter anything in here
+	/lib/
+		/core/
+		/vendor/
+	/model/
+		/vo/
+	/view/
+		/template/</code></pre>
 			
 				<section id="section_backend_cache">
 		
@@ -250,18 +250,19 @@
 				
 				<p>The frontend application directory is organized as follows.</p>
 				
-				<pre><code>/application
-	/cache
-	/css
-		/core
-		/vendor
-	/img
-	/js
-		/core
-		/vendor
-	/misc
-	/upload
-		.htaccess</code></pre>
+				<pre><code>/application/
+	/cache/
+	/css/
+		/core/
+		/vendor/
+	/framework/ &#8592; Don't alter anything in here
+	/img/
+	/js/
+		/core/
+		/vendor/
+	/misc/
+	/upload/
+		/.htaccess</code></pre>
 				
 				<section id="section_frontend_cache">
 					
@@ -281,10 +282,10 @@
 					
 					<div class="indent">
 						
-						<h4>Vendor - vendor</h4>
+						<h3>Vendor - vendor</h3>
 						<p>A place to put css files not written by you. For example, Twitter Bootstrap or Flat UI would be placed here as they are provided by third party vendors.</p>
 						
-						<h4>Core - core</h4>
+						<h3>Core - core</h3>
 						<p>A place to put css files that are written by you. The css files that are needed for your site and were not provided by third party vendors.</p>
 					
 					</div>
@@ -309,10 +310,10 @@
 					
 					<div class="indent">
 						
-						<h4>Vendor - vendor</h4>
+						<h3>Vendor - vendor</h3>
 						<p>A place to put js files not written by you. For example, Twitter Boostrap or jQuery Mobile would be placed here as they are provided by third party vendors. jQuery and jQuery UI are provided by the core framework and only should be placed here if you need to use a different version.</p>
 						
-						<h4>Core - core</h4>
+						<h3>Core - core</h3>
 						<p>A place to put js files that are written by you. The js files that are needed for your site and were not provided by third party vendors.</p>
 					
 					</div>
