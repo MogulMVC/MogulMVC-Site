@@ -176,7 +176,7 @@
 			</section>
 			
 			<section id="section_routes">
-	
+			
 				<h2>Routes - routes.php</h2>
 				<hr />
 				
@@ -185,7 +185,7 @@
 			</section>
 			
 			<section id="section_sessions" data-editable="true">
-	
+			
 				<h2>Sessions - session.php</h2>
 				<hr />
 				
