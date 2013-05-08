@@ -27,8 +27,6 @@ MLoad::template_application('template/toolbar_js', $data);
 
 		<td class="MWidthFull MPadding">
 			
-			<p class="MIntent">NOT COMPLETE</p>
-			
 			<h1>MDate</h1>
 
 			<h2>Methods</h2>
@@ -40,17 +38,19 @@ MLoad::template_application('template/toolbar_js', $data);
 				<section id="section_datetime">
 					<?php 
 					$data['title'] = 'datetime():String';
-					$data['content'] = nl2br('');
+					$data['content'] = nl2br('The datetime function is the equal of the PHP date("Y-m-d H:i:s"); function. This has been added because it is useful to use when updating databases.');
 					MLoad::template_application('template/library_function', $data);
 					?>
+					<pre><code><script>var datetime = MDate.datetime(); document.write('MDate.datetime(); <br />' + typeof datetime + ' ' + datetime);</script></code></pre>
 				</section>
 				
 				<section id="section_date">
 					<?php 
 					$data['title'] = 'date():String';
-					$data['content'] = nl2br('');
+					$data['content'] = nl2br('The date function is the equal of the PHP date("Y-m-d"); function.');
 					MLoad::template_application('template/library_function', $data);
 					?>
+					<pre><code><script>var date = MDate.date(); document.write('MDate.date(); <br />' + typeof date + ' ' + date);</script></code></pre>
 				</section>
 			
 			</div>

@@ -18,7 +18,7 @@
 		$js_libraries = array(
 			array('name' => 'MColor', 'description' => '----------Work with color values.'),
 			array('name' => 'MCookie', 'description' => '----------Get or set a cookie.'),
-			array('name' => 'MDate', 'description' => '----------For generated formatted dates.'),
+			array('name' => 'MDate', 'description' => 'For generated formatted dates.'),
 			array('name' => 'MLoad', 'description' => '----------Load in CSS and JavaScript files dynamically as needed.'),
 			array('name' => 'MMath', 'description' => '----------A class for performing various math functions.'),
 			array('name' => 'MNumber', 'description' => 'Number functions.'),
