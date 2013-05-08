@@ -96,6 +96,7 @@
 			
 				<section id="section_js_framework">
 					<?php 
+					$data['added'] = '1305';
 					$data['title'] = 'js_framework';
 					$data['content'] = nl2br('');
 					MLoad::template_application('template/library_function', $data);
@@ -104,6 +105,7 @@
 				
 				<section id="section_js_application">
 					<?php 
+					$data['added'] = '1305';
 					$data['title'] = 'js_application';
 					$data['content'] = nl2br('');
 					MLoad::template_application('template/library_function', $data);
@@ -112,6 +114,7 @@
 				
 				<section id="section_css_framework">
 					<?php 
+					$data['added'] = '1305';
 					$data['title'] = 'css_framework';
 					$data['content'] = nl2br('');
 					MLoad::template_application('template/library_function', $data);
@@ -120,6 +123,7 @@
 				
 				<section id="section_css_application">
 					<?php 
+					$data['added'] = '1305';
 					$data['title'] = 'css_application';
 					$data['content'] = nl2br('');
 					MLoad::template_application('template/library_function', $data);
@@ -128,6 +132,7 @@
 				
 				<section id="section_img_framework">
 					<?php 
+					$data['added'] = '1305';
 					$data['title'] = 'img_framework';
 					$data['content'] = nl2br('');
 					MLoad::template_application('template/library_function', $data);
@@ -136,6 +141,7 @@
 				
 				<section id="section_img_application">
 					<?php 
+					$data['added'] = '1305';
 					$data['title'] = 'img_application';
 					$data['content'] = nl2br('');
 					MLoad::template_application('template/library_function', $data);
@@ -144,6 +150,7 @@
 				
 				<section id="section_icon_framework">
 					<?php 
+					$data['added'] = '1305';
 					$data['title'] = 'icon_framework';
 					$data['content'] = nl2br('');
 					MLoad::template_application('template/library_function', $data);
@@ -152,6 +159,7 @@
 				
 				<section id="section_action">
 					<?php 
+					$data['added'] = '1305';
 					$data['title'] = 'action';
 					$data['content'] = nl2br('');
 					MLoad::template_application('template/library_function', $data);
@@ -160,6 +168,7 @@
 				
 				<section id="section_api">
 					<?php 
+					$data['added'] = '1305';
 					$data['title'] = 'api';
 					$data['content'] = nl2br('');
 					MLoad::template_application('template/library_function', $data);
@@ -168,6 +177,7 @@
 				
 				<section id="section_command">
 					<?php 
+					$data['added'] = '1305';
 					$data['title'] = 'command';
 					$data['content'] = nl2br('');
 					MLoad::template_application('template/library_function', $data);
@@ -176,6 +186,7 @@
 				
 				<section id="section_public_upload">
 					<?php 
+					$data['added'] = '1305';
 					$data['title'] = 'public_upload';
 					$data['content'] = nl2br('');
 					MLoad::template_application('template/library_function', $data);
@@ -184,6 +195,7 @@
 				
 				<section id="section_public_misc">
 					<?php 
+					$data['added'] = '1305';
 					$data['title'] = 'public_misc';
 					$data['content'] = nl2br('');
 					MLoad::template_application('template/library_function', $data);

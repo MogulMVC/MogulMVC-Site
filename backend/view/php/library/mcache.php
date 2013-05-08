@@ -32,6 +32,7 @@
 			
 				<section id="section_cache">
 					<?php 
+					$data['added'] = '1305';
 					$data['title'] = 'cache($minutes:Number):void';
 					$data['content'] = nl2br('This function should be called at the top of a function withing a controller you would like to cache. The only parameter needed is the amount of minutes you want Mogul MVC to serve a cache file before recaching the page.
 					

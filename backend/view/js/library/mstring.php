@@ -69,6 +69,7 @@ MLoad::template_application('template/toolbar_js', $data);
 			
 				<section id="section_random">
 					<?php 
+					$data['added'] = '1305';
 					$data['title'] = 'random(length:int):String';
 					$data['content'] = nl2br('');
 					MLoad::template_application('template/library_function', $data);
@@ -77,6 +78,7 @@ MLoad::template_application('template/toolbar_js', $data);
 				
 				<section id="section_toBoolean">
 					<?php 
+					$data['added'] = '1305';
 					$data['title'] = 'toBoolean(value:String):Boolean';
 					$data['content'] = nl2br('');
 					MLoad::template_application('template/library_function', $data);
@@ -85,6 +87,7 @@ MLoad::template_application('template/toolbar_js', $data);
 			
 				<section id="section_subBefore">
 					<?php 
+					$data['added'] = '1305';
 					$data['title'] = 'subBefore(string:String, character:String):String';
 					$data['content'] = nl2br('');
 					MLoad::template_application('template/library_function', $data);
@@ -93,6 +96,7 @@ MLoad::template_application('template/toolbar_js', $data);
 				
 				<section id="section_urlLink">
 					<?php 
+					$data['added'] = '1305';
 					$data['title'] = 'urlLink(string:String, noFollow:Boolean):String';
 					$data['content'] = nl2br('');
 					MLoad::template_application('template/library_function', $data);
@@ -101,6 +105,7 @@ MLoad::template_application('template/toolbar_js', $data);
 				
 				<section id="section_urlTitle">
 					<?php 
+					$data['added'] = '1305';
 					$data['title'] = 'urlTitle(string:String, seperator:String):String';
 					$data['content'] = nl2br('');
 					MLoad::template_application('template/library_function', $data);
@@ -109,6 +114,7 @@ MLoad::template_application('template/toolbar_js', $data);
 				
 				<section id="section_escapeHtml">
 					<?php 
+					$data['added'] = '1211';
 					$data['title'] = 'escapeHtml(unsafe:String):String';
 					$data['content'] = nl2br('');
 					MLoad::template_application('template/library_function', $data);
@@ -117,6 +123,7 @@ MLoad::template_application('template/toolbar_js', $data);
 				
 				<section id="section_firstToUpperCase">
 					<?php 
+					$data['added'] = '1305';
 					$data['title'] = 'firstToUpperCase(string:String):String';
 					$data['content'] = nl2br('');
 					MLoad::template_application('template/library_function', $data);

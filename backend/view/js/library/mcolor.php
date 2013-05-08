@@ -30,6 +30,7 @@
 			
 				<section id="section_fadeHex">
 					<?php 
+					$data['added'] = '1211';
 					$data['title'] = 'fadeHex(hex:int, hex2:int, ratio:Number):int';
 					$data['content'] = nl2br('');
 					MLoad::template_application('template/library_function', $data);

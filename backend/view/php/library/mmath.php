@@ -35,6 +35,7 @@ MLoad::template_application('template/toolbar_php', $data);
 			
 				<section id="section_linear_regression">
 					<?php 
+					$data['added'] = '1211';
 					$data['title'] = 'linear_regression($x:Array, $y:Array):Array';
 					$data['content'] = nl2br('');
 					MLoad::template_application('template/library_function', $data);

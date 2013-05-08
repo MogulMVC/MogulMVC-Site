@@ -35,6 +35,7 @@
 			
 				<section id="section_is_cli">
 					<?php 
+					$data['added'] = '1305';
 					$data['title'] = 'is_cli():Boolean';
 					$data['content'] = nl2br('Returns a boolean of TRUE if the request was made via the command line.');
 					MLoad::template_application('template/library_function', $data);
@@ -44,6 +45,7 @@
 				
 				<section id="section_is_web">
 					<?php 
+					$data['added'] = '1305';
 					$data['title'] = 'is_web():Boolean';
 					$data['content'] = nl2br('Returns a boolean of TRUE if the request was made via the web.');
 					MLoad::template_application('template/library_function', $data);

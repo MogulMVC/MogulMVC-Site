@@ -48,6 +48,7 @@
 			
 				<section id="section_show">
 					<?php 
+					$data['added'] = '1305';
 					$data['title'] = 'show(search:String):void';
 					$data['content'] = 'This accepts a string to search for and will only show data-searchable elemments which contain the string being searched for. All other data-searchable elements will be hidden.';
 					MLoad::template_application('template/library_function', $data);
@@ -56,6 +57,7 @@
 				
 				<section id="section_showInside">
 					<?php 
+					$data['added'] = '1305';
 					$data['title'] = 'showInside(search:String, search:String):void';
 					$data['content'] = 'This accepts 2 parameters. The first is a string to search for. The second is the id of a container to search within. Unlike the show function, which searches the entire DOM, this function will search only within a specific element. It will show all data-searchable elements within the search element containing the search string and hide all others.';
 					MLoad::template_application('template/library_function', $data);
@@ -64,6 +66,7 @@
 				
 				<section id="section_hide">
 					<?php 
+					$data['added'] = '1305';
 					$data['title'] = 'hide(search:String):void';
 					$data['content'] = 'This accepts a string to search for and will hide all data-searchable elemments which contain the string being searched for. All data-searchable elements not containing the search string will be shown.';
 					MLoad::template_application('template/library_function', $data);
@@ -72,6 +75,7 @@
 				
 				<section id="section_hideInside">
 					<?php 
+					$data['added'] = '1305';
 					$data['title'] = 'hideInside(search:String, search:String):void';
 					$data['content'] = 'This accepts 2 parameters. The first is a string to search for. The second is the id of a  container to search within. Unlike the hide function, which searches the entire DOM, this function will search only within a specific element. It will hide all data-searchable elements within the search element containing the search string and show all others.';
 					MLoad::template_application('template/library_function', $data);

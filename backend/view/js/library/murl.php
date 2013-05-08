@@ -67,6 +67,7 @@ MLoad::template_application('template/toolbar_js', $data);
 			
 				<section id="section_protocol">
 					<?php 
+					$data['added'] = '1305';
 					$data['title'] = 'protocol():String';
 					$data['content'] = nl2br('As expected protocol returns a string representation of the protcol being used.');
 					MLoad::template_application('template/library_function', $data);
@@ -76,6 +77,7 @@ MLoad::template_application('template/toolbar_js', $data);
 				
 				<section id="section_subdomain">
 					<?php 
+					$data['added'] = '1305';
 					$data['title'] = 'subdomain():String';
 					$data['content'] = nl2br('The subdomain function return a string of the subdomain of the page being requested. If no subdomain is preset it will return an empty string.');
 					MLoad::template_application('template/library_function', $data);
@@ -85,6 +87,7 @@ MLoad::template_application('template/toolbar_js', $data);
 				
 				<section id="section_domain">
 					<?php 
+					$data['added'] = '1305';
 					$data['title'] = 'domain():String';
 					$data['content'] = nl2br('The domain function returns the domain of the site plus the top level domain.');
 					MLoad::template_application('template/library_function', $data);
@@ -94,6 +97,7 @@ MLoad::template_application('template/toolbar_js', $data);
 				
 				<section id="section_canonical">
 					<?php 
+					$data['added'] = '1305';
 					$data['title'] = 'canonical():String';
 					$data['content'] = nl2br('The canonical function returns the root location of the web site.');
 					MLoad::template_application('template/library_function', $data);
@@ -103,6 +107,7 @@ MLoad::template_application('template/toolbar_js', $data);
 				
 				<section id="section_current">
 					<?php 
+					$data['added'] = '1211';
 					$data['title'] = 'current():String';
 					$data['content'] = nl2br('The current function returns the current url being viewed.');
 					MLoad::template_application('template/library_function', $data);
@@ -112,6 +117,7 @@ MLoad::template_application('template/toolbar_js', $data);
 				
 				<section id="section_segment">
 					<?php 
+					$data['added'] = '1211';
 					$data['title'] = 'segment(segment:int):String';
 					$data['content'] = nl2br('The segment function returns parts of the URL devided along forward slashes. Just like arrays they are 0 based with the cannonical representing segment 0. However unlike arrays 0 is not a valid index. 
 
@@ -126,6 +132,7 @@ Any segment requested but not in existence will return an empty string.');
 				
 				<section id="section_reset">
 					<?php 
+					$data['added'] = '1211';
 					$data['title'] = 'reset():void';
 					$data['content'] = nl2br('The reset function reloads the current page first asking the user if they want to reload the page.');
 					MLoad::template_application('template/library_function', $data);

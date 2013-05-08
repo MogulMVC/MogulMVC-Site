@@ -64,6 +64,7 @@ MLoad::template_application('template/toolbar_php', $data);
 			
 				<section id="section_random">
 					<?php 
+					$data['added'] = '1211';
 					$data['title'] = 'random($length:int):String';
 					$data['content'] = nl2br('Returns a random string of character the length at which is requested.
 Characters avalible are 0-9 a-z and A-Z for a total of 62 characters.');
@@ -74,6 +75,7 @@ Characters avalible are 0-9 a-z and A-Z for a total of 62 characters.');
 				
 				<section id="section_to_boolean">
 					<?php 
+					$data['added'] = '1305';
 					$data['title'] = 'to_boolean($string:String):Boolean';
 					$data['content'] = nl2br('');
 					MLoad::template_application('template/library_function', $data);
@@ -82,6 +84,7 @@ Characters avalible are 0-9 a-z and A-Z for a total of 62 characters.');
 				
 				<section id="section_sub_before">
 					<?php 
+					$data['added'] = '1211';
 					$data['title'] = 'sub_before($string:String, $character:String):String';
 					$data['content'] = nl2br('');
 					MLoad::template_application('template/library_function', $data);
@@ -90,6 +93,7 @@ Characters avalible are 0-9 a-z and A-Z for a total of 62 characters.');
 				
 				<section id="section_newline_remove">
 					<?php 
+					$data['added'] = '1211';
 					$data['title'] = 'newline_remove($string:String):String';
 					$data['content'] = nl2br('');
 					MLoad::template_application('template/library_function', $data);
@@ -98,6 +102,7 @@ Characters avalible are 0-9 a-z and A-Z for a total of 62 characters.');
 				
 				<section id="section_url_link">
 					<?php 
+					$data['added'] = '1211';
 					$data['title'] = 'url_link($string:String, $nofollow:Boolean):String';
 					$data['content'] = nl2br('');
 					MLoad::template_application('template/library_function', $data);
@@ -106,6 +111,7 @@ Characters avalible are 0-9 a-z and A-Z for a total of 62 characters.');
 				
 				<section id="section_url_title">
 					<?php 
+					$data['added'] = '1211';
 					$data['title'] = 'url_title($string:String, $seperator:String):String';
 					$data['content'] = nl2br('');
 					MLoad::template_application('template/library_function', $data);
