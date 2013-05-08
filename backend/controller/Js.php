@@ -14,8 +14,6 @@ class Js {
 
 	function library() {
 
-		MCache::cache(60);
-
 		$library = MURL::segment(3);
 
 		if (!$library || !file_exists(BACKEND_ROOT . '/' . APPLICATION_VIEW . '/js/library/' . $library . '.php')) {
