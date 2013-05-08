@@ -26,7 +26,7 @@
 				<li><a href="/php/models">Models</a></li>
 				<li><a href="/php/views">Views</a></li>
 				<li><a href="/php/controllers">Controllers</a></li>
-				<li><a href="/php/libraries">Libraries</a></li>
+				<li><a href="/php/libraries">Utility Libraries</a></li>
 				<li><a href="/php/vendor_libraries">Vendor Libraries</a></li>
 			</ul>
 		</li>
@@ -36,7 +36,7 @@
 			<ul>
 				<li><a href="/js/managers">Managers</a></li>
 				<li><a href="/js/ui_elements">UI Elements</a></li>
-				<li><a href="/js/libraries">Libraries</a></li>
+				<li><a href="/js/libraries">Utility Libraries</a></li>
 				<li><a href="/js/vendor_libraries">Vendor Libraries</a></li>
 			</ul>
 		</li>

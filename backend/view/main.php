@@ -24,15 +24,6 @@
 	<div class="shadow-top"></div>
 </div><!-- MStage -->
 
-<nav class="MToolBar">
-	<div class="MContent700 MTextCentered">
-		<a href="/general">General</a>
-		<a href="/php">PHP</a>
-		<a href="/js">JavaScript</a>
-		<a href="/css">CSS</a>
-	</div>
-</nav>
-
 <div class="MContent840">
 	
 	<div class="MTextCenter">
@@ -43,7 +34,7 @@
 	
 	<div class="MContentSpacer"></div>
 	<div class="MTextCenter">
-		<span class="MNoteY MTextBold">If you're interested in Mogul MVC please read "Why Use Mogul MVC?".</span>
+		<span class="MNoteY MTextBold">If you're a student of mine ask about getting the source code and contributing.</span>
 	</div>
 	<div class="MContentSpacer"></div>
 	<div class="MContentSpacer"></div>

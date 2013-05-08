@@ -2,7 +2,7 @@
 
 <div class="MContent800">
 
-	<h1>JavaScript Libraries</h1>
+	<h1>JavaScript Utility Libraries</h1>
 
 	<p>Mogul MVC has many JS libraries that can be used to perform common tasks.<br />Each library is a class containing functions.<br />Below is a list of all the classes with a description of what each class is for. Click on one to learn more about the functions inside of it.</p>
 	
