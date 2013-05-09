@@ -18,7 +18,6 @@
 			array('name' => 'MLoad', 'description' => '<pre><code>core/util/MLoad</code></pre>----------The most used class. Load in models, views, libraries and many more.'),
 			array('name' => 'MMath', 'description' => '<pre><code>core/util/MMath</code></pre>----------A class for performing various math functions.'),
 			array('name' => 'MNumber', 'description' => '<pre><code>core/util/MNumber</code></pre>Number functions.'),
-			array('name' => 'MPath', 'description' => '<pre><code>core/util/MPath</code></pre>----------Returns the path to a directory from either the PHP root or the web root.'),
 			array('name' => 'MRequest', 'description' => '<pre><code>core/util/MRequest</code></pre>Identify different information about the incoming request.'),
 			array('name' => 'MString', 'description' => '<pre><code>core/util/MString</code></pre>----------String functions.'),
 			array('name' => 'MTemperature', 'description' => '<pre><code>core/util/MTemperature</code></pre>Temperature conversion functions.'),
