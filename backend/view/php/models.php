@@ -70,10 +70,6 @@
 				<h2>Create a Model</h2>
 				<hr />
 	
-				<?php for($i = 0; $i < 10; $i++):?>
-					<br />
-				<?php endfor;?>
-	
 			</section>
 			
 			<section id="section_load">
@@ -81,20 +77,12 @@
 				<h2>Load a Model</h2>
 				<hr />
 	
-				<?php for($i = 0; $i < 10; $i++):?>
-					<br />
-				<?php endfor;?>
-	
 			</section>
 	
 			<section id="section_use">
 	
 				<h2>Use a Model</h2>
 				<hr />
-	
-				<?php for($i = 0; $i < 10; $i++):?>
-					<br />
-				<?php endfor;?>
 	
 			</section>
 

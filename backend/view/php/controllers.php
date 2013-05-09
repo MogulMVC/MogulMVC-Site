@@ -13,7 +13,7 @@
 					</li>
 				</a>
 				
-				<a href="#section_create">
+				<a href="#section_types">
 					<li class="MSideBarListItem MCursorPointer">
 						<span>Types of Controllers</span>
 					</li>
@@ -25,9 +25,9 @@
 					</li>
 				</a>
 				
-				<a href="#section_load">
+				<a href="#section_invoke">
 					<li class="MSideBarListItem MCursorPointer">
-						<span>How Controllers are Loaded</span>
+						<span>How Controllers are Invoked</span>
 					</li>
 				</a>
 					
@@ -42,9 +42,14 @@
 				
 				<h1>PHP Controllers</h1>
 				
-				<?php for($i = 0; $i < 10; $i++):?>
-					<br />
-				<?php endfor;?>
+			</section>
+	
+			<section id="section_types">
+	
+				<h2>Types of Controllers</h2>
+				<hr />
+				
+				<p>Mogul MVC has 3 different</p>
 	
 			</section>
 	
@@ -53,33 +58,31 @@
 				<h2>Create</h2>
 				<hr />
 	
-				<?php for($i = 0; $i < 10; $i++):?>
-					<br />
-				<?php endfor;?>
-	
 			</section>
 			
-			<section id="section_load">
+			<section id="section_invoke">
 	
-				<h2>How Controllers are Loaded</h2>
+				<h2>How Controllers are Invoked</h2>
 				<hr />
-	
-				<?php for($i = 0; $i < 10; $i++):?>
-					<br />
-				<?php endfor;?>
 				
-				<h3>Classes</h3>
+				<p>Because Mogul MVC has 3 different types of controllers their are 3 different ways controllers are invoked. We will first focus on normal controllers, then discuss actions and apis together as they are invoked very similarly.</p>
 				
-				<?php for($i = 0; $i < 10; $i++):?>
-					<br />
-				<?php endfor;?>
+				<div class="indent">
+		
+					<h3>Normal Controllers</h3>
+					
+					<div class="indent">
+					
+						<h4>Classes</h4>
+					
+						<h4>Functions</h4>
 				
-				<h3>Functions</h3>
+					</div>
+					
+					<h3>Actions and APIs</h3>
 				
-				<?php for($i = 0; $i < 10; $i++):?>
-					<br />
-				<?php endfor;?>
-	
+				</div>
+				
 			</section>
 			
 		</td>

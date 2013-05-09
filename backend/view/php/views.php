@@ -56,20 +56,12 @@
 				<h2>Create a View</h2>
 				<hr />
 	
-				<?php for($i = 0; $i < 10; $i++):?>
-					<br />
-				<?php endfor;?>
-	
 			</section>
 			
 			<section id="section_load">
 	
 				<h2>Load a View</h2>
 				<hr />
-	
-				<?php for($i = 0; $i < 10; $i++):?>
-					<br />
-				<?php endfor;?>
 	
 			</section>
 			
