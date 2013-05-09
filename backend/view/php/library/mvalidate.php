@@ -45,6 +45,18 @@ MLoad::php_framework('core/util/MValidate');
 					</li>
 				</a>
 				
+				<a href="#section_included_in">
+					<li class="MSideBarListItem MCursorPointer">
+						<span>included_in</span>
+					</li>
+				</a>
+				
+				<a href="#section_excluded_from">
+					<li class="MSideBarListItem MCursorPointer">
+						<span>excluded_from</span>
+					</li>
+				</a>
+				
 				<a href="#section_between">
 					<li class="MSideBarListItem MCursorPointer">
 						<span>between</span>
@@ -92,10 +104,21 @@ MLoad::php_framework('core/util/MValidate');
 					$data['added'] = '1305';
 					$data['title'] = 'optional($input:String):Boolean';
 					$data['content'] = nl2br('Validates that a variable is declared, exists in memory, and has some value.
-"", " ", [], {}, 0, FALSE will return TRUE as they are declared variables.
+"", " ", array(), 0, FALSE will return TRUE as they are declared variables.
 An undeclared variable or NULL will return FALSE.');
 					MLoad::template_application('template/library_function', $data);
 					?>
+					<span class="MNoteR right">In the example below we first must declare a variable in order to pass it into the function as this function only accepts passing by reference.</span>
+					<pre><code><?php echo '$value = "some value"; <br />MValidate::optional($value); <br />'; ?><?php $value = "some value"; echo var_dump(MValidate::optional($value)); ?></code></pre>
+					<pre><code><?php echo '$value = ""; <br />MValidate::optional($value); <br />'; ?><?php $value = ""; echo var_dump(MValidate::optional($value)); ?></code></pre>
+					<pre><code><?php echo '$value = " "; <br />MValidate::optional($value); <br />'; ?><?php $value = " "; echo var_dump(MValidate::optional($value)); ?></code></pre>
+					<pre><code><?php echo '$value = array(); <br />MValidate::optional($value); <br />'; ?><?php $value = array(); echo var_dump(MValidate::optional($value)); ?></code></pre>
+					<pre><code><?php echo '$value = 0; <br />MValidate::optional($value); <br />'; ?><?php $value = 0; echo var_dump(MValidate::optional($value)); ?></code></pre>
+					<pre><code><?php echo '$value = FALSE; <br />MValidate::optional($value); <br />'; ?><?php $value = FALSE; echo var_dump(MValidate::optional($value)); ?></code></pre>
+					
+					<span class="MNoteY right">Unset $value.</span>
+					<pre><code><?php echo 'unset($value); <br />MValidate::optional($value); <br />'; ?><?php unset($value); echo var_dump(MValidate::optional($value)); ?></code></pre>
+					<pre><code><?php echo '$value = NULL; <br />MValidate::optional($value); <br />'; ?><?php $value = NULL; echo var_dump(MValidate::optional($value)); ?></code></pre>
 				</section>
 				
 				<section id="section_required">
@@ -104,20 +127,37 @@ An undeclared variable or NULL will return FALSE.');
 					$data['title'] = 'required($input:String):Boolean';
 					$data['content'] = nl2br('Validates that a variable is decalred and has a non empty value.
 0, FALSE will return TRUE.
-"", " ", [], {}, an undeclared variable, and NULL will return FALSE.
-					');
+"", " ", array(), an undeclared variable, and NULL will return FALSE.');
 					MLoad::template_application('template/library_function', $data);
 					?>
+					<span class="MNoteR right">In the example below we first must declare a variable in order to pass it into the function as this function accepts passing by reference.</span>
+					<pre><code><?php echo '$value = "some value"; <br />MValidate::required($value); <br />'; ?><?php $value = "some value"; echo var_dump(MValidate::required($value)); ?></code></pre>
+					<pre><code><?php echo '$value = ""; <br />MValidate::required($value); <br />'; ?><?php $value = ""; echo var_dump(MValidate::required($value)); ?></code></pre>
+					<pre><code><?php echo '$value = " "; <br />MValidate::required($value); <br />'; ?><?php $value = " "; echo var_dump(MValidate::required($value)); ?></code></pre>
+					<pre><code><?php echo '$value = array(); <br />MValidate::required($value); <br />'; ?><?php $value = array(); echo var_dump(MValidate::required($value)); ?></code></pre>
+					<pre><code><?php echo '$value = 0; <br />MValidate::required($value); <br />'; ?><?php $value = 0; echo var_dump(MValidate::required($value)); ?></code></pre>
+					<pre><code><?php echo '$value = FALSE; <br />MValidate::required($value); <br />'; ?><?php $value = FALSE; echo var_dump(MValidate::required($value)); ?></code></pre>
+					
+					<span class="MNoteY right">Unset $value.</span>
+					<pre><code><?php echo 'unset($value); <br />MValidate::required($value); <br />'; ?><?php unset($value); echo var_dump(MValidate::required($value)); ?></code></pre>
+					<pre><code><?php echo '$value = NULL; <br />MValidate::required($value); <br />'; ?><?php $value = NULL; echo var_dump(MValidate::required($value)); ?></code></pre>
 				</section>
 				
 				<section id="section_only_contain">
 					<?php 
 					$data['added'] = '1305';
-					$data['title'] = 'only_contain($input:Mixed, , choices:Array):Boolean';
+					$data['title'] = 'only_contain($input:Mixed, choices:Array):Boolean';
 					$data['content'] = nl2br('Validates that a variable contains only the values is in the array.
-The input can not have any values other than what is in the array.');
+The input can not have any values other than what is in the array.
+If the input is a String each letter is checked against the choice array.
+If the input is an Array each item in the array is checked against the choice array.');
 					MLoad::template_application('template/library_function', $data);
 					?>
+					<pre><code><?php echo 'MValidate::only_contain("red", array("r", "e", "a", "d", "y")); <br />'; ?><?php echo var_dump(MValidate::only_contain("red", array("r", "e", "a", "d", "y"))); ?></code></pre>
+					<pre><code><?php echo 'MValidate::only_contain("Red", array("r", "e", "a", "d", "y")); <br />'; ?><?php echo var_dump(MValidate::only_contain("Red", array("r", "e", "a", "d", "y"))); ?></code></pre>
+					
+					<pre><code><?php echo 'MValidate::only_contain(array("comedy", "horror"), array("action", "comedy", "drama", "horror")); <br />'; ?><?php echo var_dump(MValidate::only_contain(array("comedy", "horror"), array("action", "comedy", "drama", "horror"))); ?></code></pre>
+					<pre><code><?php echo 'MValidate::only_contain(array("romcom", "animated"), array("action", "comedy", "drama", "horror")); <br />'; ?><?php echo var_dump(MValidate::only_contain(array("romcom", "animated"), array("action", "comedy", "drama", "horror"))); ?></code></pre>
 				</section>
 				
 				<section id="section_must_contain">
@@ -125,7 +165,9 @@ The input can not have any values other than what is in the array.');
 					$data['added'] = '1305';
 					$data['title'] = 'must_contain($input:Mixed, choices:Array):Boolean';
 					$data['content'] = nl2br('Validates that a variable contains every value in the array.
-It can have other characters but must have what is in the array.');
+The input can have other values but must have what is in the array.
+If the input is a String each letter is checked against the choice array.
+If the input is an Array each item in the array is checked against the choice array.');
 					MLoad::template_application('template/library_function', $data);
 					?>
 				</section>
@@ -135,7 +177,9 @@ It can have other characters but must have what is in the array.');
 					$data['added'] = '1305';
 					$data['title'] = 'cant_contain($input:Mixed, choices:Array):Boolean';
 					$data['content'] = nl2br('Validates that a variable does not contain what is in the array.
-It can have other characters but must not have what is in the array.');
+The input can have other values but must not have what is in the array.
+If the input is a String each letter is checked against the array.
+If the input is an Array each item in the array is checked against the choice array.');
 					MLoad::template_application('template/library_function', $data);
 					?>
 				</section>
@@ -144,18 +188,24 @@ It can have other characters but must not have what is in the array.');
 					<?php 
 					$data['added'] = '1305';
 					$data['title'] = 'included_in($input:Mixed, choices:Array):Boolean';
-					$data['content'] = nl2br('Validates that a variable is in a list of choices.');
+					$data['content'] = nl2br('Validates that a variable is in a list of choices.
+The comparison is case sensitive, so "red" and "Red" are not the same.');
 					MLoad::template_application('template/library_function', $data);
 					?>
+					<pre><code><?php echo 'MValidate::included_in("Red", array("Red", "Yellow", "Blue")); <br />'; ?><?php $value = NULL; echo var_dump(MValidate::included_in("Red", array("Red", "Yellow", "Blue"))); ?></code></pre>
+					<pre><code><?php echo 'MValidate::included_in("red", array("Red", "Yellow", "Blue")); <br />'; ?><?php $value = NULL; echo var_dump(MValidate::included_in("red", array("Red", "Yellow", "Blue"))); ?></code></pre>
 				</section>
 				
-				<section id="section_excluded_in">
+				<section id="section_excluded_from">
 					<?php 
 					$data['added'] = '1305';
-					$data['title'] = 'excluded_in($input:Mixed, choices:Array):Boolean';
-					$data['content'] = nl2br('Validates that a variable is not in a list of choices.');
+					$data['title'] = 'excluded_from($input:Mixed, choices:Array):Boolean';
+					$data['content'] = nl2br('Validates that a variable is not in a list of choices.
+The comparison is case sensitive, so "red" and "Red" are not the same.');
 					MLoad::template_application('template/library_function', $data);
 					?>
+					<pre><code><?php echo 'MValidate::excluded_from("Red", array("Red", "Yellow", "Blue")); <br />'; ?><?php $value = NULL; echo var_dump(MValidate::excluded_from("Red", array("Red", "Yellow", "Blue"))); ?></code></pre>
+					<pre><code><?php echo 'MValidate::excluded_from("red", array("Red", "Yellow", "Blue")); <br />'; ?><?php $value = NULL; echo var_dump(MValidate::excluded_from("red", array("Red", "Yellow", "Blue"))); ?></code></pre>
 				</section>
 				
 				<section id="section_between">

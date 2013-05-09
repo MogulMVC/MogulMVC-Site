@@ -132,7 +132,7 @@ MLoad::template_application('template/toolbar_php', $data);
 			<p class="MIntent">NOT COMPLETE</p>
 			
 			<h1>MLoad</h1>
-			<span class="MNoteG">MLoad is loaded by the system by default.</span>
+			<span class="MNoteG">MLoad is loaded by default.</span>
 			
 			<p>MLoad is the library that you will use most while devloping with Mogul MVC. It is how all libraries, models, views, and many other files are loaded into memory or added to the HTML page being generated.</p>
 			

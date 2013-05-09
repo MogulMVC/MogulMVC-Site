@@ -60,7 +60,7 @@ MLoad::template_application('template/toolbar_php', $data);
 		<td class="MWidthFull MPadding">
 			
 			<h1>MURL</h1>
-			<span class="MNoteG">MURL is loaded by the system by default.</span>
+			<span class="MNoteG">MURL is loaded by default.</span>
 			
 			<h2>Public Methods</h2>
 			<hr />

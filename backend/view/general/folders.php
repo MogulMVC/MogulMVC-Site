@@ -185,19 +185,16 @@
 		
 					<h2>Backend Libraries - lib</h2>
 					<hr />
-					
-					<p>Mogul MVC allows for 3 different types of libraries, listed below.<br />
-						Only libraries that include PHP or use PHP variables should be added to the lib folder.<br />
-						Mogul MVC looks first in the public folder to find a CSS and JS library, then the cache folder, and finally the lib folder. If it find it in the lib folder it will compile it and place it in the cache folder.  
-					</p>
+
+					<p>All your PHP libraries should go in this directory.</p>					
 		
 					<div class="indent">
 						
 						<h3>Vendor - vendor</h3>
-						<p>Vendor PHP libraries go here.</p>
+						<p>Vendor PHP libraries go here. These are libraries not written by you.</p>
 						
 						<h3>Core - core</h3>
-						<p>Core PHP libraries go here.</p>
+						<p>Core PHP libraries go here. These are libraries written by you.</p>
 						
 					</div>
 						
@@ -208,7 +205,7 @@
 					<h2>Backend Model - model</h2>
 					<hr />
 					
-					<p>Models are used to store function for quick database access. Mogul MVC offers two types of models, but both types go within this folder. Model files are stored in here.<br />To learn to create and use models see <a href="/php/models">PHP Models</a>.</p>
+					<p>Models are used to store functions for quick database access. Mogul MVC offers two types of models, but both types go within this folder.<br />To learn to create and use models see <a href="/php/models">PHP Models</a>.</p>
 						
 					<div class="indent">
 						
@@ -226,7 +223,7 @@
 					<h2>Backend View - view</h2>
 					<hr />
 					
-					<p>Views are used to render PHP variables out to an HTML page.<br />
+					<p>Views are used to render PHP variables to an HTML page.<br />
 						To learn to create and use views see <a href="/php/views">PHP Views</a>.</p>
 					
 					<div class="indent">

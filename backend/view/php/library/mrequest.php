@@ -25,7 +25,7 @@
 		<td class="MWidthFull MPadding">
 			
 			<h1>MRequest</h1>
-			<span class="MNoteG">MRequest is loaded by the system by default.</span>
+			<span class="MNoteG">MRequest is loaded by default.</span>
 			
 			<h2>Public Methods</h2>
 			<hr />

@@ -54,7 +54,7 @@ MLoad::template_application('template/toolbar_php', $data);
 			<p class="MIntent">NOT COMPLETE</p>
 			
 			<h1>MString</h1>
-			<span class="MNoteG">MString is loaded by the system by default.</span>
+			<span class="MNoteG">MString is loaded by default.</span>
 			
 			<h2>Public Methods</h2>
 			<hr />
