@@ -43,7 +43,7 @@
 /frontend/
 /.htaccess</code></pre>
 	
-		<p>Move the backend and frontend folders onto your apache server and point your document root to the frontend directory. Keeping the backend folder out of the document root keeps your PHP code safe as it is never in a public facing server.</p>
+		<p>Move the backend and frontend folders onto your Apache server and point your document root to the frontend directory. Keeping the backend folder out of the document root keeps your PHP code safe as it is never in a public facing server.</p>
 	
 			<pre><code>/backend/
 /frontend/ &#8592; This becomes the document root
