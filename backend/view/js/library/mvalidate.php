@@ -40,6 +40,18 @@ MLoad::template_application('template/toolbar_js', $data);
 					</li>
 				</a>
 				
+				<a href="#section_includedIn">
+					<li class="MSideBarListItem MCursorPointer">
+						<span>includedIn</span>
+					</li>
+				</a>
+				
+				<a href="#section_excludedFrom">
+					<li class="MSideBarListItem MCursorPointer">
+						<span>excludedFrom</span>
+					</li>
+				</a>
+				
 				<a href="#section_between">
 					<li class="MSideBarListItem MCursorPointer">
 						<span>between</span>
@@ -114,6 +126,11 @@ An undeclared variable or null will return false.');
 The input can not have any values other than what is in the array.');
 					MLoad::template_application('template/library_function', $data);
 					?>
+					<pre><code><script>var valid = MValidate.onlyContain("red", ["r", "e", "a", "d", "y"]); document.write('MValidate.onlyContain("red", ["r", "e", "a", "d", "y"]); <br />' + typeof valid + ' ' + valid);</script></code></pre>
+					<pre><code><script>var valid = MValidate.onlyContain("Red", ["r", "e", "a", "d", "y"]); document.write('MValidate.onlyContain("Red", ["r", "e", "a", "d", "y"]); <br />' + typeof valid + ' ' + valid);</script></code></pre>
+					
+					<pre><code><script>var valid = MValidate.onlyContain(["comedy", "horror"], ["action", "comedy", "drama", "horror"]); document.write('MValidate.onlyContain(["comedy", "horror"], ["action", "comedy", "drama", "horror"]); <br />' + typeof valid + ' ' + valid);</script></code></pre>
+					<pre><code><script>var valid = MValidate.onlyContain(["romcom", "animated"], ["action", "comedy", "drama", "horror"]); document.write('MValidate.onlyContain(["romcom", "animated"], ["action", "comedy", "drama", "horror"]); <br />' + typeof valid + ' ' + valid);</script></code></pre>
 				</section>
 				
 				<section id="section_mustContain">
@@ -145,10 +162,10 @@ It can have other characters but must not have what is in the array.');
 					?>
 				</section>
 				
-				<section id="section_excludedIn">
+				<section id="section_excludedFrom">
 					<?php 
 					$data['added'] = '1305';
-					$data['title'] = 'excludedIn(input:Mixed, choices:Array):Boolean';
+					$data['title'] = 'excludedFrom(input:Mixed, choices:Array):Boolean';
 					$data['content'] = nl2br('Validates that a variable is not in a list of choices.');
 					MLoad::template_application('template/library_function', $data);
 					?>
