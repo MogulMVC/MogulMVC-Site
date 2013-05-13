@@ -170,6 +170,8 @@ If the input is a String each letter is checked against the choice array.
 If the input is an Array each item in the array is checked against the choice array.');
 					MLoad::template_application('template/library_function', $data);
 					?>
+					<pre><code><?php echo 'MValidate::must_contain(array("red", "orange", "yellow"), array("red", "yellow")); <br />'; ?><?php echo var_dump(MValidate::must_contain(array("red", "orange", "yellow"), array("red", "yellow"))); ?></code></pre>
+					<pre><code><?php echo 'MValidate::must_contain(array("red", "orange", "yellow"), array("red", "yellow", "blue")); <br />'; ?><?php echo var_dump(MValidate::must_contain(array("red", "orange", "yellow"), array("red", "yellow", "blue"))); ?></code></pre>
 				</section>
 				
 				<section id="section_cant_contain">

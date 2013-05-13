@@ -10,7 +10,7 @@
 	<a href="/js/vendor_libraries">Vendor Libraries</a>
 
 	<?php if(isset($php_version)): ?>
-		<a href="/php/library/<?php echo $php_version; ?>" class="right">PHP Version</a>
+		<a href="/php/library/<?php echo $php_version; ?>" class="right">View PHP Version</a>
 	<?php endif; ?>
 
 </nav>
