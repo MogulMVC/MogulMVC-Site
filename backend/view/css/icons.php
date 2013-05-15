@@ -31,6 +31,12 @@
 					<span>Social</span>
 				</li>
 			</a>
+			
+			<a href="#section_openShare">
+				<li class="MSideBarListItem">
+					<span>Open Share</span>
+				</li>
+			</a>
 
 			<a href="#section_avatar">
 				<li class="MSideBarListItem">
@@ -53,12 +59,6 @@
 			<a href="#section_loading">
 				<li class="MSideBarListItem">
 					<span>Loading</span>
-				</li>
-			</a>
-			
-			<a href="#section_openShare">
-				<li class="MSideBarListItem">
-					<span>Open Share</span>
 				</li>
 			</a>
 			
@@ -141,6 +141,24 @@
 <span class="MIconTwitter30x30"></span>
 <span class="MIconTwitter50x50"></span>
 <span class="MIconTwitter150x150"></span>');?></code></pre>
+	
+			</section>
+			
+			<section id="section_openShare" class="section">
+				<h2>Open Share</h2>
+				<hr />
+				
+				<span class="MIconOpenShare"></span>
+				<span class="MIconOpenShare30x30"></span>
+				<span class="MIconOpenShare50x50"></span>
+				<span class="MIconOpenShare150x150"></span>
+				
+				<br />
+				<a class="showCode">Code</a>
+				<pre class="MHidden"><code><?php echo htmlentities('<span class="MIconOpenShare"></span>
+<span class="MIconOpenShare30x30"></span>
+<span class="MIconOpenShare50x50"></span>
+<span class="MIconOpenShare150x150"></span>');?></code></pre>
 	
 			</section>
 			
@@ -245,24 +263,6 @@
 	
 			</section>
 			
-			<section id="section_openShare" class="section">
-				<h2>Open Share</h2>
-				<hr />
-				
-				<span class="MIconOpenShare"></span>
-				<span class="MIconOpenShare30x30"></span>
-				<span class="MIconOpenShare50x50"></span>
-				<span class="MIconOpenShare150x150"></span>
-				
-				<br />
-				<a class="showCode">Code</a>
-				<pre class="MHidden"><code><?php echo htmlentities('<span class="MIconOpenShare"></span>
-<span class="MIconOpenShare30x30"></span>
-<span class="MIconOpenShare50x50"></span>
-<span class="MIconOpenShare150x150"></span>');?></code></pre>
-	
-			</section>
-	
 			<section id="section_warning" class="section">
 				<h2>Warning</h2>
 				<hr />
