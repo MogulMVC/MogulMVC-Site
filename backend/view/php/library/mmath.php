@@ -37,7 +37,7 @@ MLoad::template_application('template/toolbar_php', $data);
 					<?php 
 					$data['added'] = '1211';
 					$data['title'] = 'linear_regression($x:Array, $y:Array):Array';
-					$data['content'] = nl2br('');
+					$data['content'] = nl2br('Given a set of points on a grid, linear regression will find the line that best fits the points. This is very useful when calculating trends in data. The first parameter is an array of all the x coordinates. The second parameter is an array of all the y coordinates.');
 					MLoad::template_application('template/library_function', $data);
 					?>
 				</section>

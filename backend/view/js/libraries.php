@@ -27,7 +27,7 @@
 			array('name' => 'MTemperature', 'description' => 'Temperature conversion functions.'),
 			array('name' => 'MTime', 'description' => 'Time conversion functions. Useful for media information.'),
 			array('name' => 'MURL', 'description' => 'Obtain infromation from the URL of the request.'),
-			array('name' => 'MValidate', 'description' => '****----Validate the existentce and content of differet types of data.')
+			array('name' => 'MValidate', 'description' => '----Validate the existentce and content of differet types of data.')
 		);
 	?>
 		

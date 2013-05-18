@@ -16,14 +16,14 @@
 			array('name' => 'MDate', 'description' => '<pre><code>core/util/MDate</code></pre>For generated formatted dates.'),
 			array('name' => 'MError', 'description' => '<pre><code>core/util/MError</code></pre>Display different types of errors.'),
 			array('name' => 'MLoad', 'description' => '<pre><code>core/util/MLoad</code></pre>----The most used class. Load in models, views, libraries and many more.'),
-			array('name' => 'MMath', 'description' => '<pre><code>core/util/MMath</code></pre>----A class for performing various math functions.'),
+			array('name' => 'MMath', 'description' => '<pre><code>core/util/MMath</code></pre>A class for performing various math functions.'),
 			array('name' => 'MNumber', 'description' => '<pre><code>core/util/MNumber</code></pre>Number functions.'),
 			array('name' => 'MRequest', 'description' => '<pre><code>core/util/MRequest</code></pre>Identify different information about the incoming request.'),
-			array('name' => 'MString', 'description' => '<pre><code>core/util/MString</code></pre>----String functions.'),
+			array('name' => 'MString', 'description' => '<pre><code>core/util/MString</code></pre>String functions.'),
 			array('name' => 'MTemperature', 'description' => '<pre><code>core/util/MTemperature</code></pre>Temperature conversion functions.'),
 			array('name' => 'MTime', 'description' => '<pre><code>core/util/MTime</code></pre>Time conversion functions. Useful for media information.'),
 			array('name' => 'MURL', 'description' => '<pre><code>core/util/MURL</code></pre>Obtain infromation from the URL of the request.'),
-			array('name' => 'MValidate', 'description' => '<pre><code>core/util/MValidate</code></pre>****----Validate the existentce and content of differet types of data.')
+			array('name' => 'MValidate', 'description' => '<pre><code>core/util/MValidate</code></pre>Validate the existentce and content of differet types of data.')
 		);
 	?>
 
