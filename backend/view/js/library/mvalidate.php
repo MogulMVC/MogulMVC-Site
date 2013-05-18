@@ -211,7 +211,9 @@ It can have other characters but must not have what is in the array.');
 					<?php 
 					$data['added'] = '1305';
 					$data['title'] = 'state(state:String):Boolean';
-					$data['content'] = nl2br('');
+					$data['content'] = nl2br('Validates that a state or abbriation for a state is a valid state.
+Washington DC is considered a state to this function.
+This function is case insensitive.');
 					MLoad::template_application('template/library_function', $data);
 					?>
 				</section>

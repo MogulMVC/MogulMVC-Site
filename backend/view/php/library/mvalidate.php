@@ -74,8 +74,6 @@ MLoad::php_framework('core/util/MValidate');
 
 		<td class="MWidthFull MPadding">
 			
-			<p class="MIntent">NOT COMPLETE</p>
-			
 			<h1>MValidate</h1>
 			<span class="MNoteY">Loaded from</span>
 			<pre><code>core/util/MValidate</code></pre>
