@@ -71,7 +71,8 @@ MLoad::template_application('template/toolbar_js', $data);
 					<?php 
 					$data['added'] = '1305';
 					$data['title'] = 'random(length:int):String';
-					$data['content'] = nl2br('');
+					$data['content'] = nl2br('Returns a random string of character the length at which is requested.
+Characters avalible are 0-9 a-z and A-Z for a total of 62 characters.');
 					MLoad::template_application('template/library_function', $data);
 					?>
 				</section>
@@ -80,7 +81,7 @@ MLoad::template_application('template/toolbar_js', $data);
 					<?php 
 					$data['added'] = '1305';
 					$data['title'] = 'toBoolean(value:String):Boolean';
-					$data['content'] = nl2br('');
+					$data['content'] = nl2br('Converts a string of "true" into a boolean of TRUE and a string of "false" into a boolean of FALSE. This is sometimes needed when going between JavaScript and PHP with AJAX.');
 					MLoad::template_application('template/library_function', $data);
 					?>
 				</section>
@@ -89,7 +90,7 @@ MLoad::template_application('template/toolbar_js', $data);
 					<?php 
 					$data['added'] = '1305';
 					$data['title'] = 'subBefore(string:String, character:String):String';
-					$data['content'] = nl2br('');
+					$data['content'] = nl2br('Given a string and a character or set of characters this function will return a substring before the first occurance of the set. This function was added when Mogul MVC was not required to run on PHP 5.3 and thus did not have access to the optional third parameter of the strstr() command in PHP 5.3.');
 					MLoad::template_application('template/library_function', $data);
 					?>
 				</section>
@@ -98,7 +99,7 @@ MLoad::template_application('template/toolbar_js', $data);
 					<?php 
 					$data['added'] = '1305';
 					$data['title'] = 'urlLink(string:String, noFollow:Boolean):String';
-					$data['content'] = nl2br('');
+					$data['content'] = nl2br('Given a string containing URLs this funcntion will return a string containing HTML anchor tags to those URLs. The optional second parameter converts the link into a no follow link.');
 					MLoad::template_application('template/library_function', $data);
 					?>
 				</section>
@@ -107,7 +108,7 @@ MLoad::template_application('template/toolbar_js', $data);
 					<?php 
 					$data['added'] = '1305';
 					$data['title'] = 'urlTitle(string:String, seperator:String):String';
-					$data['content'] = nl2br('');
+					$data['content'] = nl2br('Converts a given string into a character seperated URL title safe string. This function also lower cases the string. The optional second parameter allows you to pass in your own character, otherwise a dash (-) is used.');
 					MLoad::template_application('template/library_function', $data);
 					?>
 				</section>
@@ -116,7 +117,7 @@ MLoad::template_application('template/toolbar_js', $data);
 					<?php 
 					$data['added'] = '1211';
 					$data['title'] = 'escapeHtml(unsafe:String):String';
-					$data['content'] = nl2br('');
+					$data['content'] = nl2br('Converts html elements to safe viewable charcters so not to affect the written HTML.');
 					MLoad::template_application('template/library_function', $data);
 					?>
 				</section>
@@ -125,7 +126,7 @@ MLoad::template_application('template/toolbar_js', $data);
 					<?php 
 					$data['added'] = '1305';
 					$data['title'] = 'firstToUpperCase(string:String):String';
-					$data['content'] = nl2br('');
+					$data['content'] = nl2br('Turns the first letter of the first word of each string passed in to a capital letter.');
 					MLoad::template_application('template/library_function', $data);
 					?>
 				</section>
