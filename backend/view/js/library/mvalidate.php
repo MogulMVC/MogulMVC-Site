@@ -97,6 +97,7 @@ MLoad::template_application('template/toolbar_js', $data);
 				</section>
 				
 				<section id="section_optional">
+					<p class="MIntent">THIS FUNCTION NEEDS WORK</p>
 					<?php 
 					$data['added'] = '1305';
 					$data['title'] = 'optional(input:Mixed):Boolean';
@@ -108,6 +109,7 @@ An undeclared variable or null will return false.');
 				</section>
 				
 				<section id="section_required">
+					<p class="MIntent">THIS FUNCTION NEEDS WORK</p>
 					<?php 
 					$data['added'] = '1305';
 					$data['title'] = 'required(input:Mixed):Boolean';
@@ -123,7 +125,9 @@ An undeclared variable or null will return false.');
 					$data['added'] = '1305';
 					$data['title'] = 'onlyContain(input:String, choices:Array):Boolean';
 					$data['content'] = nl2br('Validates that a variable contains only the values is in the array.
-The input can not have any values other than what is in the array.');
+The input can not have any values other than what is in the array.
+If the input is a String each letter is checked against the choice array.
+If the input is an Array each item in the array is checked against the choice array.');
 					MLoad::template_application('template/library_function', $data);
 					?>
 					<pre><code><script>var valid = MValidate.onlyContain("red", ["r", "e", "a", "d", "y"]); document.write('MValidate.onlyContain("red", ["r", "e", "a", "d", "y"]); <br />' + typeof valid + ' ' + valid);</script></code></pre>
@@ -138,9 +142,13 @@ The input can not have any values other than what is in the array.');
 					$data['added'] = '1305';
 					$data['title'] = 'mustContain(input:String, choices:Array):Boolean';
 					$data['content'] = nl2br('Validates that a variable contains every value in the array.
-It can have other characters but must have what is in the array.');
+The input can have other values but must have what is in the array.
+If the input is a String each letter is checked against the choice array.
+If the input is an Array each item in the array is checked against the choice array.');
 					MLoad::template_application('template/library_function', $data);
 					?>
+					<pre><code><script>var valid = MValidate.mustContain(["red", "orange", "yellow"], ["red", "yellow"]); document.write('MValidate.mustContain(["red", "orange", "yellow"], ["red", "yellow"]); <br />' + typeof valid + ' ' + valid);</script></code></pre>
+					<pre><code><script>var valid = MValidate.mustContain(["red", "orange", "yellow"], ["red", "yellow", "blue"]); document.write('MValidate.mustContain(["red", "orange", "yellow"], ["red", "yellow", "blue"]); <br />' + typeof valid + ' ' + valid);</script></code></pre>
 				</section>
 				
 				<section id="section_cantContain">
@@ -148,27 +156,37 @@ It can have other characters but must have what is in the array.');
 					$data['added'] = '1305';
 					$data['title'] = 'cantContain(input:String, choices:Array):Boolean';
 					$data['content'] = nl2br('Validates that a variable does not contain what is in the array.
-It can have other characters but must not have what is in the array.');
+The input can have other values but must not have what is in the array.
+If the input is a String each letter is checked against the array.
+If the input is an Array each item in the array is checked against the choice array.');
 					MLoad::template_application('template/library_function', $data);
 					?>
+					<pre><code><script>var valid = MValidate.cantContain(["red", "orange", "yellow"], ["green", "blue", "violet"]); document.write('MValidate.cantContain(["red", "orange", "yellow"], ["green", "blue", "violet"]); <br />' + typeof valid + ' ' + valid);</script></code></pre>
+					<pre><code><script>var valid = MValidate.cantContain(["red", "orange", "yellow"], ["yellow", "green"]); document.write('MValidate.cantContain(["red", "orange", "yellow"], ["yellow", "green"]); <br />' + typeof valid + ' ' + valid);</script></code></pre>
 				</section>
 				
 				<section id="section_includedIn">
 					<?php 
 					$data['added'] = '1305';
 					$data['title'] = 'includedIn(input:Mixed, choices:Array):Boolean';
-					$data['content'] = nl2br('Validates that a variable is in a list of choices.');
+					$data['content'] = nl2br('Validates that a variable is in a list of choices.
+The comparison is case sensitive, so "red" and "Red" are not the same.');
 					MLoad::template_application('template/library_function', $data);
 					?>
+					<pre><code><script>var valid = MValidate.includedIn("Red", ["Red", "Yellow", "Blue"]); document.write('MValidate.includedIn("Red", ["Red", "Yellow", "Blue"]); <br />' + typeof valid + ' ' + valid);</script></code></pre>
+					<pre><code><script>var valid = MValidate.includedIn("red", ["Red", "Yellow", "Blue"]); document.write('MValidate.includedIn("red", ["Red", "Yellow", "Blue"]); <br />' + typeof valid + ' ' + valid);</script></code></pre>
 				</section>
 				
 				<section id="section_excludedFrom">
 					<?php 
 					$data['added'] = '1305';
 					$data['title'] = 'excludedFrom(input:Mixed, choices:Array):Boolean';
-					$data['content'] = nl2br('Validates that a variable is not in a list of choices.');
+					$data['content'] = nl2br('Validates that a variable is not in a list of choices.
+The comparison is case sensitive, so "red" and "Red" are not the same.');
 					MLoad::template_application('template/library_function', $data);
 					?>
+					<pre><code><script>var valid = MValidate.excludedFrom("Red", ["Red", "Yellow", "Blue"]); document.write('MValidate.excludedFrom("Red", ["Red", "Yellow", "Blue"]); <br />' + typeof valid + ' ' + valid);</script></code></pre>
+					<pre><code><script>var valid = MValidate.excludedFrom("red", ["Red", "Yellow", "Blue"]); document.write('MValidate.excludedFrom("red", ["Red", "Yellow", "Blue"]); <br />' + typeof valid + ' ' + valid);</script></code></pre>
 				</section>
 				
 				<section id="section_between">

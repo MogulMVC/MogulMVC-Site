@@ -126,7 +126,7 @@ Characters avalible are 0-9 a-z and A-Z for a total of 62 characters.');
 					<?php 
 					$data['added'] = '1305';
 					$data['title'] = 'firstToUpperCase(string:String):String';
-					$data['content'] = nl2br('Turns the first letter of the first word of each string passed in to a capital letter.');
+					$data['content'] = nl2br('Turns the first letter of the passed in string to a capital letter.');
 					MLoad::template_application('template/library_function', $data);
 					?>
 				</section>
