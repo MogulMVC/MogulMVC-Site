@@ -85,6 +85,7 @@ Characters avalible are 0-9 a-z and A-Z for a total of 62 characters.');
 					$data['content'] = nl2br('Converts a string of "true" into a boolean of TRUE and a string of "false" into a boolean of FALSE. This is sometimes needed when going between JavaScript and PHP with AJAX.');
 					MLoad::template_application('template/library_function', $data);
 					?>
+					<pre><code><script>var output = MString.toBoolean("true"); document.write('MString.toBoolean("true"); <br />' + typeof output + ' ' + output);</script></code></pre>
 				</section>
 			
 				<section id="section_subBefore">
