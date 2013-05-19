@@ -57,7 +57,7 @@ MLoad::template_application('template/toolbar_js', $data);
 
 		<td class="MWidthFull MPadding">
 			
-			<p class="MIntent">NOT COMPLETE</p>
+			<p class="MIntent">NOT COMPLETE test</p>
 			
 			<h1>MString</h1>
 			
