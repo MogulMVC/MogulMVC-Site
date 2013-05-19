@@ -129,7 +129,7 @@ Characters avalible are 0-9 a-z and A-Z for a total of 62 characters.');
 					$data['content'] = nl2br('Turns the first letter of the passed in string to a capital letter.');
 					MLoad::template_application('template/library_function', $data);
 					?>
-					<pre><code><script>var output = MString.firstToUpperCase("a string of lower case letters."); document.write('MString.firstToUpperCase("a string of lower case letters."); <br />' + typeof valid + ' ' + valid);</script></code></pre>
+					<pre><code><script>var output = MString.firstToUpperCase("a string of lower case letters."); document.write('MString.firstToUpperCase("a string of lower case letters."); <br />' + typeof output + ' ' + output);</script></code></pre>
 				</section>
 			
 			</div>
