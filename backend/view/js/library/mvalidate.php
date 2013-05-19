@@ -196,6 +196,7 @@ The comparison is case sensitive, so "red" and "Red" are not the same.');
 					$data['content'] = nl2br('Validates that a variable is between two numbers.');
 					MLoad::template_application('template/library_function', $data);
 					?>
+					<pre><code><script>var valid = MValidate.between(5, 0, 10); document.write('MValidate.between(5, 0, 10)); <br />' + typeof valid + ' ' + valid);</script></code></pre>
 				</section>
 				
 				<section id="section_multipleOf">
@@ -205,6 +206,8 @@ The comparison is case sensitive, so "red" and "Red" are not the same.');
 					$data['content'] = nl2br('Validates that an input is a multiple of a number.');
 					MLoad::template_application('template/library_function', $data);
 					?>
+					<pre><code><script>var valid = MValidate.multipleOf(5, 10); document.write('MValidate.multipleOf(5, 10)); <br />' + typeof valid + ' ' + valid);</script></code></pre>
+					<pre><code><script>var valid = MValidate.multipleOf(10, 5); document.write('MValidate.multipleOf(10, 5)); <br />' + typeof valid + ' ' + valid);</script></code></pre>
 				</section>
 				
 				<section id="section_even">
@@ -214,6 +217,8 @@ The comparison is case sensitive, so "red" and "Red" are not the same.');
 					$data['content'] = nl2br('Validates that an input is an even number.');
 					MLoad::template_application('template/library_function', $data);
 					?>
+					<pre><code><script>var valid = MValidate.even(5); document.write('MValidate.even(5)); <br />' + typeof valid + ' ' + valid);</script></code></pre>
+					<pre><code><script>var valid = MValidate.even(4); document.write('MValidate.even(4)); <br />' + typeof valid + ' ' + valid);</script></code></pre>
 				</section>
 				
 				<section id="section_odd">
@@ -223,6 +228,8 @@ The comparison is case sensitive, so "red" and "Red" are not the same.');
 					$data['content'] = nl2br('Validates that an input is an odd number.');
 					MLoad::template_application('template/library_function', $data);
 					?>
+					<pre><code><script>var valid = MValidate.odd(5); document.write('MValidate.odd(5)); <br />' + typeof valid + ' ' + valid);</script></code></pre>
+					<pre><code><script>var valid = MValidate.odd(4); document.write('MValidate.odd(4)); <br />' + typeof valid + ' ' + valid);</script></code></pre>
 				</section>
 				
 				<section id="section_state">
@@ -234,6 +241,9 @@ Washington DC is considered a state to this function.
 This function is case insensitive.');
 					MLoad::template_application('template/library_function', $data);
 					?>
+					<pre><code><script>var valid = MValidate.state("FL"); document.write('MValidate.state("FL")); <br />' + typeof valid + ' ' + valid);</script></code></pre>
+					<pre><code><script>var valid = MValidate.state("dc"); document.write('MValidate.state("dc")); <br />' + typeof valid + ' ' + valid);</script></code></pre>
+					<pre><code><script>var valid = MValidate.state("guam"); document.write('MValidate.state("guam")); <br />' + typeof valid + ' ' + valid);</script></code></pre>
 				</section>
 			
 			</div>
