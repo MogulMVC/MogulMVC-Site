@@ -86,6 +86,9 @@ Characters avalible are 0-9 a-z and A-Z for a total of 62 characters.');
 					MLoad::template_application('template/library_function', $data);
 					?>
 					<pre><code><script>var output = MString.toBoolean("true"); document.write('MString.toBoolean("true"); <br />' + typeof output + ' ' + output);</script></code></pre>
+					<pre><code><script>var output = MString.toBoolean("false"); document.write('MString.toBoolean("false"); <br />' + typeof output + ' ' + output);</script></code></pre>
+					<pre><code><script>var output = MString.toBoolean("0"); document.write('MString.toBoolean("0"); <br />' + typeof output + ' ' + output);</script></code></pre>
+					<pre><code><script>var output = MString.toBoolean("1"); document.write('MString.toBoolean("1"); <br />' + typeof output + ' ' + output);</script></code></pre>
 				</section>
 			
 				<section id="section_subBefore">
