@@ -75,6 +75,7 @@ MLoad::template_application('template/toolbar_js', $data);
 Characters avalible are 0-9 a-z and A-Z for a total of 62 characters.');
 					MLoad::template_application('template/library_function', $data);
 					?>
+					<pre><code><script>var random = MString.random(8); document.write('MString.random(8); <br />' + typeof random + ' ' + random);</script></code></pre>
 				</section>
 				
 				<section id="section_toBoolean">
@@ -120,7 +121,6 @@ Characters avalible are 0-9 a-z and A-Z for a total of 62 characters.');
 					$data['content'] = nl2br('Converts html elements to safe viewable charcters so not to affect the written HTML.');
 					MLoad::template_application('template/library_function', $data);
 					?>
-					<pre><code><script>var output = MString.escapeHtml("<br />"); document.write('MString.escapeHtml("<br />"); <br />' + typeof output + '' + output);</script></code></pre>
 				</section>
 				
 				<section id="section_firstToUpperCase">
