@@ -60,8 +60,6 @@
 
 		<td class="MWidthFull MPadding">
 	
-			<p class="MIntent">NOT COMPLETE</p>
-	
 			<section id="section_about">
 	
 				<h1>PHP Configuration</h1>
@@ -171,7 +169,22 @@
 				<h2>Database - database.php</h2>
 				<hr />
 				
-				<p class="MIntent">NOT COMPLETE</p>
+				<p>Database configuration is setup in the database.php file inside the config folder. Each database is an associative array inside of the $GLOBALS['DB'] array. Each database that is configured needs 6 indexes specified and must be a unique index inside of the $GLOBALS['DB'] array.</p>
+
+				<p>The following code shows an example of a connection to a MySQL database.</p>
+				
+				<pre><code><?php echo htmlspecialchars("'connection_name' => array(
+	'type' => 'mysql',
+	'host' => 'localhost',
+	'port' => '3306',
+	'name' => 'dbname',
+	'user' => 'dbuser',
+	'pass' => 'dbpass'
+)"); ?></code></pre>
+				
+				Mogul MVC supports any database connection that PDO supports.
+				
+				To get more information about using databases see PHP Models.
 				
 			</section>
 			
@@ -180,7 +193,37 @@
 				<h2>Routes - routes.php</h2>
 				<hr />
 				
-				<p class="MIntent">NOT COMPLETE</p>
+				<p>By default Mogul MVC maps a URL to a controller class and function in the following way.</p>
+				
+				<pre><code>site.com/controller/function/</code></pre>
+				
+				<p>Sometimes you want to map routes differently, for example, a video site might require a URL as follows.</p>
+				
+				<pre><code>site.com/media/15</code></pre>
+				
+				<p>Obviously a function can't be made for each video id, thus this is a prime use of routes.</p>
+				
+				<p>Mogul MVC has four different route types. Anything to a controller and function, a number to a controller and function, a string to a controller and function, and a page to a controller and function.</p>
+				
+				<p>The above example would use a number to a controller and function and might use the following route.</p>
+				
+				<pre><code>$ROUTE['media/#'] = 'Media/index';</code></pre>
+				
+				<p>The code to grab the video id and pull the data from the database would be in the index function within the Media controller.</p>
+				
+				<p>The following code is found within the routes.php file found in the config folder. It shows how to map any of the four types of routes.</p>
+				
+				<span>Any subpage to controller with function.</span>
+				<pre><code><?php echo htmlspecialchars("\$ROUTE['page/*'] = 'Controller/function';");?></code></pre>
+				
+				<span>Any number to controller with function.</span>
+				<pre><code><?php echo htmlspecialchars("\$ROUTE['page/#'] = 'Controller/function';"); ?></code></pre>
+				
+				<span>Any string to controller with function.</span>
+				<pre><code><?php echo htmlspecialchars("\$ROUTE['page/@'] = 'Controller/function';"); ?></code></pre>
+				
+				<span>Page to controller with function.</span>
+				<pre><code><?php echo htmlspecialchars("\$ROUTE['page/subpage'] = 'Controller/function';"); ?></code></pre>
 				
 			</section>
 			
@@ -197,13 +240,13 @@
 				
 				<p>The command directory contains a prewritten command to automatically create the session table once you manually create a session database. The information needed for this command and sessions in general is configured within the session.php file. Populate the <code>$GLOBALS['SESSION']</code> object with the appropriate information.</p>
 				
-<pre><code><?php echo '&#39;type&#39; => &#39;dbtype&#39;,
-&#39;host&#39; => &#39;localhost&#39;,
-&#39;port&#39; => &#39;3306&#39;,
-&#39;name&#39; => &#39;dbname&#39;,
-&#39;user&#39; => &#39;dbuser&#39;,
-&#39;pass&#39; => &#39;dbpass&#39;,
-&#39;table&#39; => &#39;dbtable&#39;'; ?></code></pre>
+				<pre><code><?php echo htmlspecialchars("'type' => 'dbtype',
+'host' => 'localhost',
+'port' => '3306',
+'name' => 'dbname',
+'user' => 'dbuser',
+'pass' => 'dbpass',
+'table' => 'dbtable'"); ?></code></pre>
 				
 				<p>We currently recommend using a SQL server, but more options will be available in the future.</p>
 	
@@ -225,10 +268,3 @@
 	</tr>
 
 </table>
-
-
-<script>
-	
-</script>
-
-

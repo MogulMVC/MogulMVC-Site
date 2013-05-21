@@ -250,7 +250,7 @@ A library called <code>UserAuthenticate.php</code> located in <code>application/
 					<?php 
 					$data['added'] = '1211';
 					$data['title'] = 'js_framework(js:String, $direction:String, $useHTTP:Boolean):void';
-					$data['content'] = nl2br('Mogul MVC can load JavaScript files and place them in the head or foot automatically. This allows you to specify only the name and Mload will create the path to that file my itself.
+					$data['content'] = nl2br('Mogul MVC can load JavaScript files and place them in the head or foot automatically. This allows you to specify only the name and MLoad will create the path to that file by itself.
 
 Mogul MVC comes with some core JavaScript libraries and several 3rd party JavaScript libraries such as jQuery and swfobject. 
 
