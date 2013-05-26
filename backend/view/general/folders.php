@@ -116,7 +116,7 @@
 				
 				<p>The backend directory is organized as follows.</p>
 				
-				<pre><code><?php echo htmlspecialchars("/cache/
+				<pre><code>/cache/
 	/command/
 	/config/
 	/controller/
@@ -129,7 +129,7 @@
 	/model/
 		/vo/
 	/view/
-		/template/"); ?></code></pre>
+		/template/</code></pre>
 			
 				<section id="section_backend_cache">
 		
@@ -247,7 +247,7 @@
 				
 				<p>The frontend application directory is organized as follows.</p>
 				
-				<pre><code><?php echo htmlspecialchars("/application/
+				<pre><code>/application/
 	/cache/
 	/css/
 		/core/
@@ -259,7 +259,7 @@
 		/vendor/
 	/misc/
 	/upload/
-		/.htaccess");?></code></pre>
+		/.htaccess</code></pre>
 				
 				<section id="section_frontend_cache">
 					

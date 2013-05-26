@@ -119,5 +119,3 @@
 	</div>
 	
 </div>
-
-<div class="MContentSpacer" style="height: 150px"></div>

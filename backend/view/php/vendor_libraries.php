@@ -4,8 +4,6 @@
 
 	<h1>PHP Vendor Libraries</h1>
 
-	<p></p>
-	
 	<hr />
 	
 	<?php

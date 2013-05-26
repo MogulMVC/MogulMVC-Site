@@ -1,3 +1,5 @@
+	<div class="MContentSpacer"></div>
+
 </div><!--MMainWindow-->
 
 <footer id="MFooter">

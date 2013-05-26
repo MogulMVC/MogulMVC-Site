@@ -7,12 +7,6 @@
 		<td id="MSideBarContainer">
 			<ul id="MSideBar" class="MSideBarLeft">
 				
-				<a href="#section_about">
-					<li class="MSideBarListItem MCursorPointer">
-						<span>About Models</span>
-					</li>
-				</a>
-				
 				<a href="#section_types">
 					<li class="MSideBarListItem MCursorPointer">
 						<span>Types of Models</span>
@@ -42,13 +36,9 @@
 
 		<td class="MWidthFull MPadding">
 			
-			<section id="section_about">
-				
-				<h1>PHP Models</h1>
-				
-				<p>Models provide a means of interacting with a database.</p>
-	
-			</section>
+			<h1>PHP Models</h1>
+			
+			<p>Models provide a means of interacting with a database.</p>
 	
 			<section id="section_types">
 	

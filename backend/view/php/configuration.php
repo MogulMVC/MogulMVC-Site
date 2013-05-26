@@ -7,12 +7,6 @@
 		<td id="MSideBarContainer">
 			<ul id="MSideBar" class="MSideBarLeft">
 				
-				<a href="#section_about">
-					<li class="MSideBarListItem MCursorPointer">
-						<span>About Configuration</span>
-					</li>
-				</a>
-				
 				<a href="#section_autoload">
 					<li class="MSideBarListItem MCursorPointer">
 						<span>Autoload - autoload.php</span>
@@ -60,17 +54,13 @@
 
 		<td class="MWidthFull MPadding">
 	
-			<section id="section_about">
-	
-				<h1>PHP Configuration</h1>
+			<h1>PHP Configuration</h1>
 
-				<p>Mogul MVC is built with certain design and organizational patterns in mind. These design and organizational patterns make sense to use and so we make them the default configuration.</p>
-				<p>However, one size fits all never looks good. Because of that we made our configuration section as robust as possibly while also remaining as organized as possible.</p>
-				<p>Below are the every configuration file available in the Mogul MVC application/config folder.</p>
-				<p>These configuration file affect all folder naming and organization in the application as well as routing, database connectivity, and session management.</p>
+			<p>Mogul MVC is built with certain design and organizational patterns in mind. These design and organizational patterns make sense to use and so we make them the default configuration.</p>
+			<p>However, one size fits all never looks good. Because of that we made our configuration section as robust as possibly while also remaining as organized as possible.</p>
+			<p>Below are the every configuration file available in the Mogul MVC application/config folder.</p>
+			<p>These configuration file affect all folder naming and organization in the application as well as routing, database connectivity, and session management.</p>
 	
-			</section>
-
 			<section id="section_autoload">
 	
 				<h2>Autoload - autoload.php</h2>

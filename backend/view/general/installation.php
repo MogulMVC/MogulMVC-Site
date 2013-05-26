@@ -11,6 +11,8 @@
 		<h2>Requirements</h2>
 		<hr />
 		
+		<p>Mogul MVC has very few requirements and will work on most shared hosted environments.</p>
+
 		<div class="indent">
 		
 			<h3>Web Server</h3>
@@ -39,15 +41,15 @@
 	
 		<p>After you get the source code you will notice there are 2 folders in the root directory as well as an .htaccess file. The two folders are backend and frontend. We will discuss the .htaccess file later but for now know that it is a way to make Apache work with Mogul MVC's organizational system.</p>
 	
-		<pre><code><?php echo htmlspecialchars('/backend/
+		<pre><code>/backend/
 /frontend/
-/.htaccess'); ?></code></pre>
+/.htaccess</code></pre>
 	
 		<p>Move the backend and frontend folders onto your Apache server and point your document root to the frontend directory. Keeping the backend folder out of the document root keeps your PHP code safe as it is never in a public facing server.</p>
 	
-			<pre><code><?php echo htmlspecialchars('/backend/
+			<pre><code>/backend/
 /frontend/ &#8592; This becomes the document root
-/.htaccess'); ?></code></pre>
+/.htaccess</code></pre>
 	
 		<p>So, what does the .htaccess file do? To understand that I first have to tell you that you can also point the document root to the folder containing both the backend and frontend folders. This would make the backend and frontend folders accessible to the outside world and is generally a bad practice. If you do this the .htaccess file there is to redirect the incoming signal from Apache to the frontend folder which thus runs the application.</p>
 		

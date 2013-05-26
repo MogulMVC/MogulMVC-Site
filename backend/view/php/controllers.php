@@ -7,12 +7,6 @@
 		<td id="MSideBarContainer">
 			<ul id="MSideBar" class="MSideBarLeft">
 				
-				<a href="#section_about">
-					<li class="MSideBarListItem MCursorPointer">
-						<span>About Controllers</span>
-					</li>
-				</a>
-				
 				<a href="#section_types">
 					<li class="MSideBarListItem MCursorPointer">
 						<span>Types of Controllers</span>
@@ -36,14 +30,10 @@
 
 		<td class="MWidthFull MPadding">
 
-			<section id="section_about">
+			<h1>PHP Controllers</h1>
+			
+			<p>Controllers are the first point in your application that is called during an incoming request.</p>
 				
-				<h1>PHP Controllers</h1>
-				
-				<p>Controllers are the first point in your application that is called during an incoming request.</p>
-				
-			</section>
-	
 			<section id="section_types">
 	
 				<h2>Types of Controllers</h2>
