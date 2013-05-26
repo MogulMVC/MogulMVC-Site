@@ -1,6 +1,6 @@
 <style>
 	#MStage{
-		background: #000000;
+		background: #F7941D;
 	}
 	#MStage h1{
 		font-size: 7em;
