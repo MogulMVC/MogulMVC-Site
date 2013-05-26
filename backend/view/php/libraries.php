@@ -29,7 +29,7 @@
 
 	<?php $i=1; foreach ($js_libraries as $library): ?>
 			
-	<a href="/php/library/<?php echo strtolower($library['name']); ?>" class="MWidget library">
+	<a href="/php/library/<?php echo strtolower($library['name']); ?>" class="MWidget MGlow library">
 		<span class="library-title"><?php echo $library['name']; ?></span><br /><?php echo $library['description']; ?>
 	</a>
 	

@@ -67,14 +67,11 @@ section:hover {
 
 .library {
 	background: #ffffff;
+	box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
 	width: 150px;
 	float: left;
 	margin: 10px;
 	text-align: center;
-}
-
-.library:hover {
-	background: #B4D2F0;
 }
 
 .library-version-1211 {
