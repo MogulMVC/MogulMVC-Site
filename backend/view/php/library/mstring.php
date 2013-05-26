@@ -28,12 +28,6 @@ MLoad::template_application('template/toolbar_php', $data);
 					</li>
 				</a>
 				
-				<a href="#section_newline_remove">
-					<li class="MSideBarListItem MCursorPointer">
-						<span>newline_remove</span>
-					</li>
-				</a>
-				
 				<a href="#section_url_link">
 					<li class="MSideBarListItem MCursorPointer">
 						<span>url_link</span>
@@ -43,6 +37,12 @@ MLoad::template_application('template/toolbar_php', $data);
 				<a href="#section_url_title">
 					<li class="MSideBarListItem MCursorPointer">
 						<span>url_title</span>
+					</li>
+				</a>
+				
+				<a href="#section_newline_remove">
+					<li class="MSideBarListItem MCursorPointer">
+						<span>newline_remove</span>
 					</li>
 				</a>
 				
@@ -95,24 +95,6 @@ Characters avalible are 0-9 a-z and A-Z for a total of 62 characters.');
 					<pre><code><?php echo 'MString::sub_before("The quick brown fox jumped over the lazy dog", "b"); <br />'; ?><?php echo var_dump(MString::sub_before("The quick brown fox jumped over the lazy dog", "b")); ?></code></pre>
 				</section>
 				
-				<section id="section_newline_remove">
-					<?php 
-					$data['added'] = '1211';
-					$data['title'] = 'newline_remove($string:String):String';
-					$data['content'] = nl2br('This function returns a string without the new line ("\n") character.');
-					MLoad::template_application('template/library_function', $data);
-					?>
-					<pre><code><?php echo 'MString::newline_remove("A
-string 
-with
-new
-lines."); <br />'; ?><?php echo var_dump(MString::newline_remove("A
-string 
-with
-new
-lines.")); ?></code></pre>
-				</section>
-				
 				<section id="section_url_link">
 					<?php 
 					$data['added'] = '1211';
@@ -132,6 +114,24 @@ lines.")); ?></code></pre>
 					?>
 					<pre><code><?php echo 'MString::url_title("The quick brown fox jumped over the lazy dog"); <br />'; ?><?php echo var_dump(MString::url_title("The quick brown fox jumped over the lazy dog")); ?></code></pre>
 					<pre><code><?php echo 'MString::url_title("The quick brown fox jumped over the lazy dog", "+"); <br />'; ?><?php echo var_dump(MString::url_title("The quick brown fox jumped over the lazy dog", "+")); ?></code></pre>
+				</section>
+				
+				<section id="section_newline_remove">
+					<?php 
+					$data['added'] = '1211';
+					$data['title'] = 'newline_remove($string:String):String';
+					$data['content'] = nl2br('This function returns a string without the new line ("\n") character.');
+					MLoad::template_application('template/library_function', $data);
+					?>
+					<pre><code><?php echo 'MString::newline_remove("A
+string 
+with
+new
+lines."); <br />'; ?><?php echo var_dump(MString::newline_remove("A
+string 
+with
+new
+lines.")); ?></code></pre>
 				</section>
 				
 			</div>

@@ -116,6 +116,7 @@ Characters avalible are 0-9 a-z and A-Z for a total of 62 characters.');
 					$data['content'] = nl2br('Converts a given string into a character seperated URL title safe string. This function also lower cases the string. The optional second parameter allows you to pass in your own character, otherwise a dash (-) is used.');
 					MLoad::template_application('template/library_function', $data);
 					?>
+					<pre><code><script>var output = MString.urlTitle("A string with spaces in it"); document.write('MString.urlTitle("A string with spaces in it"); <br />' + typeof output + ' ' + output);</script></code></pre>
 				</section>
 				
 				<section id="section_escapeHtml">

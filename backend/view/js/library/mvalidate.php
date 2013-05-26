@@ -16,18 +16,6 @@ MLoad::template_application('template/toolbar_js', $data);
 					</li>
 				</a>
 				
-				<a href="#section_optional">
-					<li class="MSideBarListItem MCursorPointer">
-						<span>optional</span>
-					</li>
-				</a>
-				
-				<a href="#section_required">
-					<li class="MSideBarListItem MCursorPointer">
-						<span>required</span>
-					</li>
-				</a>
-				
 				<a href="#section_onlyContain">
 					<li class="MSideBarListItem MCursorPointer">
 						<span>onlyContain</span>
@@ -75,8 +63,6 @@ MLoad::template_application('template/toolbar_js', $data);
 
 		<td class="MWidthFull MPadding">
 			
-			<p class="MIntent">NOT COMPLETE</p>
-			
 			<h1>MValidate</h1>
 			
 			<h2>Methods</h2>
@@ -94,30 +80,6 @@ MLoad::template_application('template/toolbar_js', $data);
 					?>
 					<pre><code><script>var valid = MValidate.email("alanjames1987@gmail.com"); document.write('MValidate.email("alanjames1987@gmail.com"); <br />' + typeof valid + ' ' + valid);</script></code></pre>
 					<pre><code><script>var valid = MValidate.email("alanjames1987@com"); document.write('MValidate.email("alanjames1987@com"); <br />' + typeof valid + ' ' + valid);</script></code></pre>
-				</section>
-				
-				<section id="section_optional">
-					<p class="MIntent">THIS FUNCTION NEEDS WORK</p>
-					<?php 
-					$data['added'] = '1305';
-					$data['title'] = 'optional(input:Mixed):Boolean';
-					$data['content'] = nl2br('Validates that a variable is declared, exists in memory, and has some value.
-"", " ", [], {}, 0, false will return true as they are declared variables.
-An undeclared variable or null will return false.');
-					MLoad::template_application('template/library_function', $data);
-					?>
-				</section>
-				
-				<section id="section_required">
-					<p class="MIntent">THIS FUNCTION NEEDS WORK</p>
-					<?php 
-					$data['added'] = '1305';
-					$data['title'] = 'required(input:Mixed):Boolean';
-					$data['content'] = nl2br('Validates that a variable is decalred and has a non empty value.
-0, true will return true.
-"", " ", [], {}, an undeclared variable, and null will return false');
-					MLoad::template_application('template/library_function', $data);
-					?>
 				</section>
 				
 				<section id="section_onlyContain">
