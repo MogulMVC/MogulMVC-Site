@@ -9,19 +9,8 @@
 
 <div id="MStage">
 	<div class="MContentSpacer"></div>
-	
-	<div class="MContent840">
-		<img src="<?php MLoad::img_src_application('mogul-logo-white.png', 'echo')?>" />
-			
-			<h1 class="MTextWhite right">
-				Mogul MVC
-			</h1>
-		
-		<div class="clear"></div>
-		
-	</div>
-	
-	<div class="shadow-top"></div>
+		<img src="<?php MLoad::img_src_application('front-page-1305.png', 'echo')?>" alt="Mogul MVC 1305" />
+	<div class="MContentSpacer"></div>
 </div><!-- MStage -->
 
 <div class="MContent840">
