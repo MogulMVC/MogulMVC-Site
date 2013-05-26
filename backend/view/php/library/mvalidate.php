@@ -76,7 +76,7 @@ MLoad::php_framework('core/util/MValidate');
 			
 			<h1>MValidate</h1>
 			<span class="MNoteY">Loaded from</span>
-			<pre><code>core/util/MValidate</code></pre>
+			<pre><code><?php echo htmlspecialchars('core/util/MValidate'); ?></code></pre>
 			
 			<p>All MValidate functions return boolean values. The value being passed in either passes and is valid, aka TRUE, or fails and is invalid, or FALSE.</p>
 			

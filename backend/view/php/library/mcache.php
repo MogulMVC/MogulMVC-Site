@@ -20,7 +20,7 @@
 			
 			<h1>MCache</h1>
 			<span class="MNoteY">Loaded from</span>
-			<pre><code>core/util/MCache</code></pre>
+			<pre><code><?php echo htmlspecialchars('core/util/MCache'); ?></code></pre>
 			
 			<p>The MCache class manages the creation, storing, and retrieval of pages created by the framework. Specifying a page to cache happens at the controller level. The resulting cached HTML page is given a time to live, after which a new page is created and re-cached. Until the page is recreated the cached page is served. This can increase the speed of pages being loaded, while decreasing the timeliness of information being presented to the use. For some pages this trade-off is acceptable and preferable to increasing processing power and memory of the server running the application.</p>
 			

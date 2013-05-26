@@ -31,7 +31,7 @@ MLoad::template_application('template/toolbar_php', $data);
 			
 			<h1>MNumber</h1>
 			<span class="MNoteY">Loaded from</span>
-			<pre><code>core/util/MNumber</code></pre>
+			<pre><code><?php echo htmlspecialchars('core/util/MNumber'); ?></code></pre>
 			
 			<h2>Public Methods</h2>
 			<hr />

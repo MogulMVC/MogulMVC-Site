@@ -26,7 +26,7 @@ MLoad::template_application('template/toolbar_php', $data);
 			
 			<h1>MTime</h1>
 			<span class="MNoteY">Loaded from</span>
-			<pre><code>core/util/MTime</code></pre>
+			<pre><code><?php echo htmlspecialchars('core/util/MTime'); ?></code></pre>
 			
 			<h2>Public Methods</h2>
 			<hr />

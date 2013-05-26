@@ -58,7 +58,7 @@ MLoad::php_framework('core/util/MTemperature');
 			
 			<h1>MTemperature</h1>
 			<span class="MNoteY">Loaded from</span>
-			<pre><code>core/util/MTemperature</code></pre>
+			<pre><code><?php echo htmlspecialchars('core/util/MTemperature'); ?></code></pre>
 			
 			<h2>Public Methods</h2>
 			<hr />
