@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Build the Framework
+/mnt/documents-smb/Alan\'s\ Server/Projects/Software/Web/Mogul\ Frameworks/Mogul\ MVC/Framework/make
+
 echo "Removing old framework files."
 rm -rf /mnt/documents-smb/Alan\'s\ Server/Projects/Software/Web/Mogul\ Frameworks/Mogul\ MVC/Site/backend/framework
 rm -rf /mnt/documents-smb/Alan\'s\ Server/Projects/Software/Web/Mogul\ Frameworks/Mogul\ MVC/Site/frontend/framework

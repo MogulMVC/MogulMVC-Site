@@ -57,8 +57,6 @@ MLoad::template_application('template/toolbar_js', $data);
 
 		<td class="MWidthFull MPadding">
 			
-			<p class="MIntent">NOT COMPLETE test</p>
-			
 			<h1>MString</h1>
 			
 			<h2>Methods</h2>
@@ -95,9 +93,11 @@ Characters avalible are 0-9 a-z and A-Z for a total of 62 characters.');
 					<?php 
 					$data['added'] = '1305';
 					$data['title'] = 'subBefore(string:String, character:String):String';
-					$data['content'] = nl2br('Given a string and a character or set of characters this function will return a substring before the first occurance of the set. This function was added when Mogul MVC was not required to run on PHP 5.3 and thus did not have access to the optional third parameter of the strstr() command in PHP 5.3.');
+					$data['content'] = nl2br('Given a string and a character or set of characters this function will return a substring before the first occurance of the set.');
 					MLoad::template_application('template/library_function', $data);
 					?>
+					<pre><code><script>var output = MString.subBefore("The quick brown fox jumped over the lazy dog", "jumped"); document.write('MString.subBefore("The quick brown fox jumped over the lazy dog", "jumped"); <br />' + typeof output + ' ' + output);</script></code></pre>
+					<pre><code><script>var output = MString.subBefore("The quick brown fox jumped over the lazy dog", "b"); document.write('MString.subBefore("The quick brown fox jumped over the lazy dog", "b"); <br />' + typeof output + ' ' + output);</script></code></pre>
 				</section>
 				
 				<section id="section_urlLink">
@@ -107,6 +107,7 @@ Characters avalible are 0-9 a-z and A-Z for a total of 62 characters.');
 					$data['content'] = nl2br('Given a string containing URLs this funcntion will return a string containing HTML anchor tags to those URLs. The optional second parameter converts the link into a no follow link.');
 					MLoad::template_application('template/library_function', $data);
 					?>
+					<pre><code><script>var output = MString.urlLink("Some string with http://aurlto.awebsite.com"); document.write('MString.urlLink("Some string with http://aurlto.awebsite.com"); <br />' + typeof output + ' ' + output);</script></code></pre>
 				</section>
 				
 				<section id="section_urlTitle">
@@ -116,7 +117,8 @@ Characters avalible are 0-9 a-z and A-Z for a total of 62 characters.');
 					$data['content'] = nl2br('Converts a given string into a character seperated URL title safe string. This function also lower cases the string. The optional second parameter allows you to pass in your own character, otherwise a dash (-) is used.');
 					MLoad::template_application('template/library_function', $data);
 					?>
-					<pre><code><script>var output = MString.urlTitle("A string with spaces in it"); document.write('MString.urlTitle("A string with spaces in it"); <br />' + typeof output + ' ' + output);</script></code></pre>
+					<pre><code><script>var output = MString.urlTitle("The quick brown fox jumped over the lazy dog"); document.write('MString.urlTitle("The quick brown fox jumped over the lazy dog"); <br />' + typeof output + ' ' + output);</script></code></pre>
+					<pre><code><script>var output = MString.urlTitle("The quick brown fox jumped over the lazy dog", "+"); document.write('MString.urlTitle("The quick brown fox jumped over the lazy dog", "+"); <br />' + typeof output + ' ' + output);</script></code></pre>
 				</section>
 				
 				<section id="section_escapeHtml">

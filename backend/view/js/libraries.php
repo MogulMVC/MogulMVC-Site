@@ -9,20 +9,20 @@
 	<hr />
 	
 	<p>
-	All JavaScript libraries are loaded from <code>core/MScript</code>.
+	All JavaScript libraries are loaded from <code>core/MScript</code>. Some require jQuery so make sure to load jQuery before using MScript.
 	<br />
 	Click on one to learn more about the functions inside of it.
 	</p>
 	
 	<?php
 		$js_libraries = array(
-			array('name' => 'MCookie', 'description' => '----Get or set a cookie.'),
+			array('name' => 'MCookie', 'description' => 'Set or get a cookie.'),
 			array('name' => 'MDate', 'description' => 'For generated formatted dates.'),
 			array('name' => 'MLoad', 'description' => '----Load in CSS and JavaScript files dynamically as needed.'),
 			array('name' => 'MMath', 'description' => 'A class for performing various math functions.'),
 			array('name' => 'MNumber', 'description' => 'Number functions.'),
 			array('name' => 'MSearchable', 'description' => 'Search within the DOM for strings and automatically hide or show the container.'),
-			array('name' => 'MString', 'description' => '----String functions.'),
+			array('name' => 'MString', 'description' => 'String functions.'),
 			array('name' => 'MTemperature', 'description' => 'Temperature conversion functions.'),
 			array('name' => 'MTime', 'description' => 'Time conversion functions. Useful for media information.'),
 			array('name' => 'MURL', 'description' => 'Obtain infromation from the URL of the request.'),

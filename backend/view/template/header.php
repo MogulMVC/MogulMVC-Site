@@ -49,5 +49,7 @@
 				<li><a href="/css/ui_elements">UI Elements</a></li>
 			</ul>
 		</li>
+		
+		<span class="right">Current Version : <span class="MTextO">1305 ORANGE</span></span>
 
 	</nav><!--MHeader-->
