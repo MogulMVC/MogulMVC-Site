@@ -206,7 +206,7 @@ A page called <code>page.php</code> located in <code>application/view/</code> ca
 
 The function accepts 2 arguments, the file name of the template being loaded starting from the framework view directory, and data that should be sent to that template.
 
-A template called <code>message_complete.php</code> located in <code>framework/view/</code> can be loaded the following way.<pre><code>MLoad::template_framework("message_complete");</code></pre> Any data needing to be passed should be passed as below. <pre><code>MLoad::template_framework("message_complete", $data);</code></pre>A full list and example of Mogul MVC templates can be found on <a href=”/php/ui_elements”>PHP UI Elements</a>.');
+A template called <code>message_complete.php</code> located in <code>framework/view/</code> can be loaded the following way.<pre><code>MLoad::template_framework("message_complete");</code></pre> Any data needing to be passed should be passed as below. <pre><code>MLoad::template_framework("message_complete", $data);</code></pre>');
 					MLoad::template_application('template/library_function', $data);
 					?>
 				</section>

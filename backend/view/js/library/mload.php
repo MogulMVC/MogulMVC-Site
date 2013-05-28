@@ -65,9 +65,10 @@ MLoad::template_application('template/toolbar_js', $data);
 
 		<td class="MWidthFull MPadding">
 			
-			<p class="MIntent">NOT COMPLETE</p>
-			
 			<h1>MLoad</h1>
+			
+			<p>While the JavaScript version of Mload is not as robust and not as widely used as the PHP version it is still useful for creating dynamic JavaScript powered applications.</p>
+			<p>All MLoad methods will append either a CSS or JavaScript file to the head of the document.</p>
 			
 			<h2>Methods</h2>
 			<hr />
@@ -79,7 +80,7 @@ MLoad::template_application('template/toolbar_js', $data);
 					<?php 
 					$data['added'] = '1305';
 					$data['title'] = 'jsFramework(file:String):void';
-					$data['content'] = nl2br('');
+					$data['content'] = nl2br('This function appends a script tag to the head with the source attribute starting from the <code>frontend/framework/js</code> folder.');
 					MLoad::template_application('template/library_function', $data);
 					?>
 				</section>
@@ -88,7 +89,7 @@ MLoad::template_application('template/toolbar_js', $data);
 					<?php 
 					$data['added'] = '1305';
 					$data['title'] = 'jsApplication(file:String):void';
-					$data['content'] = nl2br('');
+					$data['content'] = nl2br('This function appends a script tag to the head with the source attribute starting from the <code>frontend/js</code> folder.');
 					MLoad::template_application('template/library_function', $data);
 					?>
 				</section>
@@ -97,7 +98,7 @@ MLoad::template_application('template/toolbar_js', $data);
 					<?php 
 					$data['added'] = '1305';
 					$data['title'] = 'jsCache(file:String):void';
-					$data['content'] = nl2br('');
+					$data['content'] = nl2br('This function appends a script tag to the head with the source attribute starting from the <code>frontend/cache</code> folder.');
 					MLoad::template_application('template/library_function', $data);
 					?>
 				</section>
@@ -106,7 +107,7 @@ MLoad::template_application('template/toolbar_js', $data);
 					<?php 
 					$data['added'] = '1305';
 					$data['title'] = 'jsExternal(url:String):void';
-					$data['content'] = nl2br('');
+					$data['content'] = nl2br('This function appends a script tag to the head with an external source attribute. This function is very useful for dynamically loading libraries from third parties like Google, Twitter, and Facebook.');
 					MLoad::template_application('template/library_function', $data);
 					?>
 				</section>
@@ -115,7 +116,7 @@ MLoad::template_application('template/toolbar_js', $data);
 					<?php 
 					$data['added'] = '1305';
 					$data['title'] = 'cssFramework(file:String):void';
-					$data['content'] = nl2br('');
+					$data['content'] = nl2br('This function appends a css link tag to the head with the source attribute starting from the <code>frontend/framework/css</code> folder.');
 					MLoad::template_application('template/library_function', $data);
 					?>
 				</section>
@@ -124,7 +125,7 @@ MLoad::template_application('template/toolbar_js', $data);
 					<?php 
 					$data['added'] = '1305';
 					$data['title'] = 'cssApplication(file:String):void';
-					$data['content'] = nl2br('');
+					$data['content'] = nl2br('This function appends a css link tag to the head with the source attribute starting from the <code>frontend/css</code> folder.');
 					MLoad::template_application('template/library_function', $data);
 					?>
 				</section>
@@ -133,7 +134,7 @@ MLoad::template_application('template/toolbar_js', $data);
 					<?php 
 					$data['added'] = '1305';
 					$data['title'] = 'cssCache(file:String):void';
-					$data['content'] = nl2br('');
+					$data['content'] = nl2br('This function appends a css link tag to the head with the source attribute starting from the <code>frontend/cache</code> folder.');
 					MLoad::template_application('template/library_function', $data);
 					?>
 				</section>
@@ -142,7 +143,7 @@ MLoad::template_application('template/toolbar_js', $data);
 					<?php 
 					$data['added'] = '1305';
 					$data['title'] = 'cssExternal(url:String):void';
-					$data['content'] = nl2br('');
+					$data['content'] = nl2br('This function appends a css link tag to the head with an external source attribute.');
 					MLoad::template_application('template/library_function', $data);
 					?>
 				</section>
