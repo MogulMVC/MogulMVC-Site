@@ -129,8 +129,6 @@ MLoad::template_application('template/toolbar_php', $data);
 
 		<td class="MWidthFull MPadding">
 			
-			<p class="MIntent">NOT COMPLETE</p>
-			
 			<h1>MLoad</h1>
 			<span class="MNoteG">MLoad is loaded by default.</span>
 			
@@ -267,7 +265,7 @@ A library called <code>jquery.js</code> located in <code>framework/lib/js/vendor
 					<?php 
 					$data['added'] = '1211';
 					$data['title'] = 'js_application($js:String, $direction:String, $useHTTP:Boolean):void';
-					$data['content'] = nl2br('');
+					$data['content'] = nl2br('This function appends a script tag to the head with the source attribute starting from the <code>frontend/js</code> folder.');
 					MLoad::template_application('template/library_function', $data);
 					?>
 				</section>
@@ -276,7 +274,7 @@ A library called <code>jquery.js</code> located in <code>framework/lib/js/vendor
 					<?php 
 					$data['added'] = '1211';
 					$data['title'] = 'js_cache($js:String, $direction:String):void';
-					$data['content'] = nl2br('');
+					$data['content'] = nl2br('This function appends a script tag to the head with the source attribute starting from the <code>frontend/cache</code> folder.');
 					MLoad::template_application('template/library_function', $data);
 					?>
 				</section>
@@ -285,7 +283,7 @@ A library called <code>jquery.js</code> located in <code>framework/lib/js/vendor
 					<?php 
 					$data['added'] = '1305';
 					$data['title'] = 'js_external($js:String, $direction:String):void';
-					$data['content'] = nl2br('');
+					$data['content'] = nl2br('This function appends a script tag to the head with an external source attribute. This function is very useful for dynamically loading libraries from third parties like Google, Twitter, and Facebook.');
 					MLoad::template_application('template/library_function', $data);
 					?>
 				</section>
@@ -294,7 +292,7 @@ A library called <code>jquery.js</code> located in <code>framework/lib/js/vendor
 					<?php 
 					$data['added'] = '1211';
 					$data['title'] = 'css_framework($css:String, $direction:String, $useHTTP:Boolean):void';
-					$data['content'] = nl2br('');
+					$data['content'] = nl2br('This function appends a css link tag to the head with the source attribute starting from the <code>frontend/framework/css</code> folder.');
 					MLoad::template_application('template/library_function', $data);
 					?>
 				</section>
@@ -303,7 +301,7 @@ A library called <code>jquery.js</code> located in <code>framework/lib/js/vendor
 					<?php 
 					$data['added'] = '1211';
 					$data['title'] = 'css_application($css:String, $direction:String, $useHTTP:Boolean):void';
-					$data['content'] = nl2br('');
+					$data['content'] = nl2br('This function appends a css link tag to the head with the source attribute starting from the <code>frontend/css</code> folder.');
 					MLoad::template_application('template/library_function', $data);
 					?>
 				</section>
@@ -312,7 +310,7 @@ A library called <code>jquery.js</code> located in <code>framework/lib/js/vendor
 					<?php 
 					$data['added'] = '1211';
 					$data['title'] = 'css_cache($css:String, $direction:String):void';
-					$data['content'] = nl2br('');
+					$data['content'] = nl2br('This function appends a css link tag to the head with the source attribute starting from the <code>frontend/cache</code> folder.');
 					MLoad::template_application('template/library_function', $data);
 					?>
 				</section>
@@ -321,7 +319,7 @@ A library called <code>jquery.js</code> located in <code>framework/lib/js/vendor
 					<?php 
 					$data['added'] = '1305';
 					$data['title'] = 'css_external($css:String, $direction:String):void';
-					$data['content'] = nl2br('');
+					$data['content'] = nl2br('This function appends a css link tag to the head with an external source attribute.');
 					MLoad::template_application('template/library_function', $data);
 					?>
 				</section>
@@ -330,7 +328,7 @@ A library called <code>jquery.js</code> located in <code>framework/lib/js/vendor
 					<?php 
 					$data['added'] = '1305';
 					$data['title'] = 'img_src_framework($img:String, $direction:String, $useHTTP:Boolean):void';
-					$data['content'] = nl2br('');
+					$data['content'] = nl2br('This function returns the source of an image located in the <code>frontend/framework/img</code> folder.');
 					MLoad::template_application('template/library_function', $data);
 					?>
 				</section>
@@ -339,7 +337,7 @@ A library called <code>jquery.js</code> located in <code>framework/lib/js/vendor
 					<?php 
 					$data['added'] = '1305';
 					$data['title'] = 'img_src_application($img:String, $direction:String, $useHTTP:Boolean)';
-					$data['content'] = nl2br('');
+					$data['content'] = nl2br('This function returns the source of an image located in the <code>frontend/img</code> folder.');
 					MLoad::template_application('template/library_function', $data);
 					?>
 				</section>
@@ -348,7 +346,7 @@ A library called <code>jquery.js</code> located in <code>framework/lib/js/vendor
 					<?php 
 					$data['added'] = '1305';
 					$data['title'] = 'icon_src_framework($img:String, $direction:String, $useHTTP:Boolean)';
-					$data['content'] = nl2br('');
+					$data['content'] = nl2br('This function returns the source of an image located in the <code>frontend/framework/img/icon</code> folder.');
 					MLoad::template_application('template/library_function', $data);
 					?>
 				</section>
