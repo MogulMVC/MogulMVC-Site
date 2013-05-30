@@ -6,6 +6,8 @@
 		<?php MLoad::template_framework('message_warning', array('title' => 'JavaScript is Disabled', 'description' => 'Please enable JavaScript or upgrade to a JavaScript-capable browser.')); ?>
 	</noscript>
 
+	<?php MLoad::template_application('template/piwik'); ?>
+
 </body>
 
 </html>

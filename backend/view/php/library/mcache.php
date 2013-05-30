@@ -38,7 +38,7 @@
 					
 For example to cache a page for 15 minutes you would add this within the function representing the page you want to cache.
 <pre><code>MCache::cache(15);</code></pre>	
-Pages are chached into the cache folder within your application directory and are named using a md5 hashed concatinated string of all <code>$_COOKIE</code>, <code>$_FILES</code>, <code>$_GET</code>, <code>$_POST</code>, <code>$_SESSION</code>, and requested URL variables. This means that a cached pages receiving new <code>$_GET</code>, <code>$_POST</code> or any of the other superglobal variable will be recached rather than serve an existing cached page. This is useful for creating cached pages for different logged in users.');
+Pages are chached into the cache directory within your application directory and are named using a md5 hashed concatinated string of all <code>$_COOKIE</code>, <code>$_FILES</code>, <code>$_GET</code>, <code>$_POST</code>, <code>$_SESSION</code>, and requested URL variables. This means that a cached pages receiving new <code>$_GET</code>, <code>$_POST</code> or any of the other superglobal variable will be recached rather than serve an existing cached page. This is useful for creating cached pages for different logged in users.');
 					MLoad::template_application('template/library_function', $data);
 					?>
 				</section>

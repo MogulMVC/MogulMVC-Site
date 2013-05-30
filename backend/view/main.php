@@ -50,19 +50,19 @@
 					</li>
 					<li class="MListItem">
 						<span class="MTextBold">Automatic CSS and JavaScript Minification</span>
-						<span> - When in production mode Mogul MVC will automatically create a single CSS and single JavaScript file for your entire project and cache it for quick loading.</span>
+						<span> - When in production mode Mogul MVC will automatically create a single CSS and single JavaScript file for your entire project and cache it for quick loading. When page caching is used HTML gets minified and cached as well.</span>
 					</li>
 					<li class="MListItem">
 						<span class="MTextBold">Speed</span>
-						<span> - Mogul MVC is a "<a href="http://en.wikipedia.org/wiki/Loose_coupling">loosly coupled</a>" and "use-at-will" framework. You specify only the components and libraries to load so only what needs to be loaded is loaded.</span>
+						<span> - Mogul MVC is a "<a href="http://en.wikipedia.org/wiki/Loose_coupling">loosly coupled</a>" and "use-at-will" framework. You specify only the components and libraries to load so nothing more than what you need is loaded.</span>
 					</li>
 					<li class="MListItem">
 						<span class="MTextBold">CLI Tools</span>
-						<span> - CLI tools make it easy to build new componets. They write the boring for you.</span>
+						<span> - CLI tools make it easy to build new componets. They write the boring code for you.</span>
 					</li>
 					<li class="MListItem">
-						<span class="MTextBold">3rd Party Libraries</span>
-						<span> - Mogul MVC includes <a href="http://www.phpactiverecord.org/">php-activerecord</a> for database access and <a href="http://jquery.com/">jQuery</a> and <a href="http://jqueryui.com/">jQuery UI</a> for client side scripting.<br />It also works well with any other 3rd party library.</span>
+						<span class="MTextBold">Vendor Libraries</span>
+						<span> - Mogul MVC includes <a href="http://www.phpactiverecord.org/">php-activerecord</a> for database access and <a href="http://jquery.com/">jQuery</a> and <a href="http://jqueryui.com/">jQuery UI</a> for client side scripting.<br />It also works well with any other vendor library.</span>
 					</li>	
 				</div>
 				
@@ -83,17 +83,14 @@
 						</li>
 					<li class="MListItem">
 						<span class="MTextBold">Open Source</span>
-						<span> - Mogul MVC is not Open-Source yet and won't be until I feel that it is ready to play with the big boys.</span>
+						<span> - Mogul MVC is not open-source yet and won't be until I feel that it is ready to play with the big boys.</span>
 					</li>
 				</div>
-
-				<div class="MContentSpacer">
-					<hr />
-				</div>
-
-				<p>If you want to help make Mogul MVC great e-mail me at <a href="mailto:alanjames1987@gmail.com?subject=Mogul MVC">AlanJames1987@gmail.com</a> for the source code.</p>
 				
+				<div class="MClear"></div>
+
 			</div>
+			
 			<div id="mogul_libraries">
 				
 				<h3>Mogul MVC is a combination of several Mogul libraries.</h3>
@@ -113,9 +110,21 @@
 					<span> - A JavaScript and jQuery Utility and Interface library that uses the Mogul CSS library for styling. The code attempts to stay stylistically consistent with Mogul AS, and the Mogul MVC, which extends it.</span>
 				</li>
 				
+				<div class="MClear"></div>
+				
 			</div>
 
 		</div>
 	</div>
 	
+	<div class="MContentSpacer">
+		<hr />
+	</div>
+
+	<p>If you want to help make Mogul MVC great e-mail me at <a href="mailto:alanjames1987@gmail.com?subject=Mogul MVC">AlanJames1987@gmail.com</a> for the source code.</p>
+	
 </div>
+
+<div class="MContentSpacer"></div>
+<div class="MContentSpacer"></div>
+<div class="MContentSpacer"></div>

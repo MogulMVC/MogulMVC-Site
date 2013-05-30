@@ -58,8 +58,8 @@
 
 			<p>Mogul MVC is built with certain design and organizational patterns in mind. These design and organizational patterns make sense to use and so we make them the default configuration.</p>
 			<p>However, one size fits all never looks good. Because of that we made our configuration section as robust as possibly while also remaining as organized as possible.</p>
-			<p>Below are the every configuration file available in the Mogul MVC application/config folder.</p>
-			<p>These configuration file affect all folder naming and organization in the application as well as routing, database connectivity, and session management.</p>
+			<p>Below are the every configuration file available in the Mogul MVC application/config directory.</p>
+			<p>These configuration file affect all directory naming and organization in the application as well as routing, database connectivity, and session management.</p>
 	
 			<section id="section_autoload">
 	
@@ -76,14 +76,14 @@
 					<p class="MNoteY right" style="margin-right:20px;">Precompiled CSS and JS files should be placed in the <span class="MTextBold">public/css/</span> and the <span class="MTextBold">public/js/</span> directories respectively.</p>
 					<p class="MNoteY right" style="margin-right:20px;">CSS and JS needing to be dynamically compiled with PHP should be placed in the <span class="MTextBold">lib/css/</span> and <span class="MTextBold">lib/js/</span> directories respectively.</p>
 					
-					<li>-- The framework's CSS folder.</li>
-					<li>-- The application's CSS folder.</li>
+					<li>-- The framework's CSS directory.</li>
+					<li>-- The application's CSS directory.</li>
 					<li>-- External CSS.</li>
-					<li>-- The framework's CSS folder.</li>
-					<li>-- The application's JS folder.</li>
+					<li>-- The framework's CSS directory.</li>
+					<li>-- The application's JS directory.</li>
 					<li>-- External JS.</li>
-					<li>-- The framework's PHP folder.</li>
-					<li>-- The application's PHP folder.</li>
+					<li>-- The framework's PHP directory.</li>
+					<li>-- The application's PHP directory.</li>
 				</ul>
 				
 				<h3>Example</h3>
@@ -159,7 +159,7 @@
 				<h2>Database - database.php</h2>
 				<hr />
 				
-				<p>Database configuration is setup in the database.php file inside the config folder. Each database is an associative array inside of the $GLOBALS['DB'] array. Each database that is configured needs 6 indexes specified and must be a unique index inside of the $GLOBALS['DB'] array.</p>
+				<p>Database configuration is setup in the database.php file inside the config directory. Each database is an associative array inside of the $GLOBALS['DB'] array. Each database that is configured needs 6 indexes specified and must be a unique index inside of the $GLOBALS['DB'] array.</p>
 
 				<p>The following code shows an example of a connection to a MySQL database.</p>
 				
@@ -201,7 +201,7 @@
 				
 				<p>The code to grab the video id and pull the data from the database would be in the index function within the Media controller.</p>
 				
-				<p>The following code is found within the routes.php file found in the config folder. It shows how to map any of the four types of routes.</p>
+				<p>The following code is found within the routes.php file found in the config directory. It shows how to map any of the four types of routes.</p>
 				
 				<span>Any subpage to controller with function.</span>
 				<pre><code><?php echo htmlspecialchars("\$ROUTE['page/*'] = 'Controller/function';");?></code></pre>

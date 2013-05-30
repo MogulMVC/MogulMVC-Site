@@ -17,4 +17,9 @@ class Css {
 		MLoad::view('css/ui_elements', $data);
 	}
 
+	function vendor_libraries() {
+		$data['page_title'] = 'CSS Vendor Libraries';
+		MLoad::view('css/vendor_libraries', $data);
+	}
+
 }

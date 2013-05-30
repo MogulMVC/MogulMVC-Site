@@ -172,7 +172,7 @@ A vo called <code>UserVO.php</code> located in <code>application/model/vo/</code
 					<?php 
 					$data['added'] = '1211';
 					$data['title'] = 'view($view:String, $data:Array):void';
-					$data['content'] = nl2br('A view loads a head, header, template file from the view folder, footer, and foot, which closes the head. Views include site wide navigation content, which can be placed in the header and the footer.
+					$data['content'] = nl2br('A view loads a head, header, template file from the view directory, footer, and foot, which closes the head. Views include site wide navigation content, which can be placed in the header and the footer.
 
 The function accepts 2 arguments, the file name of the view being loaded starting from the view directory, and data that should be sent to that view.
 
@@ -187,7 +187,7 @@ A view called <code>profile.php</code> located in <code>application/view/</code>
 					<?php 
 					$data['added'] = '1211';
 					$data['title'] = 'page($page:String, $data:Array):void';
-					$data['content'] = nl2br('A page loads a head, template file from the view folder, and foot, which closes the head. Pages do not include site wide navigation content. They are meant to share aesthetics of your site, but not navigation.
+					$data['content'] = nl2br('A page loads a head, template file from the view directory, and foot, which closes the head. Pages do not include site wide navigation content. They are meant to share aesthetics of your site, but not navigation.
 					
 The function accepts 2 arguments, the file name of the page being loaded starting from the view directory, and data that should be sent to that page.
 
@@ -237,7 +237,7 @@ A library called <code>MValidate.php</code> located in <code>framework/lib/php/c
 					<?php 
 					$data['added'] = '1211';
 					$data['title'] = 'php_application($library:String):void';
-					$data['content'] = nl2br('You can create your own PHP libraries and use 3rd party libraries with Mogul MVC. These libraries can range from performing mathematical operations to security libraries for validating the session data of a logged in user.
+					$data['content'] = nl2br('You can create your own PHP libraries and use vendor libraries with Mogul MVC. These libraries can range from performing mathematical operations to security libraries for validating the session data of a logged in user.
 
 A library called <code>UserAuthenticate.php</code> located in <code>application/lib/php/core</code> can be loaded the following way.<pre><code>MLoad::template_application("UserAuthenticate");</code></pre>To learn more about creating and a library see <a href=”/php/custom_libraries”>PHP Custom Libraries</a>.');
 					MLoad::template_application('template/library_function', $data);
@@ -250,13 +250,13 @@ A library called <code>UserAuthenticate.php</code> located in <code>application/
 					$data['title'] = 'js_framework(js:String, $direction:String, $useHTTP:Boolean):void';
 					$data['content'] = nl2br('Mogul MVC can load JavaScript files and place them in the head or foot automatically. This allows you to specify only the name and MLoad will create the path to that file by itself.
 
-Mogul MVC comes with some core JavaScript libraries and several 3rd party JavaScript libraries such as jQuery and swfobject. 
+Mogul MVC comes with some core JavaScript libraries and several vendor JavaScript libraries such as jQuery and swfobject. 
 
 This function accepts 3 arguments, the name of the file being added to the page, the type of load, and if HTTP should be appended to the start of the file. The second 2 parameters are optional.
 
 The type of load can be null, which loads acts as an autoload, echo, which echos the JavaScript line directly on the page at the point you call it, or return, which sends the script tag back to you as return data.
 
-A library called <code>jquery.js</code> located in <code>framework/lib/js/vendor</code> can be loaded the following way.<pre><code>MLoad::template_application("vendor/jquery");</code></pre>A full list of 3rd party JavaScript libraries can be found on <a href=”/js/vendor_libraries/”>JavaScript 3rd Party Libraries</a>.');
+A library called <code>jquery.js</code> located in <code>framework/lib/js/vendor</code> can be loaded the following way.<pre><code>MLoad::template_application("vendor/jquery");</code></pre>A full list of vendor JavaScript libraries can be found on <a href=”/js/vendor_libraries/”>JavaScript vendor Libraries</a>.');
 					MLoad::template_application('template/library_function', $data);
 					?>
 				</section>
@@ -265,7 +265,7 @@ A library called <code>jquery.js</code> located in <code>framework/lib/js/vendor
 					<?php 
 					$data['added'] = '1211';
 					$data['title'] = 'js_application($js:String, $direction:String, $useHTTP:Boolean):void';
-					$data['content'] = nl2br('This function appends a script tag to the head with the source attribute starting from the <code>frontend/js</code> folder.');
+					$data['content'] = nl2br('This function appends a script tag to the head with the source attribute starting from the <code>frontend/js</code> directory.');
 					MLoad::template_application('template/library_function', $data);
 					?>
 				</section>
@@ -274,7 +274,7 @@ A library called <code>jquery.js</code> located in <code>framework/lib/js/vendor
 					<?php 
 					$data['added'] = '1211';
 					$data['title'] = 'js_cache($js:String, $direction:String):void';
-					$data['content'] = nl2br('This function appends a script tag to the head with the source attribute starting from the <code>frontend/cache</code> folder.');
+					$data['content'] = nl2br('This function appends a script tag to the head with the source attribute starting from the <code>frontend/cache</code> directory.');
 					MLoad::template_application('template/library_function', $data);
 					?>
 				</section>
@@ -292,7 +292,7 @@ A library called <code>jquery.js</code> located in <code>framework/lib/js/vendor
 					<?php 
 					$data['added'] = '1211';
 					$data['title'] = 'css_framework($css:String, $direction:String, $useHTTP:Boolean):void';
-					$data['content'] = nl2br('This function appends a css link tag to the head with the source attribute starting from the <code>frontend/framework/css</code> folder.');
+					$data['content'] = nl2br('This function appends a css link tag to the head with the source attribute starting from the <code>frontend/framework/css</code> directory.');
 					MLoad::template_application('template/library_function', $data);
 					?>
 				</section>
@@ -301,7 +301,7 @@ A library called <code>jquery.js</code> located in <code>framework/lib/js/vendor
 					<?php 
 					$data['added'] = '1211';
 					$data['title'] = 'css_application($css:String, $direction:String, $useHTTP:Boolean):void';
-					$data['content'] = nl2br('This function appends a css link tag to the head with the source attribute starting from the <code>frontend/css</code> folder.');
+					$data['content'] = nl2br('This function appends a css link tag to the head with the source attribute starting from the <code>frontend/css</code> directory.');
 					MLoad::template_application('template/library_function', $data);
 					?>
 				</section>
@@ -310,7 +310,7 @@ A library called <code>jquery.js</code> located in <code>framework/lib/js/vendor
 					<?php 
 					$data['added'] = '1211';
 					$data['title'] = 'css_cache($css:String, $direction:String):void';
-					$data['content'] = nl2br('This function appends a css link tag to the head with the source attribute starting from the <code>frontend/cache</code> folder.');
+					$data['content'] = nl2br('This function appends a css link tag to the head with the source attribute starting from the <code>frontend/cache</code> directory.');
 					MLoad::template_application('template/library_function', $data);
 					?>
 				</section>
@@ -328,7 +328,7 @@ A library called <code>jquery.js</code> located in <code>framework/lib/js/vendor
 					<?php 
 					$data['added'] = '1305';
 					$data['title'] = 'img_src_framework($img:String, $direction:String, $useHTTP:Boolean):void';
-					$data['content'] = nl2br('This function returns the source of an image located in the <code>frontend/framework/img</code> folder.');
+					$data['content'] = nl2br('This function returns the source of an image located in the <code>frontend/framework/img</code> directory.');
 					MLoad::template_application('template/library_function', $data);
 					?>
 				</section>
@@ -337,7 +337,7 @@ A library called <code>jquery.js</code> located in <code>framework/lib/js/vendor
 					<?php 
 					$data['added'] = '1305';
 					$data['title'] = 'img_src_application($img:String, $direction:String, $useHTTP:Boolean)';
-					$data['content'] = nl2br('This function returns the source of an image located in the <code>frontend/img</code> folder.');
+					$data['content'] = nl2br('This function returns the source of an image located in the <code>frontend/img</code> directory.');
 					MLoad::template_application('template/library_function', $data);
 					?>
 				</section>
@@ -346,7 +346,7 @@ A library called <code>jquery.js</code> located in <code>framework/lib/js/vendor
 					<?php 
 					$data['added'] = '1305';
 					$data['title'] = 'icon_src_framework($img:String, $direction:String, $useHTTP:Boolean)';
-					$data['content'] = nl2br('This function returns the source of an image located in the <code>frontend/framework/img/icon</code> folder.');
+					$data['content'] = nl2br('This function returns the source of an image located in the <code>frontend/framework/img/icon</code> directory.');
 					MLoad::template_application('template/library_function', $data);
 					?>
 				</section>

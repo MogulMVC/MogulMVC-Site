@@ -15,7 +15,7 @@
 			<span>General</span>
 			<ul>
 				<li><a href="/general/installation">Installation</a></li>
-				<li><a href="/general/folders">Folders</a></li>
+				<li><a href="/general/directories">Directories</a></li>
 			</ul>
 		</li>
 		
@@ -47,6 +47,7 @@
 				<li><a href="/css/typography">Typography</a></li>
 				<li><a href="/css/icons">Icons</a></li>
 				<li><a href="/css/ui_elements">UI Elements</a></li>
+				<li><a href="/css/vendor_libraries">Vendor Libraries</a></li>
 			</ul>
 		</li>
 		

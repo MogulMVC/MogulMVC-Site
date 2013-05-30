@@ -7,5 +7,6 @@
 	<a href="/css/typography">Typography</a>
 	<a href="/css/icons">Icons</a>
 	<a href="/css/ui_elements">UI Elements</a>
+	<a href="/css/vendor_libraries">Vendor Libraries</a>
 
 </nav>

@@ -79,17 +79,17 @@
 				
 				<p>Loading views happens in the controller using the MLoad class. Within the MLoad class there are four functions created to load different types of views. These are view, page, template_application, and template_framework.</p>
 				
-				<p>The view function loads a view from the view folder. It will include the head, header, footer, and foot template files you configured within your config.php file within the config folder.</p>
+				<p>The view function loads a view from the view directory. It will include the head, header, footer, and foot template files you configured within your config.php file within the config directory.</p>
 				
 				<p>The page function will do nearly the same thing as the view function. However, only the head and foot will be loaded for a page.</p>
 				
-				<p>The template_application and  template_framework do the same thing but load from different locations.  The template_application function loads a view from the backend/view folder. The template_framework function loads a view from the backend/framework/view folder.</p>
+				<p>The template_application and  template_framework do the same thing but load from different locations.  The template_application function loads a view from the backend/view directory. The template_framework function loads a view from the backend/framework/view directory.</p>
 				
 				<p>Mogul MVC has some built in templates which it uses when loading in CSS JavaScript.</p>
 				
 				<p>All the view loading functions accept two parameters, the second being optional.</p>
 				
-				<p>The first parameter is the file to load, starting from the view folder in all but the template_framework's case. The second parameter is an associative array, containing all variables you wish to use within the view.</p>
+				<p>The first parameter is the file to load, starting from the view directory in all but the template_framework's case. The second parameter is an associative array, containing all variables you wish to use within the view.</p>
 				
 				<p>Assume we have a associative array declared within the controller which has several indexes. That associative array would be passed a view as follows.</p>
 				

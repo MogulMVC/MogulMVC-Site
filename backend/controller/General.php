@@ -2,9 +2,9 @@
 
 class General {
 
-	function folders() {
-		$data['page_title'] = 'Folders';
-		MLoad::view('general/folders', $data);
+	function directories() {
+		$data['page_title'] = 'Directories';
+		MLoad::view('general/directories', $data);
 	}
 
 	function installation() {

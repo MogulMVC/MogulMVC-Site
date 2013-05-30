@@ -102,13 +102,13 @@
 
 		<td class="MWidthFull MPadding">
 			
-			<h1>Folders</h1>
+			<h1>Directories</h1>
 			
 			<p>Mogul MVC is organized between two different directories. The <span class="MTextBold">backend</span> directory for all your PHP code, and the <span class="MTextBold">frontend</span> directory for CSS, JavaScript, images, and any other public static files.</p>
 			
-			<p>Within the backend and frontend directories you will find a directory called <span class="MTextBold">framework</span>. Unless you know what you're doing you should not alter any content within this folder.</p>
+			<p>Within the backend and frontend directories you will find a directory called <span class="MTextBold">framework</span>. Unless you know what you're doing you should not alter any content within this directory.</p>
 			
-			<p>Instead we will be exploring the other directories in the backend and frontend folders. We will start with the backend directory.</p>
+			<p>Instead we will be exploring the other directories in the backend and frontend directories. We will start with the backend directory.</p>
 
 			<div id="section_backend">
 			
@@ -136,7 +136,7 @@
 					<h2>Backend Cache - cache</h2>
 					<hr />
 					
-					<p>Nothing should be placed in this folder. It is a folder used by Mogul MVC to store cached HTML pages when using <a href="/php/library/mcache">MCache</a>.</p>
+					<p>Nothing should be placed in this directory. It is a directory used by Mogul MVC to store cached HTML pages when using <a href="/php/library/mcache">MCache</a>.</p>
 		
 				</section>
 				
@@ -167,15 +167,15 @@
 					<h2>Backend Controller - controller</h2>
 					<hr />
 					
-					<p>The controller folder is where you put all your controllers. There are also two sub type of controller listed below.<br /> See <a href="/php/controllers">PHP Controllers</a> for more detail about how to create controllers as well as actions and apis.</p>
+					<p>The controller directory is where you put all your controllers. There are also two sub type of controller listed below.<br /> See <a href="/php/controllers">PHP Controllers</a> for more detail about how to create controllers as well as actions and apis.</p>
 					
 					<div class="indent">
 						
 						<h3>Action - action</h3>
-						<p>Your form and AJAX actions go in this folder.</p>
+						<p>Your form and AJAX actions go in this directory.</p>
 						
 						<h3>API - api</h3>
-						<p>Your APIs go in this folder.</p>
+						<p>Your APIs go in this directory.</p>
 					
 					</div>
 		
@@ -205,7 +205,7 @@
 					<h2>Backend Model - model</h2>
 					<hr />
 					
-					<p>Models are used to store functions for quick database access. Mogul MVC offers two types of models, but both types go within this folder.<br />To learn to create and use models see <a href="/php/models">PHP Models</a>.</p>
+					<p>Models are used to store functions for quick database access. Mogul MVC offers two types of models, but both types go within this directory.<br />To learn to create and use models see <a href="/php/models">PHP Models</a>.</p>
 						
 					<div class="indent">
 						
@@ -266,7 +266,7 @@
 					<h2>Frontend Cache - cache</h2>
 					<hr />
 					
-					<p>Nothing should be placed in this folder. It is a folder used by Mogul MVC to store minified CSS and JavaScript when in production mode.</p>
+					<p>Nothing should be placed in this directory. It is a directory used by Mogul MVC to store minified CSS and JavaScript when in production mode.</p>
 					
 				</section>
 				
@@ -275,7 +275,7 @@
 					<h2>Frontend CSS - css</h2>
 					<hr />
 					
-					<p>The frontend css directory is divided into two folder, just like the backend lib and frontend js directories. These folders are core and vendor.</p>
+					<p>The frontend css directory is divided into two directory, just like the backend lib and frontend js directories. These directories are core and vendor.</p>
 					
 					<div class="indent">
 						
@@ -303,7 +303,7 @@
 					<h2>Frontend JavaScript - js</h2>
 					<hr />
 					
-					<p>The frontend js directory is divided into two folder, just like the backend lib and frontend css directories. These folders are core and vendor.</p>
+					<p>The frontend js directory is divided into two directory, just like the backend lib and frontend css directories. These directories are core and vendor.</p>
 					
 					<div class="indent">
 						

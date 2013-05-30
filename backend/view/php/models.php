@@ -62,7 +62,7 @@
 
 					<h3>MPDO</h3>
 
-					<p>To create a PDO model you first make a class file named after your table followed by Model.php. This file would be placed in the backend model folder. For example if your table is called users then your model would be UserModel.php and be placed in the model folder.</p>
+					<p>To create a PDO model you first make a class file named after your table followed by Model.php. This file would be placed in the backend model directory. For example if your table is called users then your model would be UserModel.php and be placed in the model directory.</p>
 				
 					<pre><code><?php echo htmlspecialchars('/backend/
 	/model/
@@ -92,7 +92,7 @@
 
 }'); ?></code></pre>
 				
-					<p>Notice how we use <code>MPDO::connection(0);</code> on the first line of the function. <code>MPDO::connection(0);</code> will return a PDO object connected to the 0th database in your <code>database.php</code> file within the config folder.</p>
+					<p>Notice how we use <code>MPDO::connection(0);</code> on the first line of the function. <code>MPDO::connection(0);</code> will return a PDO object connected to the 0th database in your <code>database.php</code> file within the config directory.</p>
 					
 					<p>Imagine your 0th entry in your database.php file is called 'user_connection'. You can also connect to this table with the following code.</p>
 					
@@ -148,7 +148,7 @@ class UserModel extends MActiveRecord {
 				<h2>Load a Model</h2>
 				<hr />
 				
-				<p>Loading a model into memory is very simple. To load a model you use the MLoad class and the model function. MLoad will look in the model folder for your model and load it into memory.</p>
+				<p>Loading a model into memory is very simple. To load a model you use the MLoad class and the model function. MLoad will look in the model directory for your model and load it into memory.</p>
 				
 				<p>To load a model called UserModel.php do the following.</p>
 				
