@@ -32,9 +32,9 @@
 				</li>
 			</a>
 			
-			<a href="#section_openShare">
+			<a href="#section_share">
 				<li class="MSideBarListItem">
-					<span>Open Share</span>
+					<span>Share</span>
 				</li>
 			</a>
 
@@ -44,30 +44,18 @@
 				</li>
 			</a>
 
-			<a href="#section_complete">
-				<li class="MSideBarListItem">
-					<span>Complete</span>
-				</li>
-			</a>
-
-			<a href="#section_embed">
-				<li class="MSideBarListItem">
-					<span>Embed</span>
-				</li>
-			</a>
-			
 			<a href="#section_loading">
 				<li class="MSideBarListItem">
 					<span>Loading</span>
 				</li>
 			</a>
-			
-			<a href="#section_warning">
+
+			<a href="#section_status">
 				<li class="MSideBarListItem">
-					<span>Warning</span>
+					<span>Status</span>
 				</li>
 			</a>
-			
+
 			<a href="#section_misc">
 				<li class="MSideBarListItem">
 					<span>Misc</span>
@@ -99,8 +87,7 @@
 			
 			<section id="section_close" class="section">
 				<h2>Close</h2>
-				<hr />
-				<br />
+				<hr /><br />
 				
 				<div class="MWidget" style="position: relative">
 					<span class="MIconClose"></span>
@@ -114,7 +101,7 @@
 			
 			<section id="section_social" class="section">
 				<h2>Social</h2>
-				<hr />
+				<hr /><br />
 				
 				<span class="MIconFacebook"></span>
 				<span class="MIconFacebook30x30"></span>
@@ -128,6 +115,34 @@
 <span class="MIconFacebook50x50"></span>
 <span class="MIconFacebook150x150"></span>');?></code></pre>
 	
+				<div class="MContentSpacer"></div>
+				
+				<span class="MIconGooglePlus"></span>
+				<span class="MIconGooglePlus30x30"></span>
+				<span class="MIconGooglePlus50x50"></span>
+				<span class="MIconGooglePlus150x150"></span>
+				
+				<br />
+				<a class="showCode">Code</a>
+				<pre class="MHidden"><code><?php echo htmlentities('<span class="MIconGooglePlus"></span>
+<span class="MIconGooglePlus30x30"></span>
+<span class="MIconGooglePlus50x50"></span>
+<span class="MIconGooglePlus150x150"></span>');?></code></pre>
+
+				<div class="MContentSpacer"></div>
+				
+				<span class="MIconTumblr"></span>
+				<span class="MIconTumblr30x30"></span>
+				<span class="MIconTumblr50x50"></span>
+				<span class="MIconTumblr150x150"></span>
+				
+				<br />
+				<a class="showCode">Code</a>
+				<pre class="MHidden"><code><?php echo htmlentities('<span class="MIconTumblr"></span>
+<span class="MIconTumblr30x30"></span>
+<span class="MIconTumblr50x50"></span>
+<span class="MIconTumblr150x150"></span>');?></code></pre>
+
 				<div class="MContentSpacer"></div>
 				
 				<span class="MIconTwitter"></span>
@@ -144,9 +159,9 @@
 	
 			</section>
 			
-			<section id="section_openShare" class="section">
-				<h2>Open Share</h2>
-				<hr />
+			<section id="section_share" class="section">
+				<h2>Share</h2>
+				<hr /><br />
 				
 				<span class="MIconOpenShare"></span>
 				<span class="MIconOpenShare30x30"></span>
@@ -160,33 +175,74 @@
 <span class="MIconOpenShare50x50"></span>
 <span class="MIconOpenShare150x150"></span>');?></code></pre>
 	
+				<div class="MContentSpacer"></div>
+	
+				<span class="MIconRSS"></span>
+				<span class="MIconRSS30x30"></span>
+				<span class="MIconRSS50x50"></span>
+				<span class="MIconRSS150x150"></span>
+				
+				<br />
+				<a class="showCode">Code</a>
+				<pre class="MHidden"><code><?php echo htmlentities('<span class="MIconRSS"></span>
+<span class="MIconRSS30x30"></span>
+<span class="MIconRSS50x50"></span>
+<span class="MIconRSS150x150"></span>');?></code></pre>
+	
 			</section>
 			
 			<section id="section_avatar" class="section">
 				<h2>Avatar</h2>
-				<hr />
+				<hr /><br />
 				
-				<span class="MAvatar"></span>
-				<span class="MAvatar30x30"></span>
-				<span class="MAvatar50x50"></span>
-				<span class="MAvatar150x150"></span>
-				<span class="MAvatar200x200"></span>
-				<span class="MAvatar400x400"></span>
+				<span class="MIconAvatar"></span>
+				<span class="MIconAvatar30x30"></span>
+				<span class="MIconAvatar50x50"></span>
+				<span class="MIconAvatar150x150"></span>
+				<span class="MIconAvatar200x200"></span>
+				<span class="MIconAvatar400x400"></span>
 				
 				<br />
 				<a class="showCode">Code</a>
-				<pre class="MHidden"><code><?php echo htmlentities('<span class="MAvatar"></span>
-<span class="MAvatar30x30"></span>
-<span class="MAvatar50x50"></span>
-<span class="MAvatar150x150"></span>
-<span class="MAvatar200x200"></span>
-<span class="MAvatar400x400"></span>');?></code></pre>
+				<pre class="MHidden"><code><?php echo htmlentities('<span class="MIconAvatar"></span>
+<span class="MIconAvatar30x30"></span>
+<span class="MIconAvatar50x50"></span>
+<span class="MIconAvatar150x150"></span>
+<span class="MIconAvatar200x200"></span>
+<span class="MIconAvatar400x400"></span>');?></code></pre>
 
 			</section>
 			
-			<section id="section_complete" class="section">
-				<h2>Complete</h2>
-				<hr />
+			<section id="section_loading" class="section">
+				<h2>Loading</h2>
+				<hr /><br />
+				
+				<p>The grey background is not included in the icon. It is here to seperate the icon from the background.</p>
+				
+				<div class="background-grey">
+				
+					<span class="MIconLoadingBlack"></span>
+					<span class="MIconLoadingBlack50x50"></span>
+					<span class="MIconLoadingBlack150x150"></span>
+					
+					<span class="MIconLoadingWhite"></span>
+					<span class="MIconLoadingWhite50x50"></span>
+					<span class="MIconLoadingWhite150x150"></span>
+					
+				</div>
+				
+				<br />
+				<a class="showCode">Code</a>
+				<pre class="MHidden"><code><?php echo htmlentities('<span class="MIconLoadingBlack"></span>
+<span class="MIconLoadingBlack50x50"></span>
+<span class="MIconLoadingBlack150x150"></span>
+<span class="MIconLoadingWhite"></span>');?></code></pre>
+	
+			</section>
+			
+			<section id="section_status" class="section">
+				<h2>Status</h2>
+				<hr /><br />
 				
 				<span class="MIconComplete"></span>
 				<span class="MIconComplete30x30"></span>
@@ -199,73 +255,8 @@
 <span class="MIconComplete30x30"></span>
 <span class="MIconComplete50x50"></span>
 <span class="MIconComplete150x150"></span>');?></code></pre>
-	
-			</section>
-			
-			<section id="section_embed" class="section">
-				<h2>Embed</h2>
-				<hr />
 				
-				<span class="MIconEmbed"></span>
-				<span class="MIconEmbed30x30"></span>
-				<span class="MIconEmbed50x50"></span>
-				<span class="MIconEmbed150x150"></span>
-				
-				<br />
-				<a class="showCode">Code</a>
-				<pre class="MHidden"><code><?php echo htmlentities('<span class="MIconEmbed"></span>
-<span class="MIconEmbed30x30"></span>
-<span class="MIconEmbed50x50"></span>
-<span class="MIconEmbed150x150"></span>');?></code></pre>
-	
-			</section>
-			
-			<section id="section_loading" class="section">
-				<h2>Loading</h2>
-				<hr />
-				
-				<span class="MIconLoadingBlack"></span>
-				<span class="MIconLoadingBlack50x50"></span>
-				<span class="MIconLoadingBlack150x150"></span>
-				
-				<div class="background-grey">				
-					<span class="MIconLoadingWhite"></span>
-				</div>
-				
-				<div class="background-grey">				
-					<span class="MIconLoadingWhite50x50"></span>
-				</div>
-				
-				<div class="background-grey">				
-					<span class="MIconLoadingWhite150x150"></span>
-				</div>
-				
-				<br />
-				<a class="showCode">Code</a>
-				<pre class="MHidden"><code><?php echo htmlentities('<span class="MIconLoadingBlack"></span>
-<span class="MIconLoadingBlack50x50"></span>
-<span class="MIconLoadingBlack150x150"></span>
-<span class="MIconLoadingWhite"></span>');?></code></pre>
-	
-			</section>
-	
-			<section id="section_lock" class="section">
-				<h2>Lock</h2>
-				<hr />
-				
-				<span class="MIconLock"></span>
-				<span class="MIconLock64x64"></span>
-				
-				<br />
-				<a class="showCode">Code</a>
-				<pre class="MHidden"><code><?php echo htmlentities('<span class="MIconLock"></span>
-<span class="MIconLock64x64"></span>');?></code></pre>
-	
-			</section>
-			
-			<section id="section_warning" class="section">
-				<h2>Warning</h2>
-				<hr />
+				<div class="MContentSpacer"></div>
 				
 				<span class="MIconWarning"></span>
 				<span class="MIconWarning30x30"></span>
@@ -278,12 +269,48 @@
 <span class="MIconWarning30x30"></span>
 <span class="MIconWarning50x50"></span>
 <span class="MIconWarning150x150"></span>');?></code></pre>
+
+				<div class="MContentSpacer"></div>
+				
+				<span class="MIconFailure"></span>
+				<span class="MIconFailure30x30"></span>
+				<span class="MIconFailure50x50"></span>
+				<span class="MIconFailure150x150"></span>
+				
+				<br />
+				<a class="showCode">Code</a>
+				<pre class="MHidden"><code><?php echo htmlentities('<span class="MIconFailure"></span>
+<span class="MIconFailure30x30"></span>
+<span class="MIconFailure50x50"></span>
+<span class="MIconFailure150x150"></span>');?></code></pre>
 	
 			</section>
 			
 			<section id="section_misc" class="section">
 				<h2>Misc</h2>
-				<hr />
+				<hr /><br />
+				
+				<span class="MIconEmbed"></span>
+				<span class="MIconEmbed30x30"></span>
+				<span class="MIconEmbed50x50"></span>
+				<span class="MIconEmbed150x150"></span>
+				
+				<br />
+				<a class="showCode">Code</a>
+				<pre class="MHidden"><code><?php echo htmlentities('<span class="MIconEmbed"></span>
+<span class="MIconEmbed30x30"></span>
+<span class="MIconEmbed50x50"></span>
+<span class="MIconEmbed150x150"></span>');?></code></pre>
+				<br /><br />
+	
+				<span class="MIconLock"></span>
+				<span class="MIconLock64x64"></span>
+				
+				<br />
+				<a class="showCode">Code</a>
+				<pre class="MHidden"><code><?php echo htmlentities('<span class="MIconLock"></span>
+<span class="MIconLock64x64"></span>');?></code></pre>
+				<br /><br />
 				
 				<span class="MIconAdd"></span>
 				<span class="MBackground"></span>
