@@ -1,6 +1,6 @@
 <style>
 	#MStage{
-		background: #fff568;
+		background: #F7941D;
 	}
 	#MStage h1{
 		font-size: 7em;
@@ -9,7 +9,7 @@
 
 <div id="MStage">
 	<div class="MContentSpacer"></div>
-		<img src="<?php MLoad::img_src_application('front-page-1311.png', 'echo')?>" alt="Mogul MVC 1305" />
+		<img src="<?php MLoad::img_src_application('front-page-1305.png', 'echo')?>" alt="Mogul MVC 1305" />
 	<div class="MContentSpacer"></div>
 </div><!-- MStage -->
 

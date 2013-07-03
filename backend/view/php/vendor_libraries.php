@@ -8,9 +8,9 @@
 	
 	<?php
 		$js_libraries = array(
-			array('name' => 'CSSMin', 'description' => '<pre><code>vendor/cssmin</code></pre>CssMin is a css parser and minfier.', 'website' => 'http://code.google.com/p/cssmin/'),
-			array('name' => 'JSMin', 'description' => '<pre><code>vendor/jsmin</code></pre>An unmaintained but very useful way to minify JavaScript on the server.', 'website' => 'https://github.com/rgrove/jsmin-php'),
-			array('name' => 'Mobile Detect', 'description' => '<pre><code>vendor/Mobile_Detect</code></pre>The lightweight PHP class for detecting mobile devices.', 'website' => 'http://mobiledetect.net/')
+			array('name' => 'CSSMin', 'description' => '<pre><code>vendor/util/cssmin</code></pre>CssMin is a css parser and minfier.', 'website' => 'http://code.google.com/p/cssmin/'),
+			array('name' => 'JSMin', 'description' => '<pre><code>vendor/util/jsmin</code></pre>An unmaintained but very useful way to minify JavaScript on the server.', 'website' => 'https://github.com/rgrove/jsmin-php'),
+			array('name' => 'Mobile Detect', 'description' => '<pre><code>vendor/util/Mobile_Detect</code></pre>The lightweight PHP class for detecting mobile devices.', 'website' => 'http://mobiledetect.net/')
 		);
 	?>
 		
