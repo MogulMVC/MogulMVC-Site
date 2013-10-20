@@ -94,3 +94,8 @@ section:hover {
 	font-size: 1.5em;
 	padding: 4px;
 }
+
+.keyword {
+	font-weight: bold;
+	color: #afaf00;
+}

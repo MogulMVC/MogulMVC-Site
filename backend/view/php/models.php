@@ -47,9 +47,9 @@
 	
 				<p>Mogul MVC includes 2 different types of models.</p>
 
-				<p>MPDO models are the basic model type. They provide no abstraction and allows maximum control over you CRUD functions. It is also the faster of the two models.</p>
+				<p><span class="keyword">MPDO</span> models are the basic model type. They provide no abstraction and allows maximum control over you CRUD functions. It is also the faster of the two models.</p>
 
-				<p>MactiveRecord models are the advanced model type. They provide a robust abstraction layer for your model. These models are forks of the PHP Active Record project. They have been integrated with the Mogul MVC database configuration.</p>
+				<p><span class="keyword">MactiveRecord</span> models are the advanced model type. They provide a robust abstraction layer for your model. These models are forks of the <a href="http://www.phpactiverecord.org/">PHPActiveRecord</a> project. They have been integrated with the Mogul MVC database configuration.</p>
 	
 			</section>
 			
@@ -78,9 +78,9 @@
 				
 					<pre><code><?php echo htmlspecialchars('public function read_by_id($id) {
 	
-	$DB = MPDO::connection(0);
+	$db = MPDO::connection(0);
 
-	$query = $DB -> prepare(\'
+	$query = $db -> prepare(\'
 		SELECT * from user
 		WHERE id = ?\');
 		
@@ -105,7 +105,7 @@
 					<p>All your model's methods should accept input and return a value. We recommend the following.</p>
 
 					<div class="MWell">
-					<li>Create should accept an object to be added to a database. The return the object added to the database including the id or false if the object was not added.</li>
+					<li>Create should accept an object to be added to a database. They return the object added to the database including the id or false if the object was not added.</li>
 					<li>Read should accept some means of finding the row. They return an object, or false if no object was found.</li>
 					<li>Update should accept an object to be updated. They return the updated object or false if the row was not updated.</li>
 					<li>Delete should accept some means of finding the row to delete. They return true if the row was deleted and false if there was an error.</li>
