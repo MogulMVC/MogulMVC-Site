@@ -151,7 +151,7 @@ The function accepts 1 argument, the file name of the model being loaded startin
 A model called <code>UserModel.php</code> located in <code>application/model/</code> can be loaded the following way.<pre><code>MLoad::model("UserModel");</code></pre>This places the model into memory and allows you to create new instances of it or call static methods inside of it.
 
 For more information about models see <a href="/php/models/">PHP Models</a>');
-					MLoad::template_application('template/library_function', $data);
+					MLoad::template_application('ui/library_function', $data);
 					?>
 				</section>
 				
@@ -164,7 +164,7 @@ For more information about models see <a href="/php/models/">PHP Models</a>');
 The function accepts 1 argument, the file name of the vo being loaded starting from the vo directory. The file extension is optional.
 
 A vo called <code>UserVO.php</code> located in <code>application/model/vo/</code> can be loaded the following way.<pre><code>MLoad::vo("UserVO");</code></pre>This places the vo into memory and allows you to create new instances of it and assign values to it.');
-					MLoad::template_application('template/library_function', $data);
+					MLoad::template_application('ui/library_function', $data);
 					?>
 				</section>
 				
@@ -179,7 +179,7 @@ The function accepts 2 arguments, the file name of the view being loaded startin
 Data passed to the view must be an associative array. Each key within the array will represent a variable in the view.
 
 A view called <code>profile.php</code> located in <code>application/view/</code> can be loaded the following way.<pre><code>MLoad::view("profile");</code></pre> Any data needing to be passed should be passed as below. <pre><code>MLoad::view("profile", $data);</code></pre>For more information about views see <a href=”/php/views/”>PHP Views</a>.');
-					MLoad::template_application('template/library_function', $data);
+					MLoad::template_application('ui/library_function', $data);
 					?>
 				</section>
 				
@@ -192,7 +192,7 @@ A view called <code>profile.php</code> located in <code>application/view/</code>
 The function accepts 2 arguments, the file name of the page being loaded starting from the view directory, and data that should be sent to that page.
 
 A page called <code>page.php</code> located in <code>application/view/</code> can be loaded the following way.<pre><code>MLoad::page("page");</code></pre> Any data needing to be passed should be passed as below. <pre><code>MLoad::page("profile", $data);</code></pre>Pages are created the same as views, so for more information about pages see <a href=”/php/views/”>PHP Views</a>');
-					MLoad::template_application('template/library_function', $data);
+					MLoad::template_application('ui/library_function', $data);
 					?>
 				</section>
 				
@@ -205,7 +205,7 @@ A page called <code>page.php</code> located in <code>application/view/</code> ca
 The function accepts 2 arguments, the file name of the template being loaded starting from the framework view directory, and data that should be sent to that template.
 
 A template called <code>message_complete.php</code> located in <code>framework/view/</code> can be loaded the following way.<pre><code>MLoad::template_framework("message_complete");</code></pre> Any data needing to be passed should be passed as below. <pre><code>MLoad::template_framework("message_complete", $data);</code></pre>');
-					MLoad::template_application('template/library_function', $data);
+					MLoad::template_application('ui/library_function', $data);
 					?>
 				</section>
 				
@@ -218,7 +218,7 @@ A template called <code>message_complete.php</code> located in <code>framework/v
 The function accepts 2 arguments, the file name of the template being loaded starting from the framework view directory, and data that should be sent to that template.
 
 A template called <code>comment.php</code> located in <code>application/view/template</code> can be loaded the following way.<pre><code>MLoad::template_application("template/comment");</code></pre> Any data needing to be passed should be passed as below. <pre><code>MLoad::template_application(“template/comment", $data);</code></pre>You should create a template for each item you indent to use multiple times between views. This minimizes the amount of code needed to be written and allows you to easily update the look of simple code components.');
-					MLoad::template_application('template/library_function', $data);
+					MLoad::template_application('ui/library_function', $data);
 					?>
 				</section>
 				
@@ -229,7 +229,7 @@ A template called <code>comment.php</code> located in <code>application/view/tem
 					$data['content'] = nl2br('Mogul MVC comes with many built in libraries that are useful for common programming tasks. Some libraries validate variables, others allow you to get information from the URL.
 
 A library called <code>MValidate.php</code> located in <code>framework/lib/php/core/util</code> can be loaded the following way.<pre><code>MLoad::template_application("util/MValidate");</code></pre>A full list of Mogul MVC libraries can be found on <a href=”/php/libraries/”>PHP Libraries</a>.');
-					MLoad::template_application('template/library_function', $data);
+					MLoad::template_application('ui/library_function', $data);
 					?>
 				</section>
 				
@@ -240,7 +240,7 @@ A library called <code>MValidate.php</code> located in <code>framework/lib/php/c
 					$data['content'] = nl2br('You can create your own PHP libraries and use vendor libraries with Mogul MVC. These libraries can range from performing mathematical operations to security libraries for validating the session data of a logged in user.
 
 A library called <code>UserAuthenticate.php</code> located in <code>application/lib/php/core</code> can be loaded the following way.<pre><code>MLoad::template_application("UserAuthenticate");</code></pre>To learn more about creating and a library see <a href=”/php/custom_libraries”>PHP Custom Libraries</a>.');
-					MLoad::template_application('template/library_function', $data);
+					MLoad::template_application('ui/library_function', $data);
 					?>
 				</section>
 				
@@ -257,7 +257,7 @@ This function accepts 3 arguments, the name of the file being added to the page,
 The type of load can be null, which loads acts as an autoload, echo, which echos the JavaScript line directly on the page at the point you call it, or return, which sends the script tag back to you as return data.
 
 A library called <code>jquery.js</code> located in <code>framework/lib/js/vendor</code> can be loaded the following way.<pre><code>MLoad::template_application("vendor/jquery");</code></pre>A full list of vendor JavaScript libraries can be found on <a href=”/js/vendor_libraries/”>JavaScript vendor Libraries</a>.');
-					MLoad::template_application('template/library_function', $data);
+					MLoad::template_application('ui/library_function', $data);
 					?>
 				</section>
 				
@@ -266,7 +266,7 @@ A library called <code>jquery.js</code> located in <code>framework/lib/js/vendor
 					$data['added'] = '1211';
 					$data['title'] = 'js_application($js:String, $direction:String, $useHTTP:Boolean):void';
 					$data['content'] = nl2br('This function appends a script tag to the head with the source attribute starting from the <code>frontend/js</code> directory.');
-					MLoad::template_application('template/library_function', $data);
+					MLoad::template_application('ui/library_function', $data);
 					?>
 				</section>
 				
@@ -275,7 +275,7 @@ A library called <code>jquery.js</code> located in <code>framework/lib/js/vendor
 					$data['added'] = '1211';
 					$data['title'] = 'js_cache($js:String, $direction:String):void';
 					$data['content'] = nl2br('This function appends a script tag to the head with the source attribute starting from the <code>frontend/cache</code> directory.');
-					MLoad::template_application('template/library_function', $data);
+					MLoad::template_application('ui/library_function', $data);
 					?>
 				</section>
 				
@@ -284,7 +284,7 @@ A library called <code>jquery.js</code> located in <code>framework/lib/js/vendor
 					$data['added'] = '1305';
 					$data['title'] = 'js_external($js:String, $direction:String):void';
 					$data['content'] = nl2br('This function appends a script tag to the head with an external source attribute. This function is very useful for dynamically loading libraries from third parties like Google, Twitter, and Facebook.');
-					MLoad::template_application('template/library_function', $data);
+					MLoad::template_application('ui/library_function', $data);
 					?>
 				</section>
 				
@@ -293,7 +293,7 @@ A library called <code>jquery.js</code> located in <code>framework/lib/js/vendor
 					$data['added'] = '1211';
 					$data['title'] = 'css_framework($css:String, $direction:String, $useHTTP:Boolean):void';
 					$data['content'] = nl2br('This function appends a css link tag to the head with the source attribute starting from the <code>frontend/framework/css</code> directory.');
-					MLoad::template_application('template/library_function', $data);
+					MLoad::template_application('ui/library_function', $data);
 					?>
 				</section>
 				
@@ -302,7 +302,7 @@ A library called <code>jquery.js</code> located in <code>framework/lib/js/vendor
 					$data['added'] = '1211';
 					$data['title'] = 'css_application($css:String, $direction:String, $useHTTP:Boolean):void';
 					$data['content'] = nl2br('This function appends a css link tag to the head with the source attribute starting from the <code>frontend/css</code> directory.');
-					MLoad::template_application('template/library_function', $data);
+					MLoad::template_application('ui/library_function', $data);
 					?>
 				</section>
 				
@@ -311,7 +311,7 @@ A library called <code>jquery.js</code> located in <code>framework/lib/js/vendor
 					$data['added'] = '1211';
 					$data['title'] = 'css_cache($css:String, $direction:String):void';
 					$data['content'] = nl2br('This function appends a css link tag to the head with the source attribute starting from the <code>frontend/cache</code> directory.');
-					MLoad::template_application('template/library_function', $data);
+					MLoad::template_application('ui/library_function', $data);
 					?>
 				</section>
 				
@@ -320,7 +320,7 @@ A library called <code>jquery.js</code> located in <code>framework/lib/js/vendor
 					$data['added'] = '1305';
 					$data['title'] = 'css_external($css:String, $direction:String):void';
 					$data['content'] = nl2br('This function appends a css link tag to the head with an external source attribute.');
-					MLoad::template_application('template/library_function', $data);
+					MLoad::template_application('ui/library_function', $data);
 					?>
 				</section>
 				
@@ -329,7 +329,7 @@ A library called <code>jquery.js</code> located in <code>framework/lib/js/vendor
 					$data['added'] = '1305';
 					$data['title'] = 'img_src_framework($img:String, $direction:String, $useHTTP:Boolean):void';
 					$data['content'] = nl2br('This function returns the source of an image located in the <code>frontend/framework/img</code> directory.');
-					MLoad::template_application('template/library_function', $data);
+					MLoad::template_application('ui/library_function', $data);
 					?>
 				</section>
 				
@@ -338,7 +338,7 @@ A library called <code>jquery.js</code> located in <code>framework/lib/js/vendor
 					$data['added'] = '1305';
 					$data['title'] = 'img_src_application($img:String, $direction:String, $useHTTP:Boolean)';
 					$data['content'] = nl2br('This function returns the source of an image located in the <code>frontend/img</code> directory.');
-					MLoad::template_application('template/library_function', $data);
+					MLoad::template_application('ui/library_function', $data);
 					?>
 				</section>
 			
@@ -347,7 +347,7 @@ A library called <code>jquery.js</code> located in <code>framework/lib/js/vendor
 					$data['added'] = '1305';
 					$data['title'] = 'icon_src_framework($img:String, $direction:String, $useHTTP:Boolean)';
 					$data['content'] = nl2br('This function returns the source of an image located in the <code>frontend/framework/img/icon</code> directory.');
-					MLoad::template_application('template/library_function', $data);
+					MLoad::template_application('ui/library_function', $data);
 					?>
 				</section>
 				
