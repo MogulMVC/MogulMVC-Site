@@ -81,7 +81,7 @@ MLoad::template_application('template/toolbar_js', $data);
 					$data['added'] = '1305';
 					$data['title'] = 'jsFramework(file:String):void';
 					$data['content'] = nl2br('This function appends a script tag to the head with the source attribute starting from the <code>frontend/framework/js</code> directory.');
-					MLoad::template_application('template/library_function', $data);
+					MLoad::template_application('ui/library_function', $data);
 					?>
 				</section>
 				
@@ -90,7 +90,7 @@ MLoad::template_application('template/toolbar_js', $data);
 					$data['added'] = '1305';
 					$data['title'] = 'jsApplication(file:String):void';
 					$data['content'] = nl2br('This function appends a script tag to the head with the source attribute starting from the <code>frontend/js</code> directory.');
-					MLoad::template_application('template/library_function', $data);
+					MLoad::template_application('ui/library_function', $data);
 					?>
 				</section>
 				
@@ -99,7 +99,7 @@ MLoad::template_application('template/toolbar_js', $data);
 					$data['added'] = '1305';
 					$data['title'] = 'jsCache(file:String):void';
 					$data['content'] = nl2br('This function appends a script tag to the head with the source attribute starting from the <code>frontend/cache</code> directory.');
-					MLoad::template_application('template/library_function', $data);
+					MLoad::template_application('ui/library_function', $data);
 					?>
 				</section>
 				
@@ -108,7 +108,7 @@ MLoad::template_application('template/toolbar_js', $data);
 					$data['added'] = '1305';
 					$data['title'] = 'jsExternal(url:String):void';
 					$data['content'] = nl2br('This function appends a script tag to the head with an external source attribute. This function is very useful for dynamically loading libraries from third parties like Google, Twitter, and Facebook.');
-					MLoad::template_application('template/library_function', $data);
+					MLoad::template_application('ui/library_function', $data);
 					?>
 				</section>
 				
@@ -117,7 +117,7 @@ MLoad::template_application('template/toolbar_js', $data);
 					$data['added'] = '1305';
 					$data['title'] = 'cssFramework(file:String):void';
 					$data['content'] = nl2br('This function appends a css link tag to the head with the source attribute starting from the <code>frontend/framework/css</code> directory.');
-					MLoad::template_application('template/library_function', $data);
+					MLoad::template_application('ui/library_function', $data);
 					?>
 				</section>
 				
@@ -126,7 +126,7 @@ MLoad::template_application('template/toolbar_js', $data);
 					$data['added'] = '1305';
 					$data['title'] = 'cssApplication(file:String):void';
 					$data['content'] = nl2br('This function appends a css link tag to the head with the source attribute starting from the <code>frontend/css</code> directory.');
-					MLoad::template_application('template/library_function', $data);
+					MLoad::template_application('ui/library_function', $data);
 					?>
 				</section>
 				
@@ -135,7 +135,7 @@ MLoad::template_application('template/toolbar_js', $data);
 					$data['added'] = '1305';
 					$data['title'] = 'cssCache(file:String):void';
 					$data['content'] = nl2br('This function appends a css link tag to the head with the source attribute starting from the <code>frontend/cache</code> directory.');
-					MLoad::template_application('template/library_function', $data);
+					MLoad::template_application('ui/library_function', $data);
 					?>
 				</section>
 				
@@ -144,7 +144,7 @@ MLoad::template_application('template/toolbar_js', $data);
 					$data['added'] = '1305';
 					$data['title'] = 'cssExternal(url:String):void';
 					$data['content'] = nl2br('This function appends a css link tag to the head with an external source attribute.');
-					MLoad::template_application('template/library_function', $data);
+					MLoad::template_application('ui/library_function', $data);
 					?>
 				</section>
 			

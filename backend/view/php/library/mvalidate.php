@@ -91,7 +91,7 @@ MLoad::php_framework('core/util/MValidate');
 					$data['added'] = '1211';
 					$data['title'] = 'email($email:String):Boolean';
 					$data['content'] = nl2br('The email function uses regular expressions to check the validity of an e-mail address.');
-					MLoad::template_application('template/library_function', $data);
+					MLoad::template_application('ui/library_function', $data);
 					?>
 					<pre><code><?php echo 'MValidate::email("alanjames1987@gmail.com"); <br />'; ?><?php echo var_dump(MValidate::email('alanjames1987@gmail.com')); ?></code></pre>
 					<pre><code><?php echo 'MValidate::email("alanjames1987@com"); <br />'; ?><?php echo var_dump(MValidate::email('alanjames1987@com')); ?></code></pre>
@@ -104,7 +104,7 @@ MLoad::php_framework('core/util/MValidate');
 					$data['content'] = nl2br('Validates that a variable is declared, exists in memory, and has some value.
 "", " ", array(), 0, FALSE will return TRUE as they are declared variables.
 An undeclared variable or NULL will return FALSE.');
-					MLoad::template_application('template/library_function', $data);
+					MLoad::template_application('ui/library_function', $data);
 					?>
 					<span class="MNoteR right">In the example below we first must declare a variable in order to pass it into the function as this function only accepts passing by reference.</span>
 					<pre><code><?php echo '$value = "some value"; <br />MValidate::optional($value); <br />'; ?><?php $value = "some value"; echo var_dump(MValidate::optional($value)); ?></code></pre>
@@ -126,7 +126,7 @@ An undeclared variable or NULL will return FALSE.');
 					$data['content'] = nl2br('Validates that a variable is decalred and has a non empty value.
 0, FALSE will return TRUE.
 "", " ", array(), an undeclared variable, and NULL will return FALSE.');
-					MLoad::template_application('template/library_function', $data);
+					MLoad::template_application('ui/library_function', $data);
 					?>
 					<span class="MNoteR right">In the example below we first must declare a variable in order to pass it into the function as this function accepts passing by reference.</span>
 					<pre><code><?php echo '$value = "some value"; <br />MValidate::required($value); <br />'; ?><?php $value = "some value"; echo var_dump(MValidate::required($value)); ?></code></pre>
@@ -149,7 +149,7 @@ An undeclared variable or NULL will return FALSE.');
 The input can not have any values other than what is in the array.
 If the input is a String each letter is checked against the choice array.
 If the input is an Array each item in the array is checked against the choice array.');
-					MLoad::template_application('template/library_function', $data);
+					MLoad::template_application('ui/library_function', $data);
 					?>
 					<pre><code><?php echo 'MValidate::only_contain("red", array("r", "e", "a", "d", "y")); <br />'; ?><?php echo var_dump(MValidate::only_contain("red", array("r", "e", "a", "d", "y"))); ?></code></pre>
 					<pre><code><?php echo 'MValidate::only_contain("Red", array("r", "e", "a", "d", "y")); <br />'; ?><?php echo var_dump(MValidate::only_contain("Red", array("r", "e", "a", "d", "y"))); ?></code></pre>
@@ -166,7 +166,7 @@ If the input is an Array each item in the array is checked against the choice ar
 The input can have other values but must have what is in the array.
 If the input is a String each letter is checked against the choice array.
 If the input is an Array each item in the array is checked against the choice array.');
-					MLoad::template_application('template/library_function', $data);
+					MLoad::template_application('ui/library_function', $data);
 					?>
 					<pre><code><?php echo 'MValidate::must_contain(array("red", "orange", "yellow"), array("red", "yellow")); <br />'; ?><?php echo var_dump(MValidate::must_contain(array("red", "orange", "yellow"), array("red", "yellow"))); ?></code></pre>
 					<pre><code><?php echo 'MValidate::must_contain(array("red", "orange", "yellow"), array("red", "yellow", "blue")); <br />'; ?><?php echo var_dump(MValidate::must_contain(array("red", "orange", "yellow"), array("red", "yellow", "blue"))); ?></code></pre>
@@ -180,7 +180,7 @@ If the input is an Array each item in the array is checked against the choice ar
 The input can have other values but must not have what is in the array.
 If the input is a String each letter is checked against the array.
 If the input is an Array each item in the array is checked against the choice array.');
-					MLoad::template_application('template/library_function', $data);
+					MLoad::template_application('ui/library_function', $data);
 					?>
 					<pre><code><?php echo 'MValidate::cant_contain(array("red", "orange", "yellow"), array("green", "blue", "violet")); <br />'; ?><?php $value = NULL; echo var_dump(MValidate::cant_contain(array("red", "orange", "yellow"), array("green", "blue", "violet"))); ?></code></pre>
 					<pre><code><?php echo 'MValidate::cant_contain(array("red", "orange", "yellow"), array("yellow", "green")); <br />'; ?><?php $value = NULL; echo var_dump(MValidate::cant_contain(array("red", "orange", "yellow"), array("yellow", "green"))); ?></code></pre>
@@ -192,7 +192,7 @@ If the input is an Array each item in the array is checked against the choice ar
 					$data['title'] = 'included_in($input:Mixed, choices:Array):Boolean';
 					$data['content'] = nl2br('Validates that a variable is in a list of choices.
 The comparison is case sensitive, so "red" and "Red" are not the same.');
-					MLoad::template_application('template/library_function', $data);
+					MLoad::template_application('ui/library_function', $data);
 					?>
 					<pre><code><?php echo 'MValidate::included_in("Red", array("Red", "Yellow", "Blue")); <br />'; ?><?php $value = NULL; echo var_dump(MValidate::included_in("Red", array("Red", "Yellow", "Blue"))); ?></code></pre>
 					<pre><code><?php echo 'MValidate::included_in("red", array("Red", "Yellow", "Blue")); <br />'; ?><?php $value = NULL; echo var_dump(MValidate::included_in("red", array("Red", "Yellow", "Blue"))); ?></code></pre>
@@ -204,7 +204,7 @@ The comparison is case sensitive, so "red" and "Red" are not the same.');
 					$data['title'] = 'excluded_from($input:Mixed, choices:Array):Boolean';
 					$data['content'] = nl2br('Validates that a variable is not in a list of choices.
 The comparison is case sensitive, so "red" and "Red" are not the same.');
-					MLoad::template_application('template/library_function', $data);
+					MLoad::template_application('ui/library_function', $data);
 					?>
 					<pre><code><?php echo 'MValidate::excluded_from("Red", array("Red", "Yellow", "Blue")); <br />'; ?><?php $value = NULL; echo var_dump(MValidate::excluded_from("Red", array("Red", "Yellow", "Blue"))); ?></code></pre>
 					<pre><code><?php echo 'MValidate::excluded_from("red", array("Red", "Yellow", "Blue")); <br />'; ?><?php $value = NULL; echo var_dump(MValidate::excluded_from("red", array("Red", "Yellow", "Blue"))); ?></code></pre>
@@ -215,7 +215,7 @@ The comparison is case sensitive, so "red" and "Red" are not the same.');
 					$data['added'] = '1305';
 					$data['title'] = 'between($input:Number, $min:Number, $max:Number):Boolean';
 					$data['content'] = nl2br('Validates that a variable is between two numbers.');
-					MLoad::template_application('template/library_function', $data);
+					MLoad::template_application('ui/library_function', $data);
 					?>
 					<pre><code><?php echo 'MValidate::between(5, 0, 10); <br />'; ?><?php echo var_dump(MValidate::between(5, 0, 10)); ?></code></pre>
 				</section>
@@ -225,7 +225,7 @@ The comparison is case sensitive, so "red" and "Red" are not the same.');
 					$data['added'] = '1305';
 					$data['title'] = 'multiple_of($input:Number, $multiple:Number):Boolean';
 					$data['content'] = nl2br('Validates that an input is a multiple of a number.');
-					MLoad::template_application('template/library_function', $data);
+					MLoad::template_application('ui/library_function', $data);
 					?>
 					<pre><code><?php echo 'MValidate::multiple_of(5, 10); <br />'; ?><?php echo var_dump(MValidate::multiple_of(5, 10)); ?></code></pre>
 					<pre><code><?php echo 'MValidate::multiple_of(10, 5); <br />'; ?><?php echo var_dump(MValidate::multiple_of(10, 5)); ?></code></pre>
@@ -236,7 +236,7 @@ The comparison is case sensitive, so "red" and "Red" are not the same.');
 					$data['added'] = '1305';
 					$data['title'] = 'even($input:Number):Boolean';
 					$data['content'] = nl2br('Validates that an input is an even number.');
-					MLoad::template_application('template/library_function', $data);
+					MLoad::template_application('ui/library_function', $data);
 					?>
 					<pre><code><?php echo 'MValidate::even(5); <br />'; ?><?php echo var_dump(MValidate::even(5)); ?></code></pre>
 					<pre><code><?php echo 'MValidate::even(4); <br />'; ?><?php echo var_dump(MValidate::even(4)); ?></code></pre>
@@ -247,7 +247,7 @@ The comparison is case sensitive, so "red" and "Red" are not the same.');
 					$data['added'] = '1305';
 					$data['title'] = 'odd($input:Number):Boolean';
 					$data['content'] = nl2br('Validates that an input is an odd number.');
-					MLoad::template_application('template/library_function', $data);
+					MLoad::template_application('ui/library_function', $data);
 					?>
 					<pre><code><?php echo 'MValidate::odd(5); <br />'; ?><?php echo var_dump(MValidate::odd(5)); ?></code></pre>
 					<pre><code><?php echo 'MValidate::odd(4); <br />'; ?><?php echo var_dump(MValidate::odd(4)); ?></code></pre>
@@ -260,7 +260,7 @@ The comparison is case sensitive, so "red" and "Red" are not the same.');
 					$data['content'] = nl2br('Validates that a state or abbriation for a state is a valid state.
 Washington DC is considered a state to this function.
 This function is case insensitive.');
-					MLoad::template_application('template/library_function', $data);
+					MLoad::template_application('ui/library_function', $data);
 					?>
 					<pre><code><?php echo 'MValidate::state("FL"); <br />'; ?><?php echo var_dump(MValidate::state('FL')); ?></code></pre>
 					<pre><code><?php echo 'MValidate::state("dc"); <br />'; ?><?php echo var_dump(MValidate::state('dc')); ?></code></pre>

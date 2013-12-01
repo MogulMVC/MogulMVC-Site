@@ -40,7 +40,7 @@ MLoad::template_application('template/toolbar_js', $data);
 					$data['added'] = '1305';
 					$data['title'] = 'datetime():String';
 					$data['content'] = nl2br('The datetime function is the equal of the PHP date("Y-m-d H:i:s"); function. This has been added because it is useful to use when updating databases.');
-					MLoad::template_application('template/library_function', $data);
+					MLoad::template_application('ui/library_function', $data);
 					?>
 					<pre><code><script>var datetime = MDate.datetime(); document.write('MDate.datetime(); <br />' + typeof datetime + ' ' + datetime);</script></code></pre>
 				</section>
@@ -50,7 +50,7 @@ MLoad::template_application('template/toolbar_js', $data);
 					$data['added'] = '1305';
 					$data['title'] = 'date():String';
 					$data['content'] = nl2br('The date function is the equal of the PHP date("Y-m-d"); function.');
-					MLoad::template_application('template/library_function', $data);
+					MLoad::template_application('ui/library_function', $data);
 					?>
 					<pre><code><script>var date = MDate.date(); document.write('MDate.date(); <br />' + typeof date + ' ' + date);</script></code></pre>
 				</section>

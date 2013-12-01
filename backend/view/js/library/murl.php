@@ -70,7 +70,7 @@ MLoad::template_application('template/toolbar_js', $data);
 					$data['added'] = '1305';
 					$data['title'] = 'protocol():String';
 					$data['content'] = nl2br('As expected protocol returns a string representation of the protcol being used.');
-					MLoad::template_application('template/library_function', $data);
+					MLoad::template_application('ui/library_function', $data);
 					?>
 					<pre><code><script>var protocol = MURL.protocol(); document.write('MURL.protocol(); <br />' + typeof protocol + ' ' + protocol);</script></code></pre>
 				</section>
@@ -80,7 +80,7 @@ MLoad::template_application('template/toolbar_js', $data);
 					$data['added'] = '1305';
 					$data['title'] = 'subdomain():String';
 					$data['content'] = nl2br('The subdomain function return a string of the subdomain of the page being requested. If no subdomain is preset it will return an empty string.');
-					MLoad::template_application('template/library_function', $data);
+					MLoad::template_application('ui/library_function', $data);
 					?>
 					<pre><code><script>var subdomain = MURL.subdomain(); document.write('MURL.subdomain(); <br />' + typeof subdomain + ' ' + subdomain);</script></code></pre>
 				</section>
@@ -90,7 +90,7 @@ MLoad::template_application('template/toolbar_js', $data);
 					$data['added'] = '1305';
 					$data['title'] = 'domain():String';
 					$data['content'] = nl2br('The domain function returns the domain of the site plus the top level domain.');
-					MLoad::template_application('template/library_function', $data);
+					MLoad::template_application('ui/library_function', $data);
 					?>
 					<pre><code><script>var domain = MURL.domain(); document.write('MURL.domain(); <br />' + typeof domain + ' ' + domain);</script></code></pre>
 				</section>
@@ -100,7 +100,7 @@ MLoad::template_application('template/toolbar_js', $data);
 					$data['added'] = '1305';
 					$data['title'] = 'canonical():String';
 					$data['content'] = nl2br('The canonical function returns the root location of the web site.');
-					MLoad::template_application('template/library_function', $data);
+					MLoad::template_application('ui/library_function', $data);
 					?>
 					<pre><code><script>var canonical = MURL.canonical(); document.write('MURL.canonical(); <br />' + typeof canonical + ' ' + canonical);</script></code></pre>
 				</section>
@@ -110,7 +110,7 @@ MLoad::template_application('template/toolbar_js', $data);
 					$data['added'] = '1211';
 					$data['title'] = 'current():String';
 					$data['content'] = nl2br('The current function returns the current url being viewed.');
-					MLoad::template_application('template/library_function', $data);
+					MLoad::template_application('ui/library_function', $data);
 					?>
 					<pre><code><script>var current = MURL.current(); document.write('MURL.current(); <br />' + typeof current + ' ' + current);</script></code></pre>
 				</section>
@@ -122,7 +122,7 @@ MLoad::template_application('template/toolbar_js', $data);
 					$data['content'] = nl2br('The segment function returns parts of the URL devided along forward slashes. Just like arrays they are 0 based with the cannonical representing segment 0. However unlike arrays 0 is not a valid index. 
 
 Any segment requested but not in existence will return an empty string.');
-					MLoad::template_application('template/library_function', $data);
+					MLoad::template_application('ui/library_function', $data);
 					?>
 					<pre><code><script>var segment = MURL.segment(1); document.write('MURL.segment(1); <br />' + typeof protocol + ' ' + segment);</script></code></pre>
 					<pre><code><script>var segment = MURL.segment(2); document.write('MURL.segment(2); <br />' + typeof protocol + ' ' + segment);</script></code></pre>
@@ -135,7 +135,7 @@ Any segment requested but not in existence will return an empty string.');
 					$data['added'] = '1211';
 					$data['title'] = 'reset():void';
 					$data['content'] = nl2br('The reset function reloads the current page first asking the user if they want to reload the page.');
-					MLoad::template_application('template/library_function', $data);
+					MLoad::template_application('ui/library_function', $data);
 					?>
 				</section>
 							
