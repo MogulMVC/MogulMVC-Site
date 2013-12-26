@@ -46,7 +46,8 @@ MLoad::template_application('_template/toolbar_php', $data);
 					$data['content'] = 'The datetime function is a shortcut for the PHP <code>date("Y-m-d H:i:s");</code> function. This has been added because it is useful to use when updating databases.';
 					MLoad::template_application('_ui/library_function', $data);
 					?>
-					<pre><code><?php echo 'MDate::datetime(); <br />'; ?><?php echo var_dump(MDate::datetime()); ?></code></pre>
+					<pre class="brush: php;">MDate::datetime();
+// <?php echo var_dump(MDate::datetime()); ?></pre>
 				</section>
 	
 				<section id="section_date">
@@ -56,7 +57,8 @@ MLoad::template_application('_template/toolbar_php', $data);
 					$data['content'] = 'The date function is a shortcut for the PHP <code>date("Y-m-d");</code> function.';
 					MLoad::template_application('_ui/library_function', $data);
 					?>
-					<pre><code><?php echo 'MDate::date(); <br />'; ?><?php echo var_dump(MDate::date()); ?></code></pre>
+					<pre class="brush: php;">MDate::date();
+// <?php echo var_dump(MDate::date()); ?></pre>
 				</section>
 				
 			</div>

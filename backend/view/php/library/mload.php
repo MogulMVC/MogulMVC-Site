@@ -148,7 +148,7 @@ MLoad::template_application('_template/toolbar_php', $data);
 					
 The function accepts 1 argument, the file name of the model being loaded starting from the model directory. The file extension is optional.
 
-A model called <code>UserModel.php</code> located in <code>application/model/</code> can be loaded the following way.<pre><code>MLoad::model("UserModel");</code></pre>This places the model into memory and allows you to create new instances of it or call static methods inside of it.
+A model called <code>UserModel.php</code> located in <code>application/model/</code> can be loaded the following way.<pre class="brush: php;">MLoad::model("UserModel");</pre>This places the model into memory and allows you to create new instances of it or call static methods inside of it.
 
 For more information about models see <a href="/php/models/">PHP Models</a>');
 					MLoad::template_application('_ui/library_function', $data);
