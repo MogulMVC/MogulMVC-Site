@@ -57,7 +57,7 @@
 					</li>
 					<li class="MListItem">
 						<span class="MTextBold">Vendor Libraries</span>
-						<span> - MogulPHP includes <a href="http://www.phpactiverecord.org/">php-activerecord</a> for database access and <a href="http://jquery.com/">jQuery</a> and <a href="http://jqueryui.com/">jQuery UI</a> for client side scripting.<br />It also works well with any other vendor library.</span>
+						<span> - MogulPHP includes <a href="http://www.phpactiverecord.org/">PHPActiveRecord</a> for database access and <a href="http://jquery.com/">jQuery</a> and <a href="http://jqueryui.com/">jQuery UI</a> for client side scripting.<br />It also works well with any other vendor library.</span>
 					</li>	
 				</div>
 				
