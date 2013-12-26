@@ -79,10 +79,6 @@
 					<li class="MListItem">
 						<span class="MTextBold">JavaScript UI</span>
 						<span> - MogulPHP's JavaScript UI library is not as robust as <a href="http://jqueryui.com/">jQuery UI</a> or <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap</a>.</span>
-						</li>
-					<li class="MListItem">
-						<span class="MTextBold">Open Source</span>
-						<span> - MogulPHP is not open-source yet and won't be until I feel that it is ready to play with the big boys.</span>
 					</li>
 				</div>
 				
