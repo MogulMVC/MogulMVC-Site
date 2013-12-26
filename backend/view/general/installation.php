@@ -1,4 +1,4 @@
-<?php MLoad::template_application('template/toolbar_general'); ?>
+<?php MLoad::template_application('_template/toolbar_general'); ?>
 
 <div class="MContentSpacer"></div>
 
@@ -11,17 +11,17 @@
 		<h2>Requirements</h2>
 		<hr />
 		
-		<p>Mogul MVC has very few requirements and will work on most shared hosted environments.</p>
+		<p>MogulPHP has very few requirements and will work on most shared hosted environments.</p>
 
 		<div class="indent">
 		
 			<h3>Web Server</h3>
-			<p>Any web server that supports PHP. Mogul MVC has been tested on Apache, NGINX and HipHop for PHP. Apache is prefered.<br />
-				Mogul MVC also requires a way to rewrite the path. In Apache this is provided by mod_rewrite.
+			<p>Any web server that supports PHP. MogulPHP has been tested on Apache, NGINX and HipHop for PHP. Apache is prefered.<br />
+				MogulPHP also requires a way to rewrite the path. In Apache this is provided by mod_rewrite.
 			</p>
 	
 			<h3>PHP Version</h3>
-			<p>Mogul MVC requires PHP 5.3.</p>
+			<p>MogulPHP requires PHP 5.3.</p>
 		
 			<h3>Recommendations</h3>
 			<p>Apache 2 running on a Linux system.</p>
@@ -37,9 +37,9 @@
 		<h2>How to Install</h2>
 		<hr />
 		
-		<p>To install and start using Mogul MVC you need to first get the source code. As Mogul MVC is not open source yet I expect you to talk to me about getting the source code. I am willing to give it to anyone interested in the project.</p>
+		<p>To install and start using MogulPHP you need to first get the source code. As MogulPHP is not open source yet I expect you to talk to me about getting the source code. I am willing to give it to anyone interested in the project.</p>
 	
-		<p>After you get the source code you will notice there are 2 directories in the root directory as well as an .htaccess file. The two directories are backend and frontend. We will discuss the .htaccess file later but for now know that it is a way to make Apache work with Mogul MVC's organizational system.</p>
+		<p>After you get the source code you will notice there are 2 directories in the root directory as well as an .htaccess file. The two directories are backend and frontend. We will discuss the .htaccess file later but for now know that it is a way to make Apache work with MogulPHP's organizational system.</p>
 	
 		<pre><code>/backend/
 /frontend/

@@ -1,8 +1,4 @@
 <?php
-if (!defined('BACKEND_ROOT')) {
-	header('Location: /error_404');
-	exit ;
-}
 
 class MNumber {
 
@@ -15,10 +11,10 @@ class MNumber {
 
 		// Check if it's a string of true or false
 		if (is_numeric($value) && $value >= 1) {
-			return TRUE;
+			return true;
 		}
 
-		return FALSE;
+		return false;
 
 	}
 

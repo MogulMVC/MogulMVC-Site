@@ -1,8 +1,4 @@
 <?php
-if (!defined('BACKEND_ROOT')) {
-	header('Location: /error_404');
-	exit ;
-}
 
 $GLOBALS['LOAD_CSS_FRAMEWORK'] = array();
 $GLOBALS['LOAD_CSS_APPLICATION'] = array();
@@ -303,7 +299,7 @@ class MLoad {
 
 	/********** JavaScript Functions **********/
 
-	public static function js_framework($js, $direction = null, $useHTTP = FALSE) {
+	public static function js_framework($js, $direction = null, $useHTTP = false) {
 
 		if (!empty($js)) {
 
@@ -343,7 +339,7 @@ class MLoad {
 
 	}
 
-	public static function js_application($js, $direction = null, $useHTTP = FALSE) {
+	public static function js_application($js, $direction = null, $useHTTP = false) {
 
 		if (!empty($js)) {
 
@@ -436,7 +432,7 @@ class MLoad {
 
 	/********** CSS Functions **********/
 
-	public static function css_framework($css, $direction = null, $useHTTP = FALSE) {
+	public static function css_framework($css, $direction = null, $useHTTP = false) {
 
 		if (!empty($css)) {
 
@@ -476,7 +472,7 @@ class MLoad {
 
 	}
 
-	public static function css_application($css, $direction = null, $useHTTP = FALSE) {
+	public static function css_application($css, $direction = null, $useHTTP = false) {
 
 		if (!empty($css)) {
 
@@ -569,7 +565,7 @@ class MLoad {
 
 	/********** Image Functions **********/
 
-	public static function img_src_framework($img, $direction = 'return', $useHTTP = FALSE) {
+	public static function img_src_framework($img, $direction = 'return', $useHTTP = false) {
 
 		if (!empty($img)) {
 
@@ -600,7 +596,7 @@ class MLoad {
 		return NULL;
 	}
 
-	public static function img_src_application($img, $direction = 'return', $useHTTP = FALSE) {
+	public static function img_src_application($img, $direction = 'return', $useHTTP = false) {
 
 		if (!empty($img)) {
 
@@ -631,7 +627,7 @@ class MLoad {
 		return NULL;
 	}
 
-	public static function icon_src_framework($icon, $direction = 'return', $useHTTP = FALSE) {
+	public static function icon_src_framework($icon, $direction = 'return', $useHTTP = false) {
 
 		if (!empty($icon)) {
 			return self::img_src_framework('icon/' . $icon, $direction, $useHTTP);

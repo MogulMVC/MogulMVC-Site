@@ -1,12 +1,21 @@
 #!/bin/bash
 
-# Build the Framework
-/mnt/documents-smb/Alan\'s\ Server/Projects/Software/Web/Mogul\ Frameworks/Mogul\ MVC/Framework/make
+mkdir temp
 
-echo "Removing old framework files."
-rm -rf /mnt/documents-smb/Alan\'s\ Server/Projects/Software/Web/Mogul\ Frameworks/Mogul\ MVC/Site/backend/framework
-rm -rf /mnt/documents-smb/Alan\'s\ Server/Projects/Software/Web/Mogul\ Frameworks/Mogul\ MVC/Site/frontend/framework
+git clone https://github.com/MogulMVC/MogulCSS.git temp/css
 
-echo "Copying new framework files."
-cp -r /mnt/documents-smb/Alan\'s\ Server/Projects/Software/Web/Mogul\ Frameworks/Mogul\ MVC/Framework/backend/framework /mnt/documents-smb/Alan\'s\ Server/Projects/Software/Web/Mogul\ Frameworks/Mogul\ MVC/Site_1311/backend/
-cp -r /mnt/documents-smb/Alan\'s\ Server/Projects/Software/Web/Mogul\ Frameworks/Mogul\ MVC/Framework/frontend/framework /mnt/documents-smb/Alan\'s\ Server/Projects/Software/Web/Mogul\ Frameworks/Mogul\ MVC/Site_1311/frontend/
+git clone https://github.com/MogulMVC/MogulIcons.git temp/icons
+
+git clone https://github.com/MogulMVC/MogulJS.git temp/js
+
+rm frontend/framework/css/core/M*
+mv temp/css/bin/M* frontend/framework/css/core/
+
+rm frontend/framework/img/icon/*
+mv temp/icons/bin/M* frontend/framework/css/core/
+mv temp/icons/img/* frontend/framework/img/icon/
+
+rm frontend/framework/js/core/M*
+mv temp/js/bin/M* frontend/framework/js/core/
+
+rm -rf temp

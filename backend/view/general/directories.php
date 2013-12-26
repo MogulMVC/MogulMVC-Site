@@ -1,4 +1,4 @@
-<?php MLoad::template_application('template/toolbar_general'); ?>
+<?php MLoad::template_application('_template/toolbar_general'); ?>
 
 <table class="MWidthFull">
 
@@ -104,7 +104,7 @@
 			
 			<h1>Directories</h1>
 			
-			<p>Mogul MVC is organized between two different directories. The <span class="MTextBold">backend</span> directory for all your PHP code, and the <span class="MTextBold">frontend</span> directory for CSS, JavaScript, images, and any other public static files.</p>
+			<p>MogulPHP is organized between two different directories. The <span class="MTextBold">backend</span> directory for all your PHP code, and the <span class="MTextBold">frontend</span> directory for CSS, JavaScript, images, and any other public static files.</p>
 			
 			<p>Within the backend and frontend directories you will find a directory called <span class="MTextBold">framework</span>. Unless you know what you're doing you should not alter any content within this directory.</p>
 			
@@ -136,7 +136,7 @@
 					<h2>Backend Cache - cache</h2>
 					<hr />
 					
-					<p>Nothing should be placed in this directory. It is a directory used by Mogul MVC to store cached HTML pages when using <a href="/php/library/mcache">MCache</a>.</p>
+					<p>Nothing should be placed in this directory. It is a directory used by MogulPHP to store cached HTML pages when using <a href="/php/library/mcache">MCache</a>.</p>
 		
 				</section>
 				
@@ -155,7 +155,7 @@
 					<hr />
 					
 					<p>
-						Used to store configuration files used in the running of Mogul MVC.
+						Used to store configuration files used in the running of MogulPHP.
 						<br />
 						See <a href="/php/configuration">PHP Configuration</a> for more detail about how to use these files.
 					</p>
@@ -205,7 +205,7 @@
 					<h2>Backend Model - model</h2>
 					<hr />
 					
-					<p>Models are used to store functions for quick database access. Mogul MVC offers two types of models, but both types go within this directory.<br />To learn to create and use models see <a href="/php/models">PHP Models</a>.</p>
+					<p>Models are used to store functions for quick database access. MogulPHP offers two types of models, but both types go within this directory.<br />To learn to create and use models see <a href="/php/models">PHP Models</a>.</p>
 						
 					<div class="indent">
 						
@@ -243,7 +243,7 @@
 				
 				<h1>Frontend</h1>
 				
-				<p>Mogul MVC's frontend directory is loosely based on the <a href="http://html5boilerplate.com/">HTML5 Boilerplate</a> project.</p>
+				<p>MogulPHP's frontend directory is loosely based on the <a href="http://html5boilerplate.com/">HTML5 Boilerplate</a> project.</p>
 				
 				<p>The frontend application directory is organized as follows.</p>
 				
@@ -266,7 +266,7 @@
 					<h2>Frontend Cache - cache</h2>
 					<hr />
 					
-					<p>Nothing should be placed in this directory. It is a directory used by Mogul MVC to store minified CSS and JavaScript when in production mode.</p>
+					<p>Nothing should be placed in this directory. It is a directory used by MogulPHP to store minified CSS and JavaScript when in production mode.</p>
 					
 				</section>
 				

@@ -1,4 +1,4 @@
-<?php MLoad::template_application('template/toolbar_php'); ?>
+<?php MLoad::template_application('_template/toolbar_php'); ?>
 
 <table class="MWidthFull">
 
@@ -41,7 +41,7 @@
 				<h2>Types of Views</h2>
 				<hr />
 				
-				<p>Mogul MVC has two main types of views, views and templates.</p>
+				<p>MogulPHP has two main types of views, views and templates.</p>
 				
 				<p>Views are full pages, minus the head, header, footer, foot, which closes the head. They are essentially just the content of the page.</p>
 				
@@ -85,7 +85,7 @@
 				
 				<p>The template_application and  template_framework do the same thing but load from different locations.  The template_application function loads a view from the backend/view directory. The template_framework function loads a view from the backend/framework/view directory.</p>
 				
-				<p>Mogul MVC has some built in templates which it uses when loading in CSS JavaScript.</p>
+				<p>MogulPHP has some built in templates which it uses when loading in CSS JavaScript.</p>
 				
 				<p>All the view loading functions accept two parameters, the second being optional.</p>
 				

@@ -1,6 +1,6 @@
 <?php 
 $data['js_version'] = MURL::segment(3);
-MLoad::template_application('template/toolbar_php', $data);
+MLoad::template_application('_template/toolbar_php', $data);
 ?>
 
 <table class="MWidthFull">
@@ -88,7 +88,7 @@ Characters avalible are 0-9 a-z and A-Z for a total of 62 characters.');
 					<?php 
 					$data['added'] = '1211';
 					$data['title'] = 'sub_before($string:String, $character:String):String';
-					$data['content'] = nl2br('Given a string and a character or set of characters this function will return a substring before the first occurance of the set. This function was added when Mogul MVC was not required to run on PHP 5.3 and thus did not have access to the optional third parameter of the strstr() command in PHP 5.3.');
+					$data['content'] = nl2br('Given a string and a character or set of characters this function will return a substring before the first occurance of the set. This function was added when MogulPHP was not required to run on PHP 5.3 and thus did not have access to the optional third parameter of the strstr() command in PHP 5.3.');
 					MLoad::template_application('ui/library_function', $data);
 					?>
 					<pre><code><?php echo 'MString::sub_before("The quick brown fox jumped over the lazy dog", "jumped"); <br />'; ?><?php echo var_dump(MString::sub_before("The quick brown fox jumped over the lazy dog", "jumped")); ?></code></pre>

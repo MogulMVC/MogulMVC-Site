@@ -1,8 +1,4 @@
 <?php
-if (!defined('BACKEND_ROOT')) {
-	header('Location: /error_404');
-	exit ;
-}
 
 // I might add this later
 // ini_set('session.gc_probability', 100);
@@ -95,7 +91,7 @@ if ($GLOBALS['SESSION_DB']) {
 
 		$db_connection = new PDO($GLOBALS['SESSION']['type'] . ':host=' . $GLOBALS['SESSION']['host'] . ';dbname=' . $GLOBALS['SESSION']['name'], $GLOBALS['SESSION']['user'], $GLOBALS['SESSION']['pass']);
 
-		$query = $db_connection -> prepare('DELETE from ' . $GLOBALS['SESSION_TABLE'] . ' WHERE id = ?');
+		$query = $db_connection -> prepare('DELETE from ' . $GLOBALS['SESSION']['table'] . ' WHERE id = ?');
 		$query -> execute(array($id));
 
 		$db_connection = null;

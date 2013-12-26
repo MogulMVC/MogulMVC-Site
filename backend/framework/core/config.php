@@ -1,17 +1,12 @@
 <?php
 
 /*
- * Mogul MVC by Alan James
- * version 130704
+ * MogulPHP by Alan James
+ * version 1.0.0
  * recommended PHP version 5.3
  */
 
-if (!defined('BACKEND_ROOT')) {
-	header('Location: /error_404');
-	exit ;
-}
-
-define('FRAMEWORK_VERSION', '130704');
+define('FRAMEWORK_VERSION', '1.0.0');
 
 // Backend Framework Directories
 define('FRAMEWORK_PHP', 'lib');

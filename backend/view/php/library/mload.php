@@ -1,6 +1,6 @@
 <?php 
 $data['js_version'] = MURL::segment(3);
-MLoad::template_application('template/toolbar_php', $data);
+MLoad::template_application('_template/toolbar_php', $data);
 ?>
 
 <table class="MWidthFull">
@@ -132,7 +132,7 @@ MLoad::template_application('template/toolbar_php', $data);
 			<h1>MLoad</h1>
 			<span class="MNoteG">MLoad is loaded by default.</span>
 			
-			<p>MLoad is the library that you will use most while devloping with Mogul MVC. It is how all libraries, models, views, and many other files are loaded into memory or added to the HTML page being generated.</p>
+			<p>MLoad is the library that you will use most while devloping with MogulPHP. It is how all libraries, models, views, and many other files are loaded into memory or added to the HTML page being generated.</p>
 			
 			<h2>Public Methods</h2>
 			<hr />
@@ -200,7 +200,7 @@ A page called <code>page.php</code> located in <code>application/view/</code> ca
 					<?php 
 					$data['added'] = '1211';
 					$data['title'] = 'template_framework($template:String, $data:Array):void';
-					$data['content'] = nl2br('Templates are reusable UI elements that can be passed data. Mogul MVC includes some built in template files for displaying messages and loading CSS and JS. 
+					$data['content'] = nl2br('Templates are reusable UI elements that can be passed data. MogulPHP includes some built in template files for displaying messages and loading CSS and JS. 
 
 The function accepts 2 arguments, the file name of the template being loaded starting from the framework view directory, and data that should be sent to that template.
 
@@ -226,9 +226,9 @@ A template called <code>comment.php</code> located in <code>application/view/tem
 					<?php 
 					$data['added'] = '1211';
 					$data['title'] = 'php_framework($library:String):void';
-					$data['content'] = nl2br('Mogul MVC comes with many built in libraries that are useful for common programming tasks. Some libraries validate variables, others allow you to get information from the URL.
+					$data['content'] = nl2br('MogulPHP comes with many built in libraries that are useful for common programming tasks. Some libraries validate variables, others allow you to get information from the URL.
 
-A library called <code>MValidate.php</code> located in <code>framework/lib/php/core/util</code> can be loaded the following way.<pre><code>MLoad::template_application("util/MValidate");</code></pre>A full list of Mogul MVC libraries can be found on <a href=”/php/libraries/”>PHP Libraries</a>.');
+A library called <code>MValidate.php</code> located in <code>framework/lib/php/core/util</code> can be loaded the following way.<pre><code>MLoad::template_application("util/MValidate");</code></pre>A full list of MogulPHP libraries can be found on <a href=”/php/libraries/”>PHP Libraries</a>.');
 					MLoad::template_application('ui/library_function', $data);
 					?>
 				</section>
@@ -237,7 +237,7 @@ A library called <code>MValidate.php</code> located in <code>framework/lib/php/c
 					<?php 
 					$data['added'] = '1211';
 					$data['title'] = 'php_application($library:String):void';
-					$data['content'] = nl2br('You can create your own PHP libraries and use vendor libraries with Mogul MVC. These libraries can range from performing mathematical operations to security libraries for validating the session data of a logged in user.
+					$data['content'] = nl2br('You can create your own PHP libraries and use vendor libraries with MogulPHP. These libraries can range from performing mathematical operations to security libraries for validating the session data of a logged in user.
 
 A library called <code>UserAuthenticate.php</code> located in <code>application/lib/php/core</code> can be loaded the following way.<pre><code>MLoad::template_application("UserAuthenticate");</code></pre>To learn more about creating and a library see <a href=”/php/custom_libraries”>PHP Custom Libraries</a>.');
 					MLoad::template_application('ui/library_function', $data);
@@ -248,9 +248,9 @@ A library called <code>UserAuthenticate.php</code> located in <code>application/
 					<?php 
 					$data['added'] = '1211';
 					$data['title'] = 'js_framework(js:String, $direction:String, $useHTTP:Boolean):void';
-					$data['content'] = nl2br('Mogul MVC can load JavaScript files and place them in the head or foot automatically. This allows you to specify only the name and MLoad will create the path to that file by itself.
+					$data['content'] = nl2br('MogulPHP can load JavaScript files and place them in the head or foot automatically. This allows you to specify only the name and MLoad will create the path to that file by itself.
 
-Mogul MVC comes with some core JavaScript libraries and several vendor JavaScript libraries such as jQuery and swfobject. 
+MogulPHP comes with some core JavaScript libraries and several vendor JavaScript libraries such as jQuery and swfobject. 
 
 This function accepts 3 arguments, the name of the file being added to the page, the type of load, and if HTTP should be appended to the start of the file. The second 2 parameters are optional.
 

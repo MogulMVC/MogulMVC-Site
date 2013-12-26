@@ -51,6 +51,6 @@
 			</ul>
 		</li>
 		
-		<span class="right">Current Version : <span class="MTextY">1311 YELLOW</span></span>
+		<span class="right">Current Version : <span class="MTextY">1.0.0</span></span>
 
 	</nav><!--MHeader-->

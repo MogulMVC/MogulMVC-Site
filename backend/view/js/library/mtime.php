@@ -1,6 +1,6 @@
 <?php 
 $data['php_version'] = 'mtime';
-MLoad::template_application('template/toolbar_js', $data);
+MLoad::template_application('_template/toolbar_js', $data);
 ?>
 
 <table class="MWidthFull">

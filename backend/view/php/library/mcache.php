@@ -1,4 +1,4 @@
-<?php MLoad::template_application('template/toolbar_php'); ?>
+<?php MLoad::template_application('_template/toolbar_php'); ?>
 
 <table class="MWidthFull">
 
@@ -34,7 +34,7 @@
 					<?php 
 					$data['added'] = '1305';
 					$data['title'] = 'cache($minutes:Number):void';
-					$data['content'] = nl2br('This function should be called at the top of a function withing a controller you would like to cache. The only parameter needed is the amount of minutes you want Mogul MVC to serve a cache file before recaching the page.
+					$data['content'] = nl2br('This function should be called at the top of a function withing a controller you would like to cache. The only parameter needed is the amount of minutes you want MogulPHP to serve a cache file before recaching the page.
 					
 For example to cache a page for 15 minutes you would add this within the function representing the page you want to cache.
 <pre><code>MCache::cache(15);</code></pre>	

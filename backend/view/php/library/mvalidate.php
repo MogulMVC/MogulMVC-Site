@@ -1,6 +1,6 @@
 <?php 
 $data['js_version'] = MURL::segment(3);
-MLoad::template_application('template/toolbar_php', $data);
+MLoad::template_application('_template/toolbar_php', $data);
 ?>
 
 <?php 
