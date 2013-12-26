@@ -116,10 +116,6 @@
 		</div>
 	</div>
 	
-	<div class="MContentSpacer">
-		<hr />
-	</div>
-
 </div>
 
 <div class="MContentSpacer"></div>
