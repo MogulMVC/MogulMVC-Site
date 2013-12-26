@@ -36,7 +36,6 @@
 			
 				<section id="section_set">
 					<?php 
-					$data['added'] = '1211';
 					$data['title'] = 'set(name:String, value:Mixed, expires:Number, path:String, domain:String, secure:Boolean):void';
 					$data['content'] = nl2br('This function creates a cookie on the clients machine. It mimics the syntax of the PHP function setcookie making it easy to transition between PHP and JavaScript.');
 					MLoad::template_application('_ui/library_function', $data);
@@ -45,7 +44,6 @@
 				
 				<section id="section_get">
 					<?php 
-					$data['added'] = '1211';
 					$data['title'] = 'get(name:String):Mixed';
 					$data['content'] = nl2br('This function returns a cookie by name. This is similar to how the superglobal $_COOKIE works in PHP.');
 					MLoad::template_application('_ui/library_function', $data);

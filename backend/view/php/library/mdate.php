@@ -41,24 +41,20 @@ MLoad::template_application('_template/toolbar_php', $data);
 				
 				<section id="section_datetime">
 					<?php 
-					$data['added'] = '1211';
 					$data['title'] = 'datetime():String';
 					$data['content'] = 'The datetime function is a shortcut for the PHP <code>date("Y-m-d H:i:s");</code> function. This has been added because it is useful to use when updating databases.';
-					MLoad::template_application('_ui/library_function', $data);
+					MLoad::template_application('template/library_function', $data);
 					?>
-					<pre class="brush: php;">MDate::datetime();
-// <?php echo var_dump(MDate::datetime()); ?></pre>
+					<pre><code><?php echo 'MDate::datetime(); <br />'; ?><?php echo var_dump(MDate::datetime()); ?></code></pre>
 				</section>
 	
 				<section id="section_date">
 					<?php 
-					$data['added'] = '1305';
 					$data['title'] = 'date():String';
 					$data['content'] = 'The date function is a shortcut for the PHP <code>date("Y-m-d");</code> function.';
-					MLoad::template_application('_ui/library_function', $data);
+					MLoad::template_application('template/library_function', $data);
 					?>
-					<pre class="brush: php;">MDate::date();
-// <?php echo var_dump(MDate::date()); ?></pre>
+					<pre><code><?php echo 'MDate::date(); <br />'; ?><?php echo var_dump(MDate::date()); ?></code></pre>
 				</section>
 				
 			</div>

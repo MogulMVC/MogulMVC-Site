@@ -61,7 +61,6 @@ MLoad::template_application('_template/toolbar_js', $data);
 			
 				<section id="section_c2f">
 					<?php 
-					$data['added'] = '1211';
 					$data['title'] = 'c2f(celsius:Number):Number';
 					$data['content'] = nl2br('Converts a Celcius temperature to Fahrenheit.');
 					MLoad::template_application('_ui/library_function', $data);
@@ -71,7 +70,6 @@ MLoad::template_application('_template/toolbar_js', $data);
 				
 				<section id="section_c2k">
 					<?php 
-					$data['added'] = '1211';
 					$data['title'] = 'c2k(celsius:Number):Number';
 					$data['content'] = nl2br('Converts a Celcius temperature to Kelvin.');
 					MLoad::template_application('_ui/library_function', $data);
@@ -81,7 +79,6 @@ MLoad::template_application('_template/toolbar_js', $data);
 				
 				<section id="section_f2c">
 					<?php 
-					$data['added'] = '1211';
 					$data['title'] = 'f2c(fahrenheit:Number):Number';
 					$data['content'] = nl2br('Converts a Fahrenheit temperature to Celcius.');
 					MLoad::template_application('_ui/library_function', $data);
@@ -91,7 +88,6 @@ MLoad::template_application('_template/toolbar_js', $data);
 				
 				<section id="section_f2k">
 					<?php 
-					$data['added'] = '1211';
 					$data['title'] = 'f2k(fahrenheit:Number):Number';
 					$data['content'] = nl2br('Converts a Fahrenheit temperature to Kelvin.');
 					MLoad::template_application('_ui/library_function', $data);
@@ -101,7 +97,6 @@ MLoad::template_application('_template/toolbar_js', $data);
 				
 				<section id="section_k2c">
 					<?php 
-					$data['added'] = '1211';
 					$data['title'] = 'k2c(kelvin:Number):Number';
 					$data['content'] = nl2br('Converts a Kelvin temperature to Celcius.');
 					MLoad::template_application('_ui/library_function', $data);
@@ -111,7 +106,6 @@ MLoad::template_application('_template/toolbar_js', $data);
 				
 				<section id="section_k2f">
 					<?php 
-					$data['added'] = '1211';
 					$data['title'] = 'k2f(kelvin:Number):Number';
 					$data['content'] = nl2br('Converts a Kelvin temperature to Fahrenheit.');
 					MLoad::template_application('_ui/library_function', $data);

@@ -31,7 +31,6 @@ MLoad::template_application('_template/toolbar_js', $data);
 			
 				<section id="section_sec2hms">
 					<?php 
-					$data['added'] = '1211';
 					$data['title'] = 'sec2hms(sec:int):String';
 					$data['content'] = nl2br('Takes 1 argument of seconds and converts it to a string in the format of hh:mm:ss.');
 					MLoad::template_application('_ui/library_function', $data);

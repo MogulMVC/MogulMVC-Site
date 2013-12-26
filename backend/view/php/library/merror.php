@@ -29,7 +29,6 @@
 			
 				<section id="section_error404">
 					<?php 
-					$data['added'] = '1211';
 					$data['title'] = 'error_404():void';
 					$data['content'] = 'This function will send a 404 header to the browser as well as serve the <code>APPLICATION_ERROR_404_CONTROLLER</code> configured within the <code>config.php</code> file.</p><p>Other frameworks serve a static HTML page as a 404 page, however, serving a controller rather than a static page is useful when you would like to do more than just display an error.
 					

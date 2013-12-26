@@ -88,7 +88,6 @@ MLoad::php_framework('core/util/MValidate');
 			
 				<section id="section_email">
 					<?php 
-					$data['added'] = '1211';
 					$data['title'] = 'email($email:String):Boolean';
 					$data['content'] = nl2br('The email function uses regular expressions to check the validity of an e-mail address.');
 					MLoad::template_application('_ui/library_function', $data);
@@ -99,7 +98,6 @@ MLoad::php_framework('core/util/MValidate');
 				
 				<section id="section_optional">
 					<?php 
-					$data['added'] = '1305';
 					$data['title'] = 'optional($input:String):Boolean';
 					$data['content'] = nl2br('Validates that a variable is declared, exists in memory, and has some value.
 "", " ", array(), 0, FALSE will return TRUE as they are declared variables.
@@ -121,7 +119,6 @@ An undeclared variable or NULL will return FALSE.');
 				
 				<section id="section_required">
 					<?php 
-					$data['added'] = '1305';
 					$data['title'] = 'required($input:String):Boolean';
 					$data['content'] = nl2br('Validates that a variable is decalred and has a non empty value.
 0, FALSE will return TRUE.
@@ -143,7 +140,6 @@ An undeclared variable or NULL will return FALSE.');
 				
 				<section id="section_only_contain">
 					<?php 
-					$data['added'] = '1305';
 					$data['title'] = 'only_contain($input:Mixed, choices:Array):Boolean';
 					$data['content'] = nl2br('Validates that a variable contains only the values is in the array.
 The input can not have any values other than what is in the array.
@@ -160,7 +156,6 @@ If the input is an Array each item in the array is checked against the choice ar
 				
 				<section id="section_must_contain">
 					<?php 
-					$data['added'] = '1305';
 					$data['title'] = 'must_contain($input:Mixed, choices:Array):Boolean';
 					$data['content'] = nl2br('Validates that a variable contains every value in the array.
 The input can have other values but must have what is in the array.
@@ -174,7 +169,6 @@ If the input is an Array each item in the array is checked against the choice ar
 				
 				<section id="section_cant_contain">
 					<?php 
-					$data['added'] = '1305';
 					$data['title'] = 'cant_contain($input:Mixed, choices:Array):Boolean';
 					$data['content'] = nl2br('Validates that a variable does not contain what is in the array.
 The input can have other values but must not have what is in the array.
@@ -188,7 +182,6 @@ If the input is an Array each item in the array is checked against the choice ar
 				
 				<section id="section_included_in">
 					<?php 
-					$data['added'] = '1305';
 					$data['title'] = 'included_in($input:Mixed, choices:Array):Boolean';
 					$data['content'] = nl2br('Validates that a variable is in a list of choices.
 The comparison is case sensitive, so "red" and "Red" are not the same.');
@@ -200,7 +193,6 @@ The comparison is case sensitive, so "red" and "Red" are not the same.');
 				
 				<section id="section_excluded_from">
 					<?php 
-					$data['added'] = '1305';
 					$data['title'] = 'excluded_from($input:Mixed, choices:Array):Boolean';
 					$data['content'] = nl2br('Validates that a variable is not in a list of choices.
 The comparison is case sensitive, so "red" and "Red" are not the same.');
@@ -212,7 +204,6 @@ The comparison is case sensitive, so "red" and "Red" are not the same.');
 				
 				<section id="section_between">
 					<?php 
-					$data['added'] = '1305';
 					$data['title'] = 'between($input:Number, $min:Number, $max:Number):Boolean';
 					$data['content'] = nl2br('Validates that a variable is between two numbers.');
 					MLoad::template_application('_ui/library_function', $data);
@@ -222,7 +213,6 @@ The comparison is case sensitive, so "red" and "Red" are not the same.');
 				
 				<section id="section_multiple_of">
 					<?php 
-					$data['added'] = '1305';
 					$data['title'] = 'multiple_of($input:Number, $multiple:Number):Boolean';
 					$data['content'] = nl2br('Validates that an input is a multiple of a number.');
 					MLoad::template_application('_ui/library_function', $data);
@@ -233,7 +223,6 @@ The comparison is case sensitive, so "red" and "Red" are not the same.');
 				
 				<section id="section_even">
 					<?php 
-					$data['added'] = '1305';
 					$data['title'] = 'even($input:Number):Boolean';
 					$data['content'] = nl2br('Validates that an input is an even number.');
 					MLoad::template_application('_ui/library_function', $data);
@@ -244,7 +233,6 @@ The comparison is case sensitive, so "red" and "Red" are not the same.');
 				
 				<section id="section_odd">
 					<?php 
-					$data['added'] = '1305';
 					$data['title'] = 'odd($input:Number):Boolean';
 					$data['content'] = nl2br('Validates that an input is an odd number.');
 					MLoad::template_application('_ui/library_function', $data);
@@ -255,7 +243,6 @@ The comparison is case sensitive, so "red" and "Red" are not the same.');
 				
 				<section id="section_state">
 					<?php 
-					$data['added'] = '1305';
 					$data['title'] = 'state($state:String):Boolean';
 					$data['content'] = nl2br('Validates that a state or abbriation for a state is a valid state.
 Washington DC is considered a state to this function.
