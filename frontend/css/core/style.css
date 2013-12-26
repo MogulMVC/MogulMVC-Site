@@ -4,6 +4,7 @@
  */
 
 /* Mogul CSS Overrides */
+
 #MHeader {
 	overflow: visible;
 	box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
@@ -35,6 +36,7 @@
 }
 
 /* Global Overrides */
+
 footer {
 	background: #141414;
 	bottom: 0;
@@ -58,7 +60,21 @@ section:hover {
 	background: #f0f0f0;
 }
 
+.syntaxhighlighter {
+	padding: 10px;
+	border-radius: 3px;
+}
+
 /* Application Secific Classes */
+
+#header_forkme {
+	position: fixed;
+	top: 36px;
+	right: 0;
+	border: 0;
+	z-index: 10000
+}
+
 .indent {
 	margin-left: 40px;
 }

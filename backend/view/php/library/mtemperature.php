@@ -71,7 +71,7 @@ MLoad::php_framework('core/util/MTemperature');
 					$data['added'] = '1211';
 					$data['title'] = 'c2f($value):Number';
 					$data['content'] = nl2br('Converts a Celcius temperature to Fahrenheit.');
-					MLoad::template_application('ui/library_function', $data);
+					MLoad::template_application('_ui/library_function', $data);
 					?>
 					<pre><code><?php $random_temp = MNumber::random(0, 10000); echo 'MTemperature::c2f(' . $random_temp . '); <br />'; ?><?php echo var_dump(MTemperature::c2f($random_temp)); ?></code></pre>
 				</section>
@@ -81,7 +81,7 @@ MLoad::php_framework('core/util/MTemperature');
 					$data['added'] = '1211';
 					$data['title'] = 'c2k($value):Number';
 					$data['content'] = nl2br('Converts a Celcius temperature to Kelvin.');
-					MLoad::template_application('ui/library_function', $data);
+					MLoad::template_application('_ui/library_function', $data);
 					?>
 					<pre><code><?php $random_temp = MNumber::random(0, 10000); echo 'MTemperature::c2k(' . $random_temp . '); <br />'; ?><?php echo var_dump(MTemperature::c2k($random_temp)); ?></code></pre>
 				</section>
@@ -91,7 +91,7 @@ MLoad::php_framework('core/util/MTemperature');
 					$data['added'] = '1211';
 					$data['title'] = 'f2c($value):Number';
 					$data['content'] = nl2br('Converts a Fahrenheit temperature to Celcius.');
-					MLoad::template_application('ui/library_function', $data);
+					MLoad::template_application('_ui/library_function', $data);
 					?>
 					<pre><code><?php $random_temp = MNumber::random(0, 10000); echo 'MTemperature::f2c(' . $random_temp . '); <br />'; ?><?php echo var_dump(MTemperature::f2c($random_temp)); ?></code></pre>
 				</section>
@@ -101,7 +101,7 @@ MLoad::php_framework('core/util/MTemperature');
 					$data['added'] = '1211';
 					$data['title'] = 'f2k($value):Number';
 					$data['content'] = nl2br('Converts a Fahrenheit temperature to Kelvin.');
-					MLoad::template_application('ui/library_function', $data);
+					MLoad::template_application('_ui/library_function', $data);
 					?>
 					<pre><code><?php $random_temp = MNumber::random(0, 10000); echo 'MTemperature::f2k(' . $random_temp . '); <br />'; ?><?php echo var_dump(MTemperature::f2k($random_temp)); ?></code></pre>
 				</section>
@@ -111,7 +111,7 @@ MLoad::php_framework('core/util/MTemperature');
 					$data['added'] = '1211';
 					$data['title'] = 'k2c($value):Number';
 					$data['content'] = nl2br('Converts a Kelvin temperature to Celcius.');
-					MLoad::template_application('ui/library_function', $data);
+					MLoad::template_application('_ui/library_function', $data);
 					?>
 					<pre><code><?php $random_temp = MNumber::random(0, 10000); echo 'MTemperature::k2c(' . $random_temp . '); <br />'; ?><?php echo var_dump(MTemperature::k2c($random_temp)); ?></code></pre>
 				</section>
@@ -121,7 +121,7 @@ MLoad::php_framework('core/util/MTemperature');
 					$data['added'] = '1211';
 					$data['title'] = 'k2f($value):Number';
 					$data['content'] = nl2br('Converts a Kelvin temperature to Fahrenheit.');
-					MLoad::template_application('ui/library_function', $data);
+					MLoad::template_application('_ui/library_function', $data);
 					?>
 					<pre><code><?php $random_temp = MNumber::random(0, 10000); echo 'MTemperature::k2f(' . $random_temp . '); <br />'; ?><?php echo var_dump(MTemperature::k2f($random_temp)); ?></code></pre>
 				</section>

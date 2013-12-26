@@ -92,12 +92,12 @@
 				
 				<p>A third party PHP library called <code>SomeLibrary.php</code> would by default be placed in <code>/application/lib/php/vendor/SomeLibrary.php</code> and be loaded as follows.</p>
 				
-				<pre><code>$GLOBALS['AUTOLOAD_PHP_APPLICATION'] = array('vendor/SomeLibrary');</code></pre>
+				<pre class="brush: php;">$GLOBALS['AUTOLOAD_PHP_APPLICATION'] = array('vendor/SomeLibrary');</pre>
 				
 				<p>As you can see file extensions are not needed as the framework determines the correct file extension. This is true for locally stored CSS and JS as well.</p>
 				
-				<pre><code>$GLOBALS['AUTOLOAD_CSS_APPLICATION'] = array('vendor/SomeLibrary');</code></pre>
-				<pre><code>$GLOBALS['AUTOLOAD_JS_APPLICATION'] = array('vendor/SomeLibrary');</code></pre>
+				<pre class="brush: php;">$GLOBALS['AUTOLOAD_CSS_APPLICATION'] = array('vendor/SomeLibrary');</pre>
+				<pre class="brush: php;">$GLOBALS['AUTOLOAD_JS_APPLICATION'] = array('vendor/SomeLibrary');</pre>
 				
 				<p class="MTextRed MTextBold">IMPORTANT!</p>
 				<p>Always name your CSS and JS library files with dashes instead of periods, otherwise MogulPHP will error when loading your file.</p>
@@ -163,14 +163,14 @@
 
 				<p>The following code shows an example of a connection to a MySQL database.</p>
 				
-				<pre><code><?php echo htmlspecialchars("'connection_name' => array(
+				<pre class="brush: php;"><?php echo htmlspecialchars("'connection_name' => array(
 	'type' => 'mysql',
 	'host' => 'localhost',
 	'port' => '3306',
 	'name' => 'dbname',
 	'user' => 'dbuser',
 	'pass' => 'dbpass'
-)"); ?></code></pre>
+)"); ?></pre>
 				
 				MogulPHP supports any database connection that PDO supports.
 				
@@ -185,11 +185,11 @@
 				
 				<p>By default MogulPHP maps a URL to a controller class and function in the following way.</p>
 				
-				<pre><code>site.com/controller/function/</code></pre>
+				<code>site.com/controller/function/</code>
 				
 				<p>Sometimes you want to map routes differently, for example, a video site might require a URL as follows.</p>
 				
-				<pre><code>site.com/media/15</code></pre>
+				<code>site.com/media/15</code>
 				
 				<p>Obviously a function can't be made for each video id, thus this is a prime use of routes.</p>
 				
@@ -197,23 +197,23 @@
 				
 				<p>The above example would use a number to a controller and function and might use the following route.</p>
 				
-				<pre><code>$ROUTE['media/#'] = 'Media/index';</code></pre>
+				<pre class="brush: php;">$ROUTE['media/#'] = 'Media/index';</pre>
 				
 				<p>The code to grab the video id and pull the data from the database would be in the index function within the Media controller.</p>
 				
 				<p>The following code is found within the routes.php file found in the config directory. It shows how to map any of the four types of routes.</p>
 				
 				<span>Any subpage to controller with function.</span>
-				<pre><code><?php echo htmlspecialchars("\$ROUTE['page/*'] = 'Controller/function';");?></code></pre>
+				<pre class="brush: php;"><?php echo htmlspecialchars("\$ROUTE['page/*'] = 'Controller/function';");?></pre>
 				
 				<span>Any number to controller with function.</span>
-				<pre><code><?php echo htmlspecialchars("\$ROUTE['page/#'] = 'Controller/function';"); ?></code></pre>
+				<pre class="brush: php;"><?php echo htmlspecialchars("\$ROUTE['page/#'] = 'Controller/function';"); ?></pre>
 				
 				<span>Any string to controller with function.</span>
-				<pre><code><?php echo htmlspecialchars("\$ROUTE['page/@'] = 'Controller/function';"); ?></code></pre>
+				<pre class="brush: php;"><?php echo htmlspecialchars("\$ROUTE['page/@'] = 'Controller/function';"); ?></pre>
 				
 				<span>Page to controller with function.</span>
-				<pre><code><?php echo htmlspecialchars("\$ROUTE['page/subpage'] = 'Controller/function';"); ?></code></pre>
+				<pre class="brush: php;"><?php echo htmlspecialchars("\$ROUTE['page/subpage'] = 'Controller/function';"); ?></pre>
 				
 			</section>
 			
@@ -230,13 +230,13 @@
 				
 				<p>The command directory contains a prewritten command to automatically create the session table once you manually create a session database. The information needed for this command and sessions in general is configured within the session.php file. Populate the <code>$GLOBALS['SESSION']</code> object with the appropriate information.</p>
 				
-				<pre><code><?php echo htmlspecialchars("'type' => 'dbtype',
+				<pre class="brush: php;"><?php echo htmlspecialchars("'type' => 'dbtype',
 'host' => 'localhost',
 'port' => '3306',
 'name' => 'dbname',
 'user' => 'dbuser',
 'pass' => 'dbpass',
-'table' => 'dbtable'"); ?></code></pre>
+'table' => 'dbtable'"); ?></pre>
 				
 				<p>We currently recommend using a SQL server, but more options will be available in the future.</p>
 	

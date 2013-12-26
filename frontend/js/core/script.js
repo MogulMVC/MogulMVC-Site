@@ -5,6 +5,12 @@
 
 $(document).ready(function() {
 
+	if ($('#MToolBar').length > 0) {
+		$('#header_forkme').css({
+			'top' : '68px'
+		});
+	}
+
 	$('a').not($('li a')).on('click', function() {
 
 		var _this = this;
@@ -24,8 +30,10 @@ $(document).ready(function() {
 
 	$('.showCode').each(function(index) {
 		$(this).click(function() {
-			$(this).next('pre').slideToggle()
+			$(this).next('pre').slideToggle();
 		});
 	});
+
+	SyntaxHighlighter.all();
 
 });
