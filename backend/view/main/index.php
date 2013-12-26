@@ -95,18 +95,18 @@
 				<h3>MogulPHP is a combination of several Mogul libraries.</h3>
 				
 				<li class="MListItem">
-					<span class="MTextBold">Mogul CSS</span>
-					<span> - A Sass based CSS library that is used by Mogul JS and MogulPHP for styling. It attempts to stay stylistically consistent with Mogul AS.</span>
+					<span class="MTextBold">MogulCSS</span>
+					<span> - A Sass based CSS library that is used by MogulJS and MogulPHP for styling. It attempts to stay stylistically consistent with Mogul AS.</span>
 				</li>
 			
 				<li class="MListItem">
-					<span class="MTextBold">Mogul Icons</span>
+					<span class="MTextBold">MogulIcons</span>
 					<span> - An icon set containing anything from social icons to ui element icons.</span>
 				</li>
 				
 				<li class="MListItem">
-					<span class="MTextBold">Mogul JS</span>
-					<span> - A JavaScript and jQuery Utility and Interface library that uses the Mogul CSS library for styling. The code attempts to stay stylistically consistent with Mogul AS, and the MogulPHP, which extends it.</span>
+					<span class="MTextBold">MogulJS</span>
+					<span> - A JavaScript and jQuery Utility and Interface library that uses the MogulCSS library for styling. The code attempts to stay stylistically consistent with Mogul AS, and the MogulPHP, which extends it.</span>
 				</li>
 				
 				<div class="MClear"></div>
