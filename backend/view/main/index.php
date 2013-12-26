@@ -56,10 +56,6 @@
 						<span> - MogulPHP is a "<a href="http://en.wikipedia.org/wiki/Loose_coupling">loosly coupled</a>" and "use-at-will" framework. You specify only the components and libraries to load so nothing more than what you need is loaded.</span>
 					</li>
 					<li class="MListItem">
-						<span class="MTextBold">CLI Tools</span>
-						<span> - CLI tools make it easy to build new componets. They write the boring code for you.</span>
-					</li>
-					<li class="MListItem">
 						<span class="MTextBold">Vendor Libraries</span>
 						<span> - MogulPHP includes <a href="http://www.phpactiverecord.org/">php-activerecord</a> for database access and <a href="http://jquery.com/">jQuery</a> and <a href="http://jqueryui.com/">jQuery UI</a> for client side scripting.<br />It also works well with any other vendor library.</span>
 					</li>	
