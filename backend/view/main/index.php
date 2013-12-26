@@ -16,19 +16,19 @@
 <div class="MContent840">
 	
 	<div class="MTextCenter">
-		<h2 style="font-size: 2em;">MogulPHP is a PHP MVC framework whcih includes a UI library. It is written in<br /><a href="http://www.php.net/">PHP</a>, <a href="http://jquery.com/">jQuery</a>, and <a href="http://sass-lang.com/">Sass</a></h2>
-		<p>It's designed to be fast, have a small footprint, work on shared hosting, and not require the installation of any additional software.</p>
+		<h2 style="font-size: 2em;">MogulPHP is a PHP MVC framework whcih includes a UI library.</h2>
+		<span style="font-size: 2em;">It is written in <a href="http://www.php.net/">PHP</a>, <a href="http://jquery.com/">jQuery</a>, and <a href="http://sass-lang.com/">Sass</a></span>
 	</div>
 	
 	<div class="MContentSpacer"></div>
 	<div class="MTextCenter">
-		<span class="MNoteY MTextBold">If you're a student of mine ask about getting the source code and contributing.</span>
+		<a href="/misc/php/MogulPHP-1.0.0.tar.gz" class="MButtonO" style="font-size: 3em">Download v1.0.0</a>
 	</div>
 	<div class="MContentSpacer"></div>
 	<div class="MContentSpacer"></div>
 	
 	<div class="MTabWidget">
-		<ul class="MTabContainer">
+		<ul class="MTabContainer MCenter">
 			<li class="MTab">
 				<a href="#why_use">Why Use MogulPHP?</a>
 			</li>
@@ -120,8 +120,6 @@
 		<hr />
 	</div>
 
-	<p>If you want to help make MogulPHP great e-mail me at <a href="mailto:alanjames1987@gmail.com?subject=MogulPHP">AlanJames1987@gmail.com</a> for the source code.</p>
-	
 </div>
 
 <div class="MContentSpacer"></div>
