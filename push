@@ -1,0 +1,3 @@
+#!/bin/bash
+
+rsync -az -e "ssh -p 2222" --exclude ".git" --exclude ".gitignore" --exclude ".project" --exclude "push" --delete --progress -r ./ alan1987@9ironproductions.com:/public_html/mogulmvc.com
