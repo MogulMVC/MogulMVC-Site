@@ -23,7 +23,7 @@
 		<li>
 			<span>PHP</span>
 			<ul>
-				<li><a href="/misc/php/MogulPHP-1.0.0.tar.gz">Download MogulPHP v1.0.1</a></li>
+				<li><a href="/misc/php/MogulPHP-1.0.1.tar.gz">Download MogulPHP v1.0.1</a></li>
 				<li><a href="/php/configuration">Configuration</a></li>
 				<li><a href="/php/models">Models</a></li>
 				<li><a href="/php/views">Views</a></li>
