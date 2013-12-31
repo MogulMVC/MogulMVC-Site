@@ -55,8 +55,6 @@
 			</ul>
 		</li>
 		
-		<span class="right">Current Version : <span class="MTextBold"><?php echo APPLICATION_VERSION; ?></span></span>
-		
 		<a href="https://github.com/MogulMVC">
 			<img id="header_forkme" src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png" alt="Fork me on GitHub">
 		</a>
