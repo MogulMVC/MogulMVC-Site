@@ -2,6 +2,11 @@
 
 class Php {
 
+	function index() {
+		$data['page_title'] = 'PHP';
+		MLoad::view('php/index', $data);
+	}
+
 	function configuration() {
 		$data['page_title'] = 'PHP Configuration';
 		MLoad::view('php/configuration', $data);

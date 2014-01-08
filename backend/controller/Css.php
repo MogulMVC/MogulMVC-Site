@@ -2,6 +2,11 @@
 
 class Css {
 
+	function index() {
+		$data['page_title'] = 'CSS';
+		MLoad::view('css/index', $data);
+	}
+
 	function icons() {
 		$data['page_title'] = 'CSS Icons';
 		MLoad::view('css/icons', $data);

@@ -1,3 +1,0 @@
-#!/bin/bash
-
-rsync -az -e "ssh" --exclude ".git" --exclude ".gitignore" --exclude ".project" --exclude "push" --exclude "README.md" --delete --progress -r ./ alan1987@192.254.236.167:public_html/1311.mogulmvc.com
