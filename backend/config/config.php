@@ -7,11 +7,11 @@ if (!defined('BACKEND_ROOT')) {
 date_default_timezone_set('America/New_York');
 
 // Application
-define('APPLICATION_COMPANY', 'Mogul MVC');
-define('APPLICATION_NAME', 'Mogul MVC');
-define('APPLICATION_DESCRIPTION', 'Mogul MVC is an MVC framework and UI library written in PHP, jQuery, and Sass.');
+define('APPLICATION_COMPANY', 'MogulMVC');
+define('APPLICATION_NAME', 'MogulMVC');
+define('APPLICATION_DESCRIPTION', 'MogulPHP is an MVC framework and UI library written in PHP, jQuery, and Sass.');
 define('APPLICATION_PASSWORD', 'mogulpass321456');
-define('APPLICATION_VERSION', '131121');
+define('APPLICATION_VERSION', '1.0.0');
 
 // Environment
 // 'development' 'production'

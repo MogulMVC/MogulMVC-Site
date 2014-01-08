@@ -1,6 +1,6 @@
 <?php 
 $data['php_version'] = 'mstring';
-MLoad::template_application('template/toolbar_js', $data);
+MLoad::template_application('_template/toolbar_js', $data);
 ?>
 
 <table class="MWidthFull">
@@ -67,21 +67,19 @@ MLoad::template_application('template/toolbar_js', $data);
 			
 				<section id="section_random">
 					<?php 
-					$data['added'] = '1305';
 					$data['title'] = 'random(length:int):String';
 					$data['content'] = nl2br('Returns a random string of character the length at which is requested.
 Characters avalible are 0-9 a-z and A-Z for a total of 62 characters.');
-					MLoad::template_application('ui/library_function', $data);
+					MLoad::template_application('_ui/library_function', $data);
 					?>
 					<pre><code><script>var random = MString.random(8); document.write('MString.random(8); <br />' + typeof random + ' ' + random);</script></code></pre>
 				</section>
 				
 				<section id="section_toBoolean">
 					<?php 
-					$data['added'] = '1305';
 					$data['title'] = 'toBoolean(value:String):Boolean';
 					$data['content'] = nl2br('Converts a string of "true" into a boolean of TRUE and a string of "false" into a boolean of FALSE. This is sometimes needed when going between JavaScript and PHP with AJAX.');
-					MLoad::template_application('ui/library_function', $data);
+					MLoad::template_application('_ui/library_function', $data);
 					?>
 					<pre><code><script>var output = MString.toBoolean("true"); document.write('MString.toBoolean("true"); <br />' + typeof output + ' ' + output);</script></code></pre>
 					<pre><code><script>var output = MString.toBoolean("false"); document.write('MString.toBoolean("false"); <br />' + typeof output + ' ' + output);</script></code></pre>
@@ -91,10 +89,9 @@ Characters avalible are 0-9 a-z and A-Z for a total of 62 characters.');
 			
 				<section id="section_subBefore">
 					<?php 
-					$data['added'] = '1305';
 					$data['title'] = 'subBefore(string:String, character:String):String';
 					$data['content'] = nl2br('Given a string and a character or set of characters this function will return a substring before the first occurance of the set.');
-					MLoad::template_application('ui/library_function', $data);
+					MLoad::template_application('_ui/library_function', $data);
 					?>
 					<pre><code><script>var output = MString.subBefore("The quick brown fox jumped over the lazy dog", "jumped"); document.write('MString.subBefore("The quick brown fox jumped over the lazy dog", "jumped"); <br />' + typeof output + ' ' + output);</script></code></pre>
 					<pre><code><script>var output = MString.subBefore("The quick brown fox jumped over the lazy dog", "b"); document.write('MString.subBefore("The quick brown fox jumped over the lazy dog", "b"); <br />' + typeof output + ' ' + output);</script></code></pre>
@@ -102,20 +99,18 @@ Characters avalible are 0-9 a-z and A-Z for a total of 62 characters.');
 				
 				<section id="section_urlLink">
 					<?php 
-					$data['added'] = '1305';
 					$data['title'] = 'urlLink(string:String, noFollow:Boolean):String';
 					$data['content'] = nl2br('Given a string containing URLs this funcntion will return a string containing HTML anchor tags to those URLs. The optional second parameter converts the link into a no follow link.');
-					MLoad::template_application('ui/library_function', $data);
+					MLoad::template_application('_ui/library_function', $data);
 					?>
 					<pre><code><script>var output = MString.urlLink("Some string with http://aurlto.awebsite.com"); document.write('MString.urlLink("Some string with http://aurlto.awebsite.com"); <br />' + typeof output + ' ' + output);</script></code></pre>
 				</section>
 				
 				<section id="section_urlTitle">
 					<?php 
-					$data['added'] = '1305';
 					$data['title'] = 'urlTitle(string:String, seperator:String):String';
 					$data['content'] = nl2br('Converts a given string into a character seperated URL title safe string. This function also lower cases the string. The optional second parameter allows you to pass in your own character, otherwise a dash (-) is used.');
-					MLoad::template_application('ui/library_function', $data);
+					MLoad::template_application('_ui/library_function', $data);
 					?>
 					<pre><code><script>var output = MString.urlTitle("The quick brown fox jumped over the lazy dog"); document.write('MString.urlTitle("The quick brown fox jumped over the lazy dog"); <br />' + typeof output + ' ' + output);</script></code></pre>
 					<pre><code><script>var output = MString.urlTitle("The quick brown fox jumped over the lazy dog", "+"); document.write('MString.urlTitle("The quick brown fox jumped over the lazy dog", "+"); <br />' + typeof output + ' ' + output);</script></code></pre>
@@ -123,19 +118,17 @@ Characters avalible are 0-9 a-z and A-Z for a total of 62 characters.');
 				
 				<section id="section_escapeHtml">
 					<?php 
-					$data['added'] = '1211';
 					$data['title'] = 'escapeHtml(unsafe:String):String';
 					$data['content'] = nl2br('Converts html elements to safe viewable charcters so not to affect the written HTML.');
-					MLoad::template_application('ui/library_function', $data);
+					MLoad::template_application('_ui/library_function', $data);
 					?>
 				</section>
 				
 				<section id="section_firstToUpperCase">
 					<?php 
-					$data['added'] = '1305';
 					$data['title'] = 'firstToUpperCase(string:String):String';
 					$data['content'] = nl2br('Turns the first letter of the passed in string to a capital letter.');
-					MLoad::template_application('ui/library_function', $data);
+					MLoad::template_application('_ui/library_function', $data);
 					?>
 					<pre><code><script>var output = MString.firstToUpperCase("a string of lower case letters."); document.write('MString.firstToUpperCase("a string of lower case letters."); <br />' + typeof output + ' ' + output);</script></code></pre>
 				</section>

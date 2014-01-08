@@ -12,4 +12,9 @@ class General {
 		MLoad::view('general/installation', $data);
 	}
 
+	function license() {
+		$data['page_title'] = 'License';
+		MLoad::view('general/license', $data);
+	}
+
 }

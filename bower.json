@@ -1,0 +1,19 @@
+{
+	"name": "MogulMVC-Site",
+	"version": "1.0.0",
+	"description": "MogulMVC Site",
+	"keywords": ["framework"],
+	"homepage": "http://mogulmvc.com",
+	"authors": [
+		{
+			"name": "Alan James",
+			"email": "alanjames1987@gmail.com"
+		}
+	],
+	"dependencies": {
+		"modernizr": "latest",
+		"bootstrap": "latest",
+		"jquery": "latest",
+		"jquery-ui": "latest"
+	}
+}

@@ -18,6 +18,7 @@ $GLOBALS['AUTOLOAD_CSS_FRAMEWORK'] = array(
 	'core/style'
 );
 $GLOBALS['AUTOLOAD_CSS_APPLICATION'] = array(
+	'vendor/syntaxhighlighter/shCoreRDark',
 	'core/style'
 );
 $GLOBALS['AUTOLOAD_CSS_EXTERNAL'] = array();
@@ -30,7 +31,11 @@ $GLOBALS['AUTOLOAD_JS_FRAMEWORK'] = array(
 	'core/script'
 );
 $GLOBALS['AUTOLOAD_JS_APPLICATION'] = array(
-	'vendor/jquery-scrollTo', 
+	'vendor/jquery-scrollTo/jquery-scrollTo', 
+	'vendor/syntaxhighlighter/shCore',
+	'vendor/syntaxhighlighter/shBrushCss',
+	'vendor/syntaxhighlighter/shBrushJScript',
+	'vendor/syntaxhighlighter/shBrushPhp',
 	'core/script'
 );
 $GLOBALS['AUTOLOAD_JS_EXTERNAL'] = array();

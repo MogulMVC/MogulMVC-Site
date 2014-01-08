@@ -1,6 +1,6 @@
 <?php 
 $data['js_version'] = MURL::segment(3);
-MLoad::template_application('template/toolbar_php', $data);
+MLoad::template_application('_template/toolbar_php', $data);
 ?>
 
 <?php MLoad::php_framework('core/util/MTime'); ?>
@@ -36,10 +36,9 @@ MLoad::template_application('template/toolbar_php', $data);
 			
 				<section id="section_sec2hms">
 					<?php 
-					$data['added'] = '1211';
 					$data['title'] = 'sec2hms($sec):String';
 					$data['content'] = nl2br('Takes 1 argument of seconds and converts it to a string in the format of hh:mm:ss.');
-					MLoad::template_application('ui/library_function', $data);
+					MLoad::template_application('_ui/library_function', $data);
 					?>
 					<pre><code><?php $random = MNumber::random(0, 10000); echo 'MTime::sec2hms(' . $random . ');<br />' . MTime::sec2hms($random);?></code></pre>
 				</section>

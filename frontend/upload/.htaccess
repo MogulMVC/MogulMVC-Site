@@ -1,1 +1,1 @@
-AddType 'text/plain' .php .py .pl .html
+AddType 'text/plain' .php .html

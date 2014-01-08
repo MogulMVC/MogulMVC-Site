@@ -1,10 +1,10 @@
-<?php MLoad::template_application('template/toolbar_js'); ?>
+<?php MLoad::template_application('_template/toolbar_js'); ?>
 
 <div class="MContent800">
 
 	<h1>JavaScript Vendor Libraries</h1>
 
-	<p>Mogul MVC has several widely used vendor JavaScript libraries.<br />Below is a list of all the vendor libraries. Click on one to be redirected to the vendor website.</p>
+	<p>MogulPHP has several widely used vendor JavaScript libraries.<br />Below is a list of all the vendor libraries. Click on one to be redirected to the vendor website.</p>
 	
 	<hr />
 	

@@ -1,4 +1,4 @@
-<?php MLoad::template_application('template/toolbar_php'); ?>
+<?php MLoad::template_application('_template/toolbar_php'); ?>
 
 <table class="MWidthFull">
 
@@ -39,7 +39,7 @@
 				<h2>Types of Controllers</h2>
 				<hr />
 				
-				<p>Mogul MVC has 3 different types of controllers. Action, API, and default.</p>
+				<p>MogulPHP has 3 different types of controllers. Action, API, and default.</p>
 				
 				<div class="indent">
 				
@@ -103,7 +103,7 @@
 				<h2>How Controllers are Invoked</h2>
 				<hr />
 				
-				<p>Because Mogul MVC has 3 different types of controllers their are 3 different ways controllers are invoked. We will first focus on normal controllers, then discuss actions and apis together as they are invoked very similarly.</p>
+				<p>Because MogulPHP has 3 different types of controllers their are 3 different ways controllers are invoked. We will first focus on normal controllers, then discuss actions and apis together as they are invoked very similarly.</p>
 				
 				<div class="indent">
 		

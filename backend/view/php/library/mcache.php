@@ -1,4 +1,4 @@
-<?php MLoad::template_application('template/toolbar_php'); ?>
+<?php MLoad::template_application('_template/toolbar_php'); ?>
 
 <table class="MWidthFull">
 
@@ -32,14 +32,13 @@
 			
 				<section id="section_cache">
 					<?php 
-					$data['added'] = '1305';
 					$data['title'] = 'cache($minutes:Number):void';
-					$data['content'] = nl2br('This function should be called at the top of a function withing a controller you would like to cache. The only parameter needed is the amount of minutes you want Mogul MVC to serve a cache file before recaching the page.
+					$data['content'] = nl2br('This function should be called at the top of a function withing a controller you would like to cache. The only parameter needed is the amount of minutes you want MogulPHP to serve a cache file before recaching the page.
 					
 For example to cache a page for 15 minutes you would add this within the function representing the page you want to cache.
 <pre><code>MCache::cache(15);</code></pre>	
 Pages are chached into the cache directory within your application directory and are named using a md5 hashed concatinated string of all <code>$_COOKIE</code>, <code>$_FILES</code>, <code>$_GET</code>, <code>$_POST</code>, <code>$_SESSION</code>, and requested URL variables. This means that a cached pages receiving new <code>$_GET</code>, <code>$_POST</code> or any of the other superglobal variable will be recached rather than serve an existing cached page. This is useful for creating cached pages for different logged in users.');
-					MLoad::template_application('ui/library_function', $data);
+					MLoad::template_application('_ui/library_function', $data);
 					?>
 				</section>
 				

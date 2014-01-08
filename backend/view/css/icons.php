@@ -7,7 +7,7 @@
 	
 </style>
 
-<?php MLoad::template_application('template/toolbar_css'); ?>
+<?php MLoad::template_application('_template/toolbar_css'); ?>
 
 <table>
 	<tr class="MWidthFull">
