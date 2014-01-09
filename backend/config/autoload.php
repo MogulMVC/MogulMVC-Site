@@ -11,7 +11,7 @@ $GLOBALS['AUTOLOAD_PHP_FRAMEWORK'] = array(
 $GLOBALS['AUTOLOAD_PHP_APPLICATION'] = array();
 
 // Component
-$GLOBALS['AUTOLOAD_COMPONENT'] = array('jquery/jquery.js', 'mogul-css/bin/MStyle.css');
+$GLOBALS['AUTOLOAD_COMPONENT'] = array('mogul-icons/bin/MStyle.css');
 
 // CSS
 $GLOBALS['AUTOLOAD_CSS_FRAMEWORK'] = array(
