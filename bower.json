@@ -1,7 +1,7 @@
 {
-	"name": "MogulMVC-Site",
-	"version": "1.0.0",
-	"description": "MogulMVC Site",
+	"name": "MogulMVC",
+	"version": "1.0.1",
+	"description": "The MogulMVC Site",
 	"keywords": ["framework"],
 	"homepage": "http://mogulmvc.com",
 	"authors": [
@@ -11,12 +11,12 @@
 		}
 	],
 	"dependencies": {
-		"normalize-css": "2.1.3",
+		"bootstrap": "latest",
+		"jquery": "latest",
+		"jquery-ui": "latest",
+		"modernizr": "latest",
 		"mogul-css": "1.x",
 		"mogul-icons": "1.x",
-		"mogul-js": "1.x",
-		"modernizr": "latest",
-		"jquery": "latest",
-		"jquery-ui": "latest"
+		"mogul-js": "1.x"
 	}
 }
