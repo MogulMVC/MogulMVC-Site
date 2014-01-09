@@ -45,11 +45,11 @@
 				<h2>Types of Models</h2>
 				<hr />
 	
-				<p>MogulPHP includes 2 different types of models.</p>
+				<p>MogulMVC includes 2 different types of models.</p>
 
 				<p><span class="keyword">MPDO</span> models are the basic model type. They provide no abstraction and allows maximum control over you CRUD functions. It is also the faster of the two models.</p>
 
-				<p><span class="keyword">MactiveRecord</span> models are the advanced model type. They provide a robust abstraction layer for your model. These models are forks of the <a href="http://www.phpactiverecord.org/">PHPActiveRecord</a> project. They have been integrated with the MogulPHP database configuration.</p>
+				<p><span class="keyword">MactiveRecord</span> models are the advanced model type. They provide a robust abstraction layer for your model. These models are forks of the <a href="http://www.phpactiverecord.org/">PHPActiveRecord</a> project. They have been integrated with the MogulMVC database configuration.</p>
 	
 			</section>
 			
@@ -98,9 +98,9 @@
 					
 					<code>MPDO::connection('user_connection');</code>
 					
-					<p>MogulPHP will understand that you are looking for a specifically named index within the <code>$GLOBALS['DB'];</code> array.</p>
+					<p>MogulMVC will understand that you are looking for a specifically named index within the <code>$GLOBALS['DB'];</code> array.</p>
 					
-					<p>Also, MogulPHP will only connect once to each database you need so as to minimize the amount of concurrent connections to the database.</p>
+					<p>Also, MogulMVC will only connect once to each database you need so as to minimize the amount of concurrent connections to the database.</p>
 					
 					<p>All your model's methods should accept input and return a value. We recommend the following.</p>
 
@@ -154,7 +154,7 @@ class UserModel extends MActiveRecord {
 				
 				<pre><code>MLoad::model('UserModel');</code></pre>
 				
-				<p>Notice that we don't have to specify an extension as MogulPHP assumes models are PHP models.</p>
+				<p>Notice that we don't have to specify an extension as MogulMVC assumes models are PHP models.</p>
 				
 				After loading a model you can then make a new instance of it and access the database using the model's functions.
 

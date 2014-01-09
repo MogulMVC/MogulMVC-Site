@@ -23,7 +23,7 @@
 		<li>
 			<a href="/php">PHP</a>
 			<ul>
-				<li><a href="https://github.com/MogulMVC/MogulPHP/archive/master.zip">Download MogulPHP</a></li>
+				<li><a href="https://github.com/MogulMVC/MogulMVC/archive/master.zip">Download MogulMVC</a></li>
 				<li><a href="/php/configuration">Configuration</a></li>
 				<li><a href="/php/models">Models</a></li>
 				<li><a href="/php/views">Views</a></li>

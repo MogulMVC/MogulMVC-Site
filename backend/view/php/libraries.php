@@ -4,7 +4,7 @@
 
 	<h1>PHP Utility Libraries</h1>
 
-	<p>MogulPHP has many PHP libraries that can be used to perform common tasks.<br />Each library is a class containing public static functions.<br />Below is a list of all the classes with a description of what each class is for.</p>
+	<p>MogulMVC has many PHP libraries that can be used to perform common tasks.<br />Each library is a class containing public static functions.<br />Below is a list of all the classes with a description of what each class is for.</p>
 	
 	<hr />
 	

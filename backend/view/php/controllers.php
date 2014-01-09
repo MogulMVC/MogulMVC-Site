@@ -39,7 +39,7 @@
 				<h2>Types of Controllers</h2>
 				<hr />
 				
-				<p>MogulPHP has 3 different types of controllers. Action, API, and default.</p>
+				<p>MogulMVC has 3 different types of controllers. Action, API, and default.</p>
 				
 				<div class="indent">
 				
@@ -103,7 +103,7 @@
 				<h2>How Controllers are Invoked</h2>
 				<hr />
 				
-				<p>Because MogulPHP has 3 different types of controllers their are 3 different ways controllers are invoked. We will first focus on normal controllers, then discuss actions and apis together as they are invoked very similarly.</p>
+				<p>Because MogulMVC has 3 different types of controllers their are 3 different ways controllers are invoked. We will first focus on normal controllers, then discuss actions and apis together as they are invoked very similarly.</p>
 				
 				<div class="indent">
 		

@@ -16,13 +16,13 @@
 <div class="MContent840">
 	
 	<div class="MTextCenter">
-		<h2 style="font-size: 2em;">MogulPHP is a PHP MVC framework whcih includes a UI library.</h2>
+		<h2 style="font-size: 2em;">MogulMVC is a PHP MVC framework whcih includes a UI library.</h2>
 		<span style="font-size: 2em;">It is written in <a href="http://www.php.net/">PHP</a>, <a href="http://jquery.com/">jQuery</a>, and <a href="http://sass-lang.com/">Sass</a></span>
 	</div>
 	
 	<div class="MContentSpacer"></div>
 	<div class="MTextCenter">
-		<a href="https://github.com/MogulMVC/MogulPHP.git" class="MButtonO" style="font-size: 3em">Download</a>
+		<a href="https://github.com/MogulMVC/MogulMVC.git" class="MButtonO" style="font-size: 3em">Download</a>
 	</div>
 	<div class="MContentSpacer"></div>
 	<div class="MContentSpacer"></div>
@@ -30,7 +30,7 @@
 	<div class="MTabWidget">
 		<ul class="MTabContainer MCenter">
 			<li class="MTab">
-				<a href="#why_use">Why Use MogulPHP?</a>
+				<a href="#why_use">Why Use MogulMVC?</a>
 			</li>
 			<li class="MTab">
 				<a href="#mogul_libraries">Mogul Libraries</a>
@@ -41,40 +41,40 @@
 			<div id="why_use">
 				
 				<div class="left" style="width: 50%">
-					<p>Here are the reason's you shouldn use MogulPHP.</p>
+					<p>Here are the reason's you shouldn use MogulMVC.</p>
 					<span class="MTextGreen MTextBold" style="font-size: 1.8em">PROS</span>
 					<li class="MListItem">
 						<span class="MTextBold">CSS UI</span>
-						<span> - MogulPHP includes a CSS library of commonly used UI elements.</span>
+						<span> - MogulMVC includes a CSS library of commonly used UI elements.</span>
 					</li>
 					<li class="MListItem">
 						<span class="MTextBold">Automatic CSS and JavaScript Minification</span>
-						<span> - When in production mode MogulPHP will automatically create a single CSS and single JavaScript file for your entire project and cache it for quick loading. When page caching is used HTML gets minified and cached as well.</span>
+						<span> - When in production mode MogulMVC will automatically create a single CSS and single JavaScript file for your entire project and cache it for quick loading. When page caching is used HTML gets minified and cached as well.</span>
 					</li>
 					<li class="MListItem">
 						<span class="MTextBold">Speed</span>
-						<span> - MogulPHP is a "<a href="http://en.wikipedia.org/wiki/Loose_coupling">loosly coupled</a>" and "use-at-will" framework. You specify only the components and libraries to load so nothing more than what you need is loaded.</span>
+						<span> - MogulMVC is a "<a href="http://en.wikipedia.org/wiki/Loose_coupling">loosly coupled</a>" and "use-at-will" framework. You specify only the components and libraries to load so nothing more than what you need is loaded.</span>
 					</li>
 					<li class="MListItem">
 						<span class="MTextBold">Vendor Libraries</span>
-						<span> - MogulPHP includes <a href="http://www.phpactiverecord.org/">PHPActiveRecord</a> for database access and <a href="http://jquery.com/">jQuery</a> and <a href="http://jqueryui.com/">jQuery UI</a> for client side scripting.<br />It also works well with any other vendor library.</span>
+						<span> - MogulMVC includes <a href="http://www.phpactiverecord.org/">PHPActiveRecord</a> for database access and <a href="http://jquery.com/">jQuery</a> and <a href="http://jqueryui.com/">jQuery UI</a> for client side scripting.<br />It also works well with any other vendor library.</span>
 					</li>	
 				</div>
 				
 				<div class="right" style="width: 50%">
-					<p>Here are the reason's you shouldn't use MogulPHP.</p>
+					<p>Here are the reason's you shouldn't use MogulMVC.</p>
 					<span class="MTextRed MTextBold" style="font-size: 1.8em">CONS</span>
 					<li class="MListItem">
 						<span class="MTextBold">Support</span>
-						<span> - I wrote MogulPHP for me and my projects. Thus, there is no large coporation or community backing MogulPHP.</span>
+						<span> - I wrote MogulMVC for me and my projects. Thus, there is no large coporation or community backing MogulMVC.</span>
 					</li>
 					<li class="MListItem">
 						<span class="MTextBold">Age</span>
-						<span> - MogulPHP is a young framework compared to others like <a href="http://codeigniter.com/">Codeigniter</a>, and <a href="http://cakephp.org/">CakePHP</a> and hasn't been tested by a large community.</span>
+						<span> - MogulMVC is a young framework compared to others like <a href="http://codeigniter.com/">Codeigniter</a>, and <a href="http://cakephp.org/">CakePHP</a> and hasn't been tested by a large community.</span>
 					</li>
 					<li class="MListItem">
 						<span class="MTextBold">JavaScript UI</span>
-						<span> - MogulPHP's JavaScript UI library is not as robust as <a href="http://jqueryui.com/">jQuery UI</a> or <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap</a>.</span>
+						<span> - MogulMVC's JavaScript UI library is not as robust as <a href="http://jqueryui.com/">jQuery UI</a> or <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap</a>.</span>
 					</li>
 				</div>
 				
@@ -84,11 +84,11 @@
 			
 			<div id="mogul_libraries">
 				
-				<h3>MogulPHP is a combination of several Mogul libraries.</h3>
+				<h3>MogulMVC is a combination of several Mogul libraries.</h3>
 				
 				<li class="MListItem">
 					<span class="MTextBold">MogulCSS</span>
-					<span> - A Sass based CSS library that is used by MogulJS and MogulPHP for styling. It attempts to stay stylistically consistent with Mogul AS.</span>
+					<span> - A Sass based CSS library that is used by MogulJS and MogulMVC for styling. It attempts to stay stylistically consistent with Mogul AS.</span>
 				</li>
 			
 				<li class="MListItem">
@@ -98,7 +98,7 @@
 				
 				<li class="MListItem">
 					<span class="MTextBold">MogulJS</span>
-					<span> - A JavaScript and jQuery Utility and Interface library that uses the MogulCSS library for styling. The code attempts to stay stylistically consistent with Mogul AS, and the MogulPHP, which extends it.</span>
+					<span> - A JavaScript and jQuery Utility and Interface library that uses the MogulCSS library for styling. The code attempts to stay stylistically consistent with Mogul AS, and the MogulMVC, which extends it.</span>
 				</li>
 				
 				<div class="MClear"></div>

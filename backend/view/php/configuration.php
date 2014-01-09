@@ -56,9 +56,9 @@
 	
 			<h1>PHP Configuration</h1>
 
-			<p>MogulPHP is built with certain design and organizational patterns in mind. These design and organizational patterns make sense to use and so we make them the default configuration.</p>
+			<p>MogulMVC is built with certain design and organizational patterns in mind. These design and organizational patterns make sense to use and so we make them the default configuration.</p>
 			<p>However, one size fits all never looks good. Because of that we made our configuration section as robust as possibly while also remaining as organized as possible.</p>
-			<p>Below are the every configuration file available in the MogulPHP application/config directory.</p>
+			<p>Below are the every configuration file available in the MogulMVC application/config directory.</p>
 			<p>These configuration file affect all directory naming and organization in the application as well as routing, database connectivity, and session management.</p>
 	
 			<section id="section_autoload">
@@ -66,7 +66,7 @@
 				<h2>Autoload - autoload.php</h2>
 				<hr />
 				
-				<p>MogulPHP can load css, js, and php libraries every time the framework runs. CSS and JS loaded with autoload will also be automatically minified when switching an application from development to production mode.</p>
+				<p>MogulMVC can load css, js, and php libraries every time the framework runs. CSS and JS loaded with autoload will also be automatically minified when switching an application from development to production mode.</p>
 				
 				<p class="MTextBold">Autoload can load library files from 8 locations.</p>
 				
@@ -100,7 +100,7 @@
 				<pre class="brush: php;">$GLOBALS['AUTOLOAD_JS_APPLICATION'] = array('vendor/SomeLibrary');</pre>
 				
 				<p class="MTextRed MTextBold">IMPORTANT!</p>
-				<p>Always name your CSS and JS library files with dashes instead of periods, otherwise MogulPHP will error when loading your file.</p>
+				<p>Always name your CSS and JS library files with dashes instead of periods, otherwise MogulMVC will error when loading your file.</p>
 				<p><code>jquery.scrollTo.js</code> should be <code>jquery-scrollTo.js</code></p>
 				
 			</section>
@@ -117,20 +117,20 @@
 				<div class="indent">
 				
 					<h3>Application Information</h3>
-					<p>All MogulPHP applications need a company, name, description, password, and version.</p>
+					<p>All MogulMVC applications need a company, name, description, password, and version.</p>
 					<p>These constants are used during the creation of pages and loading of assets such as images, CSS, and JS files.</p>
 					<p>The password is needed when running commands from the CLI and web interface.</p>
 					
 					<h3>Environment</h3>
-					<p>There are two environments MogulPHP can be run in, <span class="MTextBold">development</span> and <span class="MTextBold">production</span>.</p>
+					<p>There are two environments MogulMVC can be run in, <span class="MTextBold">development</span> and <span class="MTextBold">production</span>.</p>
 					<p>When in development mode all errors will be displayed and all CSS and JS will be loaded from seperate files.</p>
-					<p>When in production mode no errors will be displayed and MogulPHP will automatically combine and minify all CSS and JS files loaded from the <a href="#section_autoload">autoload.php</a>.</p>
+					<p>When in production mode no errors will be displayed and MogulMVC will automatically combine and minify all CSS and JS files loaded from the <a href="#section_autoload">autoload.php</a>.</p>
 					
 					<h3>Action and API</h3>
-					<p>Action and API files are special controller files for reciving and broadcasting data. MogulPHP needs a special URL keyword to invoke action and api requests as instead of looking for normal controllers.</p>
+					<p>Action and API files are special controller files for reciving and broadcasting data. MogulMVC needs a special URL keyword to invoke action and api requests as instead of looking for normal controllers.</p>
 					
 					<h3>Directories</h3>
-					<p>Organiztion is key in MogulPHP. Each file you create has a place to be put, but we allow you to rename and change these places. The config.php directories section is where you can change the default directories MogulPHP uses to store and load your files.</p>
+					<p>Organiztion is key in MogulMVC. Each file you create has a place to be put, but we allow you to rename and change these places. The config.php directories section is where you can change the default directories MogulMVC uses to store and load your files.</p>
 					
 					<h3>Controllers</h3>
 					<p>A default controller is the controller that runs at the root of your site.</p>
@@ -148,7 +148,7 @@
 				<h2>Constants - constants.php</h2>
 				<hr />
 				
-				<p>MogulPHP allows you to define constants to be used throughout the application at a very low level of the application run process. Constants are created shortly after the core libraries are in included but before the desired controller is instantiated.</p>
+				<p>MogulMVC allows you to define constants to be used throughout the application at a very low level of the application run process. Constants are created shortly after the core libraries are in included but before the desired controller is instantiated.</p>
 
 				<p>To create a constant open the constants file and add a constant as you normally would in PHP.</p>
 	
@@ -172,7 +172,7 @@
 	'pass' => 'dbpass'
 )"); ?></pre>
 				
-				MogulPHP supports any database connection that PDO supports.
+				MogulMVC supports any database connection that PDO supports.
 				
 				To get more information about using databases see PHP Models.
 				
@@ -183,7 +183,7 @@
 				<h2>Routes - routes.php</h2>
 				<hr />
 				
-				<p>By default MogulPHP maps a URL to a controller class and function in the following way.</p>
+				<p>By default MogulMVC maps a URL to a controller class and function in the following way.</p>
 				
 				<code>site.com/controller/function/</code>
 				
@@ -193,7 +193,7 @@
 				
 				<p>Obviously a function can't be made for each video id, thus this is a prime use of routes.</p>
 				
-				<p>MogulPHP has four different route types. Anything to a controller and function, a number to a controller and function, a string to a controller and function, and a page to a controller and function.</p>
+				<p>MogulMVC has four different route types. Anything to a controller and function, a number to a controller and function, a string to a controller and function, and a page to a controller and function.</p>
 				
 				<p>The above example would use a number to a controller and function and might use the following route.</p>
 				
@@ -224,7 +224,7 @@
 				
 				<p>The web is traditionally stateless, meaning it does not remember variables from user to user like a desktop application would. Sessions are a way around this. They allow us to remember user specific information by keeping a token on both the server and the client machine and on future requests using that token to retrieve data stored in memory. However, this causes a problem when more than one server is hooked up on a network. The first user request may be handled by server A, which creates a session in memory. The second request may then be handled by server B, which does not have the session stored in memory.</p>
 
-				<p>MogulPHP sessions allow you to store sessions in a centrally accessible database. MogulPHP stores sessions in JSON format so they are cross language compatible.</p>
+				<p>MogulMVC sessions allow you to store sessions in a centrally accessible database. MogulMVC stores sessions in JSON format so they are cross language compatible.</p>
 				
 				<p>To use database sessions you must create a database and table to use with sessions.</p>
 				
@@ -247,7 +247,7 @@
 				<h2>Variables - variables.php</h2>
 				<hr />
 				
-				<p>MogulPHP allows you to define global variables to be used throughout the application at a very low level of the application run process. Global variables are created shortly after the core libraries are in included but before the desired controller is instantiated.</p>
+				<p>MogulMVC allows you to define global variables to be used throughout the application at a very low level of the application run process. Global variables are created shortly after the core libraries are in included but before the desired controller is instantiated.</p>
 
 				<p>To create a global variable open the variable file and add a global variable as you normally would in PHP.</p>
 	

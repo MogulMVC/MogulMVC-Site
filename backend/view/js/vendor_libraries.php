@@ -4,7 +4,7 @@
 
 	<h1>JavaScript Vendor Libraries</h1>
 
-	<p>MogulPHP has several widely used vendor JavaScript libraries.<br />Below is a list of all the vendor libraries. Click on one to be redirected to the vendor website.</p>
+	<p>MogulMVC has several widely used vendor JavaScript libraries.<br />Below is a list of all the vendor libraries. Click on one to be redirected to the vendor website.</p>
 	
 	<hr />
 	
