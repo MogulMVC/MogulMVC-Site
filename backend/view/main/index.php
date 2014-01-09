@@ -22,7 +22,7 @@
 	
 	<div class="MContentSpacer"></div>
 	<div class="MTextCenter">
-		<a href="https://github.com/MogulMVC/MogulMVC.git" class="MButtonO" style="font-size: 3em">Download</a>
+		<a href="https://github.com/MogulMVC/MogulMVC/archive/master.zip" class="MButtonO" style="font-size: 3em">Download</a>
 	</div>
 	<div class="MContentSpacer"></div>
 	<div class="MContentSpacer"></div>
