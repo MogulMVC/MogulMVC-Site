@@ -1,12 +1,12 @@
 <?php
 
 /*
- * MogulPHP by Alan James
- * version 1.0.0
+ * MogulMVC by Alan James
+ * version 1.1.1
  * recommended PHP version 5.3
  */
 
-define('FRAMEWORK_VERSION', '1.0.0');
+define('FRAMEWORK_VERSION', '1.1.1');
 
 // Backend Framework Directories
 define('FRAMEWORK_PHP', 'lib');
@@ -29,6 +29,7 @@ define('APPLICATION_VIEW', 'view');
 define('APPLICATION_VO', 'model/vo');
 
 // Application Frontend Directories
+define('APPLICATION_COMPONENT', 'component');
 define('APPLICATION_CSS', 'css');
 define('APPLICATION_JS', 'js');
 define('APPLICATION_IMG', 'img');
