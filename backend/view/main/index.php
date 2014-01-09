@@ -22,7 +22,7 @@
 	
 	<div class="MContentSpacer"></div>
 	<div class="MTextCenter">
-		<a href="/misc/php/MogulPHP-1.0.1.tar.gz" class="MButtonO" style="font-size: 3em">Download v1.0.1</a>
+		<a href="https://github.com/MogulMVC/MogulPHP.git" class="MButtonO" style="font-size: 3em">Download</a>
 	</div>
 	<div class="MContentSpacer"></div>
 	<div class="MContentSpacer"></div>

@@ -11,8 +11,11 @@
 		}
 	],
 	"dependencies": {
+		"normalize-css": "2.1.3",
+		"mogul-css": "1.x",
+		"mogul-icons": "1.x",
+		"mogul-js": "1.x",
 		"modernizr": "latest",
-		"bootstrap": "latest",
 		"jquery": "latest",
 		"jquery-ui": "latest"
 	}

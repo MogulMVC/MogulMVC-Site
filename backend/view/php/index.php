@@ -2,7 +2,7 @@
 <div class="MContentSpacer"></div>
 <div class="MContentSpacer"></div>
 
-<ul class="MContent600">
+<div class="MContent600">
 
 	<a href="/php/configuration">
 	<li class="MListItem">
@@ -34,4 +34,4 @@
 		Vendor Libraries
 	</li></a>
 
-</ul>
+</div>
