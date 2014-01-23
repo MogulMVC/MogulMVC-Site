@@ -1,8 +1,4 @@
 <?php
-if (!defined('BACKEND_ROOT')) {
-	header('Location: /error_404');
-	exit ;
-}
 
 date_default_timezone_set('America/New_York');
 
@@ -11,7 +7,7 @@ define('APPLICATION_COMPANY', 'MogulMVC');
 define('APPLICATION_NAME', 'MogulMVC');
 define('APPLICATION_DESCRIPTION', 'MogulMVC is an MVC framework and UI library written in PHP, jQuery, and Sass.');
 define('APPLICATION_PASSWORD', 'mogulpass321456');
-define('APPLICATION_VERSION', '1.0.1');
+define('APPLICATION_VERSION', '1.0.2');
 
 // Environment
 // 'development' 'production'

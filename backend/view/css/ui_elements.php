@@ -319,6 +319,12 @@
 							<div class="MHBoxSpacer"></div>
 							<div class="MHBoxSpacer"></div>
 							<div class="MHBoxSpacer"></div>
+							
+							<input type="range" value="0" min="0" max="100"/>
+	
+							<div class="MHBoxSpacer"></div>
+							<div class="MHBoxSpacer"></div>
+							<div class="MHBoxSpacer"></div>
 	
 							<input type="number" value="0" min="0" max="100"/>
 	

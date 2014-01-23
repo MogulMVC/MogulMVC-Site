@@ -1,10 +1,6 @@
 <?php
-if (!defined('BACKEND_ROOT')) {
-	header('Location: /error_404');
-	exit ;
-}
 
-$GLOBALS['DB'] = array(
+$GLOBALS['MDB'] = array(
 
 	/* 
 	The following is an example of a DB connection
