@@ -1,7 +1,7 @@
 {
 	"name": "MogulMVC-Site",
-	"version": "1.0.0",
-	"description": "MogulMVC Site",
+	"version": "1.0.3",
+	"description": "The MogulMVC Site",
 	"keywords": ["framework"],
 	"homepage": "http://mogulmvc.com",
 	"authors": [
