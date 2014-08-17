@@ -7,7 +7,7 @@ define('APPLICATION_COMPANY', 'MogulMVC');
 define('APPLICATION_NAME', 'MogulMVC');
 define('APPLICATION_DESCRIPTION', 'MogulMVC is an MVC framework and UI library written in PHP, jQuery, and Sass.');
 define('APPLICATION_PASSWORD', 'mogulpass321456');
-define('APPLICATION_VERSION', '1.1.0');
+define('APPLICATION_VERSION', '1.1.1');
 
 // Environment
 // 'development' 'production'

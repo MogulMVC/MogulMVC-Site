@@ -16,7 +16,7 @@
 <div class="MContent840">
 	
 	<div class="MTextCenter">
-		<h2 style="font-size: 2em;">MogulMVC is a PHP MVC framework whcih includes a UI library.</h2>
+		<h2 style="font-size: 2em;">MogulMVC is a PHP MVC framework which includes a UI library.</h2>
 		<span style="font-size: 2em;">It is written in <a href="http://www.php.net/">PHP</a>, <a href="http://jquery.com/">jQuery</a>, and <a href="http://sass-lang.com/">Sass</a></span>
 	</div>
 	
